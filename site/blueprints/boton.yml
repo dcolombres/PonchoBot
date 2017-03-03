@@ -1,0 +1,13 @@
+title: Boton
+
+pages: false
+files: false
+
+fields:
+  title:
+    label: Titulo
+    type:  text
+
+  linkurl:
+    label: Link al trámite
+    type: text

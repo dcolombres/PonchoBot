@@ -1,0 +1,25 @@
+title: Panel
+
+pages: false
+files: false
+
+fields:
+  title:
+    label: Nombre
+    type: text
+
+  header:
+      label: Encabezado
+      type:  text
+
+  bajada:
+      label: Titulo
+      type: text
+
+  description:
+    label: Descripción
+    type: textarea
+
+  linkurl:
+    label: Link al trámite
+    type: text

@@ -1,0 +1,21 @@
+title: Section
+
+pages:
+  template:
+    - panel
+    - boton
+    - tarjeta
+files: false
+
+fields:
+
+  text:
+    label: Titulo
+    type: text
+
+  columns:
+    label: Cantidad de columnas
+    type: number
+    validate:
+      min: 1
+      max: 4

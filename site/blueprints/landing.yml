@@ -1,0 +1,26 @@
+title: Landing
+
+pages:
+  template:
+    - section-boton
+    - section-panel
+    - section-tarjeta
+
+files: false
+
+fields:
+  title:
+    label: Titulo
+    type:  text
+
+  subtitle:
+    label: Subtitulo
+    type:  textarea
+
+  background:
+    label: URL del background
+    type:  text
+
+  footer:
+    label: También te puede interesar
+    type: tags
