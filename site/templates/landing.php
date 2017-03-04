@@ -32,6 +32,14 @@
 
         <?php foreach($section->children() as $boton): ?>
 
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a class="panel panel-default" >
+              <div class="panel-body">
+                <h3>Ministerio de Economía</h3>
+              </div>
+            </a>
+          </div>
+
           <div class="col-md-<?= 12 / $section->columns()->int()  ?>">
             <a href="<?= $boton->linkurl()->text() ?>" class="back-blanco">
               <h4><?= $boton->title()->html() ?></h4>

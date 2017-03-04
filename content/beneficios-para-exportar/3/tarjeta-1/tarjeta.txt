@@ -1,9 +1,0 @@
-Icon: 
-
-----
-
-Title: Tarjeta 1
-
-----
-
-Linkurl: 

@@ -1,9 +1,0 @@
-Text: Botonera 1
-
-----
-
-Columns: 3
-
-----
-
-Title: 1

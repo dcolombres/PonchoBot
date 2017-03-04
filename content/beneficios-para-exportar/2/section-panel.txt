@@ -1,9 +1,0 @@
-Text: Bajada de la seccion
-
-----
-
-Columns: 4
-
-----
-
-Title: 2
