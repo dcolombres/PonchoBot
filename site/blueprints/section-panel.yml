@@ -4,6 +4,9 @@ pages:
   template: panel
 files: false
 
+options:
+  delete: true
+
 fields:
 
   text:

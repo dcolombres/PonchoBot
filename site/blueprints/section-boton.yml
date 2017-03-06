@@ -3,8 +3,10 @@ title: Section Boton
 pages: boton
 files: false
 
-fields:
+options:
+  delete: true
 
+fields:
   text:
     label: Titulo
     type: text

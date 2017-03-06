@@ -1,118 +1,70 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+<main class="main" role="main">
 
-    <section class="jumbotron jumbocentrado focusable" style="background-image: url('<?= $page->background()->text() ?>');" tabindex="-1">
-        <div class="gradient">
-        <div class="jumbotron_body">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 text-center">
-
-                <h1 class="m-b-2" id="titulo-jumbo" style="letter-spacing:0.02em; color:#fff; "><?= $page->title()->html() ?></h1>
-                <h3 style="color:#fff;text-shadow: 2px 2px 20px #000;"><?= $page->subtitle()->kirbytext() ?></h3>
-                </div>
-              </div>
-            </div>
+  <section class="jumbotron" style="background-image: url('<?= $page->background()->text() ?>');">
+    <div class="jumbotron_body">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+            <h1><?= $page->title()->html() ?></h1>
+            <p><?= $page->subtitle()->kirbytext() ?></p>
           </div>
         </div>
-        <div class="overlay"></div>
-      </section>
-      <div class="container">
-
-
+      </div>
+    </div>
+    <div class="overlay"></div>
+  </section>
 
   <?php foreach($page->children() as $section): ?>
-
-    <?php if ($section->intendedTemplate()=='section-boton'):?>
-    <!-- BOTONERA -->
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h2><strong><?= $section->text() ?></strong></h2>
-
-        <?php foreach($section->children() as $boton): ?>
-
-          <div class="col-xs-12 col-sm-6 col-md-3">
-            <a class="panel panel-default" >
-              <div class="panel-body">
-                <h3>Ministerio de Economía</h3>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-<?= 12 / $section->columns()->int()  ?>">
-            <a href="<?= $boton->linkurl()->text() ?>" class="back-blanco">
-              <h4><?= $boton->title()->html() ?></h4>
-            </a>
-          </div>
-
-        <?php endforeach ?>
-        </div>
-      </div>
-      <!-- END BOTONERA -->
-    <?php endif ?>
-
-    <?php if ($section->intendedTemplate()=='section-panel'):?>
-    <!-- PANELERA -->
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h2><strong><?= $section->text() ?><strong></h2>
-
-        <?php foreach($section->children() as $panel): ?>
-
-          <a href="<?= $panel->linkurl()->text() ?>">
-          <div class="col-md-<?= 12 / $section->columns()->int()  ?>">
-          <div class="panel panel-default">
-              <div class="panel-heading valign-wrapper" style="background-color:#0092cf;">
-                  <h3 class="text-white valign"><strong><?= $panel->header()->html() ?></strong></h3>
-              </div>
-              <div class="panel-body">
-                  <h4 class="bold"><strong><?= $panel->bajada()->html() ?></strong></h4>
-                  <p class="panelText"><?= $panel->description()->html() ?></p>
-                </div>
+    <section>
+      <div class="container">
+        <div class="panel-pane pane-titulo">
+          <div class="pane-content">
+            <h1 class="activities-sidbar"><?= $section->text() ?></h1>
           </div>
         </div>
-        </a>
-
-        <?php endforeach ?>
-        </div>
-      </div>
-      <!-- END PANELERA -->
-    <?php endif ?>
-
-    <?php if ($section->intendedTemplate()=='section-tarjeta'):?>
-    <!-- TARJETERA -->
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h2><?= $section->text() ?></h2>
-        <?php foreach($section->children() as $tarjeta): ?>
-
-
-
-          <div class="col-sm-3">
-              <a href="<?= $tarjeta->linkurl()->text() ?>">
-                  <div class="panel panel-default tarjeta">
-                      <div class="panel-heading text-center tarjeta-titulo" style="background-color:#0092cf;">
-                        <img class="tarjeta-item"src="<?= $tarjeta->icon()->text() ?>"></img>
-                      </div>
-                      <div class="panel-body-chico valign-wrapper">
-                          <h4 class="bold valign-text tarjeta-texto"><strong><?= $tarjeta->title()->html() ?></strong></h4>
-                      </div>
+        <?php if ($section->intendedTemplate()=='section-boton'):?>
+          <div class="row panels-row">
+            <?php foreach($section->children() as $boton): ?>
+              <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
+                <a class="panel panel-default" href="<?= $boton->linkurl()->text() ?>">
+                  <div class="panel-body">
+                    <h3><?= $boton->title()->text() ?></h3>
+                    <p class="text-muted"><?= $boton->text()->html() ?></p>
                   </div>
-              </a>
+                </a>
+              </div>
+            <?php endforeach ?>
+          </div>
+        <?php elseif ($section->intendedTemplate()=='section-panel'): ?>
+          <div class="row panels-row">
+            <?php foreach($section->children() as $panel): ?>
+              <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
+                <a class="panel panel-default panel-icon panel-secondary" href="<?= $panel->linkurl()->text() ?>">
+                  <div class="panel-heading bg-primary">
+                    <h1 style="font-size:175%"><?= $panel->header()->html() ?></h1>
+                  </div>
+                  <div class="panel-body">
+                    <h3><?= $panel->bajada()->html() ?></h3>
+                    <p class="text-muted"><?= $panel->description()->html() ?></p>
+                  </div>
+                </a>
+              </div>
+            <?php endforeach ?>
           </div>
 
+        <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
+          <div class="row panels-row">
+            <?= $section->texthtml()->html() ?>
+          </div>
 
-
-
-        <?php endforeach ?>
-        </div>
+        <?php endif ?>
       </div>
-      <!-- END TARJETERA -->
-    <?php endif ?>
+    </div>
+  </section>
+<?php endforeach ?>
 
-  <?php endforeach ?>
 
-  </div>
-  </main>
+</main>
 <?php snippet('footer') ?>

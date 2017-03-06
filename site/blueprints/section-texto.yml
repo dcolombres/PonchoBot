@@ -1,0 +1,17 @@
+title: Section Texto
+
+pages:
+  template: panel
+files: false
+
+options:
+  delete: true
+
+fields:
+  text:
+    label: Titulo
+    type: text
+
+  texthtml:
+    label: Texto (html)
+    type: textarea

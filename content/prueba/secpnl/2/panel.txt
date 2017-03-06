@@ -2,7 +2,7 @@ Title: 2
 
 ----
 
-Header: Panel2
+Header: <i class="fa fa-file"></i>
 
 ----
 

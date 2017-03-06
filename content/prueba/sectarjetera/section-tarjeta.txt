@@ -1,9 +1,0 @@
-Text: Tarjetera
-
-----
-
-Columns: 4
-
-----
-
-Title: secTarjetera

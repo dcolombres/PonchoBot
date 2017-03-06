@@ -3,10 +3,18 @@ title: Boton
 pages: false
 files: false
 
+options:
+  delete: true
+  
 fields:
   title:
     label: Titulo
     type:  text
+
+  text:
+    label: Texto
+    type:  textarea
+
 
   linkurl:
     label: Link al trámite

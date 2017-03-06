@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <?= css('assets/css/bootstrap.min.css') ?>
   <?= css('assets/css/poncho.css') ?>
+  <?= css('assets/css/font-awesome.css') ?>
 
 </head>
 <body>

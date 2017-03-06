@@ -1,8 +1,8 @@
-Title: Prueba
+Title: Landing de prueba
 
 ----
 
-Subtitle: asdasdasda
+Subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec sollicitudin leo. Donec scelerisque eget mi in maximus. Integer rhoncus ullamcorper est, in sodales nulla pulvinar ac. Vivamus sollicitudin nibh et mi iaculis, sit amet vulputate velit suscipit. Praesent a aliquam nisi. Praesent tempor iaculis ligula tristique varius.
 
 ----
 

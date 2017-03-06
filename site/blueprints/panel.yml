@@ -3,6 +3,9 @@ title: Panel
 pages: false
 files: false
 
+options:
+  delete: true
+
 fields:
   title:
     label: Nombre

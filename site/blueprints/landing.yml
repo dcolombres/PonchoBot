@@ -4,9 +4,12 @@ pages:
   template:
     - section-boton
     - section-panel
-    - section-tarjeta
+    - section-texto
 
 files: false
+
+options:
+  delete: true
 
 fields:
   title:

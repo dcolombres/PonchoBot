@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - prueba/secbtn
+  - prueba/texto
+  - prueba/secpnl/2
+  - prueba/secbtn/1
   - prueba
-  - prueba/secbtn/4
-  - prueba/secbtn/3
-  - prueba/secbtn/2
+  - prueba/secbtn
