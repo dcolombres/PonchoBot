@@ -48,11 +48,6 @@
             <!-- /.container-fluid -->
           </div>
         </nav>
-        <div class="container-fluid bg-primary" style="background-color: #666 !important">
-        <div class="container">
-          Titulo de la Página
-        </div>
-        </div>
 
 </header>
 <main class="main" role="main">
