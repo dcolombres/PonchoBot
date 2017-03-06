@@ -1,0 +1,9 @@
+Text: Panelera
+
+----
+
+Columns: 4
+
+----
+
+Title: secPnl

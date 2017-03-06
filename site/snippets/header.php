@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <?= css('assets/css/poncho.css') ?>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <?= css('assets/css/bootstrap.min.css') ?>
-  <?= js('assets/js/jquery.min.js') ?>
+  <?= css('assets/css/poncho.css') ?>
 
 </head>
 <body>

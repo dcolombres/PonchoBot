@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - invertir-para-producir
-  - invertir-para-producir/beneficios-fiscale/emergencia-sanitaria-nacional
-  - invertir-para-producir/beneficios-fiscale/programa-nacional-de-transformacion-productiva
-  - invertir-para-producir/beneficios-fiscale/programa-de-desarrollo-de-parques-industriales
-  - invertir-para-producir/beneficios-fiscale/regimen-de-incentivo-a-la-cadena-de-valor-de-bienes-de-capital
+  - prueba/secbtn
+  - prueba
+  - prueba/secbtn/4
+  - prueba/secbtn/3
+  - prueba/secbtn/2
