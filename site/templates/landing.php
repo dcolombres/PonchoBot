@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+<span id="main">
 <header>
         <nav class="navbar navbar-default">
           <div class="container">
@@ -117,4 +118,6 @@
 
 
 </main>
+</span>
+<a class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Copiar código de esta página</a>
 <?php snippet('footer') ?>
