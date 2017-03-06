@@ -7,8 +7,7 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - prueba/texto
-  - prueba/secpnl/2
-  - prueba/secbtn/1
-  - prueba
-  - prueba/secbtn
+  - asociatividad
+  - asociatividad/botonera/nodos-de-innovacion-social
+  - asociatividad/botonera/clubes-de-emprendedores
+  - asociatividad/botonera/ciudades-para-emprender
