@@ -108,11 +108,11 @@
 
           <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
             <div class="row panels-row">
-              <div class="container">
-
-              <?= $section->texthtml()->html() ?>
+              <div class="col-md-12">
+                <?= $section->texthtml()->html() ?>
+              </div>
             </div>
-
+            
           <?php endif ?>
         </div>
         </div>
