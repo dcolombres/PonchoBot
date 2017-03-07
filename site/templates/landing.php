@@ -6,13 +6,13 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                  <a class="navbar-brand" style="overflow: visible;" href="#"><img src="http://www.produccion.gob.ar/wp-content/uploads/2016/10/Logo_MinProd.png" height="50"  alt=""></a>
-                    <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Burger</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                    <a class="navbar-brand" href="#"><img src="http://www.produccion.gob.ar/wp-content/uploads/2016/10/Logo_MinProd.png" height="50" alt=""></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
