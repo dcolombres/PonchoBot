@@ -7,7 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - asociatividad
-  - asociatividad/botonera/nodos-de-innovacion-social
-  - asociatividad/botonera/clubes-de-emprendedores
-  - asociatividad/botonera/ciudades-para-emprender
+  - invertir-para-producir/botonera-2
+  - invertir-para-producir/botonera-2/regimen-de-drawback
+  - invertir-para-producir/botonera-2/regimen-de-importacion-de-lineas-usadas
+  - invertir-para-producir/botonera-2/reintegros-a-la-exportacion
+  - invertir-para-producir/botonera-2/regimen-de-promocion-de-la-industria-naval

@@ -1,4 +1,4 @@
-Title: Asociatividad
+Title: Invertir para producir
 
 ----
 
@@ -9,8 +9,8 @@ y las empresas asociadas sean más competitivas
 
 ----
 
-Background: http://www.produccion.gob.ar/wp-content/uploads/2017/03/HeadASOC.jpg
+Background: http://www.produccion.gob.ar/wp-content/uploads/2017/03/Sin-título-2.png
 
 ----
 
-Footer: beneficios-para-exportar,beneficios-fiscales
+Footer: 
