@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<span id="main">
+
 <header>
         <nav class="navbar navbar-default">
           <div class="container">
@@ -51,6 +51,7 @@
         </nav>
 
 </header>
+<span id="main">
 <main class="main" role="main">
 
   <section class="jumbotron" style="background-image: url('<?= $page->background()->text() ?>');">
@@ -119,5 +120,9 @@
 
 </main>
 </span>
-<a class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Copiar código de esta página</a>
+
+<div class="row text-center">
+  <a class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Copiar código de esta página</a>
+
+</div>
 <?php snippet('footer') ?>
