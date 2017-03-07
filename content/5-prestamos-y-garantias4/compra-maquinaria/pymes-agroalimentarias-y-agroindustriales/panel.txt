@@ -1,0 +1,17 @@
+Title: PyMEs agroalimentarias y agroindustriales
+
+----
+
+Header: PyMEs agroalimentarias y agroindustriales
+
+----
+
+Bajada: FONAPYME Agroindustria
+
+----
+
+Description: Préstamos para inversión hasta $2 millones a 84 meses y tasa de 8%.
+
+----
+
+Linkurl: http://www.produccion.gob.ar/prestamosagro/

@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - footers
-  - footers/invertir-para-producir
-  - footers/certificaciones
-  - footers/capacitaciones
-  - footers/beneficios-para-exportar
+  - footers/asociatividad
+  - prestamos-y-garantias6
+  - prestamos-y-garantias6/mejora-la-eficiencia-energetica/pymes-que-invierten
+  - prestamos-y-garantias6/mejora-la-eficiencia-energetica/optimiza-la-energia-de-tu-pyme
+  - prestamos-y-garantias6/mejora-la-eficiencia-energetica
