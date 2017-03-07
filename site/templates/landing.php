@@ -95,7 +95,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a class="panel panel-default panel-icon panel-secondary" href="<?= $panel->linkurl()->text() ?>">
                     <div class="panel-heading bg-primary">
-                      <h1 style="font-size:175%"><?= $panel->header()->html() ?></h1>
+                      <h1 class="text-left" style="font-size:175%"><?= $panel->header()->html() ?></h1>
                     </div>
                     <div class="panel-body">
                       <h3><?= $panel->bajada()->html() ?></h3>
