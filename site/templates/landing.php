@@ -6,13 +6,13 @@
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <a class="navbar-brand" style="overflow: visible;" href="#"><img src="http://www.produccion.gob.ar/wp-content/uploads/2016/10/Logo_MinProd.png" height="50" alt=""></a>
+          <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Burger</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="http://www.produccion.gob.ar/wp-content/uploads/2016/10/Logo_MinProd.png" height="50" alt=""></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -108,10 +108,13 @@
 
           <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
             <div class="row panels-row">
+              <div class="container">
+
               <?= $section->texthtml()->html() ?>
             </div>
 
           <?php endif ?>
+        </div>
         </div>
       </div>
     </section>
@@ -146,6 +149,6 @@
 </main>
 </span>
 
-<a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Copiar código de esta página</a>
+<a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a>
 
 <?php snippet('footer') ?>
