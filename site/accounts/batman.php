@@ -7,9 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - >
-    prestamos-y-garantias-reformas/hace-reformas-y-construi/pymes-instaladas-en-parques-industriales
-  - prestamos-y-garantias-reformas/hace-reformas-y-construi/pymes-agroalimentarias-y-agroindustriales
-  - prestamos-y-garantias-reformas/hace-reformas-y-construi/remodela-amplia-construi
-  - prestamos-y-garantias-reformas/hace-reformas-y-construi
-  - prestamos-y-garantias-reformas/buscador-de-creditos
+  - footers
+  - footers/invertir-para-producir
+  - footers/certificaciones
+  - footers/capacitaciones
+  - footers/beneficios-para-exportar

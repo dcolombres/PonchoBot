@@ -1,9 +1,9 @@
-Title: Beneficios para Exportar
+Title: Préstamos y Garantías
 
 ----
 
-Text: lorem ipsum lalala lalalaa
+Text: Encontrá el préstamo que  tu PyME necesita
 
 ----
 
-Linkurl: http://www.produccion.gob.ar/beneficiosparaexportar
+Linkurl: http://www.produccion.gob.ar/prestamosygarantias
