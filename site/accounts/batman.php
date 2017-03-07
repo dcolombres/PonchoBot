@@ -7,8 +7,9 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - footers/asociatividad
-  - prestamos-y-garantias6
-  - prestamos-y-garantias6/mejora-la-eficiencia-energetica/pymes-que-invierten
-  - prestamos-y-garantias6/mejora-la-eficiencia-energetica/optimiza-la-energia-de-tu-pyme
-  - prestamos-y-garantias6/mejora-la-eficiencia-energetica
+  - >
+    capacitaciones/panel/tutoriales-y-cursos-online
+  - capacitaciones/panel/asociate-para-producir-mas-y-mejor
+  - capacitaciones/panel/asesorate-con-un-experto
+  - capacitaciones/panel/arma-tu-plan-de-negocios
+  - capacitaciones/panel/apoyo-para-proyectos-sociales

@@ -1,0 +1,17 @@
+Title: Apoyo para proyectos sociales
+
+----
+
+Header: Apoyo para proyectos sociales
+
+----
+
+Bajada: Empresas sociales
+
+----
+
+Description: Si tenés una idea o proyecto sustentable que genere impacto social aplicá acá
+
+----
+
+Linkurl: http://www.produccion.gob.ar/empresas-sociales/
