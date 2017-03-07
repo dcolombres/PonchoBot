@@ -9,7 +9,7 @@
       </div>
       <hr />
     </header>
-      
+
     <div class="text wrap">
       <?= $page->text()->kirbytext() ?>
     </div>
