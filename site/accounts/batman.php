@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - footers/beneficios-fiscales
+  - footers/beneficios-para-exportar
+  - beneficios-para-exportar
+  - asociatividad
   - invertir-para-producir/botonera-2
-  - invertir-para-producir/botonera-2/regimen-de-drawback
-  - invertir-para-producir/botonera-2/regimen-de-importacion-de-lineas-usadas
-  - invertir-para-producir/botonera-2/reintegros-a-la-exportacion
-  - invertir-para-producir/botonera-2/regimen-de-promocion-de-la-industria-naval

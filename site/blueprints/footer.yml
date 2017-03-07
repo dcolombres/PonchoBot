@@ -11,3 +11,7 @@ fields:
   text:
     label: Text
     type:  text
+
+  linkurl:
+    label: link
+    type: text

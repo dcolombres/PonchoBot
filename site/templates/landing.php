@@ -73,7 +73,7 @@
         <div class="container">
           <div class="panel-pane pane-titulo">
             <div class="pane-content">
-              <h1 class="activities-sidbar"><?= $section->text() ?></h1>
+              <h2 class="activities-sidbar"><?= $section->text() ?></h2>
             </div>
           </div>
           <?php if ($section->intendedTemplate()=='section-boton'):?>
@@ -116,6 +116,31 @@
       </div>
     </section>
   <?php endforeach ?>
+
+  <?php if ($page->footer()!=''): ?>
+    <section style="background: #fff">
+      <div class="container">
+        <div class="panel-pane pane-titulo">
+          <div class="pane-content">
+            <h2 class="activities-sidbar">También te puede interesar...</h2>
+          </div>
+        </div>
+        <?php
+        $footerTags = explode(",", $page->footer());
+        ?>
+        <div class="row">
+        <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
+          <div class="col-md-4 interesar">
+            <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
+              <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
+              <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
+            </a>
+          </div>
+        <?php endfor ?>
+        </div>
+      </div>
+    </section>
+  <?php endif ?>
 
 
 </main>
