@@ -10,4 +10,4 @@ Background: http://www.produccion.gob.ar/wp-content/uploads/2017/03/va2.jpg
 
 ----
 
-Footer: 
+Footer: beneficios-fiscales,beneficios-para-exportar

@@ -8,8 +8,8 @@ language: en
 role: admin
 history:
   - >
-    prestamos-y-garantias-3/prestamos-para-pagar-sueldos/pymes-de-software
-  - prestamos-y-garantias-3/prestamos-para-pagar-sueldos/pymes-que-invierten
-  - prestamos-y-garantias-3/prestamos-para-pagar-sueldos/pymes-agroalimentarias-y-agroindustriales
-  - prestamos-y-garantias-3/prestamos-para-pagar-sueldos
-  - prestamos-y-garantias2/empeza-un-proyecto/pymes-de-economias-regionales
+    prestamos-y-garantias-reformas/hace-reformas-y-construi/pymes-instaladas-en-parques-industriales
+  - prestamos-y-garantias-reformas/hace-reformas-y-construi/pymes-agroalimentarias-y-agroindustriales
+  - prestamos-y-garantias-reformas/hace-reformas-y-construi/remodela-amplia-construi
+  - prestamos-y-garantias-reformas/hace-reformas-y-construi
+  - prestamos-y-garantias-reformas/buscador-de-creditos
