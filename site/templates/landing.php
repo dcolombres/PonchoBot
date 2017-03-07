@@ -129,14 +129,14 @@
         $footerTags = explode(",", $page->footer());
         ?>
         <div class="row">
-        <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
-          <div class="col-md-4 interesar">
-            <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
-              <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
-              <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
-            </a>
-          </div>
-        <?php endfor ?>
+          <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
+            <div class="col-md-4 interesar">
+              <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
+                <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
+                <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
+              </a>
+            </div>
+          <?php endfor ?>
         </div>
       </div>
     </section>
@@ -145,9 +145,7 @@
 
 </main>
 </span>
-<div class="container">
-  <div class="row text-center">
-    <a class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Copiar código de esta página</a>
-  </div>
-</div>
+
+<a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Copiar código de esta página</a>
+
 <?php snippet('footer') ?>
