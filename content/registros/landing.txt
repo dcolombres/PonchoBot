@@ -1,0 +1,13 @@
+Title: Licencias y registros
+
+----
+
+Subtitle: Accedé a la información para registrar tu PyME  y obtener la licencia que necesitás para producir.
+
+----
+
+Background: http://www.produccion.gob.ar/wp-content/uploads/2017/03/headLIC.jpg
+
+----
+
+Footer: 
