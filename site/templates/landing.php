@@ -112,11 +112,9 @@
                 <?= $section->texthtml()->html() ?>
               </div>
             </div>
-            
+
           <?php endif ?>
         </div>
-        </div>
-      </div>
     </section>
   <?php endforeach ?>
 
