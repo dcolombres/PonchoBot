@@ -1,0 +1,12 @@
+Text: 
+
+----
+
+Texthtml: 
+
+<p style="text-align: center;">[button type="success" size="lg" link="http://dna2.produccion.gob.ar/dna2bpm/financiamiento"] Buscador de créditos [/button]
+<br>Encontrá financiamiento a tu medida. Hacé clic en el buscador y  <strong>empezá a crecer</strong></p>
+
+----
+
+Title: Econtrá financiamiento a tu medida. Hacé clic en el buscador y empezá a crecer.

@@ -1,0 +1,17 @@
+Title: Empezá un  proyecto
+
+----
+
+Header: Empezá un  proyecto
+
+----
+
+Bajada: Fondo Semilla
+
+----
+
+Description: ¿Querés emprender?  Transformá tu idea en un proyecto
+
+----
+
+Linkurl: 

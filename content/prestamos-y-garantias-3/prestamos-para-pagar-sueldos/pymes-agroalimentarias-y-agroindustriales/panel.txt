@@ -1,0 +1,17 @@
+Title: PyMEs agroalimentarias y agroindustriales
+
+----
+
+Header: PyMEs agroalimentarias y agroindustriales
+
+----
+
+Bajada: FONAPYME Agroindustria
+
+----
+
+Description: Préstamo flexible de hasta $1,5 millones a 24 meses, con una tasa de interés del 10% anual
+
+----
+
+Linkurl: http://www.produccion.gob.ar/prestamosagro/
