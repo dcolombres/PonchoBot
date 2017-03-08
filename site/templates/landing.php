@@ -81,7 +81,7 @@
               <?php foreach($section->children() as $boton): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a class="panel panel-default" href="<?= $boton->linkurl()->text() ?>">
-                    <div class="panel-body">
+                    <div class="panel-body text-left">
                       <h3><?= $boton->title()->text() ?></h3>
                       <p class="text-muted"><?= $boton->text()->html() ?></p>
                     </div>
@@ -97,7 +97,7 @@
                     <div class="panel-heading bg-primary">
                       <h1 class="text-left" style="font-size:175%"><?= $panel->header()->html() ?></h1>
                     </div>
-                    <div class="panel-body">
+                    <div class="panel-body text-left">
                       <h3><?= $panel->bajada()->html() ?></h3>
                       <p class="text-muted"><?= $panel->description()->html() ?></p>
                     </div>
@@ -108,7 +108,7 @@
 
           <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
             <div class="row panels-row">
-              <div class="col-md-12">
+              <div class="col-md-12 text-left">
                 <?= $section->texthtml()->html() ?>
               </div>
             </div>
