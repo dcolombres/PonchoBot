@@ -1,9 +1,0 @@
-Text: Botonera
-
-----
-
-Columns: 4
-
-----
-
-Title: secBtn

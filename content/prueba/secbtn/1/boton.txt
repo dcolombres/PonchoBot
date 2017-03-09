@@ -1,9 +1,0 @@
-Title: Boton 1
-
-----
-
-Linkurl: #
-
-----
-
-Text: lorem ipsum

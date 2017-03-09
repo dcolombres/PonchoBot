@@ -1,9 +1,0 @@
-Text: Sección de texto
-
-----
-
-Title: Texto
-
-----
-
-Texthtml: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisi porta, mattis turpis sit amet, consectetur urna. Aenean volutpat tempus pretium. Nullam nunc nisi, malesuada eu sollicitudin id, tristique ac risus. Quisque id purus mauris. Proin vel facilisis metus. Sed convallis nisl at neque viverra commodo. Curabitur placerat eu nisl at venenatis. Pellentesque aliquam hendrerit blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus dolor enim, sed porta nunc posuere vitae. Etiam sed erat et neque porttitor mattis ac id neque. Integer vel felis vitae ante finibus porta et eu odio.</p>
