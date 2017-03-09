@@ -10,5 +10,17 @@
   <?= css('assets/css/poncho.css') ?>
   <?= css('assets/css/font-awesome.css') ?>
 
+  <style media="screen">
+  .col-md-6:nth-child(2n + 1) {
+    clear: both;
+  }
+  .col-md-4:nth-child(3n + 1) {
+    clear: both;
+  }
+  .col-md-3:nth-child(4n + 1) {
+    clear: both;
+  }
+  </style>
+
 </head>
 <body>

@@ -122,7 +122,7 @@
     <section style="background: #fff">
       <div class="container">
         <div class="panel-pane pane-titulo">
-          <div class="pane-content">
+          <div class="pane-content text-left">
             <h2 class="activities-sidbar">También te puede interesar...</h2>
           </div>
         </div>
