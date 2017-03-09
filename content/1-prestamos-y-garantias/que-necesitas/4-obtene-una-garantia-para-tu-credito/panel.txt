@@ -2,7 +2,7 @@ Title: Obtené una garantía para tu crédito
 
 ----
 
-Header: Obtené una garantía para tu crédito
+Header: Obtener una garantía para un crédito
 
 ----
 
@@ -12,7 +12,7 @@ Bajada:
 
 Description: 
 
-¿Necesitás un  préstamo y tenés dificultades para conseguir una garantía?
+¿Necesitás un préstamo y tenés dificultades para conseguir una garantía?
 Podés obtenerla a través de una Sociedad de Garantías Recíproca
 
 ----

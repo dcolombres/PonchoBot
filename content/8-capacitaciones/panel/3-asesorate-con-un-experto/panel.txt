@@ -10,7 +10,7 @@ Bajada: Expertos PyME
 
 ----
 
-Description: Un especialista te ayuda a detectar posibles problemas y aumentar la productividad de tu PyME
+Description: Si querés potenciar algún área de tu PyME, un especialista te visita y te propone un plan de mejoras
 
 ----
 

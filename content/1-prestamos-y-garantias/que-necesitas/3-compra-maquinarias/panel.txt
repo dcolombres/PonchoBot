@@ -2,7 +2,7 @@ Title: Comprá maquinarias
 
 ----
 
-Header: Comprá maquinarias
+Header: Comprar maquinarias
 
 ----
 
@@ -10,7 +10,7 @@ Bajada:
 
 ----
 
-Description: ¿Necesitás comprar máquinas y equipos nuevos o usados, equipamiento informático o de software, equipamiento industrial?
+Description: ¿Necesitás comprar máquinas y equipos nuevos o usados? ¿Equipamiento informático, de software o industrial?
 
 ----
 
