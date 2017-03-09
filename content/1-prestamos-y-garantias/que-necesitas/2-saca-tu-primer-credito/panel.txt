@@ -2,18 +2,15 @@ Title: Sacá tu primer crédito
 
 ----
 
-Header: Sacá tu primer crédito
+Header: Sacar mi primer crédito
 
 ----
 
-Bajada: Mi Primer Crédito - BICE
+Bajada: 
 
 ----
 
-Description: 
-
-Préstamos de hasta 
-$5 millones del 80% del proyecto, hasta 84 meses de plazo y tasa máxima de 16%
+Description: Préstamos de hasta $5 millones a una tasa máxima del 16%, que podés devolver en un plazo de hasta 84 meses
 
 ----
 

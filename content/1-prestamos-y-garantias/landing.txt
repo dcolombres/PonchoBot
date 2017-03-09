@@ -1,4 +1,4 @@
-Title: Préstamos y Garantías
+Title: Préstamos y garantías
 
 ----
 
@@ -10,4 +10,4 @@ Background: http://www.produccion.gob.ar/wp-content/uploads/2017/03/va2.jpg
 
 ----
 
-Footer: certificaciones,capacitaciones,invertir,beneficios-fiscales,beneficios-para-exportar
+Footer: certificaciones,capacitaciones,beneficios-fiscales

@@ -1,12 +1,12 @@
-Title: Empezá un  proyecto
+Title: Empezar un  proyecto
 
 ----
 
-Header: Empezá un  proyecto
+Header: Empezar un  proyecto
 
 ----
 
-Bajada: Fondo Semilla
+Bajada: 
 
 ----
 

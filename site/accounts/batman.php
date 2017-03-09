@@ -7,8 +7,9 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - footers/capacitaciones
-  - footers/beneficios-fiscales
-  - capacitaciones/panel/tutoriales-y-cursos-online
-  - capacitaciones/panel/asociate-para-producir-mas-y-mejor
-  - capacitaciones/panel/asesorate-con-un-experto
+  - >
+    prestamos-y-garantias/que-necesitas/paga-sueldos-o-contrata-empleados
+  - prestamos-y-garantias
+  - footers/invertir
+  - footers/prestamos-y-garantias
+  - registros/botonera/registro-industrial-de-la-nacion-rin
