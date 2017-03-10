@@ -1,0 +1,32 @@
+title: panelFoto
+
+pages: false
+files: false
+
+options:
+  delete: true
+
+fields:
+  title:
+    label: Nombre
+    type: text
+
+  header:
+      label: Encabezado
+      type:  text
+
+  bajada:
+      label: Titulo
+      type: text
+
+  description:
+    label: Descripción
+    type: textarea
+
+  urlimagen:
+      label: URL ImagenPanel
+      type: text
+
+  linkurl:
+    label: Link al trámite
+    type: text

@@ -89,6 +89,7 @@
                 </div>
               <?php endforeach ?>
             </div>
+
           <?php elseif ($section->intendedTemplate()=='section-panel'): ?>
             <div class="row panels-row">
               <?php foreach($section->children() as $panel): ?>
@@ -106,6 +107,23 @@
               <?php endforeach ?>
             </div>
 
+          <?php elseif ($section->intendedTemplate()=='section-panel-foto'): ?>
+            <div class="row panels-row">
+              <?php foreach($section->children() as $panelFoto): ?>
+                <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
+                  <a class="panel panel-default panel-icon panel-secondary" href="<?= $panelFoto->linkurl()->text() ?>">
+                    <div class="panel-heading bg-primary" style="background-image: url('<?= $panelFoto->urlimagen()->text() ?>');">
+                    </div>
+                    <div class="panel-body text-left">
+                      <h1 class="text-left" style="font-size:175%"><?= $panelFoto->header()->html() ?></h1>
+                      <h3><?= $panelFoto->bajada()->html() ?></h3>
+                      <p class="text-muted"><?= $panelFoto->description()->html() ?></p>
+                    </div>
+                  </a>
+                </div>
+              <?php endforeach ?>
+            </div>
+
           <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
             <div class="row panels-row">
               <div class="col-md-12 text-left">
@@ -115,36 +133,36 @@
 
           <?php endif ?>
         </div>
-    </section>
-  <?php endforeach ?>
+      </section>
+    <?php endforeach ?>
 
-  <?php if ($page->footer()!=''): ?>
-    <section style="background: #fff">
-      <div class="container">
-        <div class="panel-pane pane-titulo">
-          <div class="pane-content text-left">
-            <h2 class="activities-sidbar">También te puede interesar...</h2>
+    <?php if ($page->footer()!=''): ?>
+      <section style="background: #fff">
+        <div class="container">
+          <div class="panel-pane pane-titulo">
+            <div class="pane-content text-left">
+              <h2 class="activities-sidbar">También te puede interesar...</h2>
+            </div>
+          </div>
+          <?php
+          $footerTags = explode(",", $page->footer());
+          ?>
+          <div class="row">
+            <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
+              <div class="col-md-4 interesar">
+                <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
+                  <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
+                  <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
+                </a>
+              </div>
+            <?php endfor ?>
           </div>
         </div>
-        <?php
-        $footerTags = explode(",", $page->footer());
-        ?>
-        <div class="row">
-          <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
-            <div class="col-md-4 interesar">
-              <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
-                <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
-                <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
-              </a>
-            </div>
-          <?php endfor ?>
-        </div>
-      </div>
-    </section>
-  <?php endif ?>
+      </section>
+    <?php endif ?>
 
 
-</main>
+  </main>
 </span>
 
 <a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a>
