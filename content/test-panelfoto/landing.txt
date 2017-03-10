@@ -1,0 +1,13 @@
+Title: test panelFoto
+
+----
+
+Subtitle: 
+
+----
+
+Background: 
+
+----
+
+Footer: 

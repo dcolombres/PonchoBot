@@ -1,13 +1,11 @@
-title: Section
+title: Section Panel Foto
 
 pages:
-  template:
-    - panel
-    - boton
-    - tarjeta
-    - panel-foto
-
+  template: panel-foto
 files: false
+
+options:
+  delete: true
 
 fields:
 
@@ -17,7 +15,8 @@ fields:
 
   columns:
     label: Cantidad de columnas
-    type: number
+    type: text
     validate:
       min: 1
       max: 4
+      - alphanum

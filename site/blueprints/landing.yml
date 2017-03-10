@@ -4,6 +4,7 @@ pages:
   template:
     - section-boton
     - section-panel
+    - section-panel-foto
     - section-texto
 
 files: false
