@@ -5,6 +5,7 @@ pages:
     - section-boton
     - section-panel
     - section-panel-foto
+    - section-panel-icono
     - section-texto
 
 files: false

@@ -115,9 +115,25 @@
                     <div class="panel-heading bg-primary" style="background-image: url('<?= $panelFoto->urlimagen()->text() ?>');">
                     </div>
                     <div class="panel-body text-left">
-                      <h1 class="text-left" style="font-size:175%"><?= $panelFoto->header()->html() ?></h1>
                       <h3><?= $panelFoto->bajada()->html() ?></h3>
                       <p class="text-muted"><?= $panelFoto->description()->html() ?></p>
+                    </div>
+                  </a>
+                </div>
+              <?php endforeach ?>
+            </div>
+
+          <?php elseif ($section->intendedTemplate()=='section-panel-icono'): ?>
+            <div class="row panels-row">
+              <?php foreach($section->children() as $panelIcono): ?>
+                <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
+                  <a class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl()->text() ?>">
+                    <div class="panel-heading bg-primary" style="display: flex; align-items: center; justify-content: center">
+                      <img src="<?= $panelIcono->urlicono()->text() ?>" alt="" style="height:80px; max-width:50%; "></img>
+                    </div>
+                    <div class="panel-body text-left">
+                      <h3><?= $panelIcono->bajada()->html() ?></h3>
+                      <p class="text-muted"><?= $panelIcono->description()->html() ?></p>
                     </div>
                   </a>
                 </div>

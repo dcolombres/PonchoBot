@@ -1,4 +1,4 @@
-title: panelFoto
+title: panelIcono
 
 pages: false
 files: false
@@ -11,6 +11,14 @@ fields:
     label: Nombre
     type: text
 
+  urlicono:
+      label: URL Icono Panel
+      type: text
+
+  header:
+      label: Encabezado
+      type:  text
+
   bajada:
       label: Titulo
       type: text
@@ -18,10 +26,6 @@ fields:
   description:
     label: Descripción
     type: textarea
-
-  urlimagen:
-      label: URL Imagen Panel
-      type: text
 
   linkurl:
     label: Link al trámite
