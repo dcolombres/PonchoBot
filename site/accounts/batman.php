@@ -7,8 +7,7 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - >
-    landings/prestamos-y-garantias/prestamos-y-garantias-1
-  - footers/capacitaciones
   - home
+  - landings/prestamos-y-garantias/prestamos-y-garantias-1
+  - footers/capacitaciones
   - landings/beneficios-para-exportar

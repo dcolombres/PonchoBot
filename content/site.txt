@@ -1,4 +1,4 @@
-Title: LandingBot
+Title: PonchoBot
 
 ----
 
@@ -6,7 +6,7 @@ Author: Hernan Levi & Santiago Ares
 
 ----
 
-Description: Creador de Langings para el sitio www.produccion.gob.ar
+Description: 
 
 ----
 

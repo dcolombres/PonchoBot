@@ -3,7 +3,7 @@
 
 <main class="main" role="main">
 
-  <section class="jumbotron" style="background-image: url('<?= $site->image()->url() ?>');">
+  <section class="jumbotron" style="background-image: url('<?= $site->image('background.jpg')->url() ?>');">
     <div class="jumbotron_body">
       <div class="container">
         <div class="row">
