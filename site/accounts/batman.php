@@ -7,9 +7,6 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - >
-    prestamos-y-garantias/que-necesitas/paga-sueldos-o-contrata-empleados
-  - prestamos-y-garantias/que-necesitas/mejora-la-eficiencia-energetica
-  - prestamos-y-garantias/que-necesitas/inverti-en-investigacion-y-desarrollo
-  - prestamos-y-garantias/que-necesitas/hace-reformas-y-construi
-  - prestamos-y-garantias/que-necesitas/compra-maquinaria
+  - landings
+  - home
+  - footers

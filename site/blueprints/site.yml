@@ -1,6 +1,6 @@
 title: Site
 
-pages: landing
+pages: false
 
 fields:
   title:
