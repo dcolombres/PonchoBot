@@ -1,9 +1,0 @@
-Text: Seccion Panel Foto
-
-----
-
-Columns: 4
-
-----
-
-Title: panelFoto
