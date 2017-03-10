@@ -2,7 +2,7 @@ Text: Mejorá la eficiencia energética
 
 ----
 
-Columns: 4
+Columns: 3
 
 ----
 
