@@ -129,7 +129,7 @@
   </main>
 </span>
 
-<a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a>
+<!-- <a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a> -->
 
 <pre id="htmlCode">
 &lt;section class="jumbotron" style="background-image: url('<?= $page->background()->text() ?>');"&gt;
