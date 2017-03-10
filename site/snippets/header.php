@@ -20,6 +20,13 @@
   .col-md-3:nth-child(4n + 1) {
     clear: both;
   }
+  #htmlCode{
+    user-select: all;
+    background: #202020;
+    color: #fff;
+    font-family: monospace;
+    padding: 5em 5em;
+  }
   </style>
 
 </head>
