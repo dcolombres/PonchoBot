@@ -1,9 +1,0 @@
-Text: PanelIcono
-
-----
-
-Columns: 4
-
-----
-
-Title: sectionPanelIcono

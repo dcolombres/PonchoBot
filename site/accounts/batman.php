@@ -9,7 +9,6 @@ role: admin
 history:
   - >
     landings/prestamos-y-garantias/prestamos-y-garantias-1
-  - landings/prestamos-y-garantias/prestamos-y-garantias-1/buscador-de-creditos
   - footers/capacitaciones
   - home
   - landings/beneficios-para-exportar

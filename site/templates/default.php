@@ -1,19 +1,35 @@
 <?php snippet('header') ?>
+<?php snippet('ponchoHeader') ?>
 
-  <main class="main" role="main">
+<main class="main" role="main">
 
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
-        <?= $page->intro()->kirbytext() ?>
+  <section class="jumbotron" style="background-image: url('<?= $site->image()->url() ?>');">
+    <div class="jumbotron_body">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+            <h1><?= $page->title()->html() ?></h1>
+          </div>
+        </div>
       </div>
-      <hr />
-    </header>
-
-    <div class="text wrap">
-      <?= $page->text()->kirbytext() ?>
     </div>
+    <div class="overlay"></div>
+  </section>
+  <section>
+    <div class="container">
+      <?php foreach($page->children() as $landing): ?>
 
-  </main>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <a class="panel panel-default" href="<?= $landing->url() ?>">
+            <div class="panel-body text-left">
+              <h3><?= $landing->title()->text() ?></h3>
+            </div>
+          </a>
+        </div>
+      <?php endforeach ?>
+    </div>
+  </section>
+</main>
+
 
 <?php snippet('footer') ?>

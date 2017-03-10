@@ -5,7 +5,9 @@ Title: Home
 Subtitle: 
 
 Tenemos financiamiento y herramientas para impulsar el crecimiento de tu PyME.  Y si no tenés garantía, te damos una para que puedas acceder a préstamos bancarios
-<p style="text-align: center; width:100%">[button type="success" size="lg" link="http://dna2.produccion.gob.ar/dna2bpm/financiamiento"] Buscador de créditos [/button]
+<p>
+<a class="btn btn-primary btn-lg" target="_blank" href="http://dna2.produccion.gob.ar/dna2bpm/financiamiento" >Buscador de créditos</a>
+</p>
 
 ----
 
