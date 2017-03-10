@@ -139,7 +139,7 @@
         &lt;div class="row"&gt;
           &lt;div class="col-xs-12 col-md-8 col-md-offset-2 text-center"&gt;
             &lt;h1&gt;<?= $page->title()->html() ?>&lt;/h1&gt;
-            &lt;p&gt;<?= $page->subtitle()->kirbytext() ?>&lt;/p&gt;
+            &lt;p&gt;<?php echo html($page->subtitle(), false) ?>&lt;/p&gt;
           &lt;/div&gt;
         &lt;/div&gt;
       &lt;/div&gt;
