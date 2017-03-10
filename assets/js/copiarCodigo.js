@@ -31,8 +31,5 @@ function downloadInnerHtml(filename, elId, mimeType) {
 var fileName = 'tags.html'; // You can use the .txt extension if you want
 
 $('#copiarCodigo').click(function() {
-    // downloadInnerHtml(fileName, 'main', 'text/html');
-
-    var copiaCod = document.getElementById('htmlCode')
-    var clipboard = new Clipboard(copiaCod);
+    downloadInnerHtml(fileName, 'main', 'text/html');
 });
