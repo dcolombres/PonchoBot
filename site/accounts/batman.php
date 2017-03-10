@@ -7,9 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - >
-    landings/testpanelicono/sectionpanelicono/paneltest1
+  - landings/asociatividad
+  - landings/testpanelicono/sectionpanelicono/paneltest1
   - landings/testpanelicono/sectionpanelicono
   - landings
   - home
-  - footers

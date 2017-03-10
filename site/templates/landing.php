@@ -59,8 +59,8 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-              <h1><?= $page->title()->html() ?></h1>
-              <p><?= $page->subtitle()->kirbytext() ?></p>
+              <h1><?= $page->titulo()->html() ?></h1>
+              <p><?= $page->subtitle()->text() ?></p>
             </div>
           </div>
         </div>
