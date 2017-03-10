@@ -145,8 +145,8 @@
 &lt;/div&gt;
 &lt;div class="overlay"&gt;&lt;/div&gt;
 &lt;/section&gt;
-
 <?php foreach($page->children() as $section): ?>
+
 &lt;section&gt;
 &lt;div class="container"&gt;
 &lt;div class="panel-pane pane-titulo"&gt;
@@ -217,15 +217,15 @@
 <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
 &lt;div class="row panels-row"&gt;
 &lt;div class="col-md-12 text-left"&gt;
-<?= $section->texthtml()->html() ?>
+<?php echo html($section->texthtml(), false) ?>
 &lt;/div&gt;
 &lt;/div&gt;
 <?php endif ?>
 &lt;/div&gt;
 &lt;/section&gt;
-
 <?php endforeach ?>
 <?php if ($page->footer()!=''): ?>
+
 &lt;section style="background: #fff"&gt;
 &lt;div class="container"&gt;
 &lt;div class="pane-content text-left"&gt;
@@ -247,7 +247,6 @@ $footerTags = explode(",", $page->footer());
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;
-
 <?php endif ?>
 
 </pre>
