@@ -3,7 +3,7 @@ title: Home
 pages: false
 
 fields:
-  title:
+  titulo:
     label: Title
     type:  text
 

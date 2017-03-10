@@ -7,8 +7,9 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - landings/asociatividad
-  - landings/testpanelicono/sectionpanelicono/paneltest1
-  - landings/testpanelicono/sectionpanelicono
-  - landings
+  - >
+    landings/prestamos-y-garantias/prestamos-y-garantias-1
+  - landings/prestamos-y-garantias/prestamos-y-garantias-1/buscador-de-creditos
+  - footers/capacitaciones
   - home
+  - landings/beneficios-para-exportar
