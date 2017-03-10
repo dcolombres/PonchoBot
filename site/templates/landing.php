@@ -229,7 +229,7 @@
 &lt;section style="background: #fff"&gt;
 &lt;div class="container"&gt;
 &lt;div class="pane-content text-left"&gt;
-&lt;h2  &gt;También te puede interesar...&lt;/h2&gt;
+&lt;h2&gt;También te puede interesar...&lt;/h2&gt;
 &lt;/div&gt;
 <?php
 $footerTags = explode(",", $page->footer());
