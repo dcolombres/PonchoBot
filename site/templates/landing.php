@@ -131,12 +131,13 @@
 
 <!-- <a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a> -->
 <div id="footer" style="position: fixed; bottom: 0; width: 100%;" class="align-center text-right">
-<button id="copy" onclick="copy(htmlCode)" class="btn bg-warning btn-primary"><i class="fa fa-copy"></i>&nbsp; Codigo</button>
+<button id="copy" onclick="copy(htmlCode)" class="btn bg-warning btn-primary box-shadow" ><i class="fa fa-copy"></i>&nbsp; Codigo</button>
 <a href="<?= $site->url() ?>/panel" class="btn bg-uva btn-primary"><i class="fa fa-sign-in"></i></a>
 <a href="<?= $site->url() ?>" class="btn bg-cielo btn-primary"><i class="fa fa-home"></i></a>
 &nbsp;&nbsp;
 </div>
-<pre id="htmlCode">
+
+<pre id="htmlCode" style="margin: 0; border-style: none; border-radius: 0px;">
 &lt;section class="jumbotron" style="background-image: url('<?= $page->background()->text() ?>');"&gt;
 &lt;div class="jumbotron_body"&gt;
 &lt;div class="container"&gt;
