@@ -130,7 +130,11 @@
 </span>
 
 <!-- <a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a> -->
-
+<div id="footer" style="position: fixed; bottom: 0; width: 100%;" class="align-center text-right">
+<button id="copy" onclick="copy(htmlCode)" class="btn bg-uva btn-primary"><i class="fa fa-copy"></i>&nbsp; Codigo</button>
+<a href="<?= $site->url() ?>/panel" class="btn bg-uva btn-primary"><i class="fa fa-sign-in"></i></a>
+<a href="<?= $site->url() ?>" class="btn bg-uva btn-primary"><i class="fa fa-home"></i></a>
+</div>
 <pre id="htmlCode">
 &lt;section class="jumbotron" style="background-image: url('<?= $page->background()->text() ?>');"&gt;
 &lt;div class="jumbotron_body"&gt;
@@ -253,3 +257,18 @@ $footerTags = explode(",", $page->footer());
 
 
 <?php snippet('footer') ?>
+
+<script type="text/javascript">
+function copy (node) {
+let range = document.createRange();
+range.selectNode(node);
+window.getSelection().addRange(range);
+
+let support = document.execCommand('copy');
+if (support) {
+  console.info('Código copiado al portapeles');
+} else {
+  console.error('Tu navegador no soporta execCommand');
+}
+}
+</script>
