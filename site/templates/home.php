@@ -1,5 +1,6 @@
 <?php snippet('header') ?>
 <?php snippet('ponchoHeader') ?>
+<title>PonchoBot</title>
 
 <main class="main" role="main">
 
