@@ -2,16 +2,16 @@ Title: Home
 
 ----
 
-Intro: 
+Intro:
 
 Creador de landings Poncho para el WordPress del Ministerio de Producción
 <p>
-<a class="btn btn-primary btn-md" href="/panel" >Acceder</a>
+<a class="btn btn-primary btn-md" href="/panel" ><i class="fa fa-sign-in"></i>&nbsp; Acceder</a>
 </p>
 
 ----
 
-Text: 
+Text:
 
 ----
 
