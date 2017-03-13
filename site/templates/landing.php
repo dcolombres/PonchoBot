@@ -158,7 +158,7 @@
 &lt;div class="container"&gt;
 &lt;div class="panel-pane pane-titulo"&gt;
 &lt;div class="pane-content"&gt;
-&lt;h2  &gt;<?= $section->text() ?>&lt;/h2&gt;
+&lt;h2 class="activities-sidbar"&gt;<?= $section->text() ?>&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 <?php if ($section->intendedTemplate()=='section-boton'):?>
