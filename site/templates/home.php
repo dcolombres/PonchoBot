@@ -18,16 +18,17 @@
   </section>
   <section>
     <div class="container">
-      <?php foreach($site->page('landings')->children() as $landing): ?>
-
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <a class="panel panel-default" href="<?= $landing->url() ?>">
-            <div class="panel-body text-left">
-              <h3><?= $landing->title()->text() ?></h3>
-            </div>
-          </a>
-        </div>
-      <?php endforeach ?>
+      <div class="row panels-row">
+        <?php foreach($site->page('landings')->children() as $landing): ?>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a class="panel panel-default" href="<?= $landing->url() ?>">
+              <div class="panel-body text-left">
+                <h3><?= $landing->title()->text() ?></h3>
+              </div>
+            </a>
+          </div>
+        <?php endforeach ?>
+      </div>
     </div>
   </section>
 </main>
