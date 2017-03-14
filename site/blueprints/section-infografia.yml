@@ -1,0 +1,28 @@
+title: Section Infografia
+
+pages: false
+files: false
+
+options:
+  preview: false
+  status: false
+  template: false
+  url: false
+  delete: true
+
+fields:
+  text:
+    label: Titulo
+    type: text
+
+  imgdesktop:
+    label: URL Imagen desktop
+    type: text
+
+  imgtablet:
+    label: URL Imagen desktop
+    type: text
+
+  imgmobile:
+    label: URL Imagen desktop
+    type: text

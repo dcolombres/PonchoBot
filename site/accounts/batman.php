@@ -7,7 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - landings/prueba-infografia/infografia
+  - landings/prueba-infografia
   - home
   - landings/prestamos-y-garantias/prestamos-y-garantias-1
   - footers/capacitaciones
-  - landings/beneficios-para-exportar
