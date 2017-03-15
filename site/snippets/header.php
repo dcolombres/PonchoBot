@@ -26,6 +26,9 @@
     color: #fff;
     font-family: monospace;
     padding: 5em 5em;
+    margin: 0;
+    border-style: none;
+    border-radius: 0px;
   }
   .hidden-xs-up {
     display: none !important;

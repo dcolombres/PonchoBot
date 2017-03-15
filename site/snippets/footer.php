@@ -15,6 +15,7 @@
     sr.reveal('.main h2');
     sr.reveal('.main h3');
     sr.reveal('.main h4');
+    sr.reveal('.row')
   </script>
 </body>
 </html>
