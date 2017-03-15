@@ -10,19 +10,23 @@ fields:
   title:
     label: Nombre
     type: text
+    icon: font
 
   number:
       label: Cifra
       type:  text
+      icon: hashtag
 
   small:
       label: Acompañamiento de Cifra
       type: text
       placeholder: Por ejemplo 600 '%' <- el % es acompañamiento
+      icon: percent
 
   description:
     label: Descripción
     type: textarea
+    icon: align-justify
 
   color:
     label: Color de Cifra
@@ -45,3 +49,4 @@ fields:
         - text-maiz
         - text-tomate
     help: <a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/colorestxt.jpg" target="blank"> Paleta Colores > </a>
+    icon: paint-brush

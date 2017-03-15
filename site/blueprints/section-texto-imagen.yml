@@ -15,14 +15,17 @@ fields:
   text:
     label: Titulo
     type: text
+    icon: font
 
   texthtml:
     label: Texto <html>
     type: textarea
+    icon: code
 
   urlimagen:
     label: URL Imagen (500x500)
     type: text
+    icon: image
 
   align:
     label: Alineación de la Imagen
@@ -34,6 +37,7 @@ fields:
         - d
     help: Izquierda-> i &nbsp;&nbsp; Derecha-> d
     width: 2/5
+    icon: arrows-h
 
   colorfondo:
       label: Color de fondo de la seccion
@@ -56,3 +60,4 @@ fields:
           - bg-maiz
           - bg-tomate
       help: <a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/colores.jpg" target="blank"> Paleta Colores > </a>
+      icon: paint-brush

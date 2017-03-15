@@ -10,19 +10,24 @@ fields:
   title:
     label: Nombre
     type: text
+    icon: font
 
   bajada:
       label: Titulo
       type: text
+      icon: text-width
 
   description:
     label: Descripción
     type: textarea
+    icon: align-justify
 
   urlimagen:
       label: URL Imagen Panel
       type: text
+      icon: image
 
   linkurl:
     label: Link al trámite
     type: text
+    icon: link

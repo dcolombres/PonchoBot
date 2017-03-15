@@ -15,11 +15,13 @@ fields:
   text:
     label: Titulo
     type: text
+    icon: font
 
   texthtml:
     label: Texto <html>
     type: textarea
     help: Recordá añadir <p> al inicio del texto y </p> al final del mismo
+    icon: code
 
   colorfondo:
       label: Color de fondo de la seccion
@@ -42,3 +44,4 @@ fields:
           - bg-maiz
           - bg-tomate
       help: <a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/colores.jpg" target="blank"> Paleta Colores > </a>
+      icon: paint-brush

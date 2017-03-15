@@ -16,6 +16,7 @@ fields:
   text:
     label: Titulo
     type: text
+    icon: font
 
   columns:
     label: Cantidad de columnas
@@ -24,6 +25,7 @@ fields:
       min: 1
       max: 4
       - alphanum
+    icon: columns
 
   colorfondo:
       label: Color de fondo de la seccion
@@ -46,3 +48,4 @@ fields:
           - bg-maiz
           - bg-tomate
       help: <a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/colores.jpg" target="blank"> Paleta Colores > </a>
+      icon: paint-brush

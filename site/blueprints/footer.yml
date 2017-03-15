@@ -7,11 +7,14 @@ fields:
   title:
     label: Title
     type:  text
+    icon: tag
 
   text:
     label: Text
     type:  text
+    icon: font
 
   linkurl:
     label: link
     type: text
+    icon: link

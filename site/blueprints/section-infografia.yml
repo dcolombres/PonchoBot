@@ -14,18 +14,22 @@ fields:
   text:
     label: Titulo
     type: text
+    icon: font
 
   imgdesktop:
     label: URL Imagen Desktop
     type: text
+    icon: desktop
 
   imgtablet:
     label: URL Imagen Tablet
     type: text
+    icon: tablet
 
   imgmobile:
     label: URL Imagen Mobile
     type: text
+    icon: mobile
 
   colorfondo:
       label: Color de fondo de la seccion
@@ -48,3 +52,4 @@ fields:
           - bg-maiz
           - bg-tomate
       help: <a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/colores.jpg" target="blank"> Paleta Colores > </a>
+      icon: paint-brush

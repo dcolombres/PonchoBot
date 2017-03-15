@@ -24,15 +24,19 @@ fields:
   titulo:
     label: Titulo
     type:  text
+    icon: font
 
   subtitle:
     label: Subtitulo
     type:  textarea
+    icon: align-justify
 
   background:
     label: URL del background
     type:  text
+    icon: image
 
   footer:
     label: También te puede interesar
     type: tags
+    icon: tags
