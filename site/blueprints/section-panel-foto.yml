@@ -5,7 +5,11 @@ pages:
 files: false
 
 options:
-  delete: true
+  preview: false
+  status: true
+  template: false
+  url: false
+  delete: force
 
 fields:
 

@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - landings/testing/numerologia/namber2
+  - landings/testing/numerologia/namber1
+  - landings/testing/numerologia
+  - landings/testing/asdff
   - landings/testing/asdftt
-  - landings/testing/sectiontextimg
-  - landings/testing/asdftt/asdf
-  - landings/testing
-  - landings/prueba-infografia/infografia

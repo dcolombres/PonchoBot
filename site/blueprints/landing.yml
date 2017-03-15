@@ -3,12 +3,13 @@ title: Landing
 pages:
   template:
     - section-boton
+    - section-infografia
+    - section-numero
     - section-panel
     - section-panel-foto
     - section-panel-icono
     - section-texto
     - section-texto-imagen
-    - section-infografia
 
 files: false
 

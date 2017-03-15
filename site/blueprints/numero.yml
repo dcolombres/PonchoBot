@@ -1,0 +1,47 @@
+title: Numero
+
+pages: false
+files: false
+
+options:
+  delete: true
+
+fields:
+  title:
+    label: Nombre
+    type: text
+
+  number:
+      label: Cifra
+      type:  text
+
+  small:
+      label: Acompañamiento de Cifra
+      type: text
+      placeholder: Por ejemplo 600 '%' <- el % es acompañamiento
+
+  description:
+    label: Descripción
+    type: textarea
+
+  color:
+    label: Color de Cifra
+    type: text
+    placeholder: text-color
+    validate:
+      in:
+        - text-primary
+        - text-success
+        - text-info
+        - text-warning
+        - text-danger
+        - text-gray
+        - text-fucsia
+        - text-arandano
+        - text-uva
+        - text-secondary
+        - text-verdin
+        - text-lima
+        - text-maiz
+        - text-tomate
+    help: <a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/colorestxt.jpg" target="blank"> Paleta Colores > </a>
