@@ -1,4 +1,4 @@
-title: Section Texto
+title: Section Texto con Imagen
 
 pages:
   template: false
@@ -19,8 +19,22 @@ fields:
   texthtml:
     label: Texto <html>
     type: textarea
-    help: Recordá añadir <p> al inicio del texto y </p> al final del mismo
 
+  urlimagen:
+    label: URL Imagen (500x500)
+    type: text
+
+  align:
+    label: Alineación de la Imagen
+    type: text
+    placeholder: i o d
+    validate:
+      in:
+        - i
+        - d
+    help: Izquierda-> i &nbsp;&nbsp; Derecha-> d
+    width: 2/5
+    
   colorfondo:
       label: Color de fondo de la seccion
       type: text

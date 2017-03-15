@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - landings/testing/asdftt
+  - landings/testing/sectiontextimg
+  - landings/testing/asdftt/asdf
+  - landings/testing
   - landings/prueba-infografia/infografia
-  - landings/prueba-infografia
-  - home
-  - landings/prestamos-y-garantias/prestamos-y-garantias-1
-  - footers/capacitaciones
