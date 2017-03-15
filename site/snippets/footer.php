@@ -10,7 +10,11 @@
     sr.reveal('.panel');
     sr.reveal('.interesar');
     sr.reveal('.main img');
+    sr.reveal('.main p');
+    sr.reveal('.main h1');
     sr.reveal('.main h2');
+    sr.reveal('.main h3');
+    sr.reveal('.main h4');
   </script>
 </body>
 </html>
