@@ -3,23 +3,4 @@ title: Tramite
 pages: false
 files: false
 
-fields:
-  title:
-    label: Title
-    type:  text
-
-  calltoaction:
-    label: Call to action
-    type:  text
-
-  description:
-    label: Descripción
-    type:  textarea
-
-  tags:
-    label: Tags
-    type: tags
-
-  url:
-    label: Link al trámite
-    type: text
+fields: false

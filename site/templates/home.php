@@ -19,17 +19,20 @@
   </section>
   <section>
     <div class="container">
-      <div class="row panels-row">
-        <?php foreach($site->page('landings')->children() as $landing): ?>
-          <div class="col-xs-12 col-sm-6 col-md-3">
-            <a class="panel panel-default" href="<?= $landing->url() ?>">
-              <div class="panel-body text-left">
-                <h3><?= $landing->title()->text() ?></h3>
-              </div>
-            </a>
-          </div>
-        <?php endforeach ?>
-      </div>
+      <?php foreach ($site->children()->visible() as $template): ?>
+        <h2><?= $template->title()->text() ?></h2>
+        <div class="row panels-row">
+          <?php foreach($template->children() as $landing): ?>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <a class="panel panel-default" href="<?= $landing->url() ?>">
+                <div class="panel-body text-left">
+                  <h3><?= $landing->title()->text() ?></h3>
+                </div>
+              </a>
+            </div>
+          <?php endforeach ?>
+        </div>
+      <?php endforeach?>
     </div>
   </section>
 </main>

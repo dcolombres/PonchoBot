@@ -1,9 +1,0 @@
-Text: Investigación y desarrollo
-
-----
-
-Columns: 4
-
-----
-
-Title: Investigación y desarrollo

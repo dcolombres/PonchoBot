@@ -1,9 +1,0 @@
-Text: 
-
-----
-
-Columns: 3
-
-----
-
-Title: Panel

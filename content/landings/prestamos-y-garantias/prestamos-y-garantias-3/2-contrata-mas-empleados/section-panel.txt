@@ -1,9 +1,0 @@
-Text: Contratá más empleados
-
-----
-
-Columns: 4
-
-----
-
-Title: Contratá más empleados
