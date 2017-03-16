@@ -12,7 +12,4 @@ fields:
 
   texthtml: texthtml
 
-  footer:
-    label: También te puede interesar
-    type: tags
-    icon: tags
+  footer: footertags

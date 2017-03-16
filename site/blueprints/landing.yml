@@ -36,7 +36,4 @@ fields:
     type:  text
     icon: image
 
-  footer:
-    label: También te puede interesar
-    type: tags
-    icon: tags
+  footer: footertags
