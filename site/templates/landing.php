@@ -124,6 +124,16 @@
               <?php endif ?>
               </div>
 
+          <?php elseif ($section->intendedTemplate()=='section-numero'): ?>
+            <div class="row numbers text-left">
+              <?php foreach($section->children() as $numero): ?>
+                <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
+                  <div class="h2 <?= $numero->color()->text() ?>"> <?= $numero->number()->text() ?> <small class="<?= $numero->color()->text() ?>"> <?= $numero->small()->text() ?></small> </div>
+                  <p><?= $numero->description()->text() ?></p>
+                </div>
+              <?php endforeach ?>
+            </div>
+
             <?php endif ?>
           </div>
         </section>

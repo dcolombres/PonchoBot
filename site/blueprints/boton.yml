@@ -5,17 +5,19 @@ files: false
 
 options:
   delete: true
-  
+
 fields:
   title:
     label: Titulo
     type:  text
+    icon: font
 
   text:
     label: Texto
-    type:  textarea
-
+    type: textarea
+    icon: align-justify
 
   linkurl:
     label: Link al trámite
     type: text
+    icon: link
