@@ -1,0 +1,17 @@
+Titulo: Prueba Magica
+
+----
+
+Subtitle: Super mega archi prueba magica de libertad de expresion y otras giladas
+
+----
+
+Background: http://www.produccion.gob.ar/wp-content/uploads/2017/01/Optimized-TAD-slider-web-01.jpg
+
+----
+
+Footer: 
+
+----
+
+Title: testING

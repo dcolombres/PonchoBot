@@ -1,0 +1,17 @@
+Text: Radiografía productiva
+
+----
+
+Imgdesktop: http://www.produccion.gob.ar/wp-content/uploads/2017/03/1-desktop.jpg
+
+----
+
+Imgtablet: http://www.produccion.gob.ar/wp-content/uploads/2017/03/1-tablet.jpg
+
+----
+
+Imgmobile: http://www.produccion.gob.ar/wp-content/uploads/2017/03/1-mobile.jpg
+
+----
+
+Title: infografia

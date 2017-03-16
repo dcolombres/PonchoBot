@@ -1,0 +1,17 @@
+Title: PyMEs de economías regionales
+
+----
+
+Header: PyMEs de economías regionales
+
+----
+
+Bajada: PROCER
+
+----
+
+Description: Préstamos bancarios con tasa máxima del 17% a 84 meses para PyMEs de las economías regionales
+
+----
+
+Linkurl: #

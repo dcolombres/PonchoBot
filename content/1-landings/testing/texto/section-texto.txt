@@ -1,0 +1,13 @@
+Text: 
+
+----
+
+Texthtml: lorem ipsum
+
+----
+
+Class: bg-primary
+
+----
+
+Title: texto

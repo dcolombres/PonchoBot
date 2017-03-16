@@ -1,0 +1,17 @@
+Title: PyMEs de software
+
+----
+
+Header: PyMEs de software
+
+----
+
+Bajada: PRESOFT
+
+----
+
+Description: Préstamo flexible para de hasta $1.5 millones a 36 meses,  y con una tasa preferencial del 18% anual
+
+----
+
+Linkurl: http://www.produccion.gob.ar/presoft/

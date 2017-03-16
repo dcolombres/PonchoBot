@@ -1,0 +1,9 @@
+Text: Botonera
+
+----
+
+Columns: 3
+
+----
+
+Title: botones
