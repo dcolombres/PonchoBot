@@ -1,6 +1,18 @@
 title: Tramite
 
-pages: false
+pages: section-tramite
+
 files: false
 
-fields: false
+fields:
+  titulo:
+    label: Titulo
+    type:  text
+    icon: font
+
+  texthtml: texthtml
+
+  footer:
+    label: También te puede interesar
+    type: tags
+    icon: tags

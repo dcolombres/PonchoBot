@@ -1,4 +1,4 @@
-title: Section Texto
+title: Section Tramite
 
 pages:
   template: false
@@ -14,6 +14,10 @@ options:
 fields:
   text:
     label: Titulo
+    type: text
+
+  id:
+    label: ID
     type: text
 
   texthtml: texthtml
