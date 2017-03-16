@@ -18,3 +18,11 @@ Class:
 ----
 
 Title: Contacto
+
+----
+
+Titulo: Contacto
+
+----
+
+Identificador: contacto

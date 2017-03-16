@@ -26,3 +26,11 @@ Class:
 ----
 
 Title: pasos a seguir
+
+----
+
+Titulo: Pasos a seguir
+
+----
+
+Identificador: pasosaseguir

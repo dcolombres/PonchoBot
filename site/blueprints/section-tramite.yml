@@ -15,7 +15,7 @@ fields:
     label: Titulo
     type: text
 
-  id:
+  identificador:
     label: ID
     type: text
 

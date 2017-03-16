@@ -5,54 +5,74 @@
 <span id="main">
   <main class="main" role="main">
 
-    <section class="jumbotron" style="background-image: url('<?= $page->background()->text() ?>');">
-      <div class="jumbotron_body">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-              <h1><?= $page->titulo()->html() ?></h1>
-              <?= $page->texthtml()->html() ?>
-            </div>
-          </div>
-        </div>
+    <!-- <section class="jumbotron" style="background-image: url('<?= $page->background()->text() ?>');">
+    <div class="jumbotron_body">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+  </div>
+</div>
+</div>
+</div>
+<div class="overlay"></div>
+</section> -->
+
+<section>
+  <div class="container">
+    <span class="text-center">
+      <h1><?= $page->titulo()->html() ?></h1>
+    </span>
+    <?= $page->texthtml()->html() ?>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-sm-3">
+            <?php foreach($page->children() as $section): ?>
+                <p><a href="#<?= $section->identificador() ?>"> <?= $section->titulo() ?> </a></p>
+            <?php endforeach ?>
       </div>
-      <div class="overlay"></div>
-    </section>
-
-    <?php foreach($page->children() as $section): ?>
-      <section>
-        <div class="container">
-          <h2><?= $section->titulo() ?></h2>
-          <?= $section->texthtml()->html() ?>
-        </div>
-      </section>
-    <?php endforeach ?>
-
-    <?php if ($page->footer()!=''): ?>
-      <section style="background: #fff">
-        <div class="container">
-          <div class="text-left">
-            <h2>También te puede interesar...</h2>
+      <div class="col-sm-9">
+        <?php foreach($page->children() as $section): ?>
+          <div id="<?= $section->identificador()?>"class="p-b-1">
+            <h2><?= $section->titulo() ?></h2>
+            <?= $section->texthtml()->html() ?>
           </div>
-          <?php
-          $footerTags = explode(",", $page->footer());
-          ?>
-          <div class="row">
-            <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
-              <div class="col-md-4 interesar">
-                <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
-                  <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
-                  <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
-                </a>
-              </div>
-            <?php endfor ?>
+        <?php endforeach ?>
+      </div>
+
+    </div>
+
+
+
+  </div>
+</section>
+
+<?php if ($page->footer()!=''): ?>
+  <section style="background: #fff">
+    <div class="container">
+      <div class="text-left">
+        <h2>También te puede interesar...</h2>
+      </div>
+      <?php
+      $footerTags = explode(",", $page->footer());
+      ?>
+      <div class="row">
+        <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
+          <div class="col-md-4 interesar">
+            <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
+              <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
+              <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
+            </a>
           </div>
-        </div>
-      </section>
-    <?php endif ?>
+        <?php endfor ?>
+      </div>
+    </div>
+  </section>
+<?php endif ?>
 
 
-  </main>
+</main>
 </span>
 
 <!-- <a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a> -->
