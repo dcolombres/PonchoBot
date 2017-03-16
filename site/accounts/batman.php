@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - tramites/fonapyme/requisitos
   - tramites/fonapyme
-  - landings/testing/texto
-  - landings/testing/sectiontextimg
-  - landings/testing
+  - tramites/fonapyme/contacto
+  - tramites/fonapyme/descargas
+  - tramites/fonapyme/pasos-a-seguir
+  - tramites/fonapyme/requisitos
