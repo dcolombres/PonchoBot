@@ -20,7 +20,7 @@
     </section>
 
     <?php foreach($page->children() as $section): ?>
-      <section class="<?= $section->colorfondo()->text() ?>">
+      <section class="<?= $section->class()->text() ?>">
         <div class="container">
           <h2><?= $section->text() ?></h2>
           <?php if ($section->intendedTemplate()=='section-boton'):?>
@@ -163,7 +163,7 @@
     <a href="<?= $site->url() ?>" class="btn bg-cielo btn-primary"><i class="fa fa-home"></i></a>
     &nbsp;&nbsp;
   </div>
-  
+
   <pre id="htmlCode"><?php snippet('htmlCode') ?></pre>
   <?php snippet('footer') ?>
 

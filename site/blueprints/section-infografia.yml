@@ -27,24 +27,4 @@ fields:
     label: URL Imagen Mobile
     type: text
 
-  colorfondo:
-      label: Color de fondo de la seccion
-      type: text
-      placeholder: bg-color
-      validate:
-        in:
-          - bg-primary
-          - bg-success
-          - bg-info
-          - bg-warning
-          - bg-danger
-          - bg-gray
-          - bg-fucsia
-          - bg-arandano
-          - bg-uva
-          - bg-cielo
-          - bg-verdin
-          - bg-lima
-          - bg-maiz
-          - bg-tomate
-      help: <a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/colores.jpg" target="blank"> Paleta Colores > </a>
+  class: class
