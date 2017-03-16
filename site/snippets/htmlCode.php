@@ -4,17 +4,18 @@
 &lt;div class="row"&gt;
 &lt;div class="col-xs-12 col-md-8 col-md-offset-2 text-center"&gt;
 &lt;h1&gt;<?= $page->titulo()->html() ?>&lt;/h1&gt;
-&lt;p&gt;<?= $page->subtitle()->text() ?>&lt;/p&gt;
+&lt;p&gt;<?= html($page->subtitle(), false) ?>&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="overlay"&gt;&lt;/div&gt;
 &lt;/section&gt;
+
 <?php foreach($page->children() as $section): ?>
-&lt;section class="<?= $section->colorfondo()->text() ?>"&gt;
+&lt;section class="<?= $section->class()->text() ?>"&gt;
 &lt;div class="container"&gt;
-&lt;h2&gt;<?= html($section->text(), false) ?>&lt;/h2&gt;
+&lt;h2&gt;<?= $section->text() ?>&lt;/h2&gt;
 <?php if ($section->intendedTemplate()=='section-boton'):?>
 &lt;div class="row panels-row"&gt;
 <?php foreach($section->children() as $boton): ?>
@@ -28,6 +29,7 @@
 &lt;/div&gt;
 <?php endforeach ?>
 &lt;/div&gt;
+
 <?php elseif ($section->intendedTemplate()=='section-panel'): ?>
 &lt;div class="row panels-row"&gt;
 <?php foreach($section->children() as $panel): ?>
@@ -44,6 +46,7 @@
 &lt;/div&gt;
 <?php endforeach ?>
 &lt;/div&gt;
+
 <?php elseif ($section->intendedTemplate()=='section-panel-foto'): ?>
 &lt;div class="row panels-row"&gt;
 <?php foreach($section->children() as $panelFoto): ?>
@@ -59,6 +62,7 @@
 &lt;/div&gt;
 <?php endforeach ?>
 &lt;/div&gt;
+
 <?php elseif ($section->intendedTemplate()=='section-infografia'): ?>
 &lt;div class="row panels-row"&gt;
 &lt;div class="container"&gt;
@@ -69,6 +73,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+
 <?php elseif ($section->intendedTemplate()=='section-panel-icono'): ?>
 &lt;div class="row panels-row"&gt;
 <?php foreach($section->children() as $panelIcono): ?>
@@ -85,12 +90,14 @@
 &lt;/div&gt;
 <?php endforeach ?>
 &lt;/div&gt;
+
 <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
 &lt;div class="row"&gt;
 &lt;div class="col-md-12 text-left"&gt;
-<?= html($section->texthtml(), false) ?>
+<?= $section->texthtml()->html() ?>
 &lt;/div&gt;
 &lt;/div&gt;
+
 <?php elseif ($section->intendedTemplate()=='section-texto-imagen'): ?>
 &lt;div class="row"&gt;
 <?php if ($section->align()->text()=='i'): ?>
@@ -98,21 +105,33 @@
 &lt;img class="img-circle" src="<?= $section->urlimagen()->text() ?>" style="max-width: 100%;"&gt;
 &lt;/div&gt;
 &lt;div class="col-sm-8 text-left"&gt;
-<?= $section->texthtml()->html() ?>
+<?= html($section->texthtml(), false) ?>
 &lt;/div&gt;
 <?php elseif ($section->align()->text()=='d'): ?>
 &lt;div class="col-sm-8 text-left"&gt;
-<?= $section->texthtml()->html() ?>
+<?= html($section->texthtml(), false) ?>
 &lt;/div&gt;
 &lt;div class="col-sm-4"&gt;
 &lt;img class="img-circle" src="<?= $section->urlimagen()->text() ?>" style="max-width: 100%;"&gt;
 &lt;/div&gt;
 <?php endif ?>
 &lt;/div&gt;
+
+<?php elseif ($section->intendedTemplate()=='section-numero'): ?>
+&lt;div class="row numbers text-left"&gt;
+<?php foreach($section->children() as $numero): ?>
+&lt;div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>"&gt;
+&lt;div class="h2 <?= $numero->color()->text() ?>"&gt; <?= $numero->number()->text() ?> &lt;small class="<?= $numero->color()->text() ?>"&gt; <?= $numero->small()->text() ?>&lt;/small&gt; &lt;/div&gt;
+&lt;p&gt;<?= $numero->description()->text() ?>&lt;/p&gt;
+&lt;/div&gt;
+<?php endforeach ?>
+&lt;/div&gt;
+
 <?php endif ?>
 &lt;/div&gt;
 &lt;/section&gt;
 <?php endforeach ?>
+
 <?php if ($page->footer()!=''): ?>
 &lt;section style="background: #fff"&gt;
 &lt;div class="container"&gt;
@@ -127,7 +146,7 @@ $footerTags = explode(",", $page->footer());
 &lt;div class="col-md-4 interesar"&gt;
 &lt;a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>"&gt;
 &lt;h5&gt;<?php echo $site->page('footers/' . $footerTags[$i])->title() ?>&lt;/h5&gt;
-&lt;p class="text-muted"&gt;<?= html($site->page('footers/' . $footerTags[$i])->text(), false) ?>&lt;/p&gt;
+&lt;p class="text-muted"&gt;<?php echo $site->page('footers/' . $footerTags[$i])->text() ?>&lt;/p&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 <?php endfor ?>
