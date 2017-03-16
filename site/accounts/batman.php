@@ -7,8 +7,4 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - tramites/fonapyme
-  - tramites/fonapyme/contacto
-  - tramites/fonapyme/descargas
-  - tramites/fonapyme/pasos-a-seguir
-  - tramites/fonapyme/requisitos
+  - tramites/fonapyme-monotributo

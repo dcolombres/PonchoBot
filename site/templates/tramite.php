@@ -20,42 +20,47 @@
     </section>
 
     <?php foreach($page->children() as $section): ?>
-      
-      <?php endforeach ?>
+      <section>
+        <div class="container">
+          <h2><?= $section->titulo() ?></h2>
+          <?= $section->texthtml()->html() ?>
+        </div>
+      </section>
+    <?php endforeach ?>
 
-      <?php if ($page->footer()!=''): ?>
-        <section style="background: #fff">
-          <div class="container">
-            <div class="text-left">
-              <h2>También te puede interesar...</h2>
-            </div>
-            <?php
-            $footerTags = explode(",", $page->footer());
-            ?>
-            <div class="row">
-              <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
-                <div class="col-md-4 interesar">
-                  <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
-                    <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
-                    <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
-                  </a>
-                </div>
-              <?php endfor ?>
-            </div>
+    <?php if ($page->footer()!=''): ?>
+      <section style="background: #fff">
+        <div class="container">
+          <div class="text-left">
+            <h2>También te puede interesar...</h2>
           </div>
-        </section>
-      <?php endif ?>
+          <?php
+          $footerTags = explode(",", $page->footer());
+          ?>
+          <div class="row">
+            <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
+              <div class="col-md-4 interesar">
+                <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
+                  <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
+                  <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
+                </a>
+              </div>
+            <?php endfor ?>
+          </div>
+        </div>
+      </section>
+    <?php endif ?>
 
 
-    </main>
-  </span>
+  </main>
+</span>
 
-  <!-- <a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a> -->
-  <div id="footer" style="position: fixed; bottom: 0; width: 100%;" class="align-center text-right">
-    <button id="copy" onclick="copy(htmlCode)" class="btn bg-warning btn-primary box-shadow" ><i class="fa fa-copy"></i>&nbsp; Codigo</button>
-    <a href="<?= $site->url() ?>/panel" class="btn bg-uva btn-primary"><i class="fa fa-sign-in"></i></a>
-    <a href="<?= $site->url() ?>" class="btn bg-cielo btn-primary"><i class="fa fa-home"></i></a>
-    &nbsp;&nbsp;
-  </div>
+<!-- <a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a> -->
+<div id="footer" style="position: fixed; bottom: 0; width: 100%;" class="align-center text-right">
+  <button id="copy" onclick="copy(htmlCode)" class="btn bg-warning btn-primary box-shadow" ><i class="fa fa-copy"></i>&nbsp; Codigo</button>
+  <a href="<?= $site->url() ?>/panel" class="btn bg-uva btn-primary"><i class="fa fa-sign-in"></i></a>
+  <a href="<?= $site->url() ?>" class="btn bg-cielo btn-primary"><i class="fa fa-home"></i></a>
+  &nbsp;&nbsp;
+</div>
 
-  <?php snippet('footer') ?>
+<?php snippet('footer') ?>
