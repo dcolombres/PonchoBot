@@ -14,4 +14,5 @@ fields:
     type: text
 
   columns: columns
+  
   class: class
