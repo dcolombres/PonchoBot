@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - landings/testing/texto
   - landings/testing/asdftt
   - landings/testing/sectiontextimg
   - landings/testing/asdftt/asdf
   - landings/testing
-  - landings/prueba-infografia/infografia
