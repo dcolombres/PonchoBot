@@ -5,9 +5,19 @@ pages:
 files: false
 
 options:
+  preview: false
+  status: true
+  template: false
+  url: false
   delete: true
 
 fields:
+
+  identificador:
+    label: ID
+    type: text
+    placeholder: idObjeto
+    help: No usar espacios!
 
   text:
     label: Titulo

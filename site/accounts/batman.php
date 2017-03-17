@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - tramites/fonapyme-monotributo/descargas
-  - tramites/fonapyme-monotributo/contacto
-  - tramites/fonapyme-monotributo/pasos-a-seguir
-  - tramites/fonapyme-monotributo/requisitos
-  - tramites/fonapyme-monotributo
+  - landings/importa/sectioncierre
+  - landings/importa/importa-lineas-de-produccion-nuevas-o-usadas
+  - landings/importa/importa-mercaderia-para-exportarla-con-valor-agregado
+  - landings/importa/seccion-botones/insumos-para-exportar-con-valor-agregado
+  - landings/importa/seccion-botones/maquinaria-para-reducir-el-impacto-ambiental

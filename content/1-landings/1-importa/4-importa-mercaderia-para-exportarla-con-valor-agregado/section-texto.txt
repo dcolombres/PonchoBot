@@ -1,0 +1,36 @@
+Identificador: importaInsumos
+
+----
+
+Text: Importá mercadería para exportarla con valor agregado
+
+----
+
+Texthtml: 
+
+<p>Podés importar mercadería para incorporar al proceso de producción de tu PyME o empresa, sin pagar los derechos de importación de esos insumos, siempre y cuando el producto final sea para exportar.</p>
+<ul>
+<li>Lo que importes debe recibir un perfeccionamiento industrial, es decir, un proceso de manufactura que implique una transformación, elaboración, combinación, mezcla, rehabilitación, reparación, montaje o incorporación a conjuntos o aparatos de mayor complejidad tecnológica y funcional.
+</li>
+<li>Exportar lo producido.</li>
+</ul>
+<p>Podés hacer todos estos trámites, mucho más rápido y de manera más cómoda:</p>
+<ul>
+<li>Emitir el Certificado de Tipificación de Importación Temporaria (CTIT) </li>
+<li>Emitir el Informe Técnico Preliminar (ITP) </li>
+<li>Completar el formulario online para generar la Declaración Jurada de solicitud de prórrogas</li>
+<li>Realizar tus trámites a distancia</li></ul>
+
+<a href="http://www.produccion.gob.ar/regimen-de-admisiont/"><button type="button" class="btn btn-primary m-b-0">Empezá tu tramite</button></a>
+<h6 class="m-t-0"><small>-Decreto N° 1330/2004 </br>
+-Res. M.P. N° 687/2016 </small></h6>
+</br>
+<p>Por cualquier consulta, escribinos a dpeconsultas@produccion.gob.ar</p>
+
+----
+
+Class: 
+
+----
+
+Title: Importá mercadería para exportarla con valor agregado

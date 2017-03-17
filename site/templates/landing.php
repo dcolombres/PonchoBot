@@ -20,7 +20,7 @@
     </section>
 
     <?php foreach($page->children() as $section): ?>
-      <section class="<?= $section->class()->text() ?>">
+      <section id="<?= $section->identificador()->text() ?>" class="<?= $section->class()->text() ?>">
         <div class="container">
           <h2><?= $section->text() ?></h2>
           <?php if ($section->intendedTemplate()=='section-boton'):?>
