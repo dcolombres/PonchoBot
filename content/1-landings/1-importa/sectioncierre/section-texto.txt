@@ -1,0 +1,23 @@
+Identificador: 
+
+----
+
+Text: 
+
+----
+
+Texthtml: 
+
+<span class="text-center">
+<h3><i class="fa fa-laptop fa-3x"></i></h3>
+<h3><small>No importa el tamaño de tu empresa ni el monto de la inversión que hagas</small></h3>
+<h3><small>Los trámites podés hacerlos con tu computadora desde cualquier parte del país</small></h3>
+</span>
+
+----
+
+Class: bg-gray
+
+----
+
+Title: SectionCierre

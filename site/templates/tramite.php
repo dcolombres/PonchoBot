@@ -3,6 +3,7 @@
 <title>PonchoBot</title>
 
 <main class="main" role="main">
+  <section>
     <div class="container">
       <div class="row">
         <div class="col-md-push-4 col-md-8">
@@ -32,6 +33,7 @@
         </aside>
       </div>
     </div>
+  </section>
 
   <?php if ($page->footer()!=''): ?>
     <section style="background: #fff">
