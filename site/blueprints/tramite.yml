@@ -10,6 +10,10 @@ fields:
     type:  text
     icon: font
 
+  titular:
+    label: Descripción
+    type: text
+
   texthtml: texthtml
 
   footer: footertags
