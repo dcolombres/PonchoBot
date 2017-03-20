@@ -135,6 +135,9 @@
               <?php endforeach ?>
             </div>
 
+          <?php elseif ($section->intendedTemplate()=='section-map'): ?>
+            <div class="map-container">
+              
             <?php endif ?>
           </div>
         </section>

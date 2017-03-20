@@ -20,9 +20,9 @@
 &lt;div class="row panels-row"&gt;
 <?php foreach($section->children() as $boton): ?>
 &lt;div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>"&gt;
-&lt;a class="panel panel-default <?= $boton->class() ?>" href="<?= $boton->linkurl()->text() ?>"&gt;
+&lt;a class="panel panel-default text-gray <?= $boton->class() ?>" href="<?= $boton->linkurl()->text() ?>"&gt;
 &lt;div class="panel-body text-left"&gt;
-&lt;h3 class="text-gray"&gt;<?= $boton->title()->text() ?>&lt;/h3&gt;
+&lt;h3&gt;<?= $boton->title()->text() ?>&lt;/h3&gt;
 &lt;p class="text-muted"&gt;<?= $boton->text()->html() ?>&lt;/p&gt;
 &lt;/div&gt;
 &lt;/a&gt;
