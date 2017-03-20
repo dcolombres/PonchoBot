@@ -3,10 +3,10 @@
 /**
  * Converts the field value to valid html
  * @param Field $field The calling Kirby Field instance
- * @param boolean $keepTags Don't touch valid html tags 
+ * @param boolean $keepTags Don't touch valid html tags
  * @return Field
  */
-field::$methods['html'] = field::$methods['h'] = function($field, $keepTags = true) {
+field::$methods['html'] = field::$methods['h'] = function($field, $keepTags = false) {
   $field->value = html($field->value, $keepTags);
   return $field;
 };
@@ -86,7 +86,7 @@ field::$methods['upper'] = function($field) {
 };
 
 /**
- * Applies the widont rule to avoid single 
+ * Applies the widont rule to avoid single
  * words on the last line
  * @param Field $field The calling Kirby Field instance
  * @return Field
@@ -235,7 +235,7 @@ field::$methods['bool'] = field::$methods['isTrue'] = function($field, $default 
 
 /**
  * Checks if the field content is false
- * @param Field $field The calling Kirby Field instance 
+ * @param Field $field The calling Kirby Field instance
  * @return boolean
  */
 field::$methods['isFalse'] = function($field) {
@@ -252,7 +252,7 @@ field::$methods['isFalse'] = function($field) {
 field::$methods['int'] = function($field, $default = 0) {
   $val = $field->empty() ? $default : $field->value;
   return intval($val);
-}; 
+};
 
 /**
  * Get a float value for the Field
@@ -271,13 +271,13 @@ field::$methods['toStructure'] = field::$methods['structure'] = function($field)
 
 field::$methods['link'] = function($field, $attr1 = array(), $attr2 = array()) {
   $a = new Brick('a', $field->value());
-    
+
   if(is_string($attr1)) {
     $a->attr('href', url($attr1));
-    $a->attr($attr2);    
+    $a->attr($attr2);
   } else {
     $a->attr('href', $field->page()->url());
-    $a->attr($attr1);    
+    $a->attr($attr1);
   }
 
   return $a;

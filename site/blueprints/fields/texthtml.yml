@@ -1,4 +1,4 @@
-label: Texto <html>
+label: Texto (html)
 type: textarea
 placeholder: <p></p>
 toolbar: hide

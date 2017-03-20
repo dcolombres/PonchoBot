@@ -16,8 +16,6 @@ fields:
 
   titulo: titulo
 
-  texthtml: texthtml
-
   columns: columns
 
   class: class

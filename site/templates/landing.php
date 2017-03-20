@@ -31,7 +31,7 @@
                   <a class="panel panel-default text-gray <?= $boton->class() ?>" href="<?= $boton->linkurl()->text() ?>">
                     <div class="panel-body text-left">
                       <h3 class=""><?= $boton->title()->text() ?></h3>
-                      <p class="text-muted"><?= $boton->text()->html() ?></p>
+                      <p class="text-muted"><?= $boton->text() ?></p>
                     </div>
                   </a>
                 </div>
@@ -44,11 +44,11 @@
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a class="panel panel-default panel-icon panel-secondary" href="<?= $panel->linkurl()->text() ?>">
                     <div class="panel-heading bg-primary <?= $panel->class() ?>">
-                      <h1 class="text-left" style="font-size:175%"><?= $panel->header()->html() ?></h1>
+                      <h1 class="text-left" style="font-size:175%"><?= $panel->header() ?></h1>
                     </div>
                     <div class="panel-body text-left">
-                      <h3><?= $panel->bajada()->html() ?></h3>
-                      <p class="text-muted"><?= $panel->description()->html() ?></p>
+                      <h3><?= $panel->bajada() ?></h3>
+                      <p class="text-muted"><?= $panel->description() ?></p>
                     </div>
                   </a>
                 </div>
@@ -56,15 +56,15 @@
             </div>
 
           <?php elseif ($section->intendedTemplate()=='section-panel-foto'): ?>
-            <div class="row panels-row <?= $section->class() ?>">
+            <div class="row panels-row">
               <?php foreach($section->children() as $panelFoto): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a class="panel panel-default panel-icon panel-secondary" href="<?= $panelFoto->linkurl()->text() ?>">
                     <div class="panel-heading bg-primary <?= $panelFoto->class() ?>" style="background-image: url('<?= $panelFoto->urlimagen()->text() ?>');">
                     </div>
                     <div class="panel-body text-left">
-                      <h3><?= $panelFoto->bajada()->html() ?></h3>
-                      <p class="text-muted"><?= $panelFoto->description()->html() ?></p>
+                      <h3><?= $panelFoto->bajada() ?></h3>
+                      <p class="text-muted"><?= $panelFoto->description() ?></p>
                     </div>
                   </a>
                 </div>
@@ -72,7 +72,7 @@
             </div>
 
           <?php elseif ($section->intendedTemplate()=='section-panel-icono'): ?>
-            <div class="row panels-row <?= $section->class() ?>">
+            <div class="row panels-row">
               <?php foreach($section->children() as $panelIcono): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl()->text() ?>">
@@ -80,8 +80,8 @@
                       <img src="<?= $panelIcono->urlicono()->text() ?>" alt="" style="height:80px; max-width:50%; "></img>
                     </div>
                     <div class="panel-body text-left">
-                      <h3><?= $panelIcono->bajada()->html() ?></h3>
-                      <p class="text-muted"><?= $panelIcono->description()->html() ?></p>
+                      <h3><?= $panelIcono->bajada() ?></h3>
+                      <p class="text-muted"><?= $panelIcono->description() ?></p>
                     </div>
                   </a>
                 </div>
@@ -102,7 +102,7 @@
           <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
             <div class="row">
               <div class="col-md-12 text-left <?= $section->class() ?>">
-                <?= $section->texthtml()->html() ?>
+                <?= $section->texthtml() ?>
               </div>
             </div>
 
@@ -113,11 +113,11 @@
                   <img class="img-circle" src="<?= $section->urlimagen()->text() ?>" style="max-width: 100%;">
                 </div>
                 <div class="col-sm-8 text-left">
-                  <?= $section->texthtml()->html() ?>
+                  <?= $section->texthtml() ?>
                 </div>
               <?php elseif ($section->align()->text()=='d'): ?>
                 <div class="col-sm-8 text-left">
-                  <?= $section->texthtml()->html() ?>
+                  <?= $section->texthtml() ?>
                 </div>
                 <div class="col-sm-4">
                   <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen()->text() ?>" style="max-width: 100%;">
@@ -127,7 +127,6 @@
 
           <?php elseif ($section->intendedTemplate()=='section-numero'): ?>
             <div class="row numbers text-left">
-              <?= $section->texthtml()->html() ?>
               <?php foreach($section->children() as $numero): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <div class="h2 <?= $numero->color()->text() ?>"> <?= $numero->number()->text() ?> <small class="<?= $numero->color()->text() ?>"> <?= $numero->small()->text() ?></small> </div>
