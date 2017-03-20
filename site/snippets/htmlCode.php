@@ -105,7 +105,7 @@
 &lt;img class="img-circle" src="<?= $section->urlimagen()->text() ?>" style="max-width: 100%;"&gt;
 &lt;/div&gt;
 &lt;div class="col-sm-8 text-left"&gt;
-<?= $section->texthtml()->html() ?>
+<?= html($section->texthtml(), false) ?>
 &lt;/div&gt;
 <?php elseif ($section->align()->text()=='d'): ?>
 &lt;div class="col-sm-8 text-left"&gt;

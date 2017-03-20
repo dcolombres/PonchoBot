@@ -7,13 +7,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-push-4 col-md-8">
-          <h3 class="text-uppercase"><?= $page->titular()->html() ?></h3>
-          <p class="text-muted"><?= $page->titulo()->html() ?></p>
+          <h3 class="text-uppercase"><?= $page->titular() ?></h3>
+          <p class="text-muted"><?= $page->titulo() ?></p>
           <hr>
           <?php foreach($page->children() as $section): ?>
             <div id="<?= $section->identificador()?>"class="p-b-1">
               <h2><?= $section->titulo() ?></h2>
-              <?= $section->texthtml()->html() ?>
+              <?= $section->texthtml() ?>
             </div>
           <?php endforeach ?>
         </div>
