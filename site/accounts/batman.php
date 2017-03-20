@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - tramites/fonapyme-monotributo/descargas
+  - landings/pyme
   - landings/pyme/beneficios-botones
   - landings/pyme/numeros
   - landings/pyme/numeros/trabajan
-  - landings/pyme/numeros/empleo
-  - landings/pyme/numeros/pyme

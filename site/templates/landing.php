@@ -70,17 +70,6 @@
               <?php endforeach ?>
             </div>
 
-          <?php elseif ($section->intendedTemplate()=='section-infografia'): ?>
-            <div class="row panels-row">
-              <div class="container">
-                <div class="col-md-12">
-                  <img src="<?= $section->imgdesktop()->text() ?>" alt="" class="img-responsive hidden-md-down">
-                  <img src="<?= $section->imgtablet()->text() ?>" alt="" class="img-responsive hidden-lg-up hidden-sm-down">
-                  <img src="<?= $section->imgmobile()->text() ?>" alt="" class="img-responsive hidden-md-up">
-                </div>
-              </div>
-            </div>
-
           <?php elseif ($section->intendedTemplate()=='section-panel-icono'): ?>
             <div class="row panels-row">
               <?php foreach($section->children() as $panelIcono): ?>
@@ -96,6 +85,17 @@
                   </a>
                 </div>
               <?php endforeach ?>
+            </div>
+
+          <?php elseif ($section->intendedTemplate()=='section-infografia'): ?>
+            <div class="row panels-row">
+              <div class="container">
+                <div class="col-md-12">
+                  <img src="<?= $section->imgdesktop()->text() ?>" alt="" class="img-responsive hidden-md-down">
+                  <img src="<?= $section->imgtablet()->text() ?>" alt="" class="img-responsive hidden-lg-up hidden-sm-down">
+                  <img src="<?= $section->imgmobile()->text() ?>" alt="" class="img-responsive hidden-md-up">
+                </div>
+              </div>
             </div>
 
           <?php elseif ($section->intendedTemplate()=='section-texto'): ?>

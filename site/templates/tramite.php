@@ -25,7 +25,9 @@
                 <?php $i = 0 ?>
                 <?php foreach($page->children() as $section): ?>
                   <?php $i = $i + 1 ?>
-                  <li class="index-item"><a href="#<?= $section->identificador() ?>"><strong><?= $i . '- ' ?><?= $section->titulo() ?> </strong></a></li>
+                  <?php if ($section->identificador() != ''): ?>
+                    <li class="index-item <?php if ($i < 2) { echo 'active';} ?>"><a href="#<?= $section->identificador() ?>"><strong><!--?= $i . '- ' ?--><?= $section->titulo() ?> </strong></a></li>
+                  <?php endif ?>
                 <?php endforeach ?>
               </ul>
             </nav>

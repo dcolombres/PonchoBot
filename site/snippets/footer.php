@@ -18,10 +18,12 @@ sr.reveal('.panel', { duration: 200 }, 50);
 // sr.reveal('.main h3');
 // sr.reveal('.main h4');
 </script>
+
 <script type="text/javascript">
 $(document).ready(function(){
   $('.page-sidebar').stickUp();
 });
 </script>
+
 </body>
 </html>
