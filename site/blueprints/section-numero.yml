@@ -1,7 +1,6 @@
 title: Section Numeros
 
-pages:
-  template: numero
+pages: numero
 files: false
 
 options:
@@ -13,16 +12,11 @@ options:
 
 fields:
 
-  identificador:
-    label: ID
-    type: text
-    placeholder: idObjeto
-    help: No usar espacios!
+  identificador: id
 
-  text:
-    label: Titulo
-    type: text
-    icon: font
+  titulo: titulo
+
+  texthtml: texthtml
 
   columns: columns
 

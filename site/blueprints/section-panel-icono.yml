@@ -1,7 +1,6 @@
 title: Section Panel Icono
 
-pages:
-  template: panel-icono
+pages: panel-icono
 files: false
 
 options:
@@ -13,15 +12,9 @@ options:
 
 fields:
 
-  identificador:
-    label: ID
-    type: text
-    placeholder: idObjeto
-    help: No usar espacios!
+  identificador: id
 
-  text:
-    label: Titulo
-    type: text
+  titulo: titulo
 
   columns: columns
 

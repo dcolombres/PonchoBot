@@ -71,4 +71,5 @@
   &nbsp;&nbsp;
 </div>
 
+<pre id="htmlCode"><?php snippet('htmlCodeTramite') ?></pre>
 <?php snippet('footer') ?>

@@ -12,26 +12,23 @@ options:
 
 fields:
 
-  identificador:
-    label: ID
-    type: text
-    placeholder: idObjeto
-    help: No usar espacios!
+  identificador: id
 
-  text:
-    label: Titulo
-    type: text
+  titulo: titulo
 
   imgdesktop:
     label: URL Imagen Desktop
     type: text
+    width: 1/3
 
   imgtablet:
     label: URL Imagen Tablet
     type: text
+    width: 1/3
 
   imgmobile:
     label: URL Imagen Mobile
     type: text
+    width: 1/3
 
   class: class

@@ -10,4 +10,4 @@ Linkurl: #alivioFiscal
 
 ----
 
-Class: bg-danger
+Class: bg-tomate

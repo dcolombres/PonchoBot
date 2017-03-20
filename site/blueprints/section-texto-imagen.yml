@@ -1,7 +1,6 @@
 title: Section Texto con Imagen
 
-pages:
-  template: false
+pages: false
 files: false
 
 options:
@@ -13,19 +12,13 @@ options:
 
 fields:
 
-  identificador:
-    label: ID
-    type: text
-    placeholder: idObjeto
-    help: No usar espacios!
+  identificador: id
 
-  text:
-    label: Titulo
-    type: text
+  titulo: titulo
 
-  texthtml:
-    label: Texto <html>
-    type: textarea
+  texthtml: texthtml
+
+  class: class
 
   urlimagen:
     label: URL Imagen (500x500)
@@ -42,4 +35,8 @@ fields:
     help: Izquierda-> i &nbsp;&nbsp; Derecha-> d
     width: 2/5
 
-  class: class
+  imgclass:
+    label: Class de la imagen
+    type: text
+    default: img-circle
+    width: 3/5

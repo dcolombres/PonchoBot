@@ -10,4 +10,4 @@ Linkurl: #menosRetenciones
 
 ----
 
-Class: bg-danger
+Class: bg-tomate

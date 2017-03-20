@@ -11,13 +11,10 @@ options:
   delete: true
 
 fields:
-  titulo:
-    label: Titulo
-    type: text
+  
+  identificador: id
 
-  identificador:
-    label: ID
-    type: text
+  titulo: titulo
 
   texthtml: texthtml
 
