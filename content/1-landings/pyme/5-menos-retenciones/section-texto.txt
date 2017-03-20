@@ -1,0 +1,23 @@
+Identificador: menosRetenciones
+
+----
+
+Text: 
+
+----
+
+Texthtml: 
+
+<h3 class="text-tomate">Menos retenciones</h3>
+<ul style="font-size: 18px">
+<li>Elevamos los umbrales de retención de IVA (135%), Ganancias (400%) y Seguridad Social para que las Pymes cuenten con mayor alivio financiero.</li>
+<li>Flexibilizamos los requisitos para que Afip otorgue los certificados de no retención de IVA para las micro empresas.</li>
+</ul>
+
+----
+
+Class: p-t-0 p-b-0
+
+----
+
+Title: Menos retenciones

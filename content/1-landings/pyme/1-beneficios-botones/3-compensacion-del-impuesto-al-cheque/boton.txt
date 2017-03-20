@@ -1,0 +1,13 @@
+Title: Compensación del Impuesto al Cheque
+
+----
+
+Text: 
+
+----
+
+Linkurl: #alivioFiscal
+
+----
+
+Class: bg-danger

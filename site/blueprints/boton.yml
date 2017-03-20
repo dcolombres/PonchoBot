@@ -21,3 +21,5 @@ fields:
     label: Link al trámite
     type: text
     icon: link
+
+  class: class

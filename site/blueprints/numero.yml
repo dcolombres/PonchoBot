@@ -48,5 +48,6 @@ fields:
         - text-lima
         - text-maiz
         - text-tomate
+        - text-muted
     help: <a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/colorestxt.jpg" target="blank"> Paleta Colores > </a>
     icon: paint-brush

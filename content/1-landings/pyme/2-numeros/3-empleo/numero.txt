@@ -1,0 +1,17 @@
+Title: empleo
+
+----
+
+Number: 70
+
+----
+
+Small: %
+
+----
+
+Description: del empleo formal lo generan las PyMEs
+
+----
+
+Color: text-primary

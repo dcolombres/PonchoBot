@@ -1,0 +1,23 @@
+Identificador: masCredito
+
+----
+
+Text: 
+
+----
+
+Texthtml: 
+
+<h3 class="text-arandano">Más crédito</h3>
+<ul style="font-size: 18px">
+<li>Ampliamos el cupo prestable de la Línea de Créditos de Inversión Productiva del 14 al 15.5%. Un incremento que implicó $63.000 millones en el segundo semestre de 2016 y a su vez amplió al 50% el acceso al financiamiento de corto plazo.</li>
+<li>A través del Banco de Inversión y Comercio Exterior (BICE), lanzamos la línea <a href="http://primercreditopyme.com.ar" target="_blank">Primer Crédito PyME </a>a una tasa variable de 16% máximo y con un plazo de hasta 7 años, para montos entre $500 mil y $5 millones.</li>
+</ul>
+
+----
+
+Class: p-t-0 p-b-0
+
+----
+
+Title: Más crédito

@@ -1,0 +1,13 @@
+Title: Mejoras para exportadores
+
+----
+
+Text: 
+
+----
+
+Linkurl: #menosRetenciones
+
+----
+
+Class: bg-danger

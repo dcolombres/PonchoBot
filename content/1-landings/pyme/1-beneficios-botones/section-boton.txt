@@ -1,0 +1,17 @@
+Identificador: 
+
+----
+
+Text: 
+
+----
+
+Columns: 3
+
+----
+
+Class: p-b-0
+
+----
+
+Title: Beneficios (botones)

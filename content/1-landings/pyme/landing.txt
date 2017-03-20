@@ -1,0 +1,22 @@
+Titulo: Tenés una PyME, tenés beneficios
+
+----
+
+Subtitle: 
+
+Sólo necesitás registrarte como PyME en AFIP
+<p>
+<a class="btn btn-primary btn-md" target="_blank" href="https://www.afip.gob.ar/PYMES" >¡Registrate acá!</a>
+</p>
+
+----
+
+Background: http://www.produccion.gob.ar/wp-content/uploads/2017/01/mision6-1.jpg
+
+----
+
+Footer: beneficios-fiscales,beneficios-para-exportar,certificaciones,invertir,capacitaciones,asociatividad
+
+----
+
+Title: PyME

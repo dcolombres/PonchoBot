@@ -1,7 +1,6 @@
 title: Section Texto
 
-pages:
-  template: false
+pages: false
 files: false
 
 options:

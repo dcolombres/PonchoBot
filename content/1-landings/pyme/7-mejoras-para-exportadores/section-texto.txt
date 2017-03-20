@@ -1,0 +1,22 @@
+Identificador: 
+
+----
+
+Text: 
+
+----
+
+Texthtml: 
+
+<h3 class="text-tomate">Mejoras para exportadores</h3>
+<ul style="font-size: 18px">
+<li>Extendimos de 365 días a 5 años del plazo para el ingreso de divisas.</li>
+</ul>
+
+----
+
+Class: p-t-0
+
+----
+
+Title: Mejoras para exportadores

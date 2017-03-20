@@ -1,0 +1,23 @@
+Identificador: masInversiones
+
+----
+
+Text: 
+
+----
+
+Texthtml: 
+
+<h3 class="text-arandano">Fomento a inversiones</h3>
+<ul style="font-size: 18px">
+<li>Podés descontar hasta el 10% del impuesto a las Ganancias de las inversiones realizadas entre 1 de julio de 2016 al 31 de diciembre de 2018.</li>
+<li>Podés pedir la devolución del IVA de las inversiones a través de un bono de crédito fiscal para el pago de impuestos nacionales y aduaneros.</li>
+</ul>
+
+----
+
+Class: p-t-0 p-b-0
+
+----
+
+Title: Inversiones
