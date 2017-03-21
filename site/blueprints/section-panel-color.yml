@@ -1,0 +1,21 @@
+title: Section Panel Color
+
+pages: panel-color
+files: false
+
+options:
+  preview: false
+  status: true
+  template: false
+  url: false
+  delete: true
+
+fields:
+
+  identificador: id
+
+  titulo: titulo
+
+  columns: columns
+
+  class: class

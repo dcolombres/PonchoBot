@@ -191,3 +191,8 @@ img.img-responsive{
   border-style: none;
   border-radius: 0px;
 }
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+}

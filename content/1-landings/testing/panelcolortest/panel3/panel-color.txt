@@ -1,0 +1,17 @@
+Title: panel3
+
+----
+
+Urlicono: http://vignette3.wikia.nocookie.net/clubpenguin/images/6/69/Small_Rock_furniture_icon.png/revision/latest?cb=20120704172926
+
+----
+
+Description: La imagen de arriba tiene un yunque porque es duro... Mas duro que el maestruli
+
+----
+
+Linkurl: 
+
+----
+
+Class: bg-danger

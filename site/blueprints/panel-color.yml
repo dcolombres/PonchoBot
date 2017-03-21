@@ -1,0 +1,30 @@
+title: panelColor
+
+pages: false
+files: false
+
+options:
+  delete: true
+
+fields:
+  title:
+    label: Nombre
+    type: text
+    icon: font
+
+  urlicono:
+      label: URL Icono Panel
+      type: text
+      icon: link
+
+  description:
+    label: Descripción
+    type: textarea
+    icon: align-justify
+
+  linkurl:
+    label: Link al trámite
+    type: text
+    icon: link
+
+  class: class

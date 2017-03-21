@@ -7,8 +7,7 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - landings/pyme
-  - landings/pyme/beneficios-botones/pago-de-iva-a-90-dias
-  - landings/pyme/alivio-fiscal
-  - landings/pyme/beneficios-botones/mejoras-para-exportadore
-  - landings/pyme/beneficios-botones/compensacion-del-impuesto-al-cheque
+  - landings/testing/panelcolortest/panel2
+  - landings/testing/panelcolortest/panel3
+  - landings/testing/panelcolortest/panel1
+  - landings/testing/panelcolortest

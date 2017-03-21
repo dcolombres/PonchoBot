@@ -1,0 +1,17 @@
+Identificador: panelColor
+
+----
+
+Titulo: PaneleraColores
+
+----
+
+Columns: 4
+
+----
+
+Class: 
+
+----
+
+Title: PanelColorTest
