@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 <head>
 
