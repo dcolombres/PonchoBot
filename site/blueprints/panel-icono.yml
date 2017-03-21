@@ -17,11 +17,6 @@ fields:
       type: text
       icon: link
 
-  header:
-      label: Encabezado
-      type: text
-      icon: header
-
   bajada:
       label: Titulo
       type: text
