@@ -38,3 +38,19 @@ fields:
     icon: image
 
   footer: footertags
+
+  bestband:
+    label: Best Band Ever
+    type: multiselect
+    required: true
+    search: true
+    options:
+      1d : 1Direction
+      bb: BBoys
+      aq: Aqua
+      vb: Vengaboys
+      fr: Freiheit
+      o3: OH!O
+      mi: Miley
+      bi: Bieber
+      u2: U2
