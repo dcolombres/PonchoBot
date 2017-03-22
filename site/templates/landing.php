@@ -114,7 +114,7 @@
 
             <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
               <div class="row">
-                <div class="col-md-12 text-left <?= $section->class() ?>">
+
                   <?= $section->texthtml() ?>
                 </div>
               </div>

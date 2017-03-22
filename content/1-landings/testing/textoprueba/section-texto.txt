@@ -1,0 +1,28 @@
+Identificador: 
+
+----
+
+Titulo: HOLA!
+
+----
+
+Texthtml: 
+
+<h1> Aqui deberia ocurrir magia!</h1>
+<p> Hola</p>
+
+----
+
+Class: 
+
+----
+
+Bootstrap: 
+
+----
+
+Title: TextoPrueba
+
+----
+
+Bgcolor: text-center, text-lima
