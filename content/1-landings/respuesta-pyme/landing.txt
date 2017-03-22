@@ -1,0 +1,21 @@
+Titulo: Respuesta PyME
+
+----
+
+Subtitle: Todas lo que necesitás saber para que tu empresa crezca
+
+----
+
+Background: http://www.produccion.gob.ar/wp-content/uploads/2017/02/20170207_Header-Landing_final1.jpg
+
+----
+
+Footer: capacitaciones,invertir,asociatividad
+
+----
+
+Bestband: 1d
+
+----
+
+Title: Respuesta PyME

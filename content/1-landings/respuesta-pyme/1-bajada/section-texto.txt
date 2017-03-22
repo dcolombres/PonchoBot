@@ -1,0 +1,17 @@
+Identificador: 
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: <p>¿Tenés una PyME? Todos los miércoles a las 08​:​30​ en el noticiero de la TV Pública​,​ Carolina Castro, s​ubsecretaria de Política y Gestión PyME, te cuenta los beneficios de la Ley PyME y responde todas tus consultas.</p>
+
+----
+
+Class: 
+
+----
+
+Title: Bajada

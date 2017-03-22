@@ -1,0 +1,21 @@
+Title: Programa 5
+
+----
+
+Bajada: Programa 5
+
+----
+
+Description: Tenés una PyME y querés saber como hacerla más competitiva? Conocé las herramientas que ofrece el Instituto Nacional de Tecnología Industrial (INTI) para ayudarte a: incrementar la competitividad y la capacidad de tu PyME, certificar calidad y poder exportar a nuevos destinos y agregar valor a tus productos e industrializarlos.
+
+----
+
+Urlimagen: http://www.sepeb.com/alf/image_20170128_190601.jpg
+
+----
+
+Linkurl: https://www.youtube.com/embed/soyEKuAmhfQ?rel=0&amp;controls=0&amp;showinfo=0?ecver=1
+
+----
+
+Class: 

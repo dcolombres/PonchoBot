@@ -196,3 +196,16 @@ img.img-responsive{
   display: flex;
   display: -webkit-flex;
 }
+
+/* STICK */
+
+nav#side-nav{
+  padding: 40px 0;
+  width: 300px;
+}
+nav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    margin-top:12px;
+}

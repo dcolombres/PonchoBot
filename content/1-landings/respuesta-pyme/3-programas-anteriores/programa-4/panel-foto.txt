@@ -1,0 +1,21 @@
+Title: Programa 4
+
+----
+
+Bajada: Programa 4
+
+----
+
+Description: Si sos monotributista, tenés un crédito para mejorar tu producción. La subsecretaria de la PyME, Carolina Castro, te va a contar los detalles de la nueva línea de financiamiento para monotributistas: tasa anual de 12% y plazo de 60 meses, trámite a distancia desde cualquier punto del país, para compra de maquinarias, ampliación de taller y modernización tecnológica.
+
+----
+
+Urlimagen: http://www.sepeb.com/alf/image_20170128_190601.jpg
+
+----
+
+Linkurl: https://www.youtube.com/embed/7MqNj7s_f8g?rel=0&amp;controls=0&amp;showinfo=0?ecver=1
+
+----
+
+Class: 

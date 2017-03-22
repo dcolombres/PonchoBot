@@ -1,0 +1,21 @@
+Title: Programa 3
+
+----
+
+Bajada: Programa 3
+
+----
+
+Description: ¿Sos PyMe y querés exportar? Conocé las herramientas que te ofrece el Ministerio de Producción para brindarte: asesoramiento en temas de comercio exterior, financiamiento, capacitación, misiones comerciales y asistencia técnica.
+
+----
+
+Urlimagen: http://www.sepeb.com/alf/image_20170128_190601.jpg
+
+----
+
+Linkurl: https://www.youtube.com/embed/9g_G8EqCJek?rel=0&amp;controls=0&amp;showinfo=0?ecver=1
+
+----
+
+Class: 

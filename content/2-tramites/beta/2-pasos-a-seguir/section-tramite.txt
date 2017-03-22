@@ -1,0 +1,36 @@
+Text: Pasos a seguir
+
+----
+
+Id: pasosaseguir
+
+----
+
+Texthtml: 
+
+<ul>
+<li><a href="http://tramitesadistancia.gob.ar/">Ingresá a TAD (Trámites a Distancia)</a>&nbsp;con tu C.U.I.T. y clave fiscal nivel 2 o superior.&nbsp;Si accedés por primera vez, la página te va a indicar cómo adherirte al servicio de TAD . Mirá el tutorial:<a href="https://www.youtube.com/watch?v=uqHrQd507Og" target="_blank"> ¿cómo adherir servicio TAD en AFIP?</a>&nbsp;Para realizar trámites de certificaciones en nombre de tu&nbsp;empresa, tenés que contar con la delegación de servicios vía AFIP –&nbsp;<a href="http://www.afip.gov.ar/genericos/guiaDeTramites/guia/documentos/PasoaPasoServiciosdelegacionCF.pdf" target="_blank">Tutorial para delegar servicios y aceptar delegación</a></li>
+<li>Tras la inscripción en el Registro PyME, en la sección Nuevo Trámite, seleccioná dentro de la categoría Ministerio de Producción el trámite<a href="https://tramitesadistancia.gob.ar/tramitesadistancia/famFCRequisitos.htm?idTramite=488" target="_blank"> PROGRAMA FONAPYME – Documentación a presentar&nbsp;</a>y completá estos&nbsp;pasos:</li>
+</ul>
+<ol>
+<li>Ingresá tus datos</li>
+<li>Completá el formulario de proyecto y presentá la documentación requerida (obligatoria y adicional)</li>
+<li>No te olvides de confirmar el trámite</li>
+</ol>
+<p>Vas a recibir una notificación cuando el trámite esté aprobado.</p>
+
+----
+
+Class: 
+
+----
+
+Title: pasos a seguir
+
+----
+
+Titulo: Pasos a seguir
+
+----
+
+Identificador: pasosaseguir

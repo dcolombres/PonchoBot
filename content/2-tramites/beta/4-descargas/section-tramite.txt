@@ -1,0 +1,30 @@
+Text: Descargas
+
+----
+
+Id: descargas
+
+----
+
+Texthtml: 
+
+<ul>
+<li><a href="https://drive.google.com/open?id=0BzdAgGbAV7eZcWVSUTlndUp2Yzg" target="_blank">Fonapyme Monotributo – Tutorial.pdf</a></li>
+<li>Leé más en&nbsp;<a href="http://www.produccion.gob.ar/wp-content/uploads/2017/02/BASES-MONOTRIBUTO.pdf" target="_blank">Bases y Condiciones</a></li>
+</ul>
+
+----
+
+Class: 
+
+----
+
+Title: descargas
+
+----
+
+Titulo: Descargas
+
+----
+
+Identificador: descargas

@@ -1,0 +1,21 @@
+Title: Programa 2
+
+----
+
+Bajada: Programa 2
+
+----
+
+Description: ¿Tenés una PyME y querés pagar menos impuestos? Conocé las herramientas que ofrece el Ministerio de Producción para que crezcas: eliminación de la ganancia mínima presunta, compensación del impuesto a créditos y débitos bancarios y pago del IVA a 90 días, entre otros.
+
+----
+
+Urlimagen: http://www.sepeb.com/alf/image_20170128_190601.jpg
+
+----
+
+Linkurl: https://www.youtube.com/embed/rFnulw2IDjY?rel=0&amp;controls=0&amp;showinfo=0?ecver=1
+
+----
+
+Class: 

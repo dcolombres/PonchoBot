@@ -7,7 +7,9 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - landings/testing/panelcolortest/panel2
-  - landings/testing/panelcolortest/panel3
-  - landings/testing/panelcolortest/panel1
-  - landings/testing/panelcolortest
+  - >
+    landings/respuesta-pyme/programas-anteriores/programa-5
+  - landings/respuesta-pyme/programas-anteriores/programa-4
+  - landings/respuesta-pyme/programas-anteriores/programa-3
+  - landings/respuesta-pyme/programas-anteriores/programa-2
+  - landings/respuesta-pyme/bajada
