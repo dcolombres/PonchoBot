@@ -12,6 +12,8 @@ fields:
     type: text
     icon: font
 
+  class: class
+  
   bajada:
       label: Titulo
       type: text
@@ -31,5 +33,3 @@ fields:
     label: Link al trámite
     type: text
     icon: link
-
-  class: class

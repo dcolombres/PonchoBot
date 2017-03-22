@@ -12,6 +12,8 @@ fields:
     type: text
     icon: font
 
+  class: class
+  
   number:
       label: Cifra
       type:  text
@@ -27,27 +29,3 @@ fields:
     label: Descripción
     type: textarea
     icon: align-justify
-
-  color:
-    label: Color de Cifra
-    type: text
-    placeholder: text-color
-    validate:
-      in:
-        - text-primary
-        - text-success
-        - text-info
-        - text-warning
-        - text-danger
-        - text-gray
-        - text-fucsia
-        - text-arandano
-        - text-uva
-        - text-secondary
-        - text-verdin
-        - text-lima
-        - text-maiz
-        - text-tomate
-        - text-muted
-    help: <a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/colorestxt.jpg" target="blank"> Paleta Colores > </a>
-    icon: paint-brush

@@ -14,10 +14,8 @@ fields:
 
   identificador: id
 
+  class: class
+
   titulo: titulo
 
-  bgColor: bgColor
-
   texthtml: texthtml
-
-  class: class
