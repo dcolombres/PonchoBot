@@ -116,6 +116,7 @@
               <div class="row">
 
                   <?= $section->texthtml() ?>
+
                 </div>
               </div>
 
