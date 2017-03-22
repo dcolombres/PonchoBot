@@ -3,49 +3,39 @@
 <title>PonchoBot</title>
 
 <main class="main" role="main">
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-push-4 col-md-8">
+  <div class="container">
+
+    <div class="row">
+
+      <div id="content" class="col-md-push-4 col-md-8">
+        <section class="p-b-0">
           <h3 class="text-uppercase"><?= $page->titular() ?></h3>
           <p class="text-muted"><?= $page->titulo() ?></p>
-          <hr>
-          <?php foreach($page->children() as $section): ?>
-            <section id="<?= $section->identificador()?>"class="p-b-1">
-              <h2><?= $section->titulo() ?></h2>
-              <?= $section->texthtml() ?>
-            </section>
-          <?php endforeach ?>
-        </div>
-        <aside class="col-md-4 col-md-pull-8">
-              <div id="nav-anchor"></div>
-              <nav>
-                  <ul>
-                  <?php foreach($page->children() as $section): ?>
-                    <?php if ($section->identificador() != ''): ?>
-                      <li class="index-item"><a href="#<?= $section->identificador() ?>"><strong><?= $section->titulo() ?> </strong></a></li>
-                    <?php endif ?>
-                  <?php endforeach ?>
-                  </ul>
-              </nav>
-          <!-- <section>
-            <nav class="page-sidebar">
-              <ul class="nav nav-pills nav-stacked">
-                <li class="btn-title"><a href="#">Índice</a></li>
-                <?php $i = 0 ?>
-                <?php foreach($page->children() as $section): ?>
-                  <?php $i = $i + 1 ?>
-                  <?php if ($section->identificador() != ''): ?>
-                    <li class="index-item <?php if ($i < 2) { echo 'active';} ?>"><a href="#<?= $section->identificador() ?>"><strong><?= $section->titulo() ?> </strong></a></li>
-                  <?php endif ?>
-                <?php endforeach ?>
-              </ul>
-            </nav>
-          </section> -->
-        </aside>
+        </section>
+        <hr>
+        <?php foreach($page->children() as $section): ?>
+          <section id="<?= $section->identificador()?>"class="p-t-0 p-b-0">
+            <h2><?= $section->titulo() ?></h2>
+            <?= $section->texthtml() ?>
+          </section>
+        <?php endforeach ?>
       </div>
+
+      <div id="sidebar" class="col-md-4 col-md-pull-8">
+        <div id="nav-anchor"></div>
+        <nav id="side-nav">
+          <ul class="nav nav-pills nav-stacked">
+            <?php foreach($page->children() as $section): ?>
+              <?php if ($section->identificador() != ''): ?>
+                <li class="index-item"><a href="#<?= $section->identificador() ?>"><strong><?= $section->titulo() ?> </strong></a></li>
+              <?php endif ?>
+            <?php endforeach ?>
+          </ul>
+        </nav>
+      </div>
+
     </div>
-  </section>
+  </div>
 
   <?php if ($page->footer()!=''): ?>
     <section style="background: #fff">
@@ -69,11 +59,9 @@
       </div>
     </section>
   <?php endif ?>
-
-
 </main>
 
-<!-- <a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a> -->
+
 <div id="footer" style="position: fixed; bottom: 0; width: 100%;" class="align-center text-right">
   <button id="copy" onclick="copy(htmlCode)" class="btn bg-warning btn-primary box-shadow" ><i class="fa fa-copy"></i>&nbsp; Codigo</button>
   <a href="<?= $site->url() ?>/panel" class="btn bg-uva btn-primary"><i class="fa fa-sign-in"></i></a>
@@ -83,3 +71,6 @@
 
 <pre id="htmlCode"><?php snippet('htmlCodeTramite') ?></pre>
 <?php snippet('footer') ?>
+
+</body>
+</html>

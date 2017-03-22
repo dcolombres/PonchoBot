@@ -15,6 +15,16 @@ $(document).ready(function(){
     }
   });
 
+
+  /**
+  * This part causes smooth scrolling using scrollto.js
+  * We target all a tags inside the nav, and apply the scrollto.js to it.
+  */
+  $("nav#side-nav a").click(function(evn){
+    evn.preventDefault();
+    $('html,body').scrollTo(this.hash, this.hash);
+  });
+
   /**
   * This part handles the highlighting functionality.
   * We use the scroll functionality again, some array creation and
@@ -37,7 +47,7 @@ $(document).ready(function(){
       var theID = aArray[i];
       var divPos = $(theID).offset().top; // get the offset of the div from the top of page
       var divHeight = $(theID).height(); // get the height of the div in question
-      if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
+      if (windowPos >= divPos-1 && windowPos < (divPos + divHeight)+1) {  //AGREGA +1 y -1 para mejor funcionamiento
         $("a[href='" + theID + "']").parent().addClass("active");
       } else {
         $("a[href='" + theID + "']").parent().removeClass("active");
