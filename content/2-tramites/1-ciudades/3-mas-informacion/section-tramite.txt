@@ -1,0 +1,23 @@
+Titulo: Más información
+
+----
+
+Identificador: masinfo
+
+----
+
+Texthtml: 
+
+<ul style type="none">
+<li><i class="fa fa-map" style="padding-right:5px;color:#0695d6"></i> Dirección de la Mesa de Entrada: Av. Presidente Julio Argentino Roca N°651</li>
+ 	<li><i class="fa fa-phone" style="padding-right:5px;color:#0695d6"></i> Teléfono: 011 4349 3521</li>
+ 	<li><i class="fa fa-envelope" style="padding-right:5px;color:#0695d6"></i> E-mail: <a href="mailto:ciudadesparaemprender@produccion.gob.ar">ciudadesparaemprender@produccion.gob.ar</a></li>
+</ul>
+
+----
+
+Class: 
+
+----
+
+Title: Más información

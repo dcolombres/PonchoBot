@@ -1,0 +1,35 @@
+Titulo: Ciudades para Emprender
+
+----
+
+Identificador: 
+
+----
+
+Texthtml: 
+
+<p><em><strong>Para promover la cultura emprendedora y desarrollar un ecosistema emprendedor federal, </strong>
+<strong>sustentable y sostenible junto con gobiernos y actores locales</strong></em></p>
+
+<hr />
+<p>Te ayudamos a fortalecer y desarrollar un ecosistema emprendedor en tu municipio a través de un plan de trabajo conjunto con incubadoras, clubes de emprendedores, gobiernos, universidades, empresas, emprendedores y agencias de desarrollo. El programa diseñó una matriz diagnóstica que identifica el grado de desarrollo del ecosistema emprendedor local para luego avanzar en el plan de trabajo conjunto y participativo entre el gobierno local, el Ministerio de Producción y los otros actores del ecosistema emprendedor.</p>
+
+<div class="row">
+<div class="col-xs-12 text-center">
+  <p><a class="btn btn-primary btn-md" href="http://ciudadesparaemprender.produccion.gob.ar">Preinscribí tu ciudad</a>
+  </p>
+</div>
+</div>
+
+
+<iframe width="100%" height="400"align: center src="https://www.youtube.com/embed/f9NWxjTM_DQ?list=PLyy3c-xBFUSa-32eNtzQ965Eqy0NeVQse" frameborder="0" allowfullscreen></iframe>
+
+<hr />
+
+----
+
+Class: 
+
+----
+
+Title: Ciudades para Emprender

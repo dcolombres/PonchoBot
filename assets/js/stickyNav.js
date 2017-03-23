@@ -8,7 +8,8 @@ $(document).ready(function(){
   $(window).scroll(function(){
     var window_top = $(window).scrollTop() + 12; // the "12" should equal the margin-top value for nav.stick
     var div_top = $('#nav-anchor').offset().top;
-    if (window_top > div_top) {
+    var stop_top = $('#stop-anchor').offset().top;
+    if (window_top > div_top && window_top < stop_top) {
       $('nav#side-nav').addClass('stick');
     } else {
       $('nav#side-nav').removeClass('stick');
@@ -21,6 +22,11 @@ $(document).ready(function(){
   * We target all a tags inside the nav, and apply the scrollto.js to it.
   */
   $("nav#side-nav a").click(function(evn){
+    evn.preventDefault();
+    $('html,body').scrollTo(this.hash, this.hash);
+  });
+
+  $("#indiceMobile a").click(function(evn){
     evn.preventDefault();
     $('html,body').scrollTo(this.hash, this.hash);
   });

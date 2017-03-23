@@ -1,0 +1,28 @@
+Titulo: Descargas
+
+----
+
+Identificador: descargas
+
+----
+
+Texthtml: 
+
+<ul style type="none">
+<li><i class="fa fa-download" style="padding-right:5px;color:#0695d6"></i><a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/Ciudades-para-Emprender_PreInscriptos-1.pdf"> Instructivo</a> para inscribir a tu cuidad</li>
+
+<li><i class="fa fa-download" style="padding-right:5px;color:#0695d6"></i> Descargá la <a href="http://www.produccion.gob.ar/wp-content/uploads/2016/04/guia-emprendedores-WEB-baja-1.pdf" target="_blank">Guía de apoyo</a> para gobiernos locales para obtener más información sobre las distintas etapas que conforman la metodología de trabajo</li>
+
+<li><i class="fa fa-download" style="padding-right:5px;color:#0695d6"></i><a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/Ciudades-para-Emprender2016.pdf"> Listado de Ciudades para Emprender</a> seleccionadas 2016</li>
+
+<li><i class="fa fa-download" style="padding-right:5px;color:#0695d6"></i><a href="https://drive.google.com/open?id=0B50G0VRJThc0azVuS2M3bG1VdWs"> ESTUDIO DIAGNÓSTICO</a> DE LAS CONDICIONES DE PARTIDA DEL PROGRAMA</li>
+
+</ul>
+
+----
+
+Class: 
+
+----
+
+Title: Descargas

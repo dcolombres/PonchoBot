@@ -31,7 +31,3 @@ Texthtml:
 <li>Comprar materias primas e insumos para la producción</li>
 <li>Adquirir otros recursos destinados a la actividad productiva</li>
 </ul>
-
-----
-
-Titular: Préstamo para optimizar el uso de la energía en tu pyme

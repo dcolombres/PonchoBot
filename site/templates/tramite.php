@@ -7,23 +7,10 @@
 
     <div class="row">
 
-      <div id="content" class="col-md-push-4 col-md-8">
-        <section class="p-b-0">
-          <h3 class="text-uppercase"><?= $page->titular() ?></h3>
-          <p class="text-muted"><?= $page->titulo() ?></p>
-        </section>
-        <hr>
-        <?php foreach($page->children() as $section): ?>
-          <section id="<?= $section->identificador()?>"class="p-t-0 p-b-0">
-            <h2><?= $section->titulo() ?></h2>
-            <?= $section->texthtml() ?>
-          </section>
-        <?php endforeach ?>
-      </div>
-
-      <div id="sidebar" class="col-md-4 col-md-pull-8">
+      <div id="sidebar" class="col-md-4 hidden-sm-down">
         <div id="nav-anchor"></div>
         <nav id="side-nav">
+          <h5 class="text-muted">Indice</h5>
           <ul class="nav nav-pills nav-stacked">
             <?php foreach($page->children() as $section): ?>
               <?php if ($section->identificador() != ''): ?>
@@ -34,8 +21,34 @@
         </nav>
       </div>
 
+      <div id="content" class="col-md-8">
+        <section class="p-b-0">
+          <h3 class="text-uppercase"><?= $page->titular() ?></h3>
+          <p class="text-muted"><?= $page->titulo() ?></p>
+          <?= $page->texthtml() ?>
+        </section>
+        <hr>
+
+        <section id="indiceMobile" class="p-t-0 p-b-0 hidden-sm-up">
+          <h5 class="text-muted">Indice</h5>
+          <ul class="nav nav-pills nav-stacked">
+            <?php foreach($page->children() as $section): ?>
+              <?php if ($section->identificador() != ''): ?>
+                <li class="index-item"><a href="#<?= $section->identificador() ?>"><strong><?= $section->titulo() ?> </strong></a></li>
+              <?php endif ?>
+            <?php endforeach ?>
+          </ul>
+
+        </section>
+        <?php foreach($page->children() as $section): ?>
+          <section id="<?= $section->identificador()?>"class="p-t-0 p-b-0">
+            <h2><?= $section->titulo() ?></h2>
+            <?= $section->texthtml() ?>
+          </section>
+        <?php endforeach ?>
+      </div>
+
     </div>
-  </div>
 
   <?php if ($page->footer()!=''): ?>
     <section style="background: #fff">
@@ -59,9 +72,10 @@
       </div>
     </section>
   <?php endif ?>
+</div>
 </main>
 
-
+<span id="stop-anchor"></span>
 <div id="footer" style="position: fixed; bottom: 0; width: 100%;" class="align-center text-right">
   <button id="copy" onclick="copy(htmlCode)" class="btn bg-warning btn-primary box-shadow" ><i class="fa fa-copy"></i>&nbsp; Codigo</button>
   <a href="<?= $site->url() ?>/panel" class="btn bg-uva btn-primary"><i class="fa fa-sign-in"></i></a>
@@ -69,8 +83,10 @@
   &nbsp;&nbsp;
 </div>
 
-<pre id="htmlCode"><?php snippet('htmlCodeTramite') ?></pre>
+
+<pre id="htmlCode" class="hidden-md-down"><?php snippet('htmlCodeTramite') ?></pre>
 <?php snippet('footer') ?>
+
 
 </body>
 </html>
