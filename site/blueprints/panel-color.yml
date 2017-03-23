@@ -12,6 +12,8 @@ fields:
     type: text
     icon: font
 
+  class: class
+
   urlicono:
       label: URL Icono Panel
       type: text
@@ -26,5 +28,3 @@ fields:
     label: Link al trámite
     type: text
     icon: link
-
-  class: class

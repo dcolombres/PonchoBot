@@ -20,7 +20,7 @@
     </section>
 
     <?php foreach($page->children() as $section): ?>
-      <section id="<?= $section->identificador() ?>" class="<?= $section->class() ?>">
+      <section id="<?= $section->identificador() ?>" class="<?= str_replace(",","",$section->class()) ?>">
         <div class="container">
           <h2><?= $section->titulo() ?></h2>
 
@@ -28,7 +28,7 @@
             <div class="row panels-row">
               <?php foreach($section->children() as $boton): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
-                  <a class="panel panel-default text-gray <?= $boton->class() ?>" href="<?= $boton->linkurl() ?>">
+                  <a class="panel panel-default text-gray <?= str_replace(",","",$boton->class()) ?>" href="<?= $boton->linkurl() ?>">
                     <div class="panel-body text-left">
                       <h3 class=""><?= $boton->title() ?></h3>
                       <p class="text-muted"><?= $boton->text() ?></p>
@@ -43,7 +43,7 @@
               <?php foreach($section->children() as $panel): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a class="panel panel-default panel-icon panel-secondary" href="<?= $panel->linkurl() ?>">
-                    <div class="panel-heading bg-primary <?= $panel->class() ?>">
+                    <div class="panel-heading bg-primary <?= str_replace(",","",$panel->class()) ?>">
                       <h1 class="text-left" style="font-size:175%"><?= $panel->header() ?></h1>
                     </div>
                     <div class="panel-body text-left">
@@ -60,7 +60,7 @@
               <?php foreach($section->children() as $panelFoto): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a class="panel panel-default panel-icon panel-secondary" href="<?= $panelFoto->linkurl() ?>">
-                    <div class="panel-heading bg-primary <?= $panelFoto->class() ?>" style="background-image: url('<?= $panelFoto->urlimagen() ?>');">
+                    <div class="panel-heading bg-primary <?= str_replace(",","",$panelFoto->class()) ?>" style="background-image: url('<?= $panelFoto->urlimagen() ?>');">
                     </div>
                     <div class="panel-body text-left">
                       <h3><?= $panelFoto->bajada() ?></h3>
@@ -76,7 +76,7 @@
               <?php foreach($section->children() as $panelIcono): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl() ?>">
-                    <div class="panel-heading bg-primary <?= $panelIcono->class() ?>" style="display: flex; align-items: center; justify-content: center">
+                    <div class="panel-heading bg-primary <?= str_replace(",","",$panelIcono->class()) ?>" style="display: flex; align-items: center; justify-content: center">
                       <img src="<?= $panelIcono->urlicono() ?>" alt="" style="height:80px; max-width:50%; "></img>
                     </div>
                     <div class="panel-body text-left">
@@ -92,7 +92,7 @@
           <?php elseif ($section->intendedTemplate()=='section-panel-color'): ?>
             <div class="row equal">
               <?php foreach($section->children() as $panelColor): ?>
-                  <div class="text-center <?= $panelColor->class() ?> p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>" style="display: flex; align-items: center; justify-content: center; flex-flow: column; ">
+                  <div class="text-center <?= str_replace(",","",$panelColor->class()) ?> p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>" style="display: flex; align-items: center; justify-content: center; flex-flow: column; ">
                     <img src="<?= $panelColor->urlicono() ?>" alt="" style="height:80px; max-width:50%; "></img>
                     <!-- <i class="fa fa-camera fa-5x"> </i> -->
                   </br>
@@ -114,8 +114,9 @@
 
             <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
               <div class="row">
-                <div class="col-md-12 text-left <?= $section->class() ?>">
+                <div class="col-md-12 text-left <?= str_replace(",","",$section->class()) ?>">
                   <?= $section->texthtml() ?>
+
                 </div>
               </div>
 

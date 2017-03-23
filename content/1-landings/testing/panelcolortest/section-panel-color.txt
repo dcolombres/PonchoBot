@@ -10,7 +10,7 @@ Columns: 4
 
 ----
 
-Class: 
+Class: bg-tomate, p-t-0, p-b-0
 
 ----
 

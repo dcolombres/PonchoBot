@@ -14,8 +14,8 @@ fields:
 
   identificador: id
 
+  class: class
+  
   titulo: titulo
 
   columns: columns
-
-  class: class

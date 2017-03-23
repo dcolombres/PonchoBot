@@ -6,16 +6,16 @@ files: false
 options:
   preview: false
   status: true
-  template: false
+  template: true
   url: false
   delete: true
 
 fields:
-  
+
   identificador: id
+
+  class: class
 
   titulo: titulo
 
   texthtml: texthtml
-
-  class: class
