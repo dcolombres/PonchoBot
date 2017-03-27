@@ -8,8 +8,9 @@ $(document).ready(function(){
   $(window).scroll(function(){
     var window_top = $(window).scrollTop() + 12; // the "12" should equal the margin-top value for nav.stick
     var div_top = $('#nav-anchor').offset().top;
-    var stop_top = $('#stop-anchor').offset().top;
-    if (window_top > div_top && window_top < stop_top) {
+    // var stop_top = $('#stop-anchor').offset().top;
+    // if (window_top > div_top && window_top < stop_top) {
+      if (window_top > div_top) {
       $('nav#side-nav').addClass('stick');
     } else {
       $('nav#side-nav').removeClass('stick');

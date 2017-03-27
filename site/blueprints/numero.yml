@@ -13,7 +13,9 @@ fields:
     icon: font
 
   class: class
-  
+
+  textcolor: textcolor
+
   number:
       label: Cifra
       type:  text

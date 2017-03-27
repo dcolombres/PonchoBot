@@ -1,0 +1,21 @@
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: Descargas
+
+----
+
+Texthtml: 
+
+<p><i class="fa-file-pdf-o fa"></i><a href="">  Descargar la normativa</a></p>
+        <p><i class="fa-file-word-o fa"></i><a href="">  Otro documento</a></p>
+        <p><i class="fa-file-o fa"></i><a href="">  Detalles de esto</a></p>
+
+----
+
+Title: Descargas

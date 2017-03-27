@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - landings/informativogeneral/icontext
-  - landings/informativogeneral/icontext/icontxt3
-  - landings/informativogeneral/icontext/icontxt4
-  - landings/informativogeneral/icontext/icontxt2
-  - landings/informativogeneral/icontext/icontxt1
+  - landings/informativogeneral/descargas
+  - landings/informativogeneral/numeros/2
+  - landings/informativogeneral/numeros/3
+  - landings/informativogeneral/numeros/1
+  - landings/informativogeneral/numeros

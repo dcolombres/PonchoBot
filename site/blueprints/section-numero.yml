@@ -13,7 +13,7 @@ options:
 fields:
 
   identificador: id
-  
+
   class: class
 
   titulo: titulo

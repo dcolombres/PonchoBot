@@ -1,0 +1,24 @@
+Title: 1
+
+----
+
+Textcolor: text-success
+
+----
+
+Number: 392.493
+
+----
+
+Small: 
+
+----
+
+Description: 
+
+<strong>Visitas últimos 30 días</strong>
+<p>+11,06% vs mes anterior</p>
+
+----
+
+Class: text-center
