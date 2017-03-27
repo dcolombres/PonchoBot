@@ -43,6 +43,16 @@ options:
   p-t-2: Padding Top 2
   p-b-2: Padding Bottom 2
   p-t-3: Padding Top 3
-  p-b-3: Padding Bottom
+  p-b-3: Padding Bottom 3
+  __ : _____Margin_____
+  m-t-0: Margin Top 0
+  m-b-0: Margin Bottom 0
+  m-t-1: Margin Top 1
+  m-b-1: Margin Bottom 1
+  m-t-2: Margin Top 2
+  m-b-2: Margin Bottom 2
+  m-t-3: Margin Top 3
+  m-b-3: Margin Bottom 3
+
 
 help: <a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/colores.jpg" target="blank"> Paleta Colores > </a>
