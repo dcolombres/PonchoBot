@@ -1,0 +1,24 @@
+title: Section Video
+
+pages: false
+files: false
+
+options:
+  preview: false
+  status: true
+  template: true
+  url: false
+  delete: true
+
+fields:
+
+  identificador: id
+
+  class: class
+
+  titulo: titulo
+
+  videourl:
+    label: Codigo del video (YouTube)
+    type: text
+    placeholder: KN9tOuD5Oks

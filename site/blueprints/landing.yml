@@ -11,6 +11,7 @@ pages:
     - section-panel-color
     - section-texto
     - section-texto-imagen
+    - section-video
 
 files: false
 

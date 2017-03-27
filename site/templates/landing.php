@@ -150,7 +150,12 @@
               </div>
 
             <?php elseif ($section->intendedTemplate()=='section-map'): ?>
-              <div class="map-container">
+              <div class="map-container"></div>
+
+            <?php elseif ($section->intendedTemplate()=='section-video'): ?>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+              </div>
 
               <?php endif ?>
             </div>
@@ -158,7 +163,7 @@
         <?php endforeach ?>
 
         <?php if ($page->footer()->isNotEmpty()): ?>
-          <section style="background: #fff">
+          <section style="background: #fff" class="m-b-3">
             <div class="container">
               <div class="text-left">
                 <h2>También te puede interesar...</h2>
