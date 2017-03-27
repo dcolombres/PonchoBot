@@ -1,6 +1,6 @@
-title: Section Panel Color
+title: Section Icono Texto
 
-pages: panel-color
+pages: icono-texto
 files: false
 
 options:
@@ -15,7 +15,12 @@ fields:
   identificador: id
 
   class: class
-  
+
   titulo: titulo
+
+  description:
+    label: Descripcion (Opcional)
+    type: textarea
+    icon: font
 
   columns: columns

@@ -8,10 +8,11 @@ pages:
     - section-panel
     - section-panel-foto
     - section-panel-icono
-    - section-panel-color
+    - section-icono-texto
     - section-texto
     - section-texto-imagen
     - section-video
+    - section-quote
 
 files: false
 
@@ -38,19 +39,6 @@ fields:
     type:  text
     icon: image
 
-  footer: footertags
+  class: class
 
-  bestband:
-    label: Best Band Ever
-    type: multiselect
-    search: true
-    options:
-      1d : 1Direction
-      bb: BBoys
-      aq: Aqua
-      vb: Vengaboys
-      fr: Freiheit
-      o3: OH!O
-      mi: Miley
-      bi: Bieber
-      u2: U2
+  footer: footertags

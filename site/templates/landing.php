@@ -5,7 +5,7 @@
 <span id="main">
   <main class="main" role="main">
 
-    <section class="jumbotron" style="background-image: url('<?= $page->background() ?>');">
+    <section class="jumbotron <?= $page->class() ?>" style="background-image: url('<?= $page->background() ?>');">
       <div class="jumbotron_body">
         <div class="container">
           <div class="row">
@@ -89,14 +89,15 @@
             </div>
 
 
-          <?php elseif ($section->intendedTemplate()=='section-panel-color'): ?>
+          <?php elseif ($section->intendedTemplate()=='section-icono-texto'): ?>
+            <p> <?= $section->description() ?> </p>
             <div class="row equal">
-              <?php foreach($section->children() as $panelColor): ?>
-                  <div class="text-center <?= str_replace(",","",$panelColor->class()) ?> p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>" style="display: flex; align-items: center; justify-content: center; flex-flow: column; ">
-                    <img src="<?= $panelColor->urlicono() ?>" alt="" style="height:80px; max-width:50%; "></img>
+              <?php foreach($section->children() as $iconoTexto): ?>
+                  <div class="text-center <?= str_replace(",","",$iconoTexto->class()) ?> p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>" style="display: flex; align-items: center; justify-content: center; flex-flow: column; ">
+                    <img src="<?= $iconoTexto->urlicono() ?>" alt="" style="height:80px; max-width:50%; "></img>
                     <!-- <i class="fa fa-camera fa-5x"> </i> -->
                   </br>
-                    <p><?= $panelColor->description() ?></p>
+                    <p><?= $iconoTexto->description() ?></p>
                   </div>
                 <?php endforeach ?>
               </div>
@@ -109,6 +110,20 @@
                     <img src="<?= $section->imgtablet() ?>" alt="" class="img-responsive hidden-lg-up hidden-sm-down">
                     <img src="<?= $section->imgmobile() ?>" alt="" class="img-responsive hidden-md-up">
                   </div>
+                </div>
+              </div>
+
+            <?php elseif ($section->intendedTemplate()=='section-quote'): ?>
+              <div class="row">
+                <div class="container">
+
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 <?= str_replace(",","",$section->class()) ?>">
+                  <blockquote>
+                    <p>" <?= $section->cita() ?> "</p>
+                    <small><?= $section->autor() ?></small>
+                  </blockquote>
+
+                </div>
                 </div>
               </div>
 
