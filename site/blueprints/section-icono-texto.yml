@@ -18,9 +18,6 @@ fields:
 
   titulo: titulo
 
-  description:
-    label: Descripcion (Opcional)
-    type: textarea
-    icon: font
+  description: description
 
   columns: columns

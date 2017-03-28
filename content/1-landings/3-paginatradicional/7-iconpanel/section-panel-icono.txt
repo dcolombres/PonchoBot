@@ -1,0 +1,21 @@
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: Cards con ícono y texto
+
+----
+
+Columns: 4
+
+----
+
+Title: iconPanel
+
+----
+
+Description: Breve párrafo a modo de descripción (opcional).

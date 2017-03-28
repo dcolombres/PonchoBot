@@ -1,0 +1,21 @@
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: Iconos con texto
+
+----
+
+Description: Breve párrafo a modo de descripción (opcional)
+
+----
+
+Columns: 4
+
+----
+
+Title: iconText

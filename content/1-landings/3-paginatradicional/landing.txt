@@ -1,0 +1,21 @@
+Titulo: Gobierno de la Nación
+
+----
+
+Subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+----
+
+Background: https://c1.staticflickr.com/6/5469/16783837234_d8eee7d83c_h.jpg
+
+----
+
+Class: 
+
+----
+
+Footer: 
+
+----
+
+Title: PaginaTradicional

@@ -1,0 +1,17 @@
+Identificador: 
+
+----
+
+Class: bg-success, text-center
+
+----
+
+Cita: Quiero Brownies
+
+----
+
+Autor: Bob Marley
+
+----
+
+Title: Quote

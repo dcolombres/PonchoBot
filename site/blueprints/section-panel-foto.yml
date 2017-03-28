@@ -18,4 +18,6 @@ fields:
 
   titulo: titulo
 
+  description: description
+
   columns: columns

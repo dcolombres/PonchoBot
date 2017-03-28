@@ -13,9 +13,11 @@ options:
 fields:
 
   identificador: id
-  
+
   class: class
 
   titulo: titulo
+
+  description: description
 
   columns: columns

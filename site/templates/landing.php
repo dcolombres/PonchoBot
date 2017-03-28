@@ -39,6 +39,7 @@
             </div>
 
           <?php elseif ($section->intendedTemplate()=='section-panel'): ?>
+            <p> <?= $section->description() ?> </p>
             <div class="row panels-row">
               <?php foreach($section->children() as $panel): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
@@ -56,6 +57,7 @@
             </div>
 
           <?php elseif ($section->intendedTemplate()=='section-panel-foto'): ?>
+            <p> <?= $section->description() ?> </p>
             <div class="row panels-row">
               <?php foreach($section->children() as $panelFoto): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
@@ -72,6 +74,7 @@
             </div>
 
           <?php elseif ($section->intendedTemplate()=='section-panel-icono'): ?>
+            <p> <?= $section->description() ?> </p>
             <div class="row panels-row">
               <?php foreach($section->children() as $panelIcono): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
