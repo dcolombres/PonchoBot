@@ -131,13 +131,25 @@
           </div>
 
         <?php elseif ($section->intendedTemplate()=='section-mapa'): ?>
-          <div class="row">
-            <div class="">
-            <iframe class="map" src="https://www.google.com/maps/d/embed?mid=<?= $section->mapkey()?>" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
-          </div>
-          </div>
+        </div>
+              <div class="container-fluid">
+                <div class="row">
+              <div style="height: 100vh; overflow: hidden;">
+                <iframe
+                class="map"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                style="position:relative;top:-47px; border:none;"
+                src="https://www.google.com/maps/d/embed?mid=<?= $section->mapkey()?>">
+              </iframe>
+              </div>
+              </div>
+            </div>
+        <div class="container">
 
         <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
+
           <div class="row">
             <div class="col-md-12 text-left <?= str_replace(",","",$section->class()) ?>">
               <?= $section->texthtml() ?>
@@ -173,9 +185,6 @@
               </div>
             <?php endforeach ?>
           </div>
-
-        <?php elseif ($section->intendedTemplate()=='section-map'): ?>
-          <div class="map-container"></div>
 
         <?php elseif ($section->intendedTemplate()=='section-video'): ?>
           <div class="embed-responsive embed-responsive-16by9">

@@ -192,11 +192,6 @@ img.img-responsive{
   border-radius: 0px;
 }
 
-.equal {
-  display: flex;
-  display: -webkit-flex;
-}
-
 /* STICK */
 
 nav#side-nav{
