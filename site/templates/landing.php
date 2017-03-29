@@ -134,7 +134,7 @@
         </div>
               <div class="container-fluid">
                 <div class="row">
-              <div style="height: 100vh; overflow: hidden;">
+              <div style="height: 50vh; overflow: hidden;">
                 <iframe
                 class="map"
                 width="100%"
