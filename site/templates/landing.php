@@ -79,7 +79,7 @@
               <?php foreach($section->children() as $panelIcono): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl() ?>">
-                    <div class="panel-heading bg-primary <?= str_replace(",","",$panelIcono->class()) ?>" style="display: flex; align-items: center; justify-content: flex-start">
+                    <div class="panel-heading bg-primary <?= str_replace(",","",$panelIcono->class()) ?>" style="display: flex; align-items: center; justify-content: center">
                       <img src="<?= $panelIcono->urlicono() ?>" alt="" style="height:80px; max-width:50%; "></img>
                     </div>
                     <div class="panel-body text-left">
@@ -96,7 +96,7 @@
             <p> <?= $section->description() ?> </p>
             <div class="row equal">
               <?php foreach($section->children() as $iconoTexto): ?>
-                <div class="text-center <?= str_replace(",","",$iconoTexto->class()) ?> p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>" style="display: flex; align-items: center; justify-content: center; flex-flow: column; ">
+                <div class="text-center <?= str_replace(",","",$iconoTexto->class()) ?> p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>" style="display: flex; align-items: center; justify-content: flex-start; flex-flow: column; ">
                   <img src="<?= $iconoTexto->urlicono() ?>" alt="" style="height:80px; max-width:50%; "></img>
                   <!-- <i class="fa fa-camera fa-5x"> </i> -->
                 </br>
