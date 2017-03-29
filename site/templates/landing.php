@@ -79,7 +79,7 @@
               <?php foreach($section->children() as $panelIcono): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl() ?>">
-                    <div class="panel-heading bg-primary <?= str_replace(",","",$panelIcono->class()) ?>" style="display: flex; align-items: center; justify-content: center">
+                    <div class="panel-heading bg-primary <?= str_replace(",","",$panelIcono->class()) ?>" style="display: flex; align-items: center; justify-content: flex-start">
                       <img src="<?= $panelIcono->urlicono() ?>" alt="" style="height:80px; max-width:50%; "></img>
                     </div>
                     <div class="panel-body text-left">
