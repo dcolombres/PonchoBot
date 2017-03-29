@@ -34,6 +34,7 @@ fields:
         - d
     help: Izquierda-> i &nbsp;&nbsp; Derecha-> d
     width: 2/5
+    default: i
 
   imgclass:
     label: Class de la imagen

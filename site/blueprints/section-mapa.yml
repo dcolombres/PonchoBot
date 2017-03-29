@@ -1,0 +1,24 @@
+title: Section Mapa
+
+pages: false
+files: false
+
+options:
+  preview: false
+  status: true
+  template: true
+  url: false
+  delete: true
+
+fields:
+
+  identificador: id
+
+  class: class
+
+  titulo: titulo
+
+  mapkey:
+    label: Map Key
+    type: text
+    width: 1/3

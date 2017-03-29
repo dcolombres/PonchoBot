@@ -209,3 +209,13 @@ nav.stick {
     z-index: 10000;
     margin-top:12px;
 }
+
+
+/* MAPA Blanco y Negro */
+.map {
+  -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+       -o-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
