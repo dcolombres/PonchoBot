@@ -96,7 +96,7 @@
             <p> <?= $section->description() ?> </p>
             <div class="row panels-row">
               <?php foreach($section->children() as $iconoTexto): ?>
-                <div class="text-center <?= str_replace(",","",$iconoTexto->class()) ?> p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>" style="display: flex; align-items: center; justify-content: flex-start; flex-flow: column; ">
+                <div class="<?= str_replace(",","",$iconoTexto->class()) ?> p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>" style="display: flex; align-items: center; justify-content: flex-start; flex-flow: column; ">
                   <img src="<?= $iconoTexto->urlicono() ?>" alt="" style="height:80px; max-width:50%; "></img>
                   <!-- <i class="fa fa-camera fa-5x"> </i> -->
                 </br>
