@@ -132,92 +132,92 @@
 
         <?php elseif ($section->intendedTemplate()=='section-mapa'): ?>
         </div>
-              <div class="container-fluid">
-                <div class="row">
-              <div style="height: 50vh; overflow: hidden;">
-                <iframe
-                class="map"
-                width="100%"
-                height="100%"
-                frameborder="0"
-                style="position:relative;top:-47px; border:none;"
-                src="https://www.google.com/maps/d/embed?mid=<?= $section->mapkey()?>">
-              </iframe>
-              </div>
-              </div>
-            </div>
-        <div class="container">
-
-        <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
-
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-md-12 text-left <?= str_replace(",","",$section->class()) ?>">
-              <?= $section->texthtml() ?>
-
-            </div>
+            <div class="maps">
+              <iframe
+              class="map"
+              width="100%"
+              height="100%"
+              frameborder="0"
+              style="position:relative;top:-47px; border:none;"
+              src="https://www.google.com/maps/d/embed?mid=<?= $section->mapkey()?>">
+            </iframe>
           </div>
-
-        <?php elseif ($section->intendedTemplate()=='section-texto-imagen'): ?>
-          <div class="row">
-            <?php if ($section->align()=='i'): ?>
-              <div class="col-sm-4">
-                <img class="img-circle" src="<?= $section->urlimagen() ?>" style="max-width: 100%;">
-              </div>
-              <div class="col-sm-8 text-left">
-                <?= $section->texthtml() ?>
-              </div>
-            <?php elseif ($section->align()=='d'): ?>
-              <div class="col-sm-8 text-left">
-                <?= $section->texthtml() ?>
-              </div>
-              <div class="col-sm-4">
-                <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="max-width: 100%;">
-              </div>
-            <?php endif ?>
-          </div>
-
-        <?php elseif ($section->intendedTemplate()=='section-numero'): ?>
-          <div class="row numbers text-left">
-            <?php foreach($section->children() as $numero): ?>
-              <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> <?= str_replace(",","",$numero->class()) ?>">
-                <div class="h2 <?= $numero->textcolor() ?>"> <?= $numero->number() ?> <small class="<?= $numero->textcolor() ?>"> <?= $numero->small() ?></small> </div>
-                <p><?= $numero->description() ?></p>
-              </div>
-            <?php endforeach ?>
-          </div>
-
-        <?php elseif ($section->intendedTemplate()=='section-video'): ?>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
-          </div>
-
-        <?php endif ?>
+        </div>
       </div>
-    </section>
-  <?php endforeach ?>
-
-  <?php if ($page->footer()->isNotEmpty()): ?>
-    <section style="background: #fff" class="m-b-3">
       <div class="container">
-        <div class="text-left">
-          <h2>También te puede interesar...</h2>
-        </div>
-        <?php
-        $footerTags = explode(",", $page->footer());
-        ?>
+
+      <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
+
         <div class="row">
-          <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
-            <div class="col-md-4 interesar">
-              <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
-                <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
-                <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
-              </a>
-            </div>
-          <?php endfor ?>
+          <div class="col-md-12 text-left <?= str_replace(",","",$section->class()) ?>">
+            <?= $section->texthtml() ?>
+
+          </div>
         </div>
+
+      <?php elseif ($section->intendedTemplate()=='section-texto-imagen'): ?>
+        <div class="row">
+          <?php if ($section->align()=='i'): ?>
+            <div class="col-sm-4">
+              <img class="img-circle" src="<?= $section->urlimagen() ?>" style="max-width: 100%;">
+            </div>
+            <div class="col-sm-8 text-left">
+              <?= $section->texthtml() ?>
+            </div>
+          <?php elseif ($section->align()=='d'): ?>
+            <div class="col-sm-8 text-left">
+              <?= $section->texthtml() ?>
+            </div>
+            <div class="col-sm-4">
+              <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="max-width: 100%;">
+            </div>
+          <?php endif ?>
+        </div>
+
+      <?php elseif ($section->intendedTemplate()=='section-numero'): ?>
+        <div class="row numbers text-left">
+          <?php foreach($section->children() as $numero): ?>
+            <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> <?= str_replace(",","",$numero->class()) ?>">
+              <div class="h2 <?= $numero->textcolor() ?>"> <?= $numero->number() ?> <small class="<?= $numero->textcolor() ?>"> <?= $numero->small() ?></small> </div>
+              <p><?= $numero->description() ?></p>
+            </div>
+          <?php endforeach ?>
+        </div>
+
+      <?php elseif ($section->intendedTemplate()=='section-video'): ?>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+      <?php endif ?>
+    </div>
+  </section>
+<?php endforeach ?>
+
+<?php if ($page->footer()->isNotEmpty()): ?>
+  <section style="background: #fff" class="m-b-3">
+    <div class="container">
+      <div class="text-left">
+        <h2>También te puede interesar...</h2>
       </div>
-    </section>
-  <?php endif ?>
+      <?php
+      $footerTags = explode(",", $page->footer());
+      ?>
+      <div class="row">
+        <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
+          <div class="col-md-4 interesar">
+            <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
+              <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
+              <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
+            </a>
+          </div>
+        <?php endfor ?>
+      </div>
+    </div>
+  </section>
+<?php endif ?>
 
 
 </main>

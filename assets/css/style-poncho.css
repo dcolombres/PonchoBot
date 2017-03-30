@@ -214,3 +214,12 @@ nav.stick {
        -o-filter: grayscale(100%);
           filter: grayscale(100%);
 }
+
+.maps {
+  height: 70vh;
+  overflow: hidden;
+}
+
+.maps iframe{
+    pointer-events: none;
+}
