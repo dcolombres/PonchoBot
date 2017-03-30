@@ -26,9 +26,6 @@
   font-weight: normal;
 }
 
-/*.nav > li {
-  text-align: center;
-}*/
 /*fin reparacion header produccion*/
 
 /* reparar footer*/
@@ -208,15 +205,15 @@ nav.stick {
 
 /* MAPA Blanco y Negro */
 .map {
-  -webkit-filter: grayscale(100%);
-     -moz-filter: grayscale(100%);
-      -ms-filter: grayscale(100%);
-       -o-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -webkit-filter: grayscale(70%);
+     -moz-filter: grayscale(70%);
+      -ms-filter: grayscale(70%);
+       -o-filter: grayscale(70%);
+          filter: grayscale(70%);
 }
 
 .maps {
-  height: 70vh;
+  height: 60vh;
   overflow: hidden;
 }
 
