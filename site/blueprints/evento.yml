@@ -1,0 +1,45 @@
+title: Evento
+
+pages:
+  template:
+    - section-boton
+    - section-infografia
+    - section-numero
+    - section-panel
+    - section-panel-foto
+    - section-panel-icono
+    - section-icono-texto
+    - section-texto
+    - section-texto-imagen
+    - section-video
+    - section-quote
+    - section-mapa
+
+files: false
+
+options:
+  preview: true
+  status: true
+  template: true
+  url: false
+  delete: true
+
+fields:
+  titulo:
+    label: Titulo
+    type:  text
+    icon: font
+
+  subtitle:
+    label: Subtitulo
+    type:  textarea
+    icon: align-justify
+
+  background:
+    label: URL del background
+    type:  text
+    icon: image
+
+  class: class
+
+  footer: footertags
