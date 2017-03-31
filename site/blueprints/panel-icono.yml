@@ -19,6 +19,8 @@ fields:
       type: text
       icon: link
 
+  fontawesome: fontawesome
+
   bajada:
       label: Titulo
       type: text
