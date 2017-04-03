@@ -47,18 +47,6 @@ article a{
 }
 /*  fin de article*/
 
-/* arregla salto de linea*/
-
-.col-md-6:nth-child(2n + 1) {
-  clear: both;
-}
-.col-md-4:nth-child(3n + 1) {
-  clear: both;
-}
-.col-md-3:nth-child(4n + 1) {
-  clear: both;
-}
-
 /*Arreglo para Safari*/
 .row:before, .row:after {
   width: 0;
