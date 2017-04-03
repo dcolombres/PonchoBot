@@ -28,7 +28,7 @@
             <div class="row panels-row">
               <?php foreach($section->children() as $boton): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
-                  <a class="panel panel-default text-gray text-left <?= str_replace(",","",$boton->class()) ?>" href="<?= $boton->linkurl() ?>">
+                  <a class="panel panel-default text-gray text-left <?= str_replace(",","",$boton->class()) ?>" <?php if ($boton->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> href="<?= $boton->linkurl() ?>">
                     <div class="panel-body">
                       <h3 class=""><?= $boton->title() ?></h3>
                       <p class="text-muted"><?= $boton->text() ?></p>
