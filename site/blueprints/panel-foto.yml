@@ -13,7 +13,7 @@ fields:
     icon: font
 
   class: class
-  
+
   bajada:
       label: Titulo
       type: text
@@ -29,7 +29,4 @@ fields:
       type: text
       icon: image
 
-  linkurl:
-    label: Link al trámite
-    type: text
-    icon: link
+  linkurl: linkurl

@@ -14,7 +14,4 @@ fields:
     type:  text
     icon: font
 
-  linkurl:
-    label: link
-    type: text
-    icon: link
+  linkurl: linkurl

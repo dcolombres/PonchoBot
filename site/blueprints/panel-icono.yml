@@ -31,7 +31,4 @@ fields:
     type: textarea
     icon: align-justify
 
-  linkurl:
-    label: Link al trámite
-    type: text
-    icon: link
+  linkurl: linkurl

@@ -6,7 +6,7 @@ files: false
 options:
   delete: true
   template: true
-  
+
 fields:
   title:
     label: Titulo
@@ -20,7 +20,4 @@ fields:
     type: textarea
     icon: align-justify
 
-  linkurl:
-    label: Link al trámite
-    type: text
-    icon: link
+  linkurl: linkurl
