@@ -47,7 +47,6 @@ article a{
 }
 /*  fin de article*/
 
-<<<<<<< HEAD
 /* arregla salto de linea*/
 
 /*.col-md-6:nth-child(2n + 1) {
@@ -60,8 +59,6 @@ article a{
   clear: both;
 }*/
 
-=======
->>>>>>> origin/master
 /*Arreglo para Safari*/
 .row:before, .row:after {
   width: 0;
