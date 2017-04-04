@@ -1,36 +1,68 @@
-&lt;section&gt;
 &lt;div class="container"&gt;
+
 &lt;div class="row"&gt;
-&lt;div class="col-md-push-4 col-md-8"&gt;
-&lt;h3 class="text-uppercase"&gt;<?= $page->titular()->html() ?>&lt;/h3&gt;
-&lt;p class="text-muted"&gt;<?= $page->titulo()->html() ?>&lt;/p&gt;
-&lt;hr&gt;
-<?php foreach($page->children() as $section): ?>
-&lt;div id="<?= $section->identificador()?>"class="p-b-1"&gt;
-&lt;h2&gt;<?= $section->titulo() ?>&lt;/h2&gt;
-<?= html($section->texthtml(), false) ?>
-&lt;/div&gt;
-<?php endforeach ?>
-&lt;/div&gt;
-&lt;aside class="col-md-4 col-md-pull-8"&gt;
-&lt;section&gt;
-&lt;nav class="page-sidebar"&gt;
+<?php if ($page->nav() == "sidenav"): ?>
+&lt;div id="sidebar" class="col-md-4 hidden-sm-down"&gt;
+&lt;div id="nav-anchor"&gt;&lt;/div&gt;
+&lt;nav id="side-nav"&gt;
+&lt;h5 class="text-muted"&gt;Indice&lt;/h5&gt;
 &lt;ul class="nav nav-pills nav-stacked"&gt;
-&lt;li class="btn-title"&gt;&lt;a href="#"&gt;Índice&lt;/a&gt;&lt;/li&gt;
-<?php $i = 0 ?>
 <?php foreach($page->children() as $section): ?>
-<?php $i = $i + 1 ?>
 <?php if ($section->identificador() != ''): ?>
-&lt;li class="index-item <?php if ($i < 2) { echo 'active';} ?>"&gt;&lt;a href="#<?= $section->identificador() ?>"&gt;&lt;strong&gt;&lt;!--?= $i . '- ' ?--><?= $section->titulo() ?> &lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="index-item"&gt;&lt;a href="#<?= $section->identificador() ?>" class="text-left"&gt;&lt;strong&gt;<?= $section->titulo() ?> &lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 <?php endif ?>
 <?php endforeach ?>
 &lt;/ul&gt;
 &lt;/nav&gt;
+&lt;/div&gt;
+
+&lt;div id="content" class="col-md-8"&gt;
+&lt;section class="p-b-0"&gt;
+&lt;h3 class="text-uppercase"&gt;<?= $page->titular() ?>&lt;/h3&gt;
+&lt;p class="text-muted"&gt;<?= $page->titulo() ?>&lt;/p&gt;
+<?= $page->texthtml()->html() ?>
 &lt;/section&gt;
-&lt;/aside&gt;
+&lt;hr&gt;
+
+&lt;section id="indiceMobile" class="p-t-0 p-b-0 hidden-sm-up"&gt;
+&lt;h5 class="text-muted"&gt;Indice&lt;/h5&gt;
+&lt;ul class="nav nav-pills nav-stacked"&gt;
+<?php foreach($page->children() as $section): ?>
+<?php if ($section->identificador() != ''): ?>
+&lt;li class="index-item"&gt;&lt;a href="#<?= $section->identificador() ?>" class="text-left"&gt;&lt;strong&gt;<?= $section->titulo() ?> &lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+<?php endif ?>
+<?php endforeach ?>
+&lt;/ul&gt;
+&lt;/section&gt;
+
+<?php else: ?>
+&lt;div id="content" class="col-md-12"&gt;
+&lt;section class="p-b-0"&gt;
+&lt;h3 class="text-uppercase"&gt;<?= $page->titular() ?>&lt;/h3&gt;
+&lt;p class="text-muted"&gt;<?= $page->titulo() ?>&lt;/p&gt;
+<?= $page->texthtml()->html() ?>
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section id="indiceTexto" class="p-t-0 p-b-0"&gt;
+&lt;h5 class="text-muted"&gt;Indice&lt;/h5&gt;
+&lt;ul class="nav nav-pills nav-stacked"&gt;
+<?php foreach($page->children() as $section): ?>
+<?php if ($section->identificador() != ''): ?>
+&lt;li class="index-item"&gt;&lt;a href="#<?= $section->identificador() ?>" class="text-left"&gt;&lt;strong&gt;<?= $section->titulo() ?> &lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+<?php endif ?>
+<?php endforeach ?>
+&lt;/ul&gt;
+&lt;/section&gt;
+<?php endif ?>
+
+<?php foreach($page->children() as $section): ?>
+&lt;section id="<?= $section->identificador()?>"class="p-t-0 p-b-0"&gt;
+&lt;h2&gt;<?= $section->titulo() ?>&lt;/h2&gt;
+<?= $section->texthtml()->html() ?>
+&lt;/section&gt;
+<?php endforeach ?>
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/section&gt;
 
 <?php if ($page->footer()!=''): ?>
 &lt;section style="background: #fff"&gt;
@@ -54,3 +86,5 @@ $footerTags = explode(",", $page->footer());
 &lt;/div&gt;
 &lt;/section&gt;
 <?php endif ?>
+&lt;/div&gt;
+&lt;span id="stop-anchor"&gt;&lt;/span&gt;

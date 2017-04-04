@@ -16,4 +16,12 @@ fields:
 
   texthtml: texthtml
 
+  nav:
+    label: Navegador
+    type: radio
+    default: sidenav
+    options:
+      sidenav: Navegador a la izquierda
+      textnav: Navegador en el texto
+
   footer: footertags

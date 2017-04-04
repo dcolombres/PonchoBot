@@ -6,7 +6,7 @@
   <div class="container">
 
     <div class="row">
-
+      <?php if ($page->nav() == "sidenav"): ?>
       <div id="sidebar" class="col-md-4 hidden-sm-down">
         <div id="nav-anchor"></div>
         <nav id="side-nav">
@@ -14,7 +14,7 @@
           <ul class="nav nav-pills nav-stacked">
             <?php foreach($page->children() as $section): ?>
               <?php if ($section->identificador() != ''): ?>
-                <li class="index-item"><a href="#<?= $section->identificador() ?>"><strong><?= $section->titulo() ?> </strong></a></li>
+                <li class="index-item"><a href="#<?= $section->identificador() ?>" class="text-left"><strong><?= $section->titulo() ?> </strong></a></li>
               <?php endif ?>
             <?php endforeach ?>
           </ul>
@@ -34,12 +34,32 @@
           <ul class="nav nav-pills nav-stacked">
             <?php foreach($page->children() as $section): ?>
               <?php if ($section->identificador() != ''): ?>
-                <li class="index-item"><a href="#<?= $section->identificador() ?>"><strong><?= $section->titulo() ?> </strong></a></li>
+                <li class="index-item"><a href="#<?= $section->identificador() ?>" class="text-left"><strong><?= $section->titulo() ?> </strong></a></li>
               <?php endif ?>
             <?php endforeach ?>
           </ul>
-
         </section>
+
+      <?php else: ?>
+        <div id="content" class="col-md-12">
+          <section class="p-b-0">
+            <h3 class="text-uppercase"><?= $page->titular() ?></h3>
+            <p class="text-muted"><?= $page->titulo() ?></p>
+            <?= $page->texthtml() ?>
+          </section>
+          <hr>
+        <section id="indiceTexto" class="p-t-0 p-b-0">
+          <h5 class="text-muted">Indice</h5>
+          <ul class="nav nav-pills nav-stacked">
+            <?php foreach($page->children() as $section): ?>
+              <?php if ($section->identificador() != ''): ?>
+                <li class="index-item"><a href="#<?= $section->identificador() ?>" class="text-left"><strong><?= $section->titulo() ?> </strong></a></li>
+              <?php endif ?>
+            <?php endforeach ?>
+          </ul>
+        </section>
+      <?php endif ?>
+
         <?php foreach($page->children() as $section): ?>
           <section id="<?= $section->identificador()?>"class="p-t-0 p-b-0">
             <h2><?= $section->titulo() ?></h2>
@@ -47,7 +67,6 @@
           </section>
         <?php endforeach ?>
       </div>
-
     </div>
 
   <?php if ($page->footer()!=''): ?>
@@ -73,9 +92,9 @@
     </section>
   <?php endif ?>
 </div>
+<span id="stop-anchor"></span>
 </main>
 
-<span id="stop-anchor"></span>
 <div id="footer" style="position: fixed; bottom: 0; width: 100%;" class="align-center text-right">
   <button id="copy" onclick="copy(htmlCode)" class="btn bg-warning btn-primary box-shadow" ><i class="fa fa-copy"></i>&nbsp; Codigo</button>
   <a href="<?= $site->url() ?>/panel" class="btn bg-uva btn-primary"><i class="fa fa-sign-in"></i></a>
@@ -83,9 +102,8 @@
   &nbsp;&nbsp;
 </div>
 
-
 <pre id="htmlCode" class="hidden-md-down"><?php snippet('htmlCodeTramite') ?></pre>
-<?php snippet('footer') ?>
+<?php snippet('footerTramite') ?>
 
 
 </body>

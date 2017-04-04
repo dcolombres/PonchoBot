@@ -32,6 +32,12 @@ $(document).ready(function(){
     $('html,body').scrollTo(this.hash, this.hash);
   });
 
+
+    $("#indiceTexto a").click(function(evn){
+      evn.preventDefault();
+      $('html,body').scrollTo(this.hash, this.hash);
+    });
+
   /**
   * This part handles the highlighting functionality.
   * We use the scroll functionality again, some array creation and
