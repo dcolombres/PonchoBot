@@ -261,3 +261,7 @@ nav.stick {
         border-left: 2px solid white;
     }
 }
+
+.text-uppercase{
+  text-transform: uppercase !important;
+}

@@ -13,12 +13,12 @@
 
                 <div class="col-xs-12 col-md-6 text-right table-cell borde-der">
 
-                  <h3><?= $page->titulo() ?></h3>
+                  <h4 class="text-uppercase"><?= $page->titulo() ?></h4>
                 </div>
                 <div class="col-xs-12 col-md-5 text-left table-cell borde-izq">
-                  <h5><?= $page->fecha() ?></h5>
-                  <h6><?= $page->horario() ?></h6>
-                  <h4><?= $page->location() ?></h4>
+                  <h4 class="text-uppercase"><?= $page->fecha() ?></h4>
+                  <h6 class="text-uppercase"><?= $page->horario() ?></h6>
+                  <h5 class="text-uppercase"><?= $page->location() ?></h5>
                 </div>
               </div>
 
