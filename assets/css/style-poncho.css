@@ -225,3 +225,39 @@ nav.stick {
 .maps iframe{
     pointer-events: none;
 }
+
+/* Header Evento*/
+
+.table-row {
+    height: 100%;
+    display: table-row;
+    background-color: rgba(6, 149, 214, 0.7);
+}
+
+.table-row .table-cell {
+    display: table-cell;
+}
+
+@media (max-width: 768px) {
+    .table-cell {
+        float: left;
+    }
+    .borde-der {
+        border-right: 0px;
+    }
+    .borde-izq {
+        border-left: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .table-cell {
+        float: none;
+    }
+    .borde-der {
+        border-right: 2px solid white;
+    }
+    .borde-izq {
+        border-left: 2px solid white;
+    }
+}

@@ -26,14 +26,24 @@ options:
 
 fields:
   titulo:
-    label: Titulo
+    label: Nombre del Evento
     type:  text
     icon: font
 
-  subtitle:
-    label: Subtitulo
-    type:  textarea
-    icon: align-justify
+  fecha:
+    label: Fecha
+    type:  text
+    icon: calendar
+
+  horario:
+    label: Horario
+    type: text
+    icon: clock-o
+
+  location:
+    label: Dirección
+    type: text
+    icon: map-marker
 
   background:
     label: URL del background

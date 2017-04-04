@@ -1,0 +1,21 @@
+Title: reloj
+
+----
+
+Class: text-muted, text-center
+
+----
+
+Urlicono: 
+
+----
+
+Fontawesome: fa-clock-o
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+----
+
+Linkurl: 

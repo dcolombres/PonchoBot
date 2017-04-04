@@ -1,0 +1,21 @@
+Title: paragua
+
+----
+
+Class: text-muted, text-center
+
+----
+
+Urlicono: 
+
+----
+
+Fontawesome: fa-umbrella
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+----
+
+Linkurl: 

@@ -1,0 +1,21 @@
+Title: $
+
+----
+
+Class: text-muted, text-center
+
+----
+
+Urlicono: 
+
+----
+
+Fontawesome: fa-dollar
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+----
+
+Linkurl: 
