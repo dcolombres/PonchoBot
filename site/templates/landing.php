@@ -80,9 +80,9 @@
               <?php foreach($section->children() as $panelIcono): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                   <a <?php if ($panelIcono->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl() ?>">
-                    <div class="panel-heading bg-primary <?= str_replace(",","",$panelIcono->class()) ?>" style="display: flex; align-items: center; justify-content: center">
+                    <div class="panel-heading bg-primary panelIcono <?= str_replace(",","",$panelIcono->class()) ?>">
                       <?php if ($panelIcono->fontawesome()==""): ?>
-                        <img src="<?= $panelIcono->urlicono() ?>" alt="" style="height:80px; max-width:50%; "></img>
+                        <img src="<?= $panelIcono->urlicono() ?>" alt="" ></img>
                       <?php else: ?>
                         <i class="fa fa-2x <?= $panelIcono->fontawesome() ?>"></i>
                       <?php endif ?>
@@ -101,9 +101,9 @@
             <?= $section->texthtml() ?>
             <div class="row panels-row">
               <?php foreach($section->children() as $iconoTexto): ?>
-                <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?><?= str_replace(",","",$iconoTexto->class()) ?>" style="display: flex; align-items: center; justify-content: flex-start; flex-flow: column; ">
+                <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> iconoTexto <?= str_replace(",","",$iconoTexto->class()) ?>">
                   <?php if ($iconoTexto->fontawesome()==""): ?>
-                    <img src="<?= $iconoTexto->urlicono() ?>" alt="" style="height:80px; max-width:50%; "></img>
+                    <img src="<?= $iconoTexto->urlicono() ?>" alt=""></img>
                   <?php else: ?>
                     <i class="fa fa-5x <?= $iconoTexto->fontawesome() ?>"></i>
                   <?php endif ?>
@@ -164,7 +164,7 @@
         <div class="row">
           <?php if ($section->align()=='i'): ?>
             <div class="col-sm-4">
-              <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="max-width: 100%;">
+              <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="width: 100%;">
             </div>
             <div class="col-sm-8 text-left">
               <?= $section->texthtml() ?>
@@ -174,7 +174,7 @@
               <?= $section->texthtml() ?>
             </div>
             <div class="col-sm-4">
-              <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="max-width: 100%;">
+              <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="width: 100%;">
             </div>
           <?php endif ?>
         </div>
@@ -191,11 +191,22 @@
         </div>
 
       <?php elseif ($section->intendedTemplate()=='section-video'): ?>
-        <?= $section->texthtml() ?>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
-        </div>
-
+        <?php if ($section->texthtml()->isNotEmpty()): ?>
+          <div class="row">
+            <div class="col-md-4">
+            <?= $section->texthtml() ?>
+            </div>
+            <div class="col-md-8">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        <?php else: ?>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+          </div>
+        <?php endif ?>
       <?php endif ?>
     </div>
   </section>

@@ -1,3 +1,23 @@
+.panelIcono{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.panelIcono img{
+  height:80px;
+  max-width:50%;
+}
+.iconoTexto{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: column;
+}
+.iconoTexto img{
+  height:80px;
+  max-width:50%;
+}
+
 /*repara header produccion*/
 
 .navbar-nav > li > .dropdown-menu > li > a {
