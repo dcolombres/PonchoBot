@@ -116,6 +116,7 @@
           <div class="row panels-row">
             <div class="container">
               <div class="col-md-12">
+                <?= $section->texthtml() ?>
                 <img src="<?= $section->imgdesktop() ?>" alt="" class="img-responsive hidden-md-down">
                 <img src="<?= $section->imgtablet() ?>" alt="" class="img-responsive hidden-lg-up hidden-sm-down">
                 <img src="<?= $section->imgmobile() ?>" alt="" class="img-responsive hidden-md-up">

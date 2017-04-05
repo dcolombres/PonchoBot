@@ -18,6 +18,8 @@ fields:
 
   class: class
 
+  texthtml: texthtml
+
   imgdesktop:
     label: URL Imagen Desktop
     type: text
