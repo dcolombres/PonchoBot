@@ -7,10 +7,7 @@ options:
   delete: true
 
 fields:
-  title:
-    label: Nombre
-    type: text
-    icon: font
+  title: kirbytitle
 
   class: class
 

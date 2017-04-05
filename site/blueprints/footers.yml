@@ -4,6 +4,4 @@ pages: footer
 files: false
 
 fields:
-  title:
-    label: Title
-    type:  text
+  title: kirbytitle

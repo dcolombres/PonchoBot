@@ -1,0 +1,5 @@
+label: Nombre
+type: text
+icon: font
+required: true  
+help: Uso interno

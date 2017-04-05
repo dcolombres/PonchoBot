@@ -25,15 +25,11 @@ options:
   delete: true
 
 fields:
-  titulo:
-    label: Titulo
-    type:  text
-    icon: font
+  title: kirbytitle
+  
+  titulo: titulo
 
-  subtitle:
-    label: Subtitulo
-    type:  textarea
-    icon: align-justify
+  texthtml: texthtml
 
   background:
     label: URL del background

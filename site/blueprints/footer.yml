@@ -4,10 +4,7 @@ pages: false
 files: false
 
 fields:
-  title:
-    label: Title
-    type:  text
-    icon: tag
+  title: kirbytitle
 
   text:
     label: Text

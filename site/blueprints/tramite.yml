@@ -5,6 +5,8 @@ pages: section-tramite
 files: false
 
 fields:
+  title: kirbytitle
+  
   titulo:
     label: Titulo
     type:  text

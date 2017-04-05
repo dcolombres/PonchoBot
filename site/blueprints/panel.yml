@@ -7,10 +7,7 @@ options:
   delete: true
 
 fields:
-  title:
-    label: Nombre
-    type: text
-    icon: font
+  title: kirbytitle
 
   class: class
 
@@ -19,14 +16,8 @@ fields:
       type:  text
       icon: header
 
-  bajada:
-      label: Titulo
-      type: text
-      icon: text-width
+  bajada: title
 
-  description:
-    label: Descripción
-    type: textarea
-    icon: align-justify
+  description: description
 
   linkurl: linkurl

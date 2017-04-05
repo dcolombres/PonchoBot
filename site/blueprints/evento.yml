@@ -25,6 +25,8 @@ options:
   delete: true
 
 fields:
+  title: kirbytitle
+  
   titulo:
     label: Nombre del Evento
     type:  text

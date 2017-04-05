@@ -11,12 +11,15 @@ options:
   delete: true
 
 fields:
+  title: kirbytitle
 
   identificador: id
 
   class: class
 
   titulo: titulo
+
+  texthtml: texthtml
 
   videourl:
     label: Codigo del video (YouTube)

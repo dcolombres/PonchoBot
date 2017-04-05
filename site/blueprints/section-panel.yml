@@ -11,6 +11,7 @@ options:
   delete: true
 
 fields:
+  title: kirbytitle
 
   identificador: id
 
@@ -18,6 +19,6 @@ fields:
 
   titulo: titulo
 
-  description: description
+  texthtml: texthtml
 
   columns: columns

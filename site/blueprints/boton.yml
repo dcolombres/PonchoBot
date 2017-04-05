@@ -8,6 +8,8 @@ options:
   template: true
 
 fields:
+  title: kirbytitle
+  
   title:
     label: Titulo
     type:  text

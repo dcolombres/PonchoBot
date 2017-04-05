@@ -11,10 +11,14 @@ options:
   delete: true
 
 fields:
+  title: kirbytitle
+  
   identificador: id
 
   class: class
 
   titulo: titulo
+
+  texthtml: texthtml
 
   columns: columns

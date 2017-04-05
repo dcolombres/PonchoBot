@@ -7,22 +7,13 @@ options:
   delete: true
 
 fields:
-  title:
-    label: Nombre
-    type: text
-    icon: font
+  title: kirbytitle
 
   class: class
 
-  bajada:
-      label: Titulo
-      type: text
-      icon: text-width
+  bajada: titulo
 
-  description:
-    label: Descripción
-    type: textarea
-    icon: align-justify
+  description: description
 
   urlimagen:
       label: URL Imagen Panel

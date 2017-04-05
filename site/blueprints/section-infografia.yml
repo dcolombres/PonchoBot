@@ -11,6 +11,7 @@ options:
   delete: true
 
 fields:
+  title: kirbytitle
 
   identificador: id
 

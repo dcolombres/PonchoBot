@@ -3,9 +3,7 @@ title: Home
 pages: false
 
 fields:
-  titulo:
-    label: Title
-    type:  text
+  title: kirbytitle
 
   intro:
     label: Intro
