@@ -190,6 +190,43 @@
           <?php endforeach ?>
         </div>
 
+      <?php elseif ($section->intendedTemplate()=='section-slider'): ?>
+        <p> <?= $section->description() ?> </p>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div id="my<?= $section->identificador() ?>" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <?php for ($i=0; $i < $section->cantidadSlider()->value() ; $i++) { ?>
+                  <li data-target="#my<?= $section->identificador() ?>" data-slide-to="<?= $i ?>"></li>
+                <?php } ?>
+              </ol>
+              <div class="carousel-inner">
+                <?php $i=0; ?>
+                <?php foreach ($section->children() as $slider):
+                  if ($i < $section->cantidadSlider()->value()) { ?>
+                    <div class="item <?php if($i == '0') echo "active"; ?>">
+                      <img src="<?= $slider->linkurl() ?>" alt="<?= $slider->identificador() ?> Slide">
+                      <div class="container">
+                        <div class="carousel-caption">
+                          <p><?= $slider->description() ?></p>
+                        </div>
+                      </div>
+                    </div>
+                  <?php $i++; } ?>
+                <?php endforeach ?>
+              </div>
+              <a class="carousel-control left" href="#my<?= $section->identificador() ?>" data-slide="prev">
+                <i class="fa fa-angle-left fa-3x carouselBotons"></i>
+              </a>
+              <a class="carousel-control right" href="#my<?= $section->identificador() ?>" data-slide="next">
+                <i class="fa fa-angle-right fa-3x carouselBotons"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      <div class="container">
+
       <?php elseif ($section->intendedTemplate()=='section-video'): ?>
         <?php if ($section->texthtml()->isNotEmpty()): ?>
           <div class="row">

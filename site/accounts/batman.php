@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - eventos/evntest
-  - tramites/ciudades
-  - landings/testing
-  - landings/testing/mape
-  - landings/paginatradicional/icontext/4
+  - landings/testing/slider/cuarto
+  - landings/testing/slider/segundo
+  - landings/testing/slider/tercero
+  - landings/testing/slider/primero
+  - landings/testing/slider

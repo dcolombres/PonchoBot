@@ -1,0 +1,21 @@
+Identificador: slider
+
+----
+
+Titulo: asdasd
+
+----
+
+Description: 
+
+----
+
+Class: 
+
+----
+
+Cantidadslider: 3
+
+----
+
+Title: slider

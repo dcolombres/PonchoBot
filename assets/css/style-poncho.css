@@ -285,3 +285,15 @@ nav.stick {
 .text-uppercase{
   text-transform: uppercase !important;
 }
+
+/* Control Carousel*/
+.carouselBotons{
+  position: absolute;
+  top:40%;
+}
+.carousel-inner .item > img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 60vh;
+}
