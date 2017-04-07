@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - landings/testing/teibol
+  - landings/testing/teibol/c1
   - landings/testing/vid
   - landings/testing/slider/cuarto
   - landings/testing/slider/segundo
-  - landings/testing/slider/tercero
-  - landings/testing/slider/primero

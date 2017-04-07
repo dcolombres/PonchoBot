@@ -19,6 +19,7 @@
       <div class="overlay"></div>
     </section>
 
+
     <?php foreach($page->children() as $section): ?>
       <section id="<?= $section->identificador() ?>" class="<?= str_replace(",","",$section->class()) ?>">
         <div class="container">
@@ -37,6 +38,32 @@
                   </a>
                 </div>
               <?php endforeach ?>
+            </div>
+
+          <?php elseif ($section->intendedTemplate()=='section-tabla'): ?>
+            <?php
+              $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->encabezado3(), $section->encabezado4(), $section->encabezado5() );
+            ?>
+            <div class="row">
+              <table class="table <?= str_replace(",","",$section->class()) ?>">
+                <thead>
+                  <tr>
+                    <?php for ($i=0; $i < $section->columns()->int() ; $i++) { ?>
+                      <th><?= $tableHead[$i] ?></th>
+                    <?php } ?>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <?php foreach ($section->children() as $tableRow) { ?>
+                    <?php $tableRow = array ($tableRow->campo1(), $tableRow->campo2(), $tableRow->campo3(), $tableRow->campo4(),$tableRow->campo5() ); ?>
+                    <?php  for ($i=0; $i < $section->columns()->int() ; $i++) { ?>
+                      <td> <?= $tableRow[$i] ?></td>
+                    <?php } ?>
+                  <?php } ?>
+                </tbody>
+              </table>
+
             </div>
 
           <?php elseif ($section->intendedTemplate()=='section-panel'): ?>
@@ -99,13 +126,13 @@
           <?php elseif ($section->intendedTemplate()=='section-columnas'): ?>
             <div class="row">
               <?php foreach($section->children() as $columna): ?>
-              <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->value()  ?>">
-                <div class="panel-body text-left">
-                  <h3><?= $columna->bajada() ?></h3>
-                  <?= $columna->texthtml() ?>
+                <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->value()  ?>">
+                  <div class="panel-body text-left">
+                    <h3><?= $columna->bajada() ?></h3>
+                    <?= $columna->texthtml() ?>
+                  </div>
                 </div>
-              </div>
-            <?php endforeach ?>
+              <?php endforeach ?>
             </div>
 
           <?php elseif ($section->intendedTemplate()=='section-icono-texto'): ?>
@@ -247,8 +274,8 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
                   </div>
                 </div>
               </div>

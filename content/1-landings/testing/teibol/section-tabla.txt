@@ -1,0 +1,41 @@
+Title: teibol
+
+----
+
+Identificador: 
+
+----
+
+Class: bg-arandano
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+----
+
+Columns: 4
+
+----
+
+Encabezado1: a
+
+----
+
+Encabezado2: a
+
+----
+
+Encabezado3: a
+
+----
+
+Encabezado4: b
+
+----
+
+Encabezado5: c
