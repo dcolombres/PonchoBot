@@ -127,11 +127,11 @@
 
         <?php elseif ($section->intendedTemplate()=='section-quote'): ?>
           <div class="row">
-              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 <?= str_replace(",","",$section->class()) ?>">
-                <blockquote>
-                  <p>" <?= $section->cita() ?> "</p>
-                  <small><?= $section->autor() ?></small>
-                </blockquote>
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 <?= str_replace(",","",$section->class()) ?>">
+              <blockquote>
+                <p>" <?= $section->cita() ?> "</p>
+                <small><?= $section->autor() ?></small>
+              </blockquote>
             </div>
           </div>
 
@@ -157,7 +157,7 @@
 
       <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
 
-            <?= $section->texthtml() ?>
+        <?= $section->texthtml() ?>
 
       <?php elseif ($section->intendedTemplate()=='section-texto-imagen'): ?>
 
@@ -192,13 +192,13 @@
 
       <?php elseif ($section->intendedTemplate()=='section-slider'): ?>
         <p> <?= $section->description() ?> </p>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div id="my<?= $section->identificador() ?>" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <?php for ($i=0; $i < $section->cantidadSlider()->value() ; $i++) { ?>
-                  <li data-target="#my<?= $section->identificador() ?>" data-slide-to="<?= $i ?>"></li>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div id="my<?= $section->identificador() ?>" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <?php for ($i=0; $i < $section->cantidadSlider()->value() ; $i++) { ?>
+                <li data-target="#my<?= $section->identificador() ?>" data-slide-to="<?= $i ?>"></li>
                 <?php } ?>
               </ol>
               <div class="carousel-inner">
@@ -213,67 +213,69 @@
                         </div>
                       </div>
                     </div>
-                  <?php $i++; } ?>
-                <?php endforeach ?>
+                    <?php $i++; } ?>
+                  <?php endforeach ?>
+                </div>
+                <a class="carousel-control left" href="#my<?= $section->identificador() ?>" data-slide="prev">
+                  <i class="fa fa-angle-left fa-3x carouselBotons"></i>
+                </a>
+                <a class="carousel-control right" href="#my<?= $section->identificador() ?>" data-slide="next">
+                  <i class="fa fa-angle-right fa-3x carouselBotons"></i>
+                </a>
               </div>
-              <a class="carousel-control left" href="#my<?= $section->identificador() ?>" data-slide="prev">
-                <i class="fa fa-angle-left fa-3x carouselBotons"></i>
-              </a>
-              <a class="carousel-control right" href="#my<?= $section->identificador() ?>" data-slide="next">
-                <i class="fa fa-angle-right fa-3x carouselBotons"></i>
-              </a>
             </div>
           </div>
-        </div>
-      <div class="container">
+          <div class="container">
 
-      <?php elseif ($section->intendedTemplate()=='section-video'): ?>
-        <?php if ($section->texthtml()->isNotEmpty()): ?>
-          <div class="row">
-            <div class="col-md-4">
-            <?= $section->texthtml() ?>
-            </div>
-            <div class="col-md-8">
+          <?php elseif ($section->intendedTemplate()=='section-video'): ?>
+            <?php if ($section->texthtml()->isNotEmpty()): ?>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="flex">
+                    <?= $section->texthtml() ?>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            <?php else: ?>
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
               </div>
-            </div>
-          </div>
-        <?php else: ?>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
-          </div>
-        <?php endif ?>
-      <?php endif ?>
-    </div>
-  </section>
-<?php endforeach ?>
+            <?php endif ?>
+          <?php endif ?>
+        </div>
+      </section>
+    <?php endforeach ?>
 
-<?php if ($page->footer()->isNotEmpty()): ?>
-  <section style="background: #fff" class="m-b-3">
-    <div class="container">
-      <div class="text-left">
-        <h2>También te puede interesar...</h2>
-      </div>
-      <?php
-      $footerTags = explode(",", $page->footer());
-      ?>
-      <div class="row">
-        <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
-          <div class="col-md-4 interesar">
-            <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
-              <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
-              <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
-            </a>
+    <?php if ($page->footer()->isNotEmpty()): ?>
+      <section style="background: #fff" class="m-b-3">
+        <div class="container">
+          <div class="text-left">
+            <h2>También te puede interesar...</h2>
           </div>
-        <?php endfor ?>
-      </div>
-    </div>
-  </section>
-<?php endif ?>
+          <?php
+          $footerTags = explode(",", $page->footer());
+          ?>
+          <div class="row">
+            <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
+              <div class="col-md-4 interesar">
+                <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
+                  <h5><?php echo $site->page('footers/' . $footerTags[$i])->title() ?></h5>
+                  <p class="text-muted"><?php echo $site->page('footers/' . $footerTags[$i])->text() ?></p>
+                </a>
+              </div>
+            <?php endfor ?>
+          </div>
+        </div>
+      </section>
+    <?php endif ?>
 
 
-</main>
+  </main>
 </span>
 
 <!-- <a style="position:fixed; bottom:10px; right:10px" class="btn bg-uva btn-primary"href="#" id="copiarCodigo"><i class="fa fa-copy"></i>&nbsp; Codigo</a> -->
