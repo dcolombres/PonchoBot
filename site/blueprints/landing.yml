@@ -16,6 +16,7 @@ pages:
     - section-mapa
     - section-slider
     - section-tabla
+    - section-columnas
 
 files: false
 
