@@ -96,6 +96,17 @@
               <?php endforeach ?>
             </div>
 
+          <?php elseif ($section->intendedTemplate()=='section-columnas'): ?>
+            <div class="row">
+              <?php foreach($section->children() as $columna): ?>
+              <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->value()  ?>">
+                <div class="panel-body text-left">
+                  <h3><?= $columna->bajada() ?></h3>
+                  <?= $columna->texthtml() ?>
+                </div>
+              </div>
+            <?php endforeach ?>
+            </div>
 
           <?php elseif ($section->intendedTemplate()=='section-icono-texto'): ?>
             <?= $section->texthtml() ?>
