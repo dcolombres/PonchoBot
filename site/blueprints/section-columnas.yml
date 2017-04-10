@@ -13,8 +13,6 @@ options:
 fields:
   title: kirbytitle
 
-  identificador: id
-
   class: class
 
   titulo: titulo

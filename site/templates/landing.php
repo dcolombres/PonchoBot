@@ -127,7 +127,7 @@
             <div class="row">
               <?php foreach($section->children() as $columna): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->value()  ?>">
-                  <div class="panel-body text-left">
+                  <div class="panel-body text-left <?= str_replace(",","",$section->class()) ?>">
                     <h3><?= $columna->bajada() ?></h3>
                     <?= $columna->texthtml() ?>
                   </div>
