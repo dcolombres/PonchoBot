@@ -13,10 +13,10 @@ fields:
 
   header:
       label: Encabezado
-      type:  text
+      type: text
       icon: header
 
-  bajada: title
+  bajada: titulo
 
   description: description
 

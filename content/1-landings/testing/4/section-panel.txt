@@ -1,0 +1,21 @@
+Title: 4
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+----
+
+Columns: 3
