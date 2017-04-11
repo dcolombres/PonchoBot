@@ -9,9 +9,8 @@
   <?= css('assets/css/bootstrap.min.css') ?>
   <?= css('assets/css/poncho.css') ?>
   <?= css('assets/css/style-poncho.css') ?>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <?= css('assets/css/font-awesome.css') ?>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
 
 
 </head>

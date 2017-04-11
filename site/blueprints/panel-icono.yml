@@ -19,6 +19,8 @@ fields:
 
   fontawesome: fontawesome
 
+  materialicon: materialicon
+
   bajada: titulo
 
   description: description
