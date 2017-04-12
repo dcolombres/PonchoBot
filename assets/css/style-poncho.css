@@ -160,6 +160,11 @@ article a {
 
 /*fix boton*/
 
+section .row{
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+
 .hidden-xs-up {
     display: none !important;
 }
