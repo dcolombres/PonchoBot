@@ -1,3 +1,29 @@
+input{
+  color: #000 !important
+}
+
+.video-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-flex{
+  position: static;
+}
+.video-text{
+  text-align: justify;
+}
+
+.numberdiv{
+  /*display: inline-block !important;*/
+  flex-flow: column;
+}
+@media (max-width: 767px) {
+    .video-row {
+        flex-flow: column;
+    }
+}
+
 .panelIcono {
     display: flex;
     align-items: center;
@@ -93,11 +119,6 @@ article a {
 .col-md-3:nth-child(4n + 1) {
   clear: both;
 }*/
-
-.numberdiv{
-  /*display: inline-block !important;*/
-  flex-flow: column;
-}
 
 /*Arreglo para Safari*/
 

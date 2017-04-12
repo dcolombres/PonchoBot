@@ -272,14 +272,12 @@
 
                 <?php elseif ($section->intendedTemplate()=='section-video'): ?>
                   <?php if ($section->texthtml()->isNotEmpty()): ?>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="flex">
+                    <div class="row video-row">
+                      <div class="col-md-5  col-xs-12 video-text">
                           <?= $section->texthtml() ?>
-                        </div>
                       </div>
-                      <div class="col-md-8">
-                        <div class="embed-responsive embed-responsive-16by9">
+                      <div class="col-md-6 col-md-offset-1 col-xs-12">
+                        <div class="embed-responsive embed-responsive-16by9 video-flex">
                           <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
                         </div>
                       </div>
