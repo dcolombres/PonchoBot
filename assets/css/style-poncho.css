@@ -94,6 +94,10 @@ article a {
   clear: both;
 }*/
 
+.numberdiv{
+  /*display: inline-block !important;*/
+  flex-flow: column;
+}
 
 /*Arreglo para Safari*/
 

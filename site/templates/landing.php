@@ -226,7 +226,7 @@
               <?= $section->texthtml() ?>
               <div class="row numbers text-left">
                 <?php foreach($section->children() as $numero): ?>
-                  <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> <?= str_replace(",","",$numero->class()) ?>">
+                  <div class="numberdiv col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> <?= str_replace(",","",$numero->class()) ?>">
                     <div class="h2 <?= $numero->textcolor() ?>"> <?= $numero->number() ?> <small class="<?= $numero->textcolor() ?>"> <?= $numero->small() ?></small> </div>
                     <p><?= $numero->description() ?></p>
                   </div>
