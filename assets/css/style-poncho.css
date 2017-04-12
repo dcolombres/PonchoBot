@@ -1,27 +1,35 @@
-input{
-  color: #000 !important
+input {
+    color: #000 !important
 }
 
-.video-row{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.video-flex{
-  position: static;
-}
-.video-text{
-  text-align: justify;
+.video-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.numberdiv{
-  /*display: inline-block !important;*/
-  flex-flow: column;
+.video-flex {
+    position: static;
 }
+
+.video-text {
+    text-align: justify;
+}
+
+.numberdiv {
+    /*display: inline-block !important;*/
+    flex-flow: column;
+}
+
 @media (max-width: 767px) {
     .video-row {
         flex-flow: column;
     }
+}
+
+section .row {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
 }
 
 .panelIcono {
@@ -87,7 +95,7 @@ input{
 }
 
 
-/**fin repara footer/
+/**fin repara footer*/
 
 
 /* reparar article*/
@@ -120,11 +128,12 @@ article a {
   clear: both;
 }*/
 
+
 /*Arreglo para Safari*/
 
 .row:before, .row:after {
     width: 0;
-    /*content: none;*/
+    content: "";
 }
 
 
@@ -159,11 +168,6 @@ article a {
 
 
 /*fix boton*/
-
-section .row{
-  margin-left: -15px !important;
-  margin-right: -15px !important;
-}
 
 .hidden-xs-up {
     display: none !important;
@@ -312,7 +316,6 @@ nav.stick {
 /* Header Evento*/
 
 .table-row {
-    height: 100%;
     display: table-row;
     background-color: rgba(6, 149, 214, 0.7);
 }
@@ -373,4 +376,34 @@ nav.stick {
     justify-content: center;
     min-height: 50vh;
     width: 100%;
+}
+
+
+/* Overlap Div para Plantilla Noticia*/
+
+@media (min-width: 1024px) {
+    .overlap {
+        background: #F9F9F9;
+        border-radius: 4px;
+        box-sizing: content-box;
+        left: -60px;
+        margin-top: -60px;
+        padding: 0px 60px 0;
+        position: relative;
+    }
+}
+
+.filter {
+    font-size: 20px;
+    color: #B9B1B1;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.btn-lupa {
+    padding: 5px 15px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    height: 30px !important;
+    outline: 0px !important;
 }
