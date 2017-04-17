@@ -224,7 +224,7 @@
 
             <?php elseif ($section->intendedTemplate()=='section-numero'): ?>
               <?= $section->texthtml() ?>
-              <div class="row numbers text-left">
+              <div class="row numbers panels-row text-left">
                 <?php foreach($section->children() as $numero): ?>
                   <div class="numberdiv col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> <?= str_replace(",","",$numero->class()) ?>">
                     <div class="h2 <?= $numero->textcolor() ?>"> <?= $numero->number() ?> <small class="<?= $numero->textcolor() ?>"> <?= $numero->small() ?></small> </div>
