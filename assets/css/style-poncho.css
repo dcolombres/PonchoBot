@@ -1,6 +1,9 @@
 .form-group input {
     color: #111 !important
 }
+.alert-success {
+  color:#333 !important;
+}
 
 .video-row {
     display: flex;
