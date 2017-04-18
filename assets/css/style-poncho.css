@@ -2,9 +2,8 @@
 
 
 /* Arreglo ContactForm7*/
-
-.form-group input {
-  color: #111 !important
+.form-control{
+   color: #111 !important;
 }
 
 .alert-success {
@@ -14,30 +13,6 @@
 .alert-warning {
   color: #333 !important;
 }
-
-.wpcf7-submit {
-  height: 54px !important;
-}
-
-.wpcf7-form-control {
-  width: 100%;
-  margin-bottom: 10px;
-  height: 30px;
-  font-size: 14px;
-}
-
-.wpcf7-list-item {
-  display: block;
-}
-
-.wpcf7-captchac {
-  height: 40px;
-}
-
-.wpcf7-text {
-  color: #111 !important;
-}
-
 
 /*Fin Arreglo*/
 
