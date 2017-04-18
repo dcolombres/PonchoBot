@@ -1,6 +1,9 @@
   /*Style-Poncho */
-
-
+/* Arreglo del logo */
+.navbar .navbar-brand {
+    padding: 10px 0;
+}
+/* Fin del arreglo */
 /* Arreglo ContactForm7*/
 
 .form-group input {
