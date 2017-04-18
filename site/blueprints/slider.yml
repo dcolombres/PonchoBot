@@ -14,4 +14,7 @@ fields:
 
   description: description
 
-  linkurl: linkurl
+  linkurl:
+      label: URL Imagen
+      type: text
+      icon: image
