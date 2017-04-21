@@ -12,7 +12,7 @@ fields:
 
   class: class
 
-  description: description
+  texthtml: texthtml
 
   linkurl:
       label: URL Imagen

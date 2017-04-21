@@ -71,7 +71,7 @@ $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->
 &lt;/div&gt;
 &lt;div class="panel-body text-left"&gt;
 &lt;h3&gt;<?= $panel->bajada() ?>&lt;/h3&gt;
-&lt;p class="text-muted"&gt;<?= $panel->description() ?>&lt;/p&gt;
+&lt;p class="text-muted"&gt;<?= $panel->description()->html() ?>&lt;/p&gt;
 &lt;/div&gt;
 &lt;/a&gt;
 &lt;/div&gt;
@@ -88,7 +88,7 @@ $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->
 &lt;/div&gt;
 &lt;div class="panel-body text-left"&gt;
 &lt;h3&gt;<?= $panelFoto->bajada() ?>&lt;/h3&gt;
-&lt;p class="text-muted"&gt;<?= $panelFoto->description() ?>&lt;/p&gt;
+&lt;p class="text-muted"&gt;<?= $panelFoto->description()->html() ?>&lt;/p&gt;
 &lt;/div&gt;
 &lt;/a&gt;
 &lt;/div&gt;
@@ -112,7 +112,7 @@ $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->
 &lt;/div&gt;
 &lt;div class="panel-body text-left"&gt;
 &lt;h3&gt;<?= $panelIcono->bajada() ?>&lt;/h3&gt;
-&lt;p class="text-muted"&gt;<?= $panelIcono->description() ?>&lt;/p&gt;
+&lt;p class="text-muted"&gt;<?= $panelIcono->description()->html() ?>&lt;/p&gt;
 &lt;/div&gt;
 &lt;/a&gt;
 &lt;/div&gt;
@@ -120,6 +120,7 @@ $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->
 &lt;/div&gt;
 
 <?php elseif ($section->intendedTemplate()=='section-columnas'): ?>
+<?= $section->texthtml()->html() ?>
 &lt;div class="row"&gt;
 <?php foreach($section->children() as $columna): ?>
 &lt;div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->value()  ?>"&gt;
@@ -217,7 +218,7 @@ src="https://www.google.com/maps/d/embed?mid=<?= $section->mapkey()?>"&gt;
 
 <?php elseif ($section->intendedTemplate()=='section-numero'): ?>
 <?= $section->texthtml()->html() ?>
-&lt;div class="row numbers text-left"&gt;
+&lt;div class="row numbers panels-row text-left"&gt;
 <?php foreach($section->children() as $numero): ?>
 &lt;div class="numberdiv col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> <?= str_replace(",","",$numero->class()) ?>"&gt;
 &lt;div class="h2 <?= $numero->textcolor() ?>"&gt; <?= $numero->number() ?> &lt;small class="<?= $numero->textcolor() ?>"&gt; <?= $numero->small() ?>&lt;/small&gt; &lt;/div&gt;
@@ -227,7 +228,7 @@ src="https://www.google.com/maps/d/embed?mid=<?= $section->mapkey()?>"&gt;
 &lt;/div&gt;
 
 <?php elseif ($section->intendedTemplate()=='section-slider'): ?>
-&lt;p&gt; <?= $section->description() ?> &lt;/p&gt;
+<?= $section->texthtml()->html() ?>
 &lt;/div&gt;
 &lt;div class="container-fluid"&gt;
 &lt;div class="row"&gt;

@@ -127,6 +127,7 @@
                   </div>
 
                 <?php elseif ($section->intendedTemplate()=='section-columnas'): ?>
+                  <?= $section->texthtml() ?>
                   <div class="row">
                     <?php foreach($section->children() as $columna): ?>
                       <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->value()  ?>">
@@ -234,7 +235,7 @@
               </div>
 
             <?php elseif ($section->intendedTemplate()=='section-slider'): ?>
-              <p> <?= $section->description() ?> </p>
+              <?= $section->texthtml() ?>
             </div>
             <div class="container-fluid">
               <div class="row">
