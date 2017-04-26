@@ -24,8 +24,8 @@
       <section id="<?= $section->identificador() ?>" class="<?= str_replace(",","",$section->class()) ?>">
         <div class="container">
           <?php if ($section->intendedTemplate()=='section-boton'):?>
-            <h2><?= $section->titulo() ?></h2>
-            <?= $section->texthtml() ?>
+            <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+            <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
             <div class="row panels-row">
               <?php foreach($section->children() as $boton): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
@@ -43,7 +43,7 @@
             <?php
             $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->encabezado3(), $section->encabezado4(), $section->encabezado5() );
             ?>
-            <h2><?= $section->titulo() ?></h2>
+            <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
             <table class="table <?= str_replace(",","",$section->class()) ?>">
               <thead>
                 <tr>
@@ -68,8 +68,8 @@
                   </table>
 
                 <?php elseif ($section->intendedTemplate()=='section-panel'): ?>
-                  <h2><?= $section->titulo() ?></h2>
-                  <?= $section->texthtml() ?>
+                  <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+                  <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
                   <div class="row panels-row">
                     <?php foreach($section->children() as $panel): ?>
                       <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
@@ -87,8 +87,8 @@
                   </div>
 
                 <?php elseif ($section->intendedTemplate()=='section-panel-foto'): ?>
-                  <h2><?= $section->titulo() ?></h2>
-                  <?= $section->texthtml() ?>
+                  <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+                  <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
                   <div class="row panels-row">
                     <?php foreach($section->children() as $panelFoto): ?>
                       <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
@@ -105,8 +105,8 @@
                   </div>
 
                 <?php elseif ($section->intendedTemplate()=='section-panel-icono'): ?>
-                  <h2><?= $section->titulo() ?></h2>
-                  <?= $section->texthtml() ?>
+                  <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+                  <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
                   <div class="row panels-row">
                     <?php foreach($section->children() as $panelIcono): ?>
                       <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
@@ -130,8 +130,8 @@
                   </div>
 
                 <?php elseif ($section->intendedTemplate()=='section-columnas'): ?>
-                  <h2><?= $section->titulo() ?></h2>
-                  <?= $section->texthtml() ?>
+                  <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+                  <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
                   <div class="row">
                     <?php foreach($section->children() as $columna): ?>
                       <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->value()  ?>">
@@ -144,8 +144,8 @@
                   </div>
 
                 <?php elseif ($section->intendedTemplate()=='section-icono-texto'): ?>
-                  <h2><?= $section->titulo() ?></h2>
-                  <?= $section->texthtml() ?>
+                  <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+                  <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
                   <div class="row panels-row">
                     <?php foreach($section->children() as $iconoTexto): ?>
                       <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> iconoTexto <?= str_replace(",","",$iconoTexto->class()) ?>">
@@ -163,8 +163,8 @@
                 </div>
 
               <?php elseif ($section->intendedTemplate()=='section-infografia'): ?>
-                <h2><?= $section->titulo() ?></h2>
-                <?= $section->texthtml() ?>
+                <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+                <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
                 <div class="row panels-row">
                   <div class="container">
                     <div class="col-md-12">
@@ -176,7 +176,7 @@
                 </div>
 
               <?php elseif ($section->intendedTemplate()=='section-quote'): ?>
-                <h2><?= $section->titulo() ?></h2>
+                <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
                 <div class="row">
                   <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 <?= str_replace(",","",$section->class()) ?>">
                     <blockquote>
@@ -187,10 +187,10 @@
                 </div>
 
               <?php elseif ($section->intendedTemplate()=='section-mapa'): ?>
-              <h2><?= $section->titulo() ?></h2>
+                <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
               </div>
               <div class="container-fluid">
-                <?= $section->texthtml() ?>
+                <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
                 <div class="row">
                   <div class="maps">
                     <iframe
@@ -207,8 +207,8 @@
             <div class="container">
 
             <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
-              <h2><?= $section->titulo() ?></h2>
-              <?= $section->texthtml() ?>
+              <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+              <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
 
             <?php elseif ($section->intendedTemplate()=='section-texto-imagen'): ?>
               <div class="row">
@@ -217,13 +217,13 @@
                     <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="width: 100%;">
                   </div>
                   <div class="col-sm-8 text-left">
-                    <h2><?= $section->titulo() ?></h2>
-                    <?= $section->texthtml() ?>
+                    <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+                    <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
                   </div>
                 <?php elseif ($section->align()=='d'): ?>
                   <div class="col-sm-8 text-left">
-                    <h2><?= $section->titulo() ?></h2>
-                    <?= $section->texthtml() ?>
+                    <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+                    <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
                   </div>
                   <div class="col-sm-4">
                     <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="width: 100%;">
@@ -232,8 +232,8 @@
               </div>
 
             <?php elseif ($section->intendedTemplate()=='section-numero'): ?>
-              <h2><?= $section->titulo() ?></h2>
-              <?= $section->texthtml() ?>
+              <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+              <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
               <div class="row numbers panels-row text-left">
                 <?php foreach($section->children() as $numero): ?>
                   <div class="numberdiv col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> <?= str_replace(",","",$numero->class()) ?>">
@@ -244,8 +244,8 @@
               </div>
 
             <?php elseif ($section->intendedTemplate()=='section-slider'): ?>
-              <h2><?= $section->titulo() ?></h2>
-              <?= $section->texthtml() ?>
+              <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+              <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
             </div>
             <div class="container-fluid">
               <div class="row">
@@ -285,8 +285,8 @@
                   <?php if ($section->texthtml()->isNotEmpty()): ?>
                     <div class="row video-row">
                       <div class="col-md-5  col-xs-12 video-text">
-                          <h2><?= $section->titulo() ?></h2>
-                          <?= $section->texthtml() ?>
+                        <?php if ($section->titulo() != "") echo '<h2>'.$section->titulo().'</h2>'; ?>
+                        <?php if ($section->texthtml() != "") echo '<p>'.$section->texthtml().'</p>'; ?>
                       </div>
                       <div class="col-md-6 col-md-offset-1 col-xs-12">
                         <div class="embed-responsive embed-responsive-16by9 video-flex">
