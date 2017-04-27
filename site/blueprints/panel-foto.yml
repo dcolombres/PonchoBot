@@ -22,3 +22,8 @@ fields:
       icon: image
 
   linkurl: linkurl
+
+  linkopt:
+    label: Target
+    type: checkbox
+    text: Abrir Link en página nueva

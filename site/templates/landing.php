@@ -29,7 +29,7 @@
             <div class="row panels-row">
               <?php foreach($section->children() as $boton): ?>
                 <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
-                  <a class="panel panel-default text-gray text-left <?= str_replace(",","",$boton->class()) ?>" <?php if ($boton->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> href="<?= $boton->linkurl() ?>">
+                  <a class="panel panel-default text-gray text-left <?= str_replace(",","",$boton->class()) ?>" <?php if ($boton->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> href="<?= $boton->linkurl() ?>" <?php if ($boton->linkopt() == '1') {echo 'target="_blank"';} ?>>
                     <div class="panel-body">
                       <h3><?= $boton->title() ?></h3>
                       <p class="text-muted"><?= $boton->text() ?></p>
@@ -73,7 +73,7 @@
                   <div class="row panels-row">
                     <?php foreach($section->children() as $panel): ?>
                       <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
-                        <a <?php if ($panel->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panel->linkurl() ?>">
+                        <a <?php if ($panel->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panel->linkurl() ?>" <?php if ($panel->linkopt() == '1') {echo 'target="_blank"';} ?>>
                           <div class="panel-heading bg-primary <?= str_replace(",","",$panel->class()) ?>">
                             <h1 class="text-left" style="font-size:175%"><?= $panel->header() ?></h1>
                           </div>
@@ -92,7 +92,7 @@
                   <div class="row panels-row">
                     <?php foreach($section->children() as $panelFoto): ?>
                       <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
-                        <a <?php if ($panelFoto->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelFoto->linkurl() ?>">
+                        <a <?php if ($panelFoto->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelFoto->linkurl() ?>" <?php if ($panelFoto->linkopt() == '1') {echo 'target="_blank"';} ?>>
                           <div class="panel-heading bg-primary <?= str_replace(",","",$panelFoto->class()) ?>" style="background-image: url('<?= $panelFoto->urlimagen() ?>');">
                           </div>
                           <div class="panel-body text-left">
@@ -110,7 +110,7 @@
                   <div class="row panels-row">
                     <?php foreach($section->children() as $panelIcono): ?>
                       <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
-                        <a <?php if ($panelIcono->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl() ?>">
+                        <a <?php if ($panelIcono->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl() ?>" <?php if ($panelIcono->linkopt() == '1') {echo 'target="_blank"';} ?>>
                           <div class="panel-heading bg-primary panelIcono <?= str_replace(",","",$panelIcono->class()) ?>">
                             <?php if ($panelIcono->urlicono()->isNotEmpty()): ?>
                               <img src="<?= $panelIcono->urlicono() ?>" alt="" ></img>
