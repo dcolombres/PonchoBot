@@ -9,7 +9,7 @@ options:
 
 fields:
   title: kirbytitle
-  
+
   title:
     label: Titulo
     type:  text
@@ -23,3 +23,8 @@ fields:
     icon: align-justify
 
   linkurl: linkurl
+
+  linkopt:
+    label: Target
+    type: checkbox
+    text: Abrir Link en página nueva

@@ -34,3 +34,8 @@ fields:
     width: 2/3
 
   linkurl: linkurl
+
+  linkopt:
+    label: Target
+    type: checkbox
+    text: Abrir Link en página nueva
