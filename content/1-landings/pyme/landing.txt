@@ -20,3 +20,15 @@ Footer: beneficios-fiscales,beneficios-para-exportar,certificaciones,invertir,ca
 ----
 
 Title: PyME
+
+----
+
+Texthtml: 
+
+----
+
+Fileimage: 
+
+----
+
+Class: 

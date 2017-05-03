@@ -18,7 +18,7 @@ pages:
     - section-tabla
     - section-columnas
 
-files: false
+files: true
 
 options:
   preview: true
@@ -38,6 +38,18 @@ fields:
     label: URL del background
     type:  text
     icon: image
+
+  info:
+    label: Ayuda
+    type: info
+    text: >
+      Estos campos mostrarán imágenes subidas a Files (servidor de PonchoBot)
+    width: 1/3
+
+  fileimage:
+    label: Imagen de background
+    type: image
+    width: 2/3
 
   class: class
 

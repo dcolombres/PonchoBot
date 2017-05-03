@@ -1,7 +1,7 @@
 title: Infografia
 
 pages: false
-files: false
+files: true
 
 options:
   preview: false
@@ -21,6 +21,12 @@ fields:
 
   texthtml: texthtml
 
+  infoURL:
+    label: Ayuda
+    type: info
+    text: >
+      Estos campos mostrarán imágenes subidas al servidor de WordPress
+
   imgdesktop:
     label: URL Imagen Desktop
     type: text
@@ -34,4 +40,25 @@ fields:
   imgmobile:
     label: URL Imagen Mobile
     type: text
+    width: 1/3
+
+  info:
+    label: Ayuda
+    type: info
+    text: >
+      Estos campos mostrarán imágenes subidas a Files (servidor de PonchoBot)
+
+  filedesktop:
+    label: Imagen Desktop
+    type: image
+    width: 1/3
+
+  filetablet:
+    label: Imagen Tablet
+    type: image
+    width: 1/3
+
+  filemobile:
+    label: Imagen Mobile
+    type: image
     width: 1/3

@@ -1,7 +1,7 @@
 title: panelFoto
 
 pages: false
-files: false
+files: true
 
 options:
   delete: true
@@ -20,5 +20,17 @@ fields:
       label: URL Imagen Panel
       type: text
       icon: image
+
+  info:
+    label: Ayuda
+    type: info
+    text: >
+      Estos campos mostrarán imágenes subidas a Files (servidor de PonchoBot)
+    width: 1/3
+
+  fileimage:
+    label: Imagen Panel
+    type: image
+    width: 2/3
 
   linkurl: linkurl

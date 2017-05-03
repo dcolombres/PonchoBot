@@ -15,3 +15,15 @@ Footer: beneficios-para-exportar,beneficios-fiscales
 ----
 
 Titulo: Beneficios para exportar
+
+----
+
+Texthtml: 
+
+----
+
+Class: 
+
+----
+
+Fileimage: 

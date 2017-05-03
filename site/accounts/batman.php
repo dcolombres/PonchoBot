@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - landings/pyme/prueba
+  - landings/pyme
+  - landings/beneficios-para-exportar
+  - landings
   - landings/testing/teibol/c2
-  - landings/testing/teibol
-  - landings/testing/teibol/c1
-  - landings/testing/vid
-  - landings/testing/slider/cuarto
