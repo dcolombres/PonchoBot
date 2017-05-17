@@ -12,6 +12,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <?= css('assets/css/font-awesome.css') ?>
 
+  <meta name="robots" content="noindex">
+  <meta name="googlebot" content="noindex">
 
 </head>
 <body>
