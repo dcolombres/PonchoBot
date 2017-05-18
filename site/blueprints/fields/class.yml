@@ -10,15 +10,15 @@ options:
   bg-info: bg-info
   bg-warning: bg-warning
   bg-danger: bg-danger
-  bg-gray: bg-gray
-  bg-tomate: bg-tomate
-  bg-fucsia: bg-fucsia
-  bg-arandano: bg-arandano
-  bg-uva: bg-uva
-  bg-cielo: bg-cielo
-  bg-verdin: bg-verdin
-  bg-lima: bg-lima
-  bg-maiz: bg-maiz
+  bg-rosa: bg-rosa
+  bg-palta: bg-palta
+  bg-violeta: bg-violeta
+  bg-turquesa: bg-turquesa
+  bg-naranja: bg-naranja
+  bg-gclaro: bg-gclaro
+  bg-white: bg-white
+  bg-celeste: bg-celeste
+  bg-gris: bg-gris
   __ : _____Color Texto_____
   text-primary: text-primary
   text-secondary: text-secondary
@@ -27,14 +27,11 @@ options:
   text-danger: text-danger
   text-muted: text-muted
   text-gray: text-gray
-  text-tomate: text-tomate
-  text-fucsia: text-fucsia
-  text-arandano: text-arandano
-  text-uva: text-uva
-  text-cielo: text-cielo
-  text-verdin: text-verdin
-  text-lima: text-lima
-  text-maiz: text-maiz
+  text-rosa: text-rosa
+  text-palta: text-palta
+  text-violeta: text-violeta
+  text-turquesa: text-turquesa
+  text-naranja: text-naranja
   ___ : _____Padding_____
   p-t-0: Padding Top 0
   p-b-0: Padding Bottom 0

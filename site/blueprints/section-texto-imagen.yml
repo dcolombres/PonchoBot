@@ -33,7 +33,7 @@ fields:
     width: 1/3
 
   fileimage:
-    label: Imagen 
+    label: Imagen
     type: image
     width: 2/3
 
@@ -52,5 +52,4 @@ fields:
   imgclass:
     label: Class de la imagen
     type: text
-    placeholder: img-circle
     width: 3/5

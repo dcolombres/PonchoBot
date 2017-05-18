@@ -178,7 +178,7 @@
         <div class="row">
           <?php if ($section->align()=='i'): ?>
             <div class="col-sm-4">
-              <img class="img-circle" src="<?= $section->urlimagen() ?>" style="max-width: 100%;">
+              <img class="" src="<?= $section->urlimagen() ?>" style="max-width: 100%;">
             </div>
             <div class="col-sm-8 text-left">
               <?= $section->texthtml() ?>
