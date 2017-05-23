@@ -1,0 +1,17 @@
+Title: mediakit
+
+----
+
+Titulo: Hola Mundo!
+
+----
+
+Texthtml: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis nulla eros, vel dictum nulla rhoncus ac. Pellentesque cursus condimentum erat, ut fringilla felis sagittis eget. Nullam tempus mauris sit amet odio accumsan, vitae tristique libero eleifend. Cras faucibus egestas rhoncus. Vestibulum vel dui ante. Aenean ac velit viverra, varius lectus nec, sodales odio.
+
+----
+
+Background: http://placehold.it/1080x720
+
+----
+
+Fileimage: modernizacion.jpg

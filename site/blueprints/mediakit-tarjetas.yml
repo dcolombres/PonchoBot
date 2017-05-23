@@ -1,0 +1,18 @@
+title: Tarjetas
+
+pages: mediakit-tarjeta
+files: false
+
+options:
+  preview: false
+  status: true
+  template: true
+  url: false
+  delete: true
+
+fields:
+  title: kirbytitle
+
+  titulo: titulo
+
+  texthtml: texthtml

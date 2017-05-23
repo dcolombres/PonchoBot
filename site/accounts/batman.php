@@ -7,8 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - landings/testing/sectimg
-  - landings/pyme
-  - landings/beneficios-para-exportar
-  - landings
-  - landings/testing/teibol/c2
+  - mediakit/imagen
+  - mediakit
+  - mediakit/texto-con-imagen
+  - mediakit/tarjetas
+  - mediakit/texto

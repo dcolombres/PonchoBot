@@ -1,0 +1,33 @@
+Title: Imagen
+
+----
+
+Infourl: 
+
+----
+
+Imgdesktop: http://placehold.it/1080x720
+
+----
+
+Imgtablet: 
+
+----
+
+Imgmobile: 
+
+----
+
+Info: 
+
+----
+
+Filedesktop: 
+
+----
+
+Filetablet: 
+
+----
+
+Filemobile: 

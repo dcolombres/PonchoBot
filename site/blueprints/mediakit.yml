@@ -1,0 +1,34 @@
+title: Media-kit
+
+pages:
+  template:
+    - mediakit-img-txt
+    - mediakit-img
+    - mediakit-tarjetas
+    - mediakit-txt    
+
+files: true
+
+fields:
+  title: kirbytitle
+
+  titulo: titulo
+
+  texthtml: texthtml
+
+  background:
+    label: URL del background
+    type:  text
+    icon: image
+
+  info:
+    label: Ayuda
+    type: info
+    text: >
+      Estos campos mostrarán imágenes subidas a Files (servidor de PonchoBot)
+    width: 1/3
+
+  fileimage:
+    label: Imagen de background
+    type: image
+    width: 2/3
