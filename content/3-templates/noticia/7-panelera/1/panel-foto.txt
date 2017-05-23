@@ -1,0 +1,24 @@
+Title: 1
+
+----
+
+Class: 
+
+----
+
+Bajada: 
+
+----
+
+Description: 
+
+<time class="text-muted">10 de Diciembre de 2015</time>
+<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+
+----
+
+Urlimagen: http://placehold.it/300x300
+
+----
+
+Linkurl: 

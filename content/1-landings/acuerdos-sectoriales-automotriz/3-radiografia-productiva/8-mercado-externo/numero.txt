@@ -1,0 +1,17 @@
+Title: mercado externo
+
+----
+
+Number: 41
+
+----
+
+Small: %
+
+----
+
+Description: de la producción destinada al mercado externo
+
+----
+
+Color: text-success

@@ -1,0 +1,29 @@
+Title: Lanus
+
+----
+
+Class: 
+
+----
+
+Textcolor: 
+
+----
+
+Campo1: Lanús
+
+----
+
+Campo2: 24/4
+
+----
+
+Campo3: 9:30
+
+----
+
+Campo4: Av. Hipólito Yrigoyen 4651
+
+----
+
+Campo5: 

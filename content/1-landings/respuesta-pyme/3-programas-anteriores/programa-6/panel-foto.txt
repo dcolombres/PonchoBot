@@ -1,0 +1,21 @@
+Title: Programa 6
+
+----
+
+Class: 
+
+----
+
+Bajada: Programa 6
+
+----
+
+Description: ¿Estás inscripto en el Registro PyME? En este programa Carolina Castro hace un repaso de todos los beneficios que se encuentran vigentes en la Ley PyME, para aquellas empresas que se estén registradas: obtené créditos a tasas bonificadas, descontá hasta el 10% de lo que inviertas en el pago de ganancias y poder pagar el IVA a 90 días.
+
+----
+
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/04/Screenshot_4.jpg
+
+----
+
+Linkurl: https://www.youtube.com/embed/0KaCzF2-8K8?rel=0&amp;controls=0&amp;showinfo=0?ecver=1

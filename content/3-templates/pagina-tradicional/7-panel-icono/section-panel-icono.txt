@@ -1,0 +1,25 @@
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: Paneles con ícono
+
+----
+
+Description: 
+
+----
+
+Columns: 4
+
+----
+
+Title: Panel icono
+
+----
+
+Texthtml: <p>Breve párrafo a modo de descripción (opcional)

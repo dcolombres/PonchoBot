@@ -1,0 +1,21 @@
+Identificador: pasos
+
+----
+
+Titulo: Pasos a seguir
+
+----
+
+Texthtml: 
+
+<p><strong>1 – </strong>Registrate como PyME en la AFIP <a href="">aquí</a> – <a href="">Mirá el video tutorial</a> para hacerlo correctamente</p>
+              <p><strong>2 – </strong>Descargá el <a href="">formulario para presentar tu proyecto</a> y el <a href="">listado de documentación adicional</a></p>
+              <p><strong>3 – </strong>Presentá el formulario impreso en hoja A4, junto con toda la documentación adicional (todas las hojas deben estar firmadas) y al certificado PyME, ante la mesa de entrada del Ministerio de Producción en Av. Julio A. Roca 651, C.A.B.A., Planta baja, sector 11 y 12, de lunes a viernes de 9 a 17 hs.</p>
+
+----
+
+Class: 
+
+----
+
+Title: 3-Pasos a seguir

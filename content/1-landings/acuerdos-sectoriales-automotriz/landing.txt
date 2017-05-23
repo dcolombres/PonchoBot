@@ -1,0 +1,25 @@
+Titulo: Acuerdo Automotriz
+
+----
+
+Subtitle: Este es un histórico acuerdo sectorial entre el gobierno nacional, las provincias de Santa Fe, Córdoba y Buenos Aires, trabajadores y empresas para mejorar la competitividad del sector automotriz en base al consenso, el diálogo y el compromiso de todos los actores.
+
+----
+
+Background: http://img.prod.gob.ar/2017/03/autos.jpg
+
+----
+
+Footer: 
+
+----
+
+Title: Acuerdos Sectoriales | Automotriz
+
+----
+
+Class: 
+
+----
+
+Texthtml: <p>Este es un histórico acuerdo sectorial entre el gobierno nacional, las provincias de Santa Fe, Córdoba y Buenos Aires, trabajadores y empresas para mejorar la competitividad del sector automotriz en base al consenso, el diálogo y el compromiso de todos los actores.

@@ -1,0 +1,22 @@
+Title: Mas info
+
+----
+
+Identificador: info
+
+----
+
+Class: 
+
+----
+
+Titulo: Más información
+
+----
+
+Texthtml: 
+
+<p><span style="font-weight: 400">Servicio de Atención – Certificaciones</span></p>
+<p><span style="font-weight: 400">Dirección: Av. Julio A. Roca 651 (C.A.B.A.). Horario de atención: de lunes a viernes de 9:00 a 17:00 hs.</span></p>
+<p><span style="font-weight: 400">Teléfono: 0800-333-7963</span></p>
+<p><span style="font-weight: 400">E-mail: <a href="mailto:info@produccion.gob.ar">info@produccion.gob.ar</a></span></p>

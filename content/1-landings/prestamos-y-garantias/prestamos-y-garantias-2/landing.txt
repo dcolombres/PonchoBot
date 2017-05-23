@@ -1,8 +1,8 @@
-﻿Title: Empeza un proyecto
+Title: Empeza un proyecto
 
 ----
 
-Subtitle: Tenemos financiamiento y herramientas para impulsar el crecimiento de tu PyME. Y si no tenés garantía, te damos una para que puedas acceder a préstamos bancarios
+Texthtml: <p>Tenemos financiamiento y herramientas para impulsar el crecimiento de tu PyME  <br>Si no tenés garantía, te damos una para que puedas acceder a préstamos bancarios
 
 ----
 
@@ -11,3 +11,11 @@ Background: http://www.produccion.gob.ar/wp-content/uploads/2017/03/va2.jpg
 ----
 
 Footer: beneficios-fiscales,beneficios-para-exportar
+
+----
+
+Titulo: Préstamos y Garantías
+
+----
+
+Class: 

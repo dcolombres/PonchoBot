@@ -1,0 +1,24 @@
+Identificador: 
+
+----
+
+Class: p-t-0
+
+----
+
+Titulo: 
+
+----
+
+Description: 
+
+<h4>Más información</h4>
+<p>Consultá en este listado la información de contacto de cada Casa de la Producción</p>
+
+----
+
+Columns: 3
+
+----
+
+Title: Iconos

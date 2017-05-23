@@ -1,0 +1,24 @@
+Title: 4
+
+----
+
+Bajada: 
+
+----
+
+Description: 
+
+<small>Jueves 14 de Enero del 2017</small>
+<p>Lorem ipsum dolor sit amet
+
+----
+
+Urlimagen: http://wip.noduscompany.com/manual-produccion/img/placeholder.png
+
+----
+
+Linkurl: 
+
+----
+
+Class: 

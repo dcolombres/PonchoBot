@@ -1,0 +1,25 @@
+Title: Seguridad industrial
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/04/helmet.png
+
+----
+
+Fontawesome: 
+
+----
+
+Bajada: Seguridad Industrial
+
+----
+
+Description: 
+
+----
+
+Linkurl: http://www.produccion.gob.ar/seguridadindustrial

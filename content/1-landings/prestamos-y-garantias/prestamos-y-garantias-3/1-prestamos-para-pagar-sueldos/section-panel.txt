@@ -7,3 +7,19 @@ Columns: 4
 ----
 
 Title: Préstamos para pagar sueldos
+
+----
+
+Identificador: 
+
+----
+
+Titulo: Préstamos para pagar sueldos
+
+----
+
+Class: p-b-0
+
+----
+
+Texthtml: 

@@ -1,0 +1,29 @@
+Title: Investigación
+
+----
+
+Urlicono: 
+
+----
+
+Header: 
+
+----
+
+Bajada: Investigación
+
+----
+
+Description: Presentaciones, papers, investigaciones y eventos sobre las políticas de desarrollo productivo
+
+----
+
+Linkurl: 
+
+----
+
+Class: 
+
+----
+
+Fontawesome: fa-flask

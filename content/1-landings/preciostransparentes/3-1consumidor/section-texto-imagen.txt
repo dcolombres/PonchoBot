@@ -1,0 +1,55 @@
+Identificador: consumidor
+
+----
+
+Class: bg-lima
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<h5>SI SOS CONSUMIDOR, ESTAS SON LAS 5 COSAS QUE TENÉS QUE SABER:</h5>
+<ol>
+  <li>
+<p><strong>Tenés derecho a saber cuánto pagás por un producto o servicio.</strong> Por eso es obligatorio que cada comercio exhiba el precio al contado de todo lo que ofrezcan.</p>
+  </li>
+  <li>
+    <p><strong>El precio al contado</strong> es en efectivo, con tarjeta de débito, en una sola cuota con tarjeta de crédito o con otros medios electrónicos de pago.</p>
+  </li>
+  <li>
+<p>Para que puedas decidir mejor, <strong>el costo de financiar tu compra (CFT) va a estar explicitado</strong>  en las publicidades y comercios electrónicos.</p>
+  </li>
+  <li>
+    <p>Si querés pagar en cuotas, además de la cantidad y el valor de cada una,<strong> podés consultar el Costo Financiero Total</strong> (CFT), que te indica la tasa de interés y el resto de los costos y cargos asociados a la financiación y su plazo.</p>
+  </li>
+  <li>
+<p><strong>El comerciante o el banco pueden ofrecerte cuotas sin interés</strong> si deciden absorber el costo de financiación.</p>
+  </li>
+
+</ol>
+
+<div class="text-center p-t-3">
+<p>¿Tenés consultas o reclamos?
+</br>
+Entrá a <a href="http://www.consumidor.gob.ar">consumidor.gob.ar</a> o llamá al 0800-666-1518</p>
+</div>
+
+----
+
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/03/consumidor.jpg
+
+----
+
+Align: i
+
+----
+
+Imgclass: img-circle
+
+----
+
+Title: 1consumidor

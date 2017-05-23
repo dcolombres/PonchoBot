@@ -1,0 +1,28 @@
+Identificador: alivioFiscal
+
+----
+
+Text: Beneficios de la Ley
+
+----
+
+Texthtml: 
+
+<h3 class="text-tomate">Alivio Fiscal</h3>
+<ul>
+<li>Si tenés una micro o pequeña empresa, podés pagar el IVA a 90 días.</li>
+<li>Desde el 1 de enero de 2017, no tenés que pagar más el Impuesto a la Ganancia Mínima Presunta.</li>
+<li>Podés descontar el impuesto al cheque de lo que pagás de Ganancias: hasta un 100% para micro y pequeñas empresas y 50% para PyMEs medianas industriales tramo 1.</li>
+</ul>
+
+----
+
+Class: p-b-0 p-t-0
+
+----
+
+Title: Alivio Fiscal
+
+----
+
+Titulo: 

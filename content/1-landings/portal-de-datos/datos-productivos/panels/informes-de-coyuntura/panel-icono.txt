@@ -1,0 +1,33 @@
+Title: Monitor de la Economía Real
+
+----
+
+Urlicono: 
+
+----
+
+Header: 
+
+----
+
+Bajada: Monitor de la Economía Real
+
+----
+
+Description: Principales tendencias de la macroeconomía que impactan en la producción
+
+----
+
+Linkurl: 
+
+----
+
+Class: 
+
+----
+
+Fontawesome: fa-area-chart
+
+----
+
+Materialicon: 

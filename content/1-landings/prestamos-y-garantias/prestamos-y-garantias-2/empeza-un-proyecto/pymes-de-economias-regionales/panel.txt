@@ -14,4 +14,8 @@ Description: Préstamos bancarios para PyMES de las regiones NOA, NEA, Cuyo y Pa
 
 ----
 
-Linkurl: #
+Linkurl: http://www.produccion.gob.ar/procer
+
+----
+
+Class: 

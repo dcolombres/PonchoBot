@@ -1,0 +1,21 @@
+Title: MER
+
+----
+
+Header: Monitor de la Economía Real
+
+----
+
+Bajada: 
+
+----
+
+Description: Principales tendencias de la macroeconomía que impactan en la producción
+
+----
+
+Linkurl: 
+
+----
+
+Class: 

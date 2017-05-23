@@ -1,0 +1,21 @@
+Title: GPS de Economías Regionales
+
+----
+
+Bajada: GPS de Economías Regionales
+
+----
+
+Description: Es una herramienta estratégica para detectar oportunidades de transformación productiva con información sobre las principales actividades, empleo, exportaciones, potencial y oportunidades para el desarrollo. Vas a poder buscar, segmentar y descargar los datos productivos por provincia y por sector
+
+----
+
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/03/gpser.png
+
+----
+
+Linkurl: http://oixxio.net/mProduccion-v2-Testing/#/
+
+----
+
+Class: 

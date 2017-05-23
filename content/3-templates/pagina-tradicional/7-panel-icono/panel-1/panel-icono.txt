@@ -1,0 +1,25 @@
+Title: Panel 1
+
+----
+
+Class: 
+
+----
+
+Urlicono: 
+
+----
+
+Fontawesome: fa-gear
+
+----
+
+Bajada: Ministerio de Economía
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla mauris in mauris auctor blandit.
+
+----
+
+Linkurl: 

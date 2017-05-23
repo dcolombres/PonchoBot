@@ -14,4 +14,8 @@ Description: Préstamos bancarios con tasa máxima del 17% a 84 meses para PyMEs
 
 ----
 
-Linkurl: #
+Linkurl: http://www.produccion.gob.ar/procer
+
+----
+
+Class: 

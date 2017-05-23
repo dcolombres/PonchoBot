@@ -1,0 +1,67 @@
+Text: Metas y compromisos
+
+----
+
+Texthtml: 
+
+<ul>
+                                <li>Régimen de Fortalecimiento y Desarrollo del Autopartismo Argentino</li>
+                                <li>Revisión de la estructura arancelaria para mejorar las condiciones de competitividad de la cadena de valor</li>
+                                <li>Fortalecimiento del INTI</li>
+                                <li>Optimizar el marco regulatorio (LCM, CHAS, patentamientos, etc.)</li>
+                                <li>Seguimiento del Acuerdo con Brasil en el marco de la Política Automotriz Común (PAC)</li>
+                                <li>Promover el acceso a insumos de uso difundido a precios y calidad competitivos</li>
+                                <li>Financiamiento del BICE</li>
+                                <li>Negociaciones internacionales para la apertura de nuevos mercados</li>
+                                <li>Programa de promoción de inversiones para desarrollar la motorización “Flex-fuel”, híbridos y vehículos eléctricos</li>
+                                <li>Promoción de acciones de capacitación para incentivar mejoras en la calidad y productividad (JICA)</li>
+                            </ul>
+                            <h4>Compromisos del sector público provincial</h4>
+                            <ul>
+                                <li>Coordinación con las provincias de Córdoba, Santa Fe y Buenos Aires y con la C.A.B.A. y municipios</li>
+                            </ul>
+                            <h4>Compromisos del sector privado</h4>
+                            <ul>
+                                <li>Cumplimiento del FLEX</li>
+                                <li>Mejora y desarrollo de proveedores</li>
+                                <li>Programa de inversiones en nuevos proyectos</li>
+                                <li>Mantener precios en niveles similares a economías comparables</li>
+                            </ul>
+                            <h4>Compromisos del sector privado y los sindicatos</h4>
+                            <ul>
+                                <li>Fortalecimiento de las capacidades en investigación y desarrollo</li>
+                                <li>Programa de capacitación y formación laboral</li>
+                                <li>Mejorar la productividad y reducir el ausentismo</li>
+                            </ul>
+
+----
+
+Urlimagen: http://img.prod.gob.ar/2017/03/automotriz1-1.jpg
+
+----
+
+Align: d
+
+----
+
+Colorfondo: bg-primary
+
+----
+
+Title: Metas y compromisos
+
+----
+
+Identificador: 
+
+----
+
+Class: bg-primary
+
+----
+
+Titulo: Metas y compromisos
+
+----
+
+Imgclass: img-circle

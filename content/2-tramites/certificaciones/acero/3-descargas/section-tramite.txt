@@ -1,0 +1,24 @@
+Title: Descargas
+
+----
+
+Identificador: descargas
+
+----
+
+Class: 
+
+----
+
+Titulo: Descargas
+
+----
+
+Texthtml: 
+
+<ul>
+<li><span style="font-weight: 400">Instructivo para saber cómo hacer el trámite y qué documentación te van a pedir: </span><a href="http://www.produccion.gob.ar/wp-content/uploads/2016/03/LC_Aceros_certificaciones.pdf"><span style="font-weight: 400">Instructivo</span></a></li>
+<li><span style="font-weight: 400">Nota para iniciar el proceso de autorización de los productos importados Sin Derecho a Uso (SDU): </span><a href="http://www.produccion.gob.ar/wp-content/uploads/2016/03/CERT-Aceros-404-V.1.1-Nota-apertura-SDU.docx"><span style="font-weight: 400">Nota Apertura SDU V.1.1</span></a></li>
+<li><span style="font-weight: 400">Nota de excepción para los materiales incluidos en el listado pero que NO vas a usar para la construcción ni con fines estructurales; </span><a href="http://www.produccion.gob.ar/wp-content/uploads/2016/03/cert-aceros-924-v-1-2-modelo-nota-excepcion.doc"><span style="font-weight: 400">Modelo Nota Excepción V.1.2</span></a></li>
+<li><span style="font-weight: 400">Formulario para pedir el permiso de comercialización dentro de la Argentina </span><a href="http://www.produccion.gob.ar/wp-content/uploads/2016/03/cert-aceros-c-v-1-1-formulario-comercializacion.docx"><span style="font-weight: 400">Formulario C V.1.1</span></a></li>
+</ul>

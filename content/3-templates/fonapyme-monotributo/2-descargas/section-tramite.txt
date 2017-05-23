@@ -1,0 +1,21 @@
+Identificador: descargas
+
+----
+
+Titulo: Descargas
+
+----
+
+Texthtml: 
+
+<p><i class="fa fa-list text-muted">&ensp;</i> <a href="">Formulario de Presentación del Proyecto</a> - 2.210 kb</p>
+              <p><i class="fa fa-align-justify text-muted">&ensp;</i> <a href="">Listado de documentación adicional</a> - 17 kb</p>
+              <p><i class="fa fa-download text-muted">&ensp;</i> <a href="">Bases y condiciones</a> - 163 kb</p>
+
+----
+
+Class: 
+
+----
+
+Title: 4-Descargas

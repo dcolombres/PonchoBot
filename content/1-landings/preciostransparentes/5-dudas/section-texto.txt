@@ -1,0 +1,25 @@
+Identificador: 
+
+----
+
+Class: bg-cielo, m-b-3
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<div class="text-center">
+<p>
+Consultá la normativa:</p>
+<a href="http://www.produccion.gob.ar/wp-content/uploads/2017/03/Resolucion-240-E-2017.pdf" target="_blank"><i class="fa fa-file-pdf-o text-arandano"></i> Resolución 240 E/2017</a>
+</br>
+<a href="http://www.produccion.gob.ar/wp-content/uploads/2017/01/Resol-51_2017.pdf" target="_blank"><i class="fa fa-file-pdf-o text-arandano"></i> Resolución 51 E/2017</a>
+</div>
+
+----
+
+Title: dudas

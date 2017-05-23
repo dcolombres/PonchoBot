@@ -14,4 +14,8 @@ Description: Préstamos con tasa máxima del 17% y a 84 meses, para PyMEs del NO
 
 ----
 
-Linkurl: #
+Linkurl: http://www.produccion.gob.ar/procer
+
+----
+
+Class: 

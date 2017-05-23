@@ -1,0 +1,25 @@
+Titulo: Investigación
+
+----
+
+Subtitle: Presentaciones, papers, investigaciones y eventos sobre las políticas de desarrollo productivo
+
+----
+
+Background: http://www.produccion.gob.ar/wp-content/uploads/2017/01/Optimized-TAD-slider-web-01.jpg
+
+----
+
+Footer: 
+
+----
+
+Title: Investigación
+
+----
+
+Class: 
+
+----
+
+Texthtml: <p>Presentaciones, papers, investigaciones y eventos sobre las políticas de desarrollo productivo

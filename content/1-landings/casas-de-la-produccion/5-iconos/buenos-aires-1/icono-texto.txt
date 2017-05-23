@@ -1,0 +1,23 @@
+Title: Avellaneda
+
+----
+
+Class: text-left
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Description: 
+
+<h5>Avellaneda</h5>
+<p><i class="fa fa-map-marker"></i> Bartolomé Mitre 423, Avellaneda, Buenos Aires
+<br><i class="fa fa-phone"></i> 4222-0062
+<br><i class="fa fa-envelope"></i> casaavellaneda.produccion@gmail.com
+<br><i class="fa fa-user"></i> Horacio Pereira
+
+----
+
+Linkurl: 

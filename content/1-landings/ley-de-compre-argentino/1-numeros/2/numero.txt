@@ -1,0 +1,21 @@
+Title: 2
+
+----
+
+Class: 
+
+----
+
+Textcolor: text-secondary
+
+----
+
+Number: 40%
+
+----
+
+Small: de integración
+
+----
+
+Description: de productos nacionales en grandes proyectos de obra pública

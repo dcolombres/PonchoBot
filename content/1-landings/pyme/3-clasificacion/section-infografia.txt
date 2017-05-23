@@ -1,0 +1,29 @@
+Identificador: 
+
+----
+
+Titulo: 
+
+----
+
+Class: 
+
+----
+
+Imgdesktop: http://www.produccion.gob.ar/wp-content/uploads/2017/04/clasificacionpyme.png
+
+----
+
+Imgtablet: http://www.produccion.gob.ar/wp-content/uploads/2017/04/clasificacionpyme.png
+
+----
+
+Imgmobile: http://www.produccion.gob.ar/wp-content/uploads/2017/04/clasificacionpyme.png
+
+----
+
+Title: Clasificacion
+
+----
+
+Texthtml: <p>La nueva clasificación PyME tiene los topes de facturación actualizados, para que ninguna pequeña o mediana empresa quede afuera de los beneficios<br>&nbsp;

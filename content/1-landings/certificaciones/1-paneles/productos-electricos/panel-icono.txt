@@ -1,0 +1,25 @@
+Title: Productos eléctricos
+
+----
+
+Class: 
+
+----
+
+Urlicono: 
+
+----
+
+Fontawesome: fa-microchip
+
+----
+
+Bajada: Productos eléctricos
+
+----
+
+Description: 
+
+----
+
+Linkurl: http://www.produccion.gob.ar/productoselectricos

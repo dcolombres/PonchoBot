@@ -15,3 +15,11 @@ Description: del empleo formal lo generan las PyMEs
 ----
 
 Color: text-primary
+
+----
+
+Class: 
+
+----
+
+Textcolor: text-primary

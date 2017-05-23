@@ -1,0 +1,17 @@
+Title: Quote
+
+----
+
+Identificador: 
+
+----
+
+Class: bg-primary
+
+----
+
+Cita: Las PyMEs argentinas son protagonistas del plan de infraestructura pública más importante de la historia del país. Junto al Congreso, vamos a asegurarnos de que en la Argentina haya nuevas rutas, puentes y obras que nos lleven hacia el desarrollo creando trabajo
+
+----
+
+Autor: Francisco Cabrera, Ministro de Producción

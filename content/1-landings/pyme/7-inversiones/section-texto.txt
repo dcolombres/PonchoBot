@@ -1,0 +1,28 @@
+Identificador: masInversiones
+
+----
+
+Text: 
+
+----
+
+Texthtml: 
+
+<h3 class="text-arandano">Fomento a inversiones</h3>
+<ul>
+<li>Podés descontar del Impuesto a las Ganancias hasta el 10% de lo que inviertas en maquinaria o infraestructura, desde el 1 de julio de 2016 hasta el 31 de diciembre de 2018.</li>
+<li>También podés acceder a un bono de crédito fiscal para cancelar impuestos nacionales y aduaneros.</li>
+<li>Para acceder a estos beneficios tenés que adherirte al servicio de <a href="https://tramitesadistancia.gob.ar">Trámites a Distancia</a></li>
+</ul>
+
+----
+
+Class: p-t-0, p-b-0
+
+----
+
+Title: Inversiones
+
+----
+
+Titulo: 

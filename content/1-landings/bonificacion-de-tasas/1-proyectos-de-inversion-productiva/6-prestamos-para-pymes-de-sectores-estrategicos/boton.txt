@@ -1,0 +1,13 @@
+Title: Invertí en energía renovable
+
+----
+
+Class: bg-primary
+
+----
+
+Text: FONDEAR - Para uso de fuentes renovables para la producción de energía eléctrica
+
+----
+
+Linkurl: http://www.produccion.gob.ar/fondear/

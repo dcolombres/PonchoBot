@@ -1,0 +1,25 @@
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: Texto + ícono (con o sin colores)
+
+----
+
+Description: 
+
+----
+
+Columns: 4
+
+----
+
+Title: Texto icono
+
+----
+
+Texthtml: <p>Breve párrafo a modo de descripción (opcional)

@@ -1,0 +1,21 @@
+Title: 3
+
+----
+
+Header: Equipamiento médico
+
+----
+
+Bajada: 
+
+----
+
+Description: Fuerte presencia de PyMEs nacionales, especializadas en la fabricación de dispositivos médicos. Los prestadores públicos de salud realizan el 70% de las compras del sector
+
+----
+
+Linkurl: 
+
+----
+
+Class: 

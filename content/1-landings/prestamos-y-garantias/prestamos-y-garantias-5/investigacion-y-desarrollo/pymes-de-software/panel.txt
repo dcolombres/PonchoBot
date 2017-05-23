@@ -15,3 +15,7 @@ Description: Préstamo flexible para de hasta $1.5 millones a 36 meses,  y con u
 ----
 
 Linkurl: http://www.produccion.gob.ar/presoft/
+
+----
+
+Class: 

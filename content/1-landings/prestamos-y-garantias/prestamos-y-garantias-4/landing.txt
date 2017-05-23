@@ -1,4 +1,4 @@
-﻿Title: Compra maquinaria
+Title: Compra maquinaria
 
 ----
 
@@ -11,3 +11,15 @@ Background: http://www.produccion.gob.ar/wp-content/uploads/2017/03/va2.jpg
 ----
 
 Footer: invertir,capacitaciones,certificaciones,beneficios-fiscales,beneficios-para-exportar
+
+----
+
+Titulo: Préstamos y Garantías
+
+----
+
+Texthtml: <p>Tenemos financiamiento y herramientas para impulsar el crecimiento de tu PyME  <br>Si no tenés garantía, te damos una para que puedas acceder a préstamos bancarios
+
+----
+
+Class: 

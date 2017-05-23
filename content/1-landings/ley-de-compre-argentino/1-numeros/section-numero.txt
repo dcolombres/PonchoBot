@@ -1,0 +1,17 @@
+Title: Numeros
+
+----
+
+Identificador: 
+
+----
+
+Class: p-b-0, text-center
+
+----
+
+Titulo: ¿Cómo lo vamos a hacer?
+
+----
+
+Columns: 3

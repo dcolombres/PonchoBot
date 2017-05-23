@@ -1,0 +1,24 @@
+Title: Posadas
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Description: 
+
+<h5>Posadas</h5>
+<p><i class="fa fa-map-marker"></i> San Martin 1495, Posadas, Misiones
+<br>Ministerio de Industria Provincia de Misiones
+<br><i class="fa fa-phone"></i>  0376- 444579
+<br><i class="fa fa-envelope"></i> casamisiones.produccion@gmail.com
+<br><i class="fa fa-user"></i> Nancy Beatriz Catalina Tognola
+
+----
+
+Linkurl: 

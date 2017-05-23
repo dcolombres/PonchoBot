@@ -15,3 +15,7 @@ Description: Préstamos bancarios para tu PyME con subsidio de  tasa entre el 9 
 ----
 
 Linkurl: http://www.produccion.gob.ar/regimen-de-bonificacion-de-tasas/
+
+----
+
+Class: 

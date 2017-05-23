@@ -7,3 +7,15 @@ Columns: 3
 ----
 
 Title: Empezá un proyecto
+
+----
+
+Identificador: 
+
+----
+
+Titulo: Empezá un proyecto
+
+----
+
+Class: 

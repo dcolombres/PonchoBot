@@ -1,0 +1,27 @@
+Title: Acero
+
+----
+
+Titulo: Certificaciones de Acero
+
+----
+
+Titular: Certificá tus productos de acero para garantizar su calidad
+
+----
+
+Texthtml: 
+
+<p>Si vas a comercializar materiales ferrosos (nacionales o importados) para la industria de la construcción que se usen para estructuras de hormigón o estructuras metálicas, es necesario que certifiques esos productos para garantizar su calidad. Cónsultá los materiales de acero que se deben certificar
+
+<p>Si se trata de productos importados, tenés que ingresarlos al país como “Sin Derecho a Uso” (SDU). Esto significa que tenés que pedir un permiso para poder retirarlos de la Aduana pero no podés comercializarlos hasta tanto no esté terminado el trámite.
+
+<p>En el caso de que ya tengas un producto certificado (nacional o importado) podés tramitar el permiso de comercialización dentro de la Argentina.
+
+----
+
+Nav: sidenav
+
+----
+
+Footer: 

@@ -1,0 +1,17 @@
+Title: quote 2
+
+----
+
+Identificador: 
+
+----
+
+Class: bg-primary
+
+----
+
+Cita: Cuando el Estado construye una obra de infraestructura importante, no sólo deja la obra en sí misma, sino que impulsa la creación de empleo y la industria argentina
+
+----
+
+Autor: Martín Etchegoyen, Secretario de Industria

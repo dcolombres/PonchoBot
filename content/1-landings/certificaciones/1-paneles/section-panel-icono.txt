@@ -1,0 +1,21 @@
+Title: Paneles
+
+----
+
+Identificador: 
+
+----
+
+Class: p-b-0
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+----
+
+Columns: 3

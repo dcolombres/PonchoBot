@@ -1,0 +1,29 @@
+Title: Informes Sectoriales
+
+----
+
+Urlicono: 
+
+----
+
+Header: 
+
+----
+
+Bajada: Informes Sectoriales
+
+----
+
+Description: Análisis de la evolución de la producción de diferentes actividades representativas de la diversidad del complejo industrial argentino
+
+----
+
+Linkurl: 
+
+----
+
+Class: 
+
+----
+
+Fontawesome: fa-folder-open

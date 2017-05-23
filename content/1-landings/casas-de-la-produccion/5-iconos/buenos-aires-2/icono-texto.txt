@@ -1,0 +1,24 @@
+Title: Bahia Blanca
+
+----
+
+Class: text-left
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Description: 
+
+<h5>Bahía Blanca</h5>
+<p><i class="fa fa-map-marker"></i> San Martín 237, Bahía Blanca, Buenos Aires
+<br><i class="fa fa-phone"></i> (0291) 451 1947 / 2132 / 3709
+<br><i class="fa fa-envelope"></i> casabahiablanca.produccion@gmail.com
+<br><i class="fa fa-user"></i> Guillermina Rizzo
+<br><i class="fa fa-user"></i> Josefina Nosova
+
+----
+
+Linkurl: 

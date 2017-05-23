@@ -1,0 +1,21 @@
+Title: Estadísticas productivas
+
+----
+
+Header: Estadísticas productivas
+
+----
+
+Bajada: 
+
+----
+
+Description: Accedé a las principales estadísticas productivas del país. Inteligencia analítica para entender y evaluar la evolución del mundo de la producción
+
+----
+
+Linkurl: http://186.33.211.248/
+
+----
+
+Class: 

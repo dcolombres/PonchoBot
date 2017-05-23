@@ -10,7 +10,7 @@ Description: ¿Tenés una PyME y querés pagar menos impuestos? Conocé las herr
 
 ----
 
-Urlimagen: http://www.sepeb.com/alf/image_20170128_190601.jpg
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/03/2b-copy.jpg
 
 ----
 

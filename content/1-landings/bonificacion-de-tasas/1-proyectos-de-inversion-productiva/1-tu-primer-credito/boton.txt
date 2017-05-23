@@ -1,0 +1,13 @@
+Title: Accedé a tu primer crédito
+
+----
+
+Class: bg-primary
+
+----
+
+Text: Invertí para crecer y generar nuevos negocios. Primer crédito PyME - BICE.
+
+----
+
+Linkurl: http://primercreditopyme.com.ar/

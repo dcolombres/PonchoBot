@@ -1,0 +1,17 @@
+Identificador: 
+
+----
+
+Titulo: Noticias destacadas
+
+----
+
+Columns: 4
+
+----
+
+Class: 
+
+----
+
+Title: Noticias destacadas

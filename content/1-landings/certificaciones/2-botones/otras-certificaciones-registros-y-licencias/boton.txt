@@ -6,4 +6,8 @@ Text:
 
 ----
 
-Linkurl: 
+Linkurl: http://www.produccion.gob.ar/licenciasyregistros/
+
+----
+
+Class: 

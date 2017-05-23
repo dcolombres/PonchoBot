@@ -1,0 +1,36 @@
+Title: ¿Cómo repensar el desarrollo productivo?
+
+----
+
+Class: 
+
+----
+
+Urlicono: 
+
+----
+
+Fontawesome: fa-flask
+
+----
+
+Materialicon: 
+
+----
+
+Bajada: 
+
+----
+
+Description: 
+
+<small>10 de Marzo de 2016</small>
+<br>¿Cómo repensar el desarrollo productivo?
+
+----
+
+Linkurl: http://www.produccion.gob.ar/wp-content/uploads/2016/04/Presentacion-Stein.pdf
+
+----
+
+Text: 10 de Marzo de 2016

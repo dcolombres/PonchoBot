@@ -1,0 +1,25 @@
+Titulo: Día de la Producción
+
+----
+
+Subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat feugiat turpis id porttitor. Duis a massa leo. Maecenas interdum diam at euismod fermentum.
+
+----
+
+Background: http://img.prod.gob.ar/2017/04/jumboproduccion.jpeg
+
+----
+
+Class: 
+
+----
+
+Footer: 
+
+----
+
+Title: Dia de la Producción
+
+----
+
+Texthtml: <p>Si tenés una idea, un emprendimiento o una PyME, en los Días de la Producción podés dialogar y hacer consultas. También vas a encontrar las herramientas y beneficios que mejor se adapten a tus necesidades.

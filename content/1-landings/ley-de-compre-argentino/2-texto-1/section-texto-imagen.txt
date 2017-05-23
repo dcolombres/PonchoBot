@@ -1,0 +1,40 @@
+Title: texto 1
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<ul>
+<li class="p-b-1"><strong>Vamos a invertir  en estos sectores:</strong> energía y minería, agroindustria, bienes industriales, servicios y tecnología </li>
+<li class="p-b-1">Buscamos <strong>promover la inclusión de PyMEs y empresas locales</strong> en las compras que realice el Estado para poner en marcha el plan de infraestructura más ambicioso de nuestra historia</li>
+<li class="p-b-1">Cuando se liciten bienes que no son producidos en el país, <strong>vamos a darle prioridad a los proyectos con mayor integración de productos nacionales</strong></li>
+<li class="p-b-1">Si en una licitación de obra pública gana una empresa extranjera, deberá contratar PyMEs argentinas para <strong>alcanzar una integración de bienes nacionales de al menos 20% del contrato</strong></li>
+<li class="p-b-1">Cuando se comparen precios entre bienes nacionales y extranjeros, va a haber <strong>preferencia por los locales</strong></li>
+<li class="p-b-1">Las PyMEs que participen de la obra pública van a ser apoyadas a través de <strong>financiamiento, asistencia técnica y capacitación</strong></li>
+</ul>
+<br>
+<i>Para este proyecto trabajamos con la Comisión Económica para América Latina y el Caribe (CEPAL) y estudiamos la aplicación de leyes similares en países como Estados Unidos, Israel y Brasil</i>
+
+----
+
+Urlimagen: http://img.prod.gob.ar/2017/05/leycompre.png
+
+----
+
+Align: i
+
+----
+
+Imgclass: 

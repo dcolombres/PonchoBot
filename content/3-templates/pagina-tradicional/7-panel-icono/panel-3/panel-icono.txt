@@ -1,0 +1,25 @@
+Title: Panel 3
+
+----
+
+Class: 
+
+----
+
+Urlicono: 
+
+----
+
+Fontawesome: fa-camera
+
+----
+
+Bajada: Ministerio de Economía
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+----
+
+Linkurl: 

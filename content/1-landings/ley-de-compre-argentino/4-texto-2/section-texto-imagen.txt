@@ -1,0 +1,44 @@
+Title: texto 2
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: ¡Tu PyME va a poder ser parte!
+
+----
+
+Texthtml: 
+
+Las PyMEs industriales o de servicios industriales, proveedoras o potenciales proveedoras de estos sectores estratégicos, van a beneficiarse con la ley:
+</p>
+<ul>
+<li>Energía renovable y no renovable</li>
+<li>Industria ferroviaria</li>
+<li>Minería</li>
+<li>Agua y saneamiento</li>
+<li>Aeroespacial</li>
+<li>Naval</li>
+<li>Tecnologías de la Información y Comunicación (TICs)</li>
+<li>Salud</li>
+<li>Electrónica (Excepto electrónica de consumo masivo)</li>
+<li>Nuclear</li>
+</ul>
+
+----
+
+Urlimagen: http://img.prod.gob.ar/2017/04/back.jpg
+
+----
+
+Align: d
+
+----
+
+Imgclass: 

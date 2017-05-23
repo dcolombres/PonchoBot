@@ -1,0 +1,24 @@
+Identificador: importaMaquinaria
+
+----
+
+Text: Importá maquinaria para reducir el impacto ambiental
+
+----
+
+Texthtml: 
+
+<p>Podés importar maquinaria nueva destinada al tratamiento y/o eliminación de sustancias contaminantes del aire, suelo y/o agua, para integrarlas a plantas productoras nuevas o ya existentes.</p>
+<p class="m-t-4"><strong>Por cualquier consulta, escribinos a <a href="mailto:256@produccion.gob.ar">256@produccion.gob.ar</a></strong></p>
+
+----
+
+Class: bg-primary
+
+----
+
+Title: Importá maquinaria para reducir el impacto ambiental
+
+----
+
+Titulo: Importá maquinaria para reducir el impacto ambiental

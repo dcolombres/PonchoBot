@@ -1,0 +1,39 @@
+Identificador: importaInsumos
+
+----
+
+Text: Importá mercadería para exportarla con valor agregado
+
+----
+
+Texthtml: 
+
+<ul>
+<li>Podés importar mercadería para incorporar al proceso de producción de tu PyME o empresa, sin pagar los derechos de importación de esos insumos, siempre y cuando el producto final sea para exportar.</li>
+<li>Lo que importes debe recibir un perfeccionamiento industrial, es decir, un proceso de manufactura que implique una transformación, elaboración, combinación, mezcla, rehabilitación, reparación, montaje o incorporación a conjuntos o aparatos de mayor complejidad tecnológica y funcional.</li>
+<li>Tenés 360 días para exportar el producto. Pero si son bienes no seriados, podés hacerlo en 720 días.</li>
+</ul>
+
+----
+
+Class: 
+
+----
+
+Title: Importá mercadería para exportarla con valor agregado
+
+----
+
+Titulo: Importá mercadería para exportarla con valor agregado
+
+----
+
+Urlimagen: http://img.prod.gob.ar/2017/04/2.png
+
+----
+
+Align: d
+
+----
+
+Imgclass: img-circle

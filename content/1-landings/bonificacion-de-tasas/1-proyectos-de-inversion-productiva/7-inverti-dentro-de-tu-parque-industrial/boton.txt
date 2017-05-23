@@ -1,0 +1,13 @@
+Title: Invertí dentro de tu parque industrial
+
+----
+
+Class: bg-primary
+
+----
+
+Text: Radicate o expandite dentro de un parque industrial
+
+----
+
+Linkurl: http://www.produccion.gob.ar/rbtparques/

@@ -1,0 +1,25 @@
+Title: Textil y calzado
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://img.prod.gob.ar/2017/04/shirt.png
+
+----
+
+Fontawesome: 
+
+----
+
+Bajada: Textil y calzado
+
+----
+
+Description: 
+
+----
+
+Linkurl: http://www.produccion.gob.ar/textilycalzado

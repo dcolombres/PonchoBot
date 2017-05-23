@@ -1,0 +1,13 @@
+Title: Invertí en mejoras para tu PyME
+
+----
+
+Class: bg-primary
+
+----
+
+Text: Comprá maquinaria y equipamiento para la producción - FONDEAR
+
+----
+
+Linkurl: http://www.produccion.gob.ar/fondear/

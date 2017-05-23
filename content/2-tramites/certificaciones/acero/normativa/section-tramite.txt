@@ -1,0 +1,22 @@
+Title: Normativa
+
+----
+
+Identificador: normativa
+
+----
+
+Class: 
+
+----
+
+Titulo: Normativa
+
+----
+
+Texthtml: 
+
+<p><a href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/19946/texact.htm"><span style="font-weight: 400">Ley 22.802 de Lealtad comercial</span></a></p>
+<p><a href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/55000-59999/58244/norma.htm"><span style="font-weight: 400">Resolución 404/1999</span></a></p>
+<p><a href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/61322/texact.htm"><span style="font-weight: 400">Resolución 924/1999</span></a></p>
+<p><a href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/70000-74999/70396/norma.htm"><span style="font-weight: 400">Disposición 747/2000</span></a></p>

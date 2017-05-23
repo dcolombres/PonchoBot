@@ -7,3 +7,15 @@ Columns: 4
 ----
 
 Title: Comprá maquinaria
+
+----
+
+Identificador: 
+
+----
+
+Titulo: Comprá maquinaria
+
+----
+
+Class: 

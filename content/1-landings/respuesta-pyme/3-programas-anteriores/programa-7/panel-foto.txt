@@ -1,0 +1,24 @@
+Title: Programa 7
+
+----
+
+Class: 
+
+----
+
+Bajada: Programa 7
+
+----
+
+Description: 
+
+¿Querés saber si sos PyME? <br>Carolina Castro te va a contar las nuevas categorías que rigen a partir de este mes, ya que se elevaron los topes de facturación anual para los diferentes sectores productivos.<br>
+Conocé si tu empresa se ubica dentro de los nuevos parámetros, y si estás registrado, vas a para poder acceder a todos los beneficios de la Ley PyME
+
+----
+
+Urlimagen: http://img.prod.gob.ar/2017/04/7-1.jpg
+
+----
+
+Linkurl: https://www.youtube.com/embed/UccBQM4ZKFo?rel=0&controls=0&showinfo=0?ecver=1

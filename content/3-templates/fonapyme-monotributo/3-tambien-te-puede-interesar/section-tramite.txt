@@ -1,0 +1,22 @@
+Identificador: 
+
+----
+
+Titulo: También te puede interesar
+
+----
+
+Texthtml: 
+
+<p><a href="">PAC Empresas</a></p>
+              <p><a href="">Fondear</a></p>
+              <p><a href="">Bonificación de Tasa</a></p>
+              <p><a href="">Garantías y avales</a></p>
+
+----
+
+Class: 
+
+----
+
+Title: 5-Tambien te puede interesar

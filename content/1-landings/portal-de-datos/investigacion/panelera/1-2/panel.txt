@@ -1,0 +1,21 @@
+Title: 2
+
+----
+
+Header: Seminarios de Desarrollo Productivo
+
+----
+
+Bajada: 
+
+----
+
+Description: Toda la información sobre los encuentros mensuales con las exposiciones de funcionarios de gobierno, académicos y analistas sobre el desarrollo y el futuro de la producción argentina
+
+----
+
+Linkurl: http://www.produccion.gob.ar/seminarios-de-desarrollo-productivo/
+
+----
+
+Class: 

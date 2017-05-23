@@ -1,0 +1,21 @@
+Title: 1
+
+----
+
+Header: Automotriz
+
+----
+
+Bajada: 
+
+----
+
+Description: Argentina junto con Brasil genera la mitad de la producción automotriz de Latinoamérica. Exporta el 45% de su producción. Es competitiva en vehículos medianos y pickups
+
+----
+
+Linkurl: 
+
+----
+
+Class: 

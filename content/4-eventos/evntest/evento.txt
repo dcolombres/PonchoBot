@@ -1,0 +1,37 @@
+Titulo: Evento supermágico de la redaccion antropologica fisica II
+
+----
+
+Subtitle: 09/04
+
+----
+
+Background: http://goodfilmguide.co.uk/wp-content/uploads/2012/08/Alf-banner.jpg
+
+----
+
+Class: 
+
+----
+
+Footer: 
+
+----
+
+Title: Evntest
+
+----
+
+Date: 09/05
+
+----
+
+Horario: 16:30hs
+
+----
+
+Location: Av. De La Lora 4059
+
+----
+
+Fecha: 09/05

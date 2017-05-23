@@ -1,0 +1,23 @@
+Title: Olavarria
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Description: 
+
+<h5>Olavarría</h5>
+<p><i class="fa fa-map-marker"></i> Moreno 2765, Olavarría, Buenos Aires
+<br><i class="fa fa-phone"></i> 02284-441 7904
+<br><i class="fa fa-envelope"></i> casaolavarria.produccion@gmail.com
+<br><i class="fa fa-user"></i> Osiris Gamondi
+
+----
+
+Linkurl: 

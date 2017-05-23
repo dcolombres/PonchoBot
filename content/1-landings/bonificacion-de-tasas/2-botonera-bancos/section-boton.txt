@@ -1,0 +1,21 @@
+Title: botonera Bancos
+
+----
+
+Identificador: 
+
+----
+
+Class: p-t-0
+
+----
+
+Titulo: Descargá la información por bancos
+
+----
+
+Texthtml: 
+
+----
+
+Columns: 3

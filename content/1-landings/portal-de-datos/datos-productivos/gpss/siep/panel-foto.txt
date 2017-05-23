@@ -1,0 +1,21 @@
+Title: SIEP
+
+----
+
+Bajada: Estadísticas Productivas
+
+----
+
+Description: Accedé a las principales estadísticas productivas del país. Inteligencia analítica para entender y evaluar la evolución del mundo de la producción
+
+----
+
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/03/siep.png
+
+----
+
+Linkurl: http://186.33.211.248/
+
+----
+
+Class: 

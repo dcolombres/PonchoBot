@@ -1,0 +1,33 @@
+Title: Como es?
+
+----
+
+Identificador: 
+
+----
+
+Class: p-b-0
+
+----
+
+Titulo: ¿Cómo es un Día de la Producción?
+
+----
+
+Texthtml: 
+
+<p>Durante la jornada en tu ciudad, un grupo de especialistas va a asesorarte para que conozcas las mejores líneas de financiamiento para tu proyecto, los beneficios de la Ley PyME a los que podés acceder con sólo un trámite, las capacitaciones gratuitas para vos y tus empleados, y otras herramientas para potenciar tu PyME o emprendimiento. 
+
+<p>En las <strong>mesas de consulta</strong> vas a poder conversar con especialistas que te van a aconsejar sobre las oportunidades de mejora en las distintas áreas de tu PyME. Para eso, te sugerimos traer un documento con los detalles de tu proyecto y tu tarjeta de presentación.
+
+----
+
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/04/avellaneda.jpg
+
+----
+
+Align: d
+
+----
+
+Imgclass: 

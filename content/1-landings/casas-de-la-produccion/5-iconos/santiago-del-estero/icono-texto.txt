@@ -1,0 +1,24 @@
+Title: Ciudad de Santiago del Estero
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Description: 
+
+<h5>Ciudad de Santiago del Estero</h5>
+<p><i class="fa fa-map-marker"></i> Av. Roca 768, Santiago del Estero
+<br>Dirección General de Industria y Comercio, SDE
+<br><i class="fa fa-phone"></i>  0385 4214650 /4213478
+<br><i class="fa fa-envelope"></i> sde.casas@produccion.gob.ar
+<br><i class="fa fa-user"></i> María de los Ángeles Ledesma Alegre
+
+----
+
+Linkurl: 

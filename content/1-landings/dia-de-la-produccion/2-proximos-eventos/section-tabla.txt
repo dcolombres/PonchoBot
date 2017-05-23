@@ -1,0 +1,37 @@
+Title: Proximos eventos
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: Próximos eventos:
+
+----
+
+Columns: 4
+
+----
+
+Encabezado1: Ciudad
+
+----
+
+Encabezado2: Fecha
+
+----
+
+Encabezado3: Horario
+
+----
+
+Encabezado4: Ubicación
+
+----
+
+Encabezado5: 

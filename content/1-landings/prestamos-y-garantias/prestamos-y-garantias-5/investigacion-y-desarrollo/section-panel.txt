@@ -7,3 +7,15 @@ Columns: 4
 ----
 
 Title: Investigación y desarrollo
+
+----
+
+Identificador: 
+
+----
+
+Titulo: Investigación y desarrollo
+
+----
+
+Class: 

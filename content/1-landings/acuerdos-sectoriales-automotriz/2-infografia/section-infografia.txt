@@ -1,0 +1,33 @@
+Text: 
+
+----
+
+Imgdesktop: http://img.prod.gob.ar/2017/03/Infograf%C3%ADa-Plan-1Mill%C3%B3n.jpg
+
+----
+
+Imgtablet: http://img.prod.gob.ar/2017/03/tablet.jpg
+
+----
+
+Imgmobile: http://img.prod.gob.ar/2017/03/mobile.jpg
+
+----
+
+Colorfondo: bg-primary
+
+----
+
+Title: Infografia
+
+----
+
+Identificador: 
+
+----
+
+Class: bg-primary
+
+----
+
+Titulo: 

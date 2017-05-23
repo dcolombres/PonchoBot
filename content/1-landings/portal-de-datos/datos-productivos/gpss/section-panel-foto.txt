@@ -1,0 +1,29 @@
+Text: 
+
+----
+
+Columns: 3
+
+----
+
+Colorfondo: 
+
+----
+
+Title: GPSs
+
+----
+
+Identificador: 
+
+----
+
+Class: p-b-0
+
+----
+
+Titulo: 
+
+----
+
+Description: 

@@ -1,0 +1,25 @@
+Text: ¿Qué querés importar?
+
+----
+
+Columns: 3
+
+----
+
+Class: 
+
+----
+
+Title: Seccion Botones
+
+----
+
+Identificador: secBoton
+
+----
+
+Titulo: ¿Qué querés importar?
+
+----
+
+Texthtml: 

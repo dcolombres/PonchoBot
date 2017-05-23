@@ -18,12 +18,8 @@ Titulo: Beneficios para exportar
 
 ----
 
-Texthtml: 
+Texthtml: <p>Accedé a beneficios fiscales para competir en otros mercados. Exportá productos argentinos al mundo
 
 ----
 
 Class: 
-
-----
-
-Fileimage: 

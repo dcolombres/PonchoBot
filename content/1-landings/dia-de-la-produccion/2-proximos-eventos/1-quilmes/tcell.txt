@@ -1,0 +1,29 @@
+Title: Quilmes
+
+----
+
+Class: 
+
+----
+
+Textcolor: 
+
+----
+
+Campo1: Quilmes
+
+----
+
+Campo2: 21/4
+
+----
+
+Campo3: 10:00
+
+----
+
+Campo4: Belgrano 335, Bernal
+
+----
+
+Campo5: 

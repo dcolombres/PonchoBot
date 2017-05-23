@@ -1,0 +1,17 @@
+Title: Inscribite
+
+----
+
+Identificador: 
+
+----
+
+Class: p-t-0
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: <p class="text-center"><a class="btn btn-primary btn-lg" target="_blank" href="http://www.produccion.gob.ar/diadelaproduccion/formulario">Inscribite</a>

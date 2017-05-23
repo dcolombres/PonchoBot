@@ -1,0 +1,33 @@
+Identificador: 
+
+----
+
+Titulo: Texto con imagen
+
+----
+
+Texthtml: 
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="m-t-4"><button class="btn btn-primary">Accion</button></p>
+
+----
+
+Class: 
+
+----
+
+Urlimagen: http://wip.noduscompany.com/manual-produccion/img/chata-square.png
+
+----
+
+Align: i
+
+----
+
+Imgclass: img-circle
+
+----
+
+Title: Texto con imagen

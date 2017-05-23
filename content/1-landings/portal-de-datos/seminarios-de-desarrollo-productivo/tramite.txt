@@ -1,0 +1,27 @@
+Title: Seminarios de Desarrollo Productivo
+
+----
+
+Titulo: Seminarios de Desarrollo Productivo
+
+----
+
+Titular: Participá de los seminarios
+
+----
+
+Texthtml: 
+
+<p>Te invitamos a participar de los Seminarios de Desarrollo Productivo dictados por destacados investigadores, analistas y funcionarios de gobierno sobre el diseño,  implementación y análisis de políticas de desarrollo y transformación productiva. 
+
+<p>Todos los meses un investigador presenta los resultados de su trabajo sobre un tema puntual de desarrollo productivo. 
+
+<p>Los seminarios son un espacio para el intercambio de ideas entre funcionarios, investigadores, especialistas y técnicos. Los asistentes pueden realizar preguntas o comentarios durante la presentación.
+
+----
+
+Nav: sidenav
+
+----
+
+Footer: 

@@ -1,0 +1,17 @@
+Title: provincias
+
+----
+
+Number: 3
+
+----
+
+Small: provincias
+
+----
+
+Description: concentran la fabricación de vehículos: <strong>Córdoba</strong>, <strong>Santa fe</strong> y <strong>Buenos Aires</strong>
+
+----
+
+Color: text-primary

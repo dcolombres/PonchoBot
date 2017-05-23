@@ -1,0 +1,22 @@
+Title: Requisitos
+
+----
+
+Identificador: requisitos
+
+----
+
+Class: 
+
+----
+
+Titulo: Requisitos
+
+----
+
+Texthtml: 
+
+<ul>
+<li><span style="font-weight: 400">Estar adherido al servicio de Trámites a Distancia (TAD) e&nbsp;inscripto en el <a href="http://www.produccion.gob.ar/rump">Registro Único del Ministerio de Producción</a> (RUMP).</span></li>
+<li><span style="font-weight: 400">Para eso, necesitás CUIT. y clave fiscal nivel 2 o superior en la web de la AFIP.</span></li>
+</ul>

@@ -1,0 +1,46 @@
+Identificador: creaTuEmpresa
+
+----
+
+Titulo: Creá tu empresa en un día
+
+----
+
+Texthtml: 
+
+<h3>Simple</h3>
+<ul>
+<li>Constituí un CUIT o CDI en 24 horas</li>
+<li>Abrí una cuenta bancaria de manera fácil y rápida</li>
+<li>Creá una sociedad con un capital mínimo de dos salarios mínimos, vitales y móviles</li>
+</ul>
+<h3>Ágil</h3>
+<ul>
+<li>Tenés la posibilidad de que la sociedad sea de un único socio</li>
+<li>Podés decidir a qué precio emitir tus acciones, dependiendo del tipo de inversor</li>
+<li>Cuando te registres, tu objeto de negocios puede ser más amplio; si tu proyecto crece, vas a ahorrarte los trámites para actualizarlo</li>
+</ul>
+<h3>Digital</h3>
+<ul>
+<li>Utilizá firma, libros y poderes digitales</li>
+</ul>
+
+----
+
+Class: bg-verdin
+
+----
+
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/03/empresa-1.jpg
+
+----
+
+Align: i
+
+----
+
+Imgclass: img-circle
+
+----
+
+Title: Crea tu empresa en un día

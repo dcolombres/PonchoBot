@@ -1,0 +1,23 @@
+Title: Trenque Lauquen
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Fontawesome: 
+
+----
+
+Description: 
+
+<h5>Trenque Lauquen</h5>
+<p><i class="fa fa-map-marker"></i> Oro 40, Trenque Lauquen, Buenos Aires
+<br> Centro Cívico 
+<br><i class="fa fa-envelope"></i> casatrenquelauquen.produccion@gmail.com 
+<br><i class="fa fa-user"></i> Guillermo Mendaña

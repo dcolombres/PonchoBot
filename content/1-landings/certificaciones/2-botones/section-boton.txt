@@ -7,3 +7,19 @@ Columns: 3
 ----
 
 Title: botones
+
+----
+
+Identificador: 
+
+----
+
+Titulo: subtitulo
+
+----
+
+Class: p-t-0
+
+----
+
+Texthtml: 

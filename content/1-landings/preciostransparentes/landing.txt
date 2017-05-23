@@ -1,0 +1,21 @@
+Titulo: PRECIOS TRANSPARENTES
+
+----
+
+Subtitle: 10 datos simples para comprar y vender con transparencia
+
+----
+
+Background: http://www.produccion.gob.ar/wp-content/uploads/2017/03/0.jpg
+
+----
+
+Class: 
+
+----
+
+Footer: 
+
+----
+
+Title: PreciosTransparentes

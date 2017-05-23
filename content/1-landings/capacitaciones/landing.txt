@@ -11,3 +11,7 @@ Background: http://www.produccion.gob.ar/wp-content/uploads/2017/03/capa.jpg
 ----
 
 Footer: beneficios-fiscales,beneficios-para-exportar,certificaciones
+
+----
+
+Titulo: Capacitaciones

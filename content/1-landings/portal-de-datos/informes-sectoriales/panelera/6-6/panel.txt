@@ -1,0 +1,21 @@
+Title: 6
+
+----
+
+Header: Biotecnología
+
+----
+
+Bajada: 
+
+----
+
+Description: Esta actividad sirve de plataforma tecnológica para numerosas disciplinas y sectores productivos. El 53% corresponde a agro, 27% a salud humana, 15% a salud animal y 5% a biotecnología industrial. Realiza importantes inversiones en I+D y emplea a 5.500 trabajadores
+
+----
+
+Linkurl: 
+
+----
+
+Class: 

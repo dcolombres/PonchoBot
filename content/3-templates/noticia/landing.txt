@@ -1,0 +1,21 @@
+Title: Noticia
+
+----
+
+Titulo: </br>
+
+----
+
+Texthtml: </br>
+
+----
+
+Background: http://placehold.it/1080x720
+
+----
+
+Class: 
+
+----
+
+Footer: 

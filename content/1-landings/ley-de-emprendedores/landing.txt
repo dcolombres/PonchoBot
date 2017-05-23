@@ -1,0 +1,29 @@
+Titulo: Ley de Emprendedores
+
+----
+
+Subtitle: En los próximos meses se va a concretar la reglamentación de la Ley de Emprendedores, sancionada el 29 de marzo de 2017. Abrir una empresa en Argentina va a tener menos costos y los trámites van a ser más fáciles, para que cada idea pueda convertirse en un emprendimiento.
+
+----
+
+Background: http://www.produccion.gob.ar/wp-content/uploads/2017/03/DSC_1362-copia.jpg
+
+----
+
+Footer: 
+
+----
+
+Title: Ley de Emprendedores
+
+----
+
+Bestband: 
+
+----
+
+Class: 
+
+----
+
+Texthtml: <p>En los próximos meses se va a concretar la reglamentación de la Ley de Emprendedores, sancionada el 29 de marzo de 2017. Abrir una empresa en Argentina va a tener menos costos y los trámites van a ser más fáciles, para que cada idea pueda convertirse en un emprendimiento.

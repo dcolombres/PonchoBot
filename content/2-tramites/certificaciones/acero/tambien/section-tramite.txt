@@ -1,0 +1,22 @@
+Title: Tambien
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: También te puede interesar
+
+----
+
+Texthtml: 
+
+<p><a href="http://www.produccion.gob.ar/prodepro"><span style="font-weight: 400">Programa de Desarrollo de Proveedores</span></a></p>
+<p><span style="font-weight: 400"><a href="http://www.produccion.gob.ar/fonapyme">Fonapyme</a>&nbsp;– Préstamos flexibles para tu PyME</span></p>
+<p><a href="http://www.produccion.gob.ar/rbt"><span style="font-weight: 400">Régimen de Bonificación de Tasas</span></a></p>
+<p><a href="http://www.produccion.gob.ar/simi"><span style="font-weight: 400">Sistema Integral de Monitoreo de Importaciones</span></a></p>

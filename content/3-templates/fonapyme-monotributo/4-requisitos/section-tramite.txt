@@ -1,0 +1,23 @@
+Identificador: requisitos
+
+----
+
+Titulo: Requisitos
+
+----
+
+Texthtml: 
+
+<ul >
+                <li>Tu empresa debe estar registrada como PyME en la AFIP</li>
+                <li>Tu pyme no debe ser del sector de la construcción</li>
+                <li>La inversión debe generar ahorro energético respecto del consumo actual</li>
+              </ul>
+
+----
+
+Class: 
+
+----
+
+Title: 2-Requisitos

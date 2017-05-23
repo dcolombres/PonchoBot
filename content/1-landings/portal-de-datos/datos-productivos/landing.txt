@@ -1,0 +1,25 @@
+Titulo: Datos Productivos
+
+----
+
+Subtitle: En el portal de datos abiertos podés obtener estadísticas, datos, informes, estudios y análisis de las empresas, economías regionales y de todos los sectores y regiones productivas del país
+
+----
+
+Background: http://www.produccion.gob.ar/wp-content/uploads/2017/01/Optimized-TAD-slider-web-01.jpg
+
+----
+
+Footer: 
+
+----
+
+Title: Datos Productivos
+
+----
+
+Class: 
+
+----
+
+Texthtml: <p>En el portal de datos abiertos podés obtener estadísticas, datos, informes, estudios y análisis de las empresas, economías regionales y de todos los sectores y regiones productivas del país

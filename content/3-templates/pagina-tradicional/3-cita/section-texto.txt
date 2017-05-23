@@ -1,0 +1,23 @@
+Identificador: 
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<div class="container">
+<blockquote>
+ “Un Estado inteligente con servidores públicos capacitados para brindarle más y mejores servicios a los ciudadanos. Esto es el Siglo XXI y en eso trabajaremos día y noche. ”</p>
+  — <cite>Mauricio Macri</cite>
+</blockquote></div>
+
+----
+
+Class: bg-cielo
+
+----
+
+Title: Cita

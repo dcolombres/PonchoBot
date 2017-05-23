@@ -1,0 +1,42 @@
+Identificador: lineasProd
+
+----
+
+Text: Importá líneas de producción nuevas o usadas
+
+----
+
+Texthtml: 
+
+<ul>
+  <li>Podés comprar líneas de producción nuevas o usadas para sumar tecnología a tu PyME o empresa y hacerla más eficiente y competitiva.
+    <ul class="p-t-1">
+      <li>Si son nuevas, no vas a pagar arancel de importación ni tasa de comprobación de destino</li>
+      <li>Si son usadas, tampoco pagás la tasa y el arancel se redujo un 75%</li>
+    </ul>
+  </li>
+</ul>
+
+----
+
+Class: p-t-0, p-b-0
+
+----
+
+Title: Importá líneas de producción nuevas o usadas
+
+----
+
+Titulo: Importá líneas de producción nuevas o usadas
+
+----
+
+Urlimagen: http://img.prod.gob.ar/2017/04/1.png
+
+----
+
+Align: i
+
+----
+
+Imgclass: img-circle

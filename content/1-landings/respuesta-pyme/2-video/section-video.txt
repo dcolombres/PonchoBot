@@ -1,0 +1,26 @@
+Identificador: 
+
+----
+
+Class: bg-info
+
+----
+
+Titulo: 
+
+----
+
+Videourl: xg6Ed2OM09M
+
+----
+
+Title: video
+
+----
+
+Texthtml: 
+
+<h2>Último programa</h2>
+<p>En este programa, Carolina Castro te va a contar todos los detalles para saber como hacer para presentar tu solicitud. Sirve para inversiones productivas realizadas entre el 1ero de julio de 2016 y el 31 de diciembre de 2018. 
+<br>
+Ademas, te va a explicar cuando recategorizarte en el registro Pyme y como acceder al credito que mejor se ajuste a las necesidades de tu pyme.

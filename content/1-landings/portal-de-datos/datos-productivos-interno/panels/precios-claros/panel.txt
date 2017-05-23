@@ -1,0 +1,21 @@
+Title: Precios Claros
+
+----
+
+Header: Precios Claros
+
+----
+
+Bajada: 
+
+----
+
+Description: Análisis diario de los precios de productos de consumo masivo recolectados a través del Programa de Precios Claros, combinados con datos de ventas de fuentes privadas
+
+----
+
+Linkurl: http://unidadprecios.produccion.gob.ar/
+
+----
+
+Class: 

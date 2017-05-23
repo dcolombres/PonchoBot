@@ -7,3 +7,15 @@ Columns: 4
 ----
 
 Title: Hacé reformas y construí
+
+----
+
+Identificador: 
+
+----
+
+Titulo: Hacé reformas y construí
+
+----
+
+Class: 

@@ -1,0 +1,29 @@
+Text: 
+
+----
+
+Columns: 3
+
+----
+
+Colorfondo: 
+
+----
+
+Title: Panels
+
+----
+
+Identificador: 
+
+----
+
+Class: p-t-0
+
+----
+
+Titulo: 
+
+----
+
+Description: 

@@ -1,0 +1,21 @@
+Title: GPS de Empresas
+
+----
+
+Bajada: GPS de Empresas
+
+----
+
+Description: Conocé el ADN empresario argentino y su evolución con datos estadísticos, casos y análisis. Aporta datos estratégicos sobre creación y ciclo de vida de las empresas, tamaño, capacidad exportadora, empleo y actividad emprendedora sector por sector
+
+----
+
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/03/gpsemp.png
+
+----
+
+Linkurl: http://gpsemp.produccion.gob.ar/
+
+----
+
+Class: 

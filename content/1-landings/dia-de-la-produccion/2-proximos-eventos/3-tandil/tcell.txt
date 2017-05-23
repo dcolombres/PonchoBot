@@ -1,0 +1,29 @@
+Title: Tandil
+
+----
+
+Class: 
+
+----
+
+Textcolor: 
+
+----
+
+Campo1: Tandil
+
+----
+
+Campo2: 25/4
+
+----
+
+Campo3: 9:00
+
+----
+
+Campo4: Belgrano 485
+
+----
+
+Campo5: 

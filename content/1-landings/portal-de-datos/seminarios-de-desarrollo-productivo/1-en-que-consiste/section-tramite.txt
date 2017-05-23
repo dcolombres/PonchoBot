@@ -1,0 +1,20 @@
+Title: Como funciona
+
+----
+
+Identificador: info
+
+----
+
+Class: 
+
+----
+
+Titulo: ¿Cómo puedo participar?
+
+----
+
+Texthtml: 
+
+<p>Enviá un mail a  <a href="mailto:ssdypp@produccion.gob.ar">ssdypp@produccion.gob.ar</a>
+<p>Tené en cuenta que la convocatoria a los seminarios es abierta y con cupos limitados.

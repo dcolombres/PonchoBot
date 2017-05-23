@@ -1,0 +1,30 @@
+Title: Bariloche
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Description: 
+
+<h5>Bariloche</h5>
+<p><i class="fa fa-map-marker"></i> 12 de Octubre Nº 52 (12 de Octubre y Quaglia), Bariloche, Río Negro
+<br>Punto PyME, Subsecretaria de Empleo y Pymes de Bariloche
+<br><i class="fa fa-phone"></i>  0294-4430449
+<br><i class="fa fa-envelope"></i> casabariloche.produccion@gmail.com
+<br><i class="fa fa-user"></i> Agustín Arroyo
+<br><i class="fa fa-user"></i> Maximiliano Pfaffenbauer
+<br><i class="fa fa-user"></i> Aida Pasqualini
+
+----
+
+Linkurl: 
+
+----
+
+Fontawesome: 

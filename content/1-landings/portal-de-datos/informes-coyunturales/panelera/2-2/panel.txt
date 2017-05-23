@@ -1,0 +1,21 @@
+Title: Informe de inversiones
+
+----
+
+Header: Informe de Inversiones
+
+----
+
+Bajada: 
+
+----
+
+Description: Relevamiento mensual de los anuncios de inversión del sector privado
+
+----
+
+Linkurl: 
+
+----
+
+Class: 

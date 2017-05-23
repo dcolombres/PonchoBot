@@ -1,0 +1,21 @@
+Identificador: 
+
+----
+
+Titulo: Texto + Call to Action
+
+----
+
+Texthtml: 
+
+<p>Descripcion - línea 2: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="col-xs-12 text-right m-t-2">
+          <a target="_blank" href=""><button type="button" class="btn btn-primary">Ver más</button></a>
+
+----
+
+Class: 
+
+----
+
+Title: Texto + Call to action

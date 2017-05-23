@@ -1,0 +1,25 @@
+Title: Descargas
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: Descargas
+
+----
+
+Texthtml: 
+
+<p><i class="fa-file-pdf-o fa"></i><a href=""> Lorem ipsum dolor</a></p>
+<p><i class="fa-file-word-o fa"></i><a href=""> Quisque lobortis tincidunt nulla, nec porta nisl</a></p>
+<p><i class="fa-file-o fa"></i><a href=""> Fusce lorem sem</a></p>
+
+----
+
+Columns: 3

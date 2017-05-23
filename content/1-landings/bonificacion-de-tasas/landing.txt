@@ -1,0 +1,21 @@
+Title: Bonificación de Tasas
+
+----
+
+Titulo: Préstamos con tasa bonificada
+
+----
+
+Texthtml: Acercate a tu banco y solicitá  un préstamo con la tasa de interés bonificada para impulsar la inversión y el desarrollo de tu PyME.
+
+----
+
+Background: http://www.produccion.gob.ar/wp-content/uploads/2016/03/medicamentos-en-maquina.jpg
+
+----
+
+Class: 
+
+----
+
+Footer: invertir,certificaciones,asociatividad

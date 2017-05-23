@@ -1,0 +1,31 @@
+Title: busca
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<h4 class="m-t-2">Buscá si el producto que vas a exportar está en la lista de productos no seriados:</h4>
+<div class="col-xs-12 col-md-12 text-center bg-gray m-b-1">
+ <h5 class="text-muted"><i class="fa fa fa-search p-t-1 p-b-1"></i> --Buscador-- </h5>
+</div>
+<div class="col-xs-12 col-md-12 text-center">
+<a href="https://tramitesadistancia.gob.ar/"><button type="button" class="btn btn-primary">Empezá tu tramite</button></a>
+<p>Más informacion:<p>
+<a href="http://www.produccion.gob.ar/regimen-de-admisiont/"><p>Régimen de admisión</p></a>
+<h6 class="m-t-0"><small>-Decreto N° 1330/2004</br>
+-Res. M.P. N° 687/2016 </small></h6>
+
+<p>Por cualquier consulta, escribinos a dpeconsultas@produccion.gob.ar</p>
+</div>

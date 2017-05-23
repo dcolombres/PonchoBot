@@ -1,0 +1,25 @@
+Title: Ascensores
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://img.prod.gob.ar/2017/04/elevatorw-1.png
+
+----
+
+Fontawesome: 
+
+----
+
+Bajada: Ascensores
+
+----
+
+Description: 
+
+----
+
+Linkurl: http://www.produccion.gob.ar/ascensores

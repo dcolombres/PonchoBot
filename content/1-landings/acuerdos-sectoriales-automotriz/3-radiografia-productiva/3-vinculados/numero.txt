@@ -1,0 +1,17 @@
+Title: vinculados
+
+----
+
+Number: 60
+
+----
+
+Small: %
+
+----
+
+Description: de los trabajadores vinculados a producción de autopartes
+
+----
+
+Color: text-primary

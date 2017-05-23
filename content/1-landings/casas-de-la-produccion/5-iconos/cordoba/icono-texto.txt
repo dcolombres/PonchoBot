@@ -1,0 +1,33 @@
+Title: Ciudad de Cordoba
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Description: 
+
+<h5>Ciudad de Córdoba</h5>
+<p><i class="fa fa-map-marker"></i> Belgrano 347, Ciudad de Córdoba, Córdoba
+<br> Ministerio de Industria, Comercio y Minería de Córdoba
+<br><i class="fa fa-phone"></i> 0351-4342495 Int.: 236
+<br><i class="fa fa-envelope"></i> casacordoba.produccion@gmail.com
+<br><i class="fa fa-user"></i> Maria Cayre
+<br><i class="fa fa-user"></i> Gabriela Raquel Abiad
+
+----
+
+Linkurl: 
+
+----
+
+Fontawesome: 
+
+----
+
+Materialicon: 

@@ -1,0 +1,21 @@
+Title: Mas informacion
+
+----
+
+Identificador: contacto
+
+----
+
+Class: p-b-3
+
+----
+
+Titulo: Contacto
+
+----
+
+Texthtml: 
+
+<h4> Fernanda Perrota</h4>
+<p><i class="fa fa-phone"></i>  4349-7382
+<br><i class="fa fa-envelope"></i>  <a href="mailto:ssdypp@produccion.gob.ar">ssdypp@produccion.gob.ar</a>

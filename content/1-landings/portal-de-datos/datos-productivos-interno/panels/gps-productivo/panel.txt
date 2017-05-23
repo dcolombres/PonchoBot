@@ -1,0 +1,21 @@
+Title: GPS Productivo
+
+----
+
+Header: GPS Productivo
+
+----
+
+Bajada: 
+
+----
+
+Description: Plataforma digital para la visualización georreferenciada de empresas argentinas, empleo, anuncios de inversión, exportaciones y demás indicadores productivos y de gestión
+
+----
+
+Linkurl: http://medve.dyndns.org/GPS2017/
+
+----
+
+Class: 

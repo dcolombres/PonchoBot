@@ -1,0 +1,24 @@
+Title: Ciudad de Mendoza
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Description: 
+
+<h5>Ciudad de Mendoza</h5>
+<p><i class="fa fa-map-marker"></i> Julián Barraquero 130, Mendoza
+<br>Instituto de Desarrollo Industrial, Tecnológico y de Servicios, IDITS
+<br><i class="fa fa-phone"></i>  0261 424-6347
+<br><i class="fa fa-envelope"></i> casamendoza.produccion@gmail.com
+<br><i class="fa fa-user"></i> Alejandro David Martínez
+
+----
+
+Linkurl: 

@@ -1,0 +1,24 @@
+Title: Mar del Plata
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Description: 
+
+<h5>Mar del Plata</h5>
+<p><i class="fa fa-map-marker"></i> San Martín 3050, Mar del Plata, Buenos Aires
+<br><i class="fa fa-phone"></i> 0223- 4958531
+<br><i class="fa fa-envelope"></i> casamdq.produccion@gmail.com
+<br><i class="fa fa-user"></i> Daniel Alberto Gonzalez Gómez
+<br><i class="fa fa-user"></i> Fernando Gabriel Muro
+
+----
+
+Linkurl: 

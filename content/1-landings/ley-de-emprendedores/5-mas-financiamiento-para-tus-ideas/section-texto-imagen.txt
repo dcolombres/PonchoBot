@@ -1,0 +1,45 @@
+Identificador: masFinanciamiento
+
+----
+
+Titulo: Más financiamiento para tus ideas
+
+----
+
+Texthtml: 
+
+<ul><li>Beneficios impositivos para los inversores registrados que apuesten por el desarrollo de ideas argentinas</li></ul>
+<h3>Fondos de inversión</h3>
+<ul>
+  <li>Por primera vez, el Estado va a destinar fondos públicos para co-invertir con privados e impulsar el desarrollo de proyectos: se crearán 10 fondos de co-inversión, con un aporte público del 40% y un capital mínimo CONJUNTO de 30 millones de dólares</li>
+</ul>
+
+<h3>Financiamiento Colectivo</h3>
+<ul>
+  <li>Podés desarrollar tu proyecto a partir de la inversión de muchas personas de todo el país porque regularizamos las plataformas de financiamiento colectivo</li>
+</ul>
+
+<h3>Aceleradoras</h3>
+<ul>
+<li>Para ayudarte a hacer crecer tu proyecto, vamos a seleccionar 13 aceleradoras: 10 van a dedicarse a emprendimientos tecnológicos y sociales, y 3 a emprendimientos de base científica.</li>
+</ul>
+
+----
+
+Class: 
+
+----
+
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/04/DSC_3875_baja-1.jpg
+
+----
+
+Align: d
+
+----
+
+Imgclass: img-circle
+
+----
+
+Title: Más financiamiento para tus ideas

@@ -1,0 +1,13 @@
+Title: Pagá sueldos, cubrí tus gastos operativos
+
+----
+
+Class: bg-primary
+
+----
+
+Text: Comprá materias primas, insumos o combustible
+
+----
+
+Linkurl: http://www.produccion.gob.ar/rbtcapitaldetrabajo/

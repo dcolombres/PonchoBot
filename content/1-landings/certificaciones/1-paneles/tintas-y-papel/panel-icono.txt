@@ -1,0 +1,25 @@
+Title: Tintas y papel
+
+----
+
+Class: 
+
+----
+
+Urlicono: 
+
+----
+
+Fontawesome: fa-pencil-square-o
+
+----
+
+Bajada: Tintas y papel
+
+----
+
+Description: 
+
+----
+
+Linkurl: http://www.produccion.gob.ar/tintasypapel

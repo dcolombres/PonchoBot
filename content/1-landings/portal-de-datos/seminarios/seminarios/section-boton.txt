@@ -1,0 +1,21 @@
+Title: Seminarios
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+----
+
+Columns: 1

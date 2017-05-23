@@ -1,0 +1,21 @@
+Title: Tablero MER
+
+----
+
+Header: Tabero MER
+
+----
+
+Bajada: 
+
+----
+
+Description: Seguimiento en tiempo real de las principales variables de la economía e indicadores sobre producción, inversión, consumo, exportaciones e importaciones, finanzas públicas y monetarias
+
+----
+
+Linkurl: http://tableromer.produccion.gob.ar
+
+----
+
+Class: 

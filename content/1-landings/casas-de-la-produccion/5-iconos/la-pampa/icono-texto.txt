@@ -1,0 +1,23 @@
+Title: General Pico
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Description: 
+
+<h5>General Pico</h5>
+<p><i class="fa fa-map-marker"></i> Calle 21 Nº 1374, Gral. Pico, La Pampa
+<br><i class="fa fa-phone"></i>  02302- 321423 int. 37
+<br><i class="fa fa-envelope"></i> casageneralpico.produccion@gmail.com
+<br><i class="fa fa-user"></i> José Manuel Marin Luna
+
+----
+
+Linkurl: 

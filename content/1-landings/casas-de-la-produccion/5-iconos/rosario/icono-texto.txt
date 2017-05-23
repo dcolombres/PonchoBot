@@ -1,0 +1,29 @@
+Title: Rosario
+
+----
+
+Class: 
+
+----
+
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/03/25694.png
+
+----
+
+Fontawesome: 
+
+----
+
+Materialicon: 
+
+----
+
+Description: 
+
+<h5>Rosario</h5>
+<p><i class="fa fa-map-marker"></i> Paraguay 755 4° piso, Rosario, Santa Fe
+<br>Bolsa de Comercio de Rosario
+<br><i class="fa fa-phone"></i>  0341-5258300 Int.: 2290/91
+<br><i class="fa fa-envelope"></i> casarosario.produccion@gmail.com
+<br><i class="fa fa-user"></i> Carla Francovigh
+<br><i class="fa fa-user"></i> Leandro Lopergolo

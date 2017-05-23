@@ -15,3 +15,11 @@ Description: de las empresas en la Argentina son PyME
 ----
 
 Color: text-success
+
+----
+
+Class: 
+
+----
+
+Textcolor: text-success

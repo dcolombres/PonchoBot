@@ -6,4 +6,8 @@ Text:
 
 ----
 
-Linkurl: 
+Linkurl: http://www.produccion.gob.ar/wp-content/uploads/2016/03/LC_Laboratorios-y-ensayos.pdf
+
+----
+
+Class: 

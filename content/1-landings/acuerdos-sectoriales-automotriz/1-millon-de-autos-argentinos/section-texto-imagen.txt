@@ -1,0 +1,37 @@
+Text: Un millón de autos argentinos
+
+----
+
+Texthtml: <p>Nuestro objetivo para el sector automotriz es aumentar la producción hasta llegar a fabricar un millón de vehículos en 2023. Para eso, vamos a aumentar la participación de las PyMEs autopartistas nacionales en la fabricación de los autos, vamos a incorporar nuevas tecnologías, captar inversiones por 5 mil millones de dólares en los próximos dos años, mejorar la infraestructura pública para la certificación de productos y procesos de calidad, y vamos a buscar nuevos mercados para empezar a exportar nuestros autos a más países.
+
+----
+
+Urlimagen: http://img.prod.gob.ar/2017/03/automotriz0-1.jpg
+
+----
+
+Align: i
+
+----
+
+Colorfondo: bg-primary
+
+----
+
+Title: 1 Millon de autos argentinos
+
+----
+
+Identificador: 
+
+----
+
+Class: bg-primary
+
+----
+
+Titulo: Un millón de autos argentinos
+
+----
+
+Imgclass: img-circle

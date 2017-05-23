@@ -1,0 +1,21 @@
+Title: 5
+
+----
+
+Header: Software
+
+----
+
+Bajada: 
+
+----
+
+Description: Formado por más de 4.800 empresas distribuidas en 25 polos tecnológicos y clústers en todo el país. Emplea a 90.000 trabajadores y exporta el 30% de su producción
+
+----
+
+Linkurl: 
+
+----
+
+Class: 

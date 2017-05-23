@@ -1,0 +1,32 @@
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<p>Las Casas de la Producción son representaciones formales del Ministerio de Producción en las distintas provincias y municipios. Las Casas brindan información y asesoramiento sobre las herramientas y políticas que ofrece el Ministerio de Producción para garantizar su efectiva aplicación y alcance.</p>
+<p>Podés asesorarte e informarte sobre todas las herramientas y políticas productivas en cualquiera de las Casas de la Producción del país.</p>
+
+----
+
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/03/casaprod.jpeg
+
+----
+
+Align: d
+
+----
+
+Imgclass: img-circle
+
+----
+
+Title: Intro

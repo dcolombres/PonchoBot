@@ -1,0 +1,22 @@
+Title: img-billete
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<img src="http://argob.github.io/poncho/ejemplos/img/billete.jpg"></img>
+<div class="text-center">
+<p class="text-muted p-t-1"><small>Excepteur sint occaecat cupidatat non proident</small></p>
+</div>

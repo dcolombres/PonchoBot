@@ -1,0 +1,26 @@
+Identificador: 
+
+----
+
+Class: p-b-1
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<p>Si tenés un comercio, cuando ofrezcas precios financiados sólo tenés que exhibir:</p>
+<ul>
+<li> Precio al contado </li>
+<li>Cantidad y valor de cada cuota</li>
+</ul>
+<p>
+Si tenés un comercio electrónico y/o hacés publicidad en medios masivos de comunicación tenés que agregar el Costo Financiero Total (CFT) en cada alternativa de financiación.
+</p>
+
+----
+
+Title: 1eraSeccion

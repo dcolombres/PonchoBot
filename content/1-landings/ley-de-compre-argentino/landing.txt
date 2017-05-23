@@ -1,0 +1,21 @@
+Title: Ley de Compre Argentino
+
+----
+
+Titulo: Ley de Compre Argentino
+
+----
+
+Texthtml: <p>Enviamos un proyecto de ley al Congreso Nacional para que más PyMEs argentinas participen en la obra pública generando 70.000 nuevos puestos de trabajo</p>
+
+----
+
+Background: http://img.prod.gob.ar/2017/04/proveedores.jpg
+
+----
+
+Class: 
+
+----
+
+Footer: 

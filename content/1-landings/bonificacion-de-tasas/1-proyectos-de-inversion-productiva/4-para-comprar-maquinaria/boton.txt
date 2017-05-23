@@ -1,0 +1,13 @@
+Title: Expandí tu negocio
+
+----
+
+Class: bg-primary
+
+----
+
+Text: Comprá máquinas nuevas o usadas, construí o ampliá tu planta productiva
+
+----
+
+Linkurl: http://www.produccion.gob.ar/expandite/

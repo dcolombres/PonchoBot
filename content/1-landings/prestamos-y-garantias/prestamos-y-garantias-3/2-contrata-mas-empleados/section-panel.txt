@@ -7,3 +7,19 @@ Columns: 4
 ----
 
 Title: Contratá más empleados
+
+----
+
+Identificador: 
+
+----
+
+Titulo: Contratá más empleados
+
+----
+
+Class: p-t-0
+
+----
+
+Texthtml: 

@@ -1,0 +1,21 @@
+Title: Panelera
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: ÚLTIMAS NOTICIAS DEL ÁREA
+
+----
+
+Texthtml: 
+
+----
+
+Columns: 4

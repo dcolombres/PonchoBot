@@ -1,0 +1,24 @@
+Title: Pasos a seguir
+
+----
+
+Identificador: pasos
+
+----
+
+Class: 
+
+----
+
+Titulo: Pasos a seguir
+
+----
+
+Texthtml: 
+
+<p><span style="font-weight: 400">1- Ingresá a </span><a href="http://tramitesadistancia.gob.ar/"><span style="font-weight: 400">Trámites a Distancia</span></a><span style="font-weight: 400"> (TAD).&nbsp;</span><span style="font-weight: 400">Para eso necesitás tener CUIT y clave fiscal (nivel 2 o superior). Si es la primera vez que accedés&nbsp;al TAD tenés que adherir ese servicio en la web de AFIP. &nbsp;Mirá el </span><span style="font-weight: 400"><a href="https://www.youtube.com/watch?v=uqHrQd507Og">Tutorial: ¿Cómo adherir servicio TAD en la web de AFIP?</a>&nbsp;</span><span style="font-weight: 400">Si vas a realizar el trámite en nombre de una empresa necesitás tener la delegación de servicios vía AFIP. Acá te mostramos cómo hacerlo&nbsp;</span><a href="http://www.afip.gov.ar/genericos/guiaDeTramites/guia/documentos/PasoaPasoServiciosdelegacionCF.pdf"><span style="font-weight: 400">Tutorial para delegar servicios y aceptar delegación</span></a></p>
+<p><span style="font-weight: 400">2 – Ingresá al RUMP </span><a href="https://tramitesadistancia.gob.ar/tramitesadistancia/famFCRequisitos.htm?idTramite=457"><span style="font-weight: 400">Link directo al trámite RUMP</span></a><span style="font-weight: 400"> y accedé a la seccion “Nuevo trámite”. Seleccioná el tipo de certificación a realizar y completá los pasos del proceso. &nbsp;Si aun no estás registrado en el RUMP, hacelo por única vez &nbsp;Acá podés ver cómo </span><a href="https://www.youtube.com/watch?v=3DCiSG_7zKY&amp;feature=youtu.be"><span style="font-weight: 400">Tutorial: ¿Cómo acceder al Registro Único del Ministerio de Producción (RUMP)?</span></a></p>
+<p><span style="font-weight: 400">3 – Si tu producto es importado, inicá el trámite para la <a href="https://tramitesadistancia.gob.ar/tramitesadistancia/famFCRequisitos.htm?idTramite=465">certificación “Sin Derecho a Uso”</a> (SDU).&nbsp;</span><span style="font-weight: 400">Acá podés ver cómo hacerlo&nbsp;</span><a href="https://www.youtube.com/watch?v=b54eDUBW3mY&amp;feature=youtu.be"><span style="font-weight: 400">Tutorial certificaciones- Nota de apertura SDU</span></a></p>
+<p><span style="font-weight: 400">4- Si tenés un producto que está dentro de los materiales a certificar pero que NO vas a usarlo para la construcción ni con fines estructurales podés pedir una <a href="https://tramitesadistancia.gob.ar/tramitesadistancia/famFCRequisitos.htm?idTramite=464">nota de excepción</a>.&nbsp;</span></p>
+<p><span style="font-weight: 400">5- Si tenés un producto ya certificado podés solicitar el <a href="https://tramitesadistancia.gob.ar/tramitesadistancia/famFCRequisitos.htm?idTramite=466">permiso para comercializarlo</a> dentro del país.</span></p>
+<p><span style="font-weight: 400">6 – Realizado el&nbsp;trámite te va a llegar una notificación con el resultado.</span></p>

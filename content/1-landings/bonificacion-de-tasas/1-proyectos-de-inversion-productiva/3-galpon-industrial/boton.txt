@@ -1,0 +1,13 @@
+Title: Ampliá o remodelá tu planta productiva
+
+----
+
+Class: bg-primary
+
+----
+
+Text: Mi Galpón - Construí o comprá galpones industriales nuevos o usados
+
+----
+
+Linkurl: http://www.produccion.gob.ar/migalpon/

@@ -1,0 +1,24 @@
+Title: h1
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<h1>h1. Pondrán en circulación billetes de 200 y 500 pesos</h1>
+<p>El Banco Central de la República Argentina (BCRA) informó que lo hará a mediados de año. Para 2017 proyecta emitir con nominación de 1.000 pesos.</p>
+
+----
+
+Columns: 3

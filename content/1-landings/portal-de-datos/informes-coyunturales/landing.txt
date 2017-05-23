@@ -1,0 +1,25 @@
+Titulo: Informes Coyunturales
+
+----
+
+Subtitle: Análisis de la evolución productiva de diferentes actividades representativas de la diversidad del complejo industrial argentino
+
+----
+
+Background: http://www.produccion.gob.ar/wp-content/uploads/2017/01/Optimized-TAD-slider-web-01.jpg
+
+----
+
+Footer: 
+
+----
+
+Title: Informes Coyunturales
+
+----
+
+Class: 
+
+----
+
+Texthtml: <p>Análisis de la evolución productiva de diferentes actividades representativas de la diversidad del complejo industrial argentino

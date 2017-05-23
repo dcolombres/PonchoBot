@@ -15,3 +15,11 @@ Description: de Argentinos trabajan en una PyME
 ----
 
 Color: text-muted
+
+----
+
+Class: 
+
+----
+
+Textcolor: text-muted

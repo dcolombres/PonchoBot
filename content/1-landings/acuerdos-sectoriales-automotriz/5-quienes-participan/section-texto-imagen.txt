@@ -1,0 +1,46 @@
+Text: ¿Quiénes participan de este Acuerdo?
+
+----
+
+Texthtml: 
+
+<h4>Sector Público Nacional:</h4>
+                            <p>Jefatura de Gabinete de Ministros, Ministerios de Producción, Transporte, Energía y Minería, Ambiente y Desarrollo Sustentable, y Trabajo, Empleo y Seguridad Social.</p>
+                            <h4>Sector Público Provincial:</h4>
+                            <p>Gobiernos de las provincias de Buenos Aires, Córdoba y Santa Fe, y de la Ciudad Autónoma de Buenos Aires.</p>
+                            <h4>Sector privado:</h4>
+                            <p>Asociación de Fabricantes Automotores (ADEFA), la Asociación de Fábricas Argentinas de Componentes (AFAC) y la Asociación de Industriales Metalúrgicos de la República Argentina (ADIMRA).</p>
+                            <h4>Sindicatos:</h4>
+                            <p>Unión Obrera Metalúrgica (UOM), el Sindicato de Mecánicos y Afines del Transporte Automotor (SMATA) y la Asociación de Supervisores Mineros, Metalúrgicos y Mecánicos (ASIMRA)</p>
+
+----
+
+Urlimagen: http://img.prod.gob.ar/2017/03/automotriz2-1.jpg
+
+----
+
+Align: i
+
+----
+
+Colorfondo: 
+
+----
+
+Title: Quienes participan
+
+----
+
+Identificador: 
+
+----
+
+Class: 
+
+----
+
+Titulo: ¿Quiénes participan de este Acuerdo?
+
+----
+
+Imgclass: img-circle

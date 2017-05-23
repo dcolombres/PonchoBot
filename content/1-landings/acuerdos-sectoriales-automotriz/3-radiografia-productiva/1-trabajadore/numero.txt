@@ -1,0 +1,17 @@
+Title: trabajadores
+
+----
+
+Number: 70.394
+
+----
+
+Small: 
+
+----
+
+Description: trabajadores vinculados directamente al sector
+
+----
+
+Color: 

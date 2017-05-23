@@ -1,0 +1,84 @@
+Title: Ediciones anteriores
+
+----
+
+Identificador: ediciones
+
+----
+
+Class: 
+
+----
+
+Titulo: Seminarios anteriores
+
+----
+
+Texthtml: 
+
+<div class="row panels-row">
+<div class="col-xs-12 col-sm-6 col-md-12">
+<a class="panel panel-default text-gray text-left "  href="http://www.produccion.gob.ar/wp-content/uploads/2017/04/McDermott-MIn-de-Prod-Marzo-2017.pptx">
+<div class="panel-body">
+<h3>Recombinar para competir en el mundo: Instituciones non-mercados como puentes de conocimiento</h3>
+<p class="text-muted">Marzo de 2017</p>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-12">
+<a class="panel panel-default text-gray text-left "  href="http://www.produccion.gob.ar/wp-content/uploads/2017/04/Gasparini_Produccion_30_11_2016_v2.pdf">
+<div class="panel-body">
+<h3>El Impacto Social de la Transformación Productiva</h3>
+<p class="text-muted">30 de Noviembre de 2016</p>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-12">
+<a class="panel panel-default text-gray text-left "  href="http://www.produccion.gob.ar/wp-content/uploads/2016/10/PRESENTACION_BIS.pptx">
+<div class="panel-body">
+<h3>Transferencias Fiscales y Determinantes del Desarrollo Regional en Argentina</h3>
+<p class="text-muted">16 de Septiembre de 2016</p>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-12">
+<a class="panel panel-default text-gray text-left "  href="http://www.produccion.gob.ar/wp-content/uploads/2016/05/Seminario-Julio_-Juan-Pablo-Rud.pdf">
+<div class="panel-body">
+<h3>Patrones de transformación estructural en Argentina</h3>
+<p class="text-muted">28 de Julio 2016</p>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-12">
+<a class="panel panel-default text-gray text-left "  href="http://www.produccion.gob.ar/wp-content/uploads/2016/05/Presentacion-Gustavo-Crespi.pdf">
+<div class="panel-body">
+<h3>La innovacion y la nueva economia de servicios en america latina y el caribe. Retos e implicaciones de politica</h3>
+<p class="text-muted">Junio de 2016</p>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-12">
+<a class="panel panel-default text-gray text-left "  href="http://www.produccion.gob.ar/wp-content/uploads/2016/05/Hallak.pdf">
+<div class="panel-body">
+<h3>Vínculos relacionales para la inserción en cadenas globales de valor no masivas: oportunidades para países de ingreso medio</h3>
+<p class="text-muted">17 de mayo de 2016</p>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-12">
+<a class="panel panel-default text-gray text-left "  href="http://www.produccion.gob.ar/wp-content/uploads/2016/05/PresentacionSeminarioBenaventeBID.pdf">
+<div class="panel-body">
+<h3>Cómo transformar ideas en valor: Políticas de Innovación para Latinoamérica</h3>
+<p class="text-muted">20 de Abril de 2016</p>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-12">
+<a class="panel panel-default text-gray text-left "  href="http://www.produccion.gob.ar/wp-content/uploads/2016/04/Presentacion-Stein.pdf">
+<div class="panel-body">
+<h3>¿Cómo repensar el desarrollo productivo?</h3>
+<p class="text-muted">10 de Marzo de 2016</p>
+</div>
+</a>
+</div>
+</div>

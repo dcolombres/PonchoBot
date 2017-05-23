@@ -10,7 +10,7 @@ Description: Conocé todas las herramientas que ofrece el Ministerio de Producci
 
 ----
 
-Urlimagen: http://www.sepeb.com/alf/image_20170128_190601.jpg
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/03/1a-copy-720x340.jpg
 
 ----
 

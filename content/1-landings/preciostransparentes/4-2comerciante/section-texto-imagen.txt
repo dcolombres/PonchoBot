@@ -1,0 +1,58 @@
+Identificador: comerciante
+
+----
+
+Class: bg-gray
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<h5>SI SOS COMERCIANTE, NECESITÁS SABER ESTAS 5 COSAS:</h5>
+</br>
+<ol>
+<li>
+  <p><strong>Tenés que exhibir el precio al contado</strong>.</p>
+</li>
+<li>
+  <p>
+  El precio al contado es en efectivo, con tarjeta de débito, en una sola cuota con tarjeta de crédito o con otros medios electrónicos de pago. 
+</p>
+</li>
+<li>
+  <p><strong>Si ofrecés una o más alternativas de financiación y las exhibís, tenés que</strong> informar el precio al contado, la cantidad de cuotas y el valor de cada una.</p>
+</li>
+<li>
+  <p><strong>Si vendés a través de comercio electrónico o hacés publicidades en medios masivos, tenés que agregar el Costo Financiero Total </strong>(CFT) de cada alternativa de financiación que exhibas o que publicites.</p>
+</li>
+<li>
+  <p><strong>Cuando incluyas la frase "sin interés", las cuotas deberán ser realmente sin interés</strong>. Tenés que tener un acuerdo especial con los bancos o tarjetas de crédito, o no trasladar el costo de la financiación al precio de venta al consumidor. </p>
+</li>
+
+</ol>
+<div class="text-center p-t-3">
+<p>¿Tenés dudas sobre la aplicación de esta medida?
+</br>
+Llamá al 0800-666-1518 o escribinos a
+<a href="mailto: preciostransparentes@produccion.gob.ar">preciostransparentes@produccion.gob.ar</a></p>
+</div>
+
+----
+
+Urlimagen: http://www.produccion.gob.ar/wp-content/uploads/2017/03/comerciante.jpg
+
+----
+
+Align: d
+
+----
+
+Imgclass: img-circle
+
+----
+
+Title: 2comerciante

@@ -1,4 +1,4 @@
-Title: Mejoras para exportadores
+Title: Exportar con plazos más largos
 
 ----
 
@@ -6,7 +6,7 @@ Text:
 
 ----
 
-Linkurl: #menosRetenciones
+Linkurl: #exportar
 
 ----
 

@@ -1,0 +1,21 @@
+Identificador: 
+
+----
+
+Text: Radiografía Productiva
+
+----
+
+Columns: 4
+
+----
+
+Class: 
+
+----
+
+Title: Radiografía Productiva
+
+----
+
+Titulo: Radiografía Productiva

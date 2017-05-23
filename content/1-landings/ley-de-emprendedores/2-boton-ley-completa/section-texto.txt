@@ -1,0 +1,17 @@
+Identificador: 
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: <div class="text-center"><a target="_blank" class="btn btn-primary btn-md" href="http://www.produccion.gob.ar/wp-content/uploads/2016/11/leydeemprendedores/LeyEmprendedores.pdf ">Leé la Ley completa</a></div>
+
+----
+
+Class: p-t-0
+
+----
+
+Title: Boton ley completa
