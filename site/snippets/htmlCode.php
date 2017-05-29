@@ -1,4 +1,4 @@
-&lt;section class="jumbotron <?= $page->class() ?>" style="background-image: url('<?= $page->background() ?>');"&gt;
+    &lt;section class="jumbotron <?= $page->class() ?>" style="background-image: url('<?= $page->background() ?>');"&gt;
     &lt;div class="jumbotron_body"&gt;
       &lt;div class="container"&gt;
         &lt;div class="row"&gt;
@@ -87,13 +87,8 @@
                   <?php foreach($section->children() as $panelFoto): ?>
                     &lt;div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>"&gt;
                       &lt;a <?php if ($panelFoto->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelFoto->linkurl() ?>"&gt;
-                        <?php if ($panelFoto->fileimage()->isNotEmpty()): ?>
-                          &lt;div class="panel-heading bg-primary <?= str_replace(",","",$panelFoto->class()) ?>" style="background-image: url('<?= $panelFoto->fileimage()->toFile()->url() ?>');"&gt;
-                          &lt;/div&gt;
-                        <?php else: ?>
                           &lt;div class="panel-heading bg-primary <?= str_replace(",","",$panelFoto->class()) ?>" style="background-image: url('<?= $panelFoto->urlimagen() ?>');"&gt;
                           &lt;/div&gt;
-                        <?php endif ?>
                         &lt;div class="panel-body text-left"&gt;
                           &lt;h3&gt;<?= $panelFoto->bajada() ?>&lt;/h3&gt;
                           &lt;p class="text-muted"&gt;<?= $panelFoto->description() ?>&lt;/p&gt;
@@ -226,11 +221,7 @@
             &lt;div class="row"&gt;
               <?php if ($section->align()=='i'): ?>
                 &lt;div class="col-sm-4"&gt;
-                  <?php if ($section->fileimage()->isNotEmpty()): ?>
-                    &lt;img class="<?= $section->imgClass() ?>" src="<?= $section->fileimage()->toFile()->url() ?>" style="width: 100%;"&gt;
-                  <?php else: ?>
                     &lt;img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="width: 100%;"&gt;
-                  <?php endif ?>
                 &lt;/div&gt;
                 &lt;div class="col-sm-8 text-left"&gt;
                   <?php if($section->titulo()->isNotEmpty() ) : ?>&lt;h2&gt; <?= $section->titulo() ?> &lt;/h2&gt;<?php endif; ?>
@@ -242,11 +233,7 @@
                   <?= $section->texthtml() ?>
                 &lt;/div&gt;
                 &lt;div class="col-sm-4"&gt;
-                  <?php if ($section->fileimage()->isNotEmpty()): ?>
-                    &lt;img class="<?= $section->imgClass() ?>" src="<?= $section->fileimage()->toFile()->url() ?>" style="width: 100%;"&gt;
-                  <?php else: ?>
                     &lt;img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="width: 100%;"&gt;
-                  <?php endif ?>
                 &lt;/div&gt;
               <?php endif ?>
             &lt;/div&gt;
