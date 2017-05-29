@@ -12,6 +12,7 @@
     <?= css('assets/css/poncho.min.css') ?>
     <?= css('assets/css/font-awesome.min.css') ?>
     <?= css('assets/css/templates.css') ?>
+    <?= css('assets/css/palta.css') ?>
 </head>
 <body>
 
