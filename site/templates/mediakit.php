@@ -39,7 +39,7 @@
     <?php endif ?>
     <?php elseif($section->intendedTemplate() == 'mediakit-img'): ?>
       <section id="section-<?= $i ?>" class="infografia" tabindex="-1">
-        <div class="container-fluid">
+        <div class="container-fluid mediakit-img">
           <img src="<?php if( $section->filedesktop()->isNotEmpty() ) { echo $section->filedesktop()->toFile()->url(); } else { echo $section->imgdesktop(); } ?>" alt="" class="img-responsive hidden-md hidden-sm hidden-xs">
           <img src="<?php if( $section->filetablet()->isNotEmpty() ) { echo $section->filetablet()->toFile()->url(); } else { echo $section->imgtablet(); } ?>" alt="" class="img-responsive hidden-lg hidden-xs">
           <img src="<?php if( $section->filemobile()->isNotEmpty() ) { echo $section->filemobile()->toFile()->url(); } else { echo $section->imgmobile(); } ?>" alt="" class="img-responsive hidden-lg hidden-md hidden-sm">

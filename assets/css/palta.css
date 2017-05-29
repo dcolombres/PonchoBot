@@ -739,3 +739,9 @@ a.unlink {
     display: none!important
   }
 }
+
+/*MEDIA KIT*/
+.mediakit-img img{
+  width: 100%;
+  height: auto;
+}
