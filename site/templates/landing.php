@@ -131,7 +131,7 @@
                             </div>
                             <div class="panel-body text-left">
                               <h3><?= $panelIcono->bajada() ?></h3>
-                              <p class="text-muted"><?= $panelIcono->description() ?></p>
+                              <p class="text-muted"><?= $panelIcono->htmlcode() ?></p>
                             </div>
                           </a>
                         </div>

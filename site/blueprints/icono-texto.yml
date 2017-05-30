@@ -21,7 +21,4 @@ fields:
 
   materialicon: materialicon
 
-  description:
-    label: Descripción
-    type: textarea
-    icon: align-justify
+  texthtml: texthtml
