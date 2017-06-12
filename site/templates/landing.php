@@ -209,8 +209,10 @@
                 <?php elseif ($section->intendedTemplate()=='section-mapa'): ?>
                 </div>
                 <div class="container-fluid">
+                  <div class="container">
                   <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
                   <?= $section->texthtml() ?>
+                </div>
                   <div class="row">
                     <div class="maps">
                       <iframe
@@ -329,6 +331,26 @@
                         <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?= $section->videourl() ?>?rel=0&amp;controls=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe>
                       </div>
                     <?php endif ?>
+
+                  <?php elseif ($section->intendedTemplate()=='section-modal'): ?>
+                    <?php if ($section->texthtml()->isNotEmpty()): ?>
+                      <div class="row video-row">
+                        <div class="col-md-5  col-xs-12 video-text">
+                          <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+                          <?= $section->texthtml() ?>
+                        </div>
+                        <div class="col-md-6 col-md-offset-1 col-xs-12">
+                          <div class="bg-modal">
+                            <?= $section->modalhtml() ?>
+                          </div>
+                        </div>
+                      </div>
+                    <?php else: ?>
+                      <div class="bg-modal">
+                        <?= $section->modalhtml() ?>
+                      </div>
+                    <?php endif ?>
+
                   <?php endif ?>
                 </div>
               </section>

@@ -17,6 +17,7 @@ pages:
     - section-slider
     - section-tabla
     - section-columnas
+    - section-modal
 
 files: true
 

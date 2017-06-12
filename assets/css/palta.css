@@ -4,10 +4,6 @@ html {
   overflow-x: hidden
 }
 
-li{
-  padding-bottom: 0.5rem;
-}
-
 /*FIXES A STYLES.CSS*/
 
 .video-row {
@@ -228,6 +224,17 @@ a img.aligncenter {
   padding: 10px 0
 }
 
+.navbar li{
+  padding-bottom: 0 !important;
+}
+
+/*Icono al final de input*/
+.fa-input {
+    position: absolute;
+    top: 0.45em;
+    z-index: 2;
+    right: 1.5em;
+}
 /*CONTACT FORM 7*/
 
 .form-group input {
@@ -344,11 +351,6 @@ nav.stick {
   .voucherDescripcion {
     margin-top: 1.5rem;
   }
-/*Agrega padding bottom a imagenes en Section Texto con Imagen - Creados en PonchoBot*/
-  section img{
-    padding-bottom: 1rem;
-  }
-
 }
 
 @media (min-width:768px) {
@@ -660,8 +662,31 @@ a.unlink {
   color: #7e62b3;
 }
 
+.text-blanco {
+  color: #ffffff !important;
+}
+
+.bg-modal{
+  background: #F9F9F9;
+    border-radius: 4px;
+    box-shadow: 0 0 10px -4px black;
+    padding: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
 
 /*FUNCIONES DE BOOTSTRAP V4*/
+
+.align-middle{
+      vertical-align: middle!important;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
 
 @media (max-width:575px) {
   .hidden-xs-down {
