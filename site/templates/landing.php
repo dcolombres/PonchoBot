@@ -28,7 +28,7 @@
           <div class="container">
 
             <?php if ($section->intendedTemplate()=='section-boton'):?>
-              <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+              <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
               <?= $section->texthtml() ?>
               <div class="row panels-row">
                 <?php foreach($section->children() as $boton): ?>
@@ -114,7 +114,7 @@
                     </div>
 
                   <?php elseif ($section->intendedTemplate()=='section-panel-icono'): ?>
-                    <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+                    <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
                     <?= $section->texthtml() ?>
                     <div class="row panels-row">
                       <?php foreach($section->children() as $panelIcono): ?>
@@ -139,7 +139,7 @@
                     </div>
 
                   <?php elseif ($section->intendedTemplate()=='section-columnas'): ?>
-                    <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+                    <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
                     <?= $section->texthtml() ?>
                     <div class="row">
                       <?php foreach($section->children() as $columna): ?>
@@ -153,7 +153,7 @@
                     </div>
 
                   <?php elseif ($section->intendedTemplate()=='section-icono-texto'): ?>
-                    <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+                    <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
                     <?= $section->texthtml() ?>
                     <div class="row panels-row">
                       <?php foreach($section->children() as $iconoTexto): ?>
@@ -336,11 +336,11 @@
                     <?php if ($section->texthtml()->isNotEmpty()): ?>
                       <div class="row video-row">
                         <div class="col-md-5  col-xs-12 video-text">
-                          <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
                           <?= $section->texthtml() ?>
                         </div>
                         <div class="col-md-6 col-md-offset-1 col-xs-12">
                           <div class="bg-modal">
+                              <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
                             <?= $section->modalhtml() ?>
                           </div>
                         </div>
