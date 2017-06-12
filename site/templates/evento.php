@@ -48,6 +48,34 @@
               <?php endforeach ?>
             </div>
 
+          <?php elseif ($section->intendedTemplate()=='section-tabla'): ?>
+            <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+            <?php
+            $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->encabezado3(), $section->encabezado4(), $section->encabezado5() );
+            ?>
+            <table class="table <?= str_replace(",","",$section->class()) ?>">
+              <thead>
+                <tr>
+                  <?php for ($i=0; $i < $section->columns()->int() ; $i++) { ?>
+                    <th><?= $tableHead[$i] ?></th>
+                    <?php } ?>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <?php foreach ($section->children() as $tableRow) { ?>
+                    <?php $tableRow = array ($tableRow->campo1(), $tableRow->campo2(), $tableRow->campo3(), $tableRow->campo4(),$tableRow->campo5() ); ?>
+                    <tr>
+                      <?php  for ($i=0; $i < $section->columns()->int() ; $i++) { ?>
+                        <td>
+                          <?= $tableRow[$i] ?>
+                        </td>
+                        <?php } ?>
+                      </tr>
+                      <?php } ?>
+                    </tbody>
+                  </table>
+
           <?php elseif ($section->intendedTemplate()=='section-panel'): ?>
             <p> <?= $section->description() ?> </p>
             <div class="row panels-row">
