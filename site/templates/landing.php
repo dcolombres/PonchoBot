@@ -44,7 +44,7 @@
               </div>
 
             <?php elseif ($section->intendedTemplate()=='section-tabla'): ?>
-              <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+              <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
               <?php
               $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->encabezado3(), $section->encabezado4(), $section->encabezado5() );
               ?>
@@ -210,7 +210,7 @@
                 </div>
                 <div class="container-fluid">
                   <div class="container">
-                  <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+                  <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
                   <?= $section->texthtml() ?>
                 </div>
                   <div class="row">
