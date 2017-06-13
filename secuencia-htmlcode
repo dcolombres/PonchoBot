@@ -5,3 +5,4 @@ Remplazar:
 '?&gt;' por '?>'
 '-&gt;' por '->'
 ' &lt; ' por ' < '
+'texthtml()' por 'texthtml()->html()'

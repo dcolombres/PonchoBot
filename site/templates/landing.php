@@ -46,9 +46,9 @@
             <?php elseif ($section->intendedTemplate()=='section-tabla'): ?>
               <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
               <?php
-              $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->encabezado3(), $section->encabezado4(), $section->encabezado5() );
+              $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->encabezado3(), $section->encabezado4(), $section->encabezado5(), $section->encabezado6() );
               ?>
-              <table class="table <?= str_replace(",","",$section->class()) ?>">
+              <table class="table <?= str_replace(",","",$section->class()) ?> <?= $section->classtxt() ?>">
                 <thead>
                   <tr>
                     <?php for ($i=0; $i < $section->columns()->int() ; $i++) { ?>
@@ -59,7 +59,7 @@
 
                   <tbody>
                     <?php foreach ($section->children() as $tableRow) { ?>
-                      <?php $tableRow = array ($tableRow->campo1(), $tableRow->campo2(), $tableRow->campo3(), $tableRow->campo4(),$tableRow->campo5() ); ?>
+                      <?php $tableRow = array ($tableRow->campo1(), $tableRow->campo2(), $tableRow->campo3(), $tableRow->campo4(),$tableRow->campo5(),$tableRow->campo6() ); ?>
                       <tr>
                         <?php  for ($i=0; $i < $section->columns()->int() ; $i++) { ?>
                           <td>
@@ -131,7 +131,7 @@
                             </div>
                             <div class="panel-body text-left">
                               <h3><?= $panelIcono->bajada() ?></h3>
-                              <p class="text-muted"><?= $panelIcono->htmlcode() ?></p>
+                              <p class="text-muted"><?= $panelIcono->description() ?></p>
                             </div>
                           </a>
                         </div>
@@ -141,7 +141,7 @@
                   <?php elseif ($section->intendedTemplate()=='section-columnas'): ?>
                     <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
                     <?= $section->texthtml() ?>
-                    <div class="row">
+                    <div class="row panels-row">
                       <?php foreach($section->children() as $columna): ?>
                         <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->value()  ?>">
                           <div class="panel-body text-left">
@@ -341,7 +341,7 @@
                         <div class="col-md-6 col-md-offset-1 col-xs-12">
                           <div class="bg-modal">
                               <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
-                            <?= $section->modalhtml() ?>
+                            <?= $section->modaltexthtml() ?>
                           </div>
                         </div>
                       </div>
