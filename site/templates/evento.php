@@ -11,7 +11,7 @@
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 text-center p-t-4 p-b-4 table-row">
 
-                <div class="col-xs-12 col-md-6 text-right table-cell borde-der">
+                <div class="col-xs-12 col-md-6 text-right table-cell borde-der aligner">
 
                   <h4 class="text-uppercase"><?= $page->titulo() ?></h4>
                 </div>
