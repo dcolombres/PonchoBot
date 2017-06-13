@@ -626,6 +626,11 @@ a.unlink {
   background-color: #f7f7f7 !important;
 }
 
+.bg-default {
+  background-color: #767676 !important;
+  color: #ffffff;
+}
+
 .bg-celeste{
   background-color: #daf1f8 !important;
 }
