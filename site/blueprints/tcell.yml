@@ -37,3 +37,8 @@ fields:
       label: Campo 5
       type: text
       icon: th
+
+  campo6:
+      label: Campo 6
+      type: text
+      icon: th

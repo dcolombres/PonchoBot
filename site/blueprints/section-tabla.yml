@@ -17,6 +17,8 @@ fields:
 
   class: class
 
+  classtxt: classtxt
+
   titulo: titulo
 
   columns:
@@ -24,10 +26,10 @@ fields:
     type: text
     validate:
       min: 1
-      max: 5
+      max: 6
       - alphanum
     default: 5
-    placeholder: 1 - 5
+    placeholder: 1 - 6
 
 
   encabezado1:
@@ -52,5 +54,10 @@ fields:
 
   encabezado5:
     label: Encabezado 5
+    type: text
+    icon: header
+
+  encabezado6:
+    label: Encabezado 6
     type: text
     icon: header
