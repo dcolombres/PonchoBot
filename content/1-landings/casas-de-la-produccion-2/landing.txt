@@ -1,0 +1,29 @@
+Title: Casas de la Producción 2
+
+----
+
+Titulo: Casas de la Producción
+
+----
+
+Texthtml: Si tenés una PyME o estás emprendiendo y necesitás un préstamo, hacer un trámite, aplicar a un préstamo, recibir capacitación o querés enterarte de todas las herramientas del Ministerio para ayudarte a crecer, en las Casas de la Producción que hay en todo el país podés encontrar un especialista que te ayude.
+
+----
+
+Background: 
+
+----
+
+Info: 
+
+----
+
+Fileimage: 
+
+----
+
+Class: 
+
+----
+
+Footer: 

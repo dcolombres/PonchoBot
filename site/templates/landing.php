@@ -166,7 +166,7 @@
                             <i class="material-icons fa-5x"><?= $iconoTexto->materialicon() ?></i>
                           <?php endif ?>
                         </br>
-                        <p><?= $iconoTexto->description() ?></p>
+                        <p><?= $iconoTexto->texthtml() ?></p>
                       </div>
                     <?php endforeach ?>
                   </div>

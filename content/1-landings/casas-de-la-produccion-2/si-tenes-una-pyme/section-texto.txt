@@ -1,0 +1,26 @@
+Title: si tenes una pyme
+
+----
+
+Identificador: 
+
+----
+
+Class: text-center
+
+----
+
+Titulo: 
+
+----
+
+Texthtml: 
+
+<div class="row">
+  <div class="col-xs-8 col-xs-offset-2">
+ <h4 class="text-center"> BUSCÁ LA QUE ESTÁ MÁS CERCA TUYO</h4>  
+</div>
+  <div class="col-xs-6 col-xs-offset-3 text-center bg-gray m-b-1">
+    <h5 class="text-muted"><i class="fa fa fa-search p-t-1 p-b-1"></i> --Buscador-- </h5>
+  </div>
+</div>

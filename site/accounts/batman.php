@@ -7,8 +7,9 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - >
+    landings/casas-de-la-produccion-2/info/primero
+  - landings/casas-de-la-produccion-2/si-tenes-una-pyme
+  - landings/casas-de-la-produccion-2
   - mediakit/imagen
   - mediakit
-  - mediakit/texto-con-imagen
-  - mediakit/tarjetas
-  - mediakit/texto
