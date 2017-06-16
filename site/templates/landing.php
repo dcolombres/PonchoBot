@@ -48,6 +48,7 @@
               <?php
               $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->encabezado3(), $section->encabezado4(), $section->encabezado5(), $section->encabezado6() );
               ?>
+              <div class="table-responsive">
               <table class="table <?= str_replace(",","",$section->class()) ?> <?= $section->classtxt() ?>">
                 <thead>
                   <tr>
@@ -70,6 +71,7 @@
                         <?php } ?>
                       </tbody>
                     </table>
+                  </div>
 
                   <?php elseif ($section->intendedTemplate()=='section-panel'): ?>
                     <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
@@ -120,11 +122,15 @@
                       <?php foreach($section->children() as $panelIcono): ?>
                         <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                           <a <?php if ($panelIcono->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl() ?>">
-                            <div class="panel-heading bg-primary panelIcono <?= str_replace(",","",$panelIcono->class()) ?>">
+                            <?php if(strpos($panelIcono->fontawesome(),'icono-arg-') === false) : ?>
+                              <div class="panel-heading bg-primary fa-con-ia panelIcono <?= str_replace(",","",$panelIcono->class()) ?> ">
+                            <?php else: ?>
+                              <div class="panel-heading bg-primary panelIcono <?= str_replace(",","",$panelIcono->class()) ?> ">
+                            <?php endif; ?>
                               <?php if ($panelIcono->urlicono()->isNotEmpty()): ?>
                                 <img src="<?= $panelIcono->urlicono() ?>" alt="" ></img>
                               <?php elseif($panelIcono->fontawesome()->isNotEmpty()): ?>
-                                <i class="fa fa-2x <?= $panelIcono->fontawesome() ?>"></i>
+                                  <i class="fa fa-2x <?= $panelIcono->fontawesome() ?>"></i>
                               <?php else: ?>
                                 <i class="material-icons fa-2x"><?= $panelIcono->materialicon() ?></i>
                               <?php endif ?>
