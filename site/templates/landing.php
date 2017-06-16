@@ -122,15 +122,15 @@
                       <?php foreach($section->children() as $panelIcono): ?>
                         <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                           <a <?php if ($panelIcono->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl() ?>">
-                            <?php if(strpos($panelIcono->fontawesome(),'icono-arg-') === false) : ?>
-                              <div class="panel-heading bg-primary fa-con-ia panelIcono <?= str_replace(",","",$panelIcono->class()) ?> ">
-                            <?php else: ?>
                               <div class="panel-heading bg-primary panelIcono <?= str_replace(",","",$panelIcono->class()) ?> ">
-                            <?php endif; ?>
                               <?php if ($panelIcono->urlicono()->isNotEmpty()): ?>
                                 <img src="<?= $panelIcono->urlicono() ?>" alt="" ></img>
                               <?php elseif($panelIcono->fontawesome()->isNotEmpty()): ?>
+                                <?php if(strpos($panelIcono->fontawesome(),'icono-arg-') === false) : ?>
+                                  <i class="fa fa-2x fa-con-ia <?= $panelIcono->fontawesome() ?>"></i>
+                                <?php else: ?>
                                   <i class="fa fa-2x <?= $panelIcono->fontawesome() ?>"></i>
+                                <?php endif; ?>
                               <?php else: ?>
                                 <i class="material-icons fa-2x"><?= $panelIcono->materialicon() ?></i>
                               <?php endif ?>
@@ -167,7 +167,11 @@
                           <?php if ($iconoTexto->urlicono()->isNotEmpty()): ?>
                             <img src="<?= $iconoTexto->urlicono() ?>" alt=""></img>
                           <?php elseif($iconoTexto->fontawesome()->isNotEmpty()): ?>
-                            <i class="fa fa-5x <?= $iconoTexto->fontawesome() ?>"></i>
+                            <?php if(strpos($iconoTexto->fontawesome(),'icono-arg-') === false) : ?>
+                              <i class="fa fa-5x fa-con-ia <?= $iconoTexto->fontawesome() ?>"></i>
+                            <?php else: ?>
+                              <i class="fa fa-5x <?= $iconoTexto->fontawesome() ?>"></i>
+                            <?php endif; ?>
                           <?php else: ?>
                             <i class="material-icons fa-5x"><?= $iconoTexto->materialicon() ?></i>
                           <?php endif ?>
