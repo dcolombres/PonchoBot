@@ -32,6 +32,7 @@ options:
   text-violeta: text-violeta
   text-turquesa: text-turquesa
   text-naranja: text-naranja
+  text-blanco: text-blanco
   ___ : _____Padding_____
   p-t-0: Padding Top 0
   p-b-0: Padding Bottom 0

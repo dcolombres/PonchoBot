@@ -801,8 +801,8 @@ a.unlink {
 /* FIX para paneles con iconos font awesome, utilizandose con iconos Argob */
 
 .fa-con-ia{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 17px !important;
+  margin-bottom: 18px !important;
 }
 
 /*Circulo con texto centrado*/
@@ -853,4 +853,12 @@ a.unlink {
     padding: 0px;
     margin: 0px;
   }
+}
+
+/* Background Position */
+.background-bottom{
+  background-position: bottom;
+}
+.background-top{
+  background-position: top;
 }
