@@ -33,6 +33,7 @@ options:
   text-violeta: text-violeta
   text-turquesa: text-turquesa
   text-naranja: text-naranja
+  text-blanco: text-blanco
   _____ : _____Alineacion Texto_____
   text-left: Texto Izquierda
   text-center: Texto Centrado

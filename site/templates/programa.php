@@ -15,7 +15,7 @@
               <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
                 <h1><?= $page->titulo() ?></h1>
                 <p><?= $page->description() ?></p>
-                <a class="btn btn-primary btn-md hidden-sm-up" target="_blank" href="<?= $page->linkurl() ?>">Aplicá acá</a>
+                <a class="btn btn-primary btn-md hidden-sm-up m-t-2" target="_blank" href="<?= $page->linkurl() ?>">Aplicá acá</a>
               </div>
             </div>
           </div>
