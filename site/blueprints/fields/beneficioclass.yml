@@ -3,6 +3,7 @@ type: multiselect
 required: false
 search: true
 icon: paint-brush
+width: 1/2
 options:
   _ : _____Color Fondo_____
   bg-primary : bg-primary
@@ -32,24 +33,6 @@ options:
   text-violeta: text-violeta
   text-turquesa: text-turquesa
   text-naranja: text-naranja
-  ___ : _____Padding_____
-  p-t-0: Padding Top 0
-  p-b-0: Padding Bottom 0
-  p-t-1: Padding Top 1
-  p-b-1: Padding Bottom 1
-  p-t-2: Padding Top 2
-  p-b-2: Padding Bottom 2
-  p-t-3: Padding Top 3
-  p-b-3: Padding Bottom 3
-  ____ : _____Margin_____
-  m-t-0: Margin Top 0
-  m-b-0: Margin Bottom 0
-  m-t-1: Margin Top 1
-  m-b-1: Margin Bottom 1
-  m-t-2: Margin Top 2
-  m-b-2: Margin Bottom 2
-  m-t-3: Margin Top 3
-  m-b-3: Margin Bottom 3
   _____ : _____Alineacion Texto_____
   text-left: Texto Izquierda
   text-center: Texto Centrado

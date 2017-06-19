@@ -1,0 +1,5 @@
+label: Icono
+type:  text
+icon:  image
+placeholder: fa-icon / icono-arg-icono
+width: 1/2

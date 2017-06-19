@@ -1,0 +1,130 @@
+title: Programa
+
+pages:
+  template:
+    - section-boton
+    - section-infografia
+    - section-numero
+    - section-panel
+    - section-panel-foto
+    - section-panel-icono
+    - section-icono-texto
+    - section-texto
+    - section-texto-imagen
+    - section-video
+    - section-quote
+    - section-mapa
+    - section-slider
+    - section-tabla
+    - section-columnas
+    - section-modal
+
+files: true
+
+options:
+  preview: true
+  status: true
+  template: true
+  url: false
+  delete: true
+
+fields:
+  title: kirbytitle
+
+  titulo: titulo
+
+  helpprograma:
+    label: Acerca de los programas
+    type: info
+    text: >
+      El campo de descripción es el que se despliega dentro del Jumbotrón, mantener en reducidas líneas. El texto contendrá la descripción larga del programa y el link apuntará a donde el usuario podrá aplicar al mismo.
+
+  description: description
+
+  texthtml: texthtml
+
+  linkurl: linkurl
+
+  background:
+    label: URL del background
+    type:  text
+    icon: image
+
+  info:
+    label: Ayuda
+    type: info
+    text: >
+      Estos campos mostrarán imágenes subidas a Files (servidor de PonchoBot)
+    width: 1/3
+
+  fileimage:
+    label: Imagen de background
+    type: image
+    width: 2/3
+
+  beneficioscant:
+    label: Cantidad de beneficios
+    type: text
+    validate:
+      min: 1
+      max: 4
+      - alphanum
+    default: 3
+
+  beneficio1:
+    label: Beneficio 1
+    type:  info
+    width: 1/2
+    help: >
+      Aquí se despliegan el color, ícono y texto de cada beneficio. Dejar en blanco para no mostrar nada.
+
+  beneficioicon1: beneficioicon
+
+  beneficiotxt1: beneficiotxt
+
+  beneficioclass1: beneficioclass
+
+  beneficio2:
+    label: Beneficio 2
+    type:  info
+    width: 1/2
+    help: >
+      Aquí se despliegan el color, ícono y texto de cada beneficio. Dejar en blanco para no mostrar nada.
+
+  beneficioicon2: beneficioicon
+
+  beneficiotxt2: beneficiotxt
+
+  beneficioclass2: beneficioclass
+
+  beneficio3:
+    label: Beneficio 3
+    type:  info
+    width: 1/2
+    help: >
+      Aquí se despliegan el color, ícono y texto de cada beneficio. Dejar en blanco para no mostrar nada.
+
+  beneficioicon3: beneficioicon
+
+  beneficiotxt3: beneficiotxt
+
+  beneficioclass3: beneficioclass
+
+  beneficio4:
+    label: Beneficio 4
+    type:  info
+    width: 1/2
+    help: >
+      Aquí se despliegan el color, ícono y texto de cada beneficio. Dejar en blanco para no mostrar nada.
+
+  beneficioicon4: beneficioicon
+
+  beneficiotxt4: beneficiotxt
+
+  beneficioclass4: beneficioclass
+
+
+
+  # class: class
+
+  # footer: footertags
