@@ -20,6 +20,8 @@ options:
   bg-white: bg-white
   bg-celeste: bg-celeste
   bg-gris: bg-gris
+  bg-primary-claro : bg-primary-claro
+  bg-info-claro: bg-info-claro
   __ : _____Color Texto_____
   text-primary: text-primary
   text-secondary: text-secondary
@@ -34,6 +36,8 @@ options:
   text-turquesa: text-turquesa
   text-naranja: text-naranja
   text-blanco: text-blanco
+  text-primary-claro: text-primary-claro
+  text-info-claro: text-info-claro
   _____ : _____Alineacion Texto_____
   text-left: Texto Izquierda
   text-center: Texto Centrado

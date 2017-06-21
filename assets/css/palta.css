@@ -683,6 +683,20 @@ a.unlink {
   color: #ffffff !important;
 }
 
+.bg-primary-claro{
+  background-color: #82bee2 !important;
+}
+.bg-info-claro{
+  background-color: #9ed7e8 !important;
+}
+
+.text-primary-claro{
+  color: #82bee2 !important;
+}
+.text-info-claro{
+  color: #9ed7e8 !important;
+}
+
 .bg-modal{
   background: #F9F9F9;
     border-radius: 4px;
@@ -800,9 +814,13 @@ a.unlink {
 
 /* FIX para paneles con iconos font awesome, utilizandose con iconos Argob */
 
-.fa-con-ia{
+.fa-con-ia-panels{
   margin-top: 17px !important;
   margin-bottom: 18px !important;
+}
+.fa-con-ia-icons{
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
 }
 
 /*Circulo con texto centrado*/

@@ -6,8 +6,10 @@ icon: paint-brush
 options:
   _ : _____Color Fondo_____
   bg-primary : bg-primary
+  bg-primary-claro : bg-primary-claro
   bg-success: bg-success
   bg-info: bg-info
+  bg-info-claro: bg-info-claro
   bg-warning: bg-warning
   bg-danger: bg-danger
   bg-rosa: bg-rosa
@@ -33,6 +35,8 @@ options:
   text-turquesa: text-turquesa
   text-naranja: text-naranja
   text-blanco: text-blanco
+  text-primary-claro: text-primary-claro
+  text-info-claro: text-info-claro
   ___ : _____Padding_____
   p-t-0: Padding Top 0
   p-b-0: Padding Bottom 0

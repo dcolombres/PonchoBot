@@ -127,7 +127,7 @@
                                 <img src="<?= $panelIcono->urlicono() ?>" alt="" ></img>
                               <?php elseif($panelIcono->fontawesome()->isNotEmpty()): ?>
                                 <?php if(strpos($panelIcono->fontawesome(),'icono-arg-') === false) : ?>
-                                  <i class="fa fa-2x fa-con-ia <?= $panelIcono->fontawesome() ?>"></i>
+                                  <i class="fa fa-2x fa-con-ia-panels <?= $panelIcono->fontawesome() ?>"></i>
                                 <?php else: ?>
                                   <i class="fa fa-2x <?= $panelIcono->fontawesome() ?>"></i>
                                 <?php endif; ?>
@@ -168,7 +168,7 @@
                             <img src="<?= $iconoTexto->urlicono() ?>" alt=""></img>
                           <?php elseif($iconoTexto->fontawesome()->isNotEmpty()): ?>
                             <?php if(strpos($iconoTexto->fontawesome(),'icono-arg-') === false) : ?>
-                              <i class="fa fa-5x fa-con-ia <?= $iconoTexto->fontawesome() ?>"></i>
+                              <i class="fa fa-5x fa-con-ia-icons <?= $iconoTexto->fontawesome() ?>"></i>
                             <?php else: ?>
                               <i class="fa fa-5x <?= $iconoTexto->fontawesome() ?>"></i>
                             <?php endif; ?>

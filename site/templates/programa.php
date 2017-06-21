@@ -15,7 +15,7 @@
               <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
                 <h1><?= $page->titulo() ?></h1>
                 <p><?= $page->description() ?></p>
-                <a class="btn btn-primary btn-md hidden-sm-up m-t-2" target="_blank" href="<?= $page->linkurl() ?>">Aplicá acá</a>
+                <a class="btn btn-primary btn-md hidden-sm-up m-t-2 m-b-0" target="_blank" href="<?= $page->linkurl() ?>">Aplicá acá</a>
               </div>
             </div>
           </div>
@@ -24,68 +24,61 @@
       </section>
 
       <section>
-        <div class="container">
+        <div class="container p-t-2 p-b-2">
           <div class="row">
             <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
               <?= $page->texthtml() ?>
-              <a class="btn btn-primary btn-md hidden-sm-down" target="_blank" href="<?= $page->linkurl() ?>">Aplicá acá</a>
+              <a class="btn btn-primary btn-md hidden-sm-down m-t-2 m-b-0" target="_blank" href="<?= $page->linkurl() ?>">Aplicá acá</a>
             </div>
           </div>
         </div>
-        <div class="container p-t-3">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
+      </section>
+      <section class="bg-white">
+        <div class="container p-t-2 p-b-2">
               <div class="row panels-row">
                 <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $page->beneficioscant()->int()  ?> iconoTexto <?= str_replace(",","",$page->beneficioclass1()) ?>">
                   <?php if ($page->beneficioicon1()->isNotEmpty()): ?>
                     <?php if(strpos($page->beneficioicon1(),'icono-arg-') === false) : ?>
-                      <i class="fa fa-5x fa-con-ia <?= $page->beneficioicon1() ?>"></i>
+                      <i class="fa fa-5x fa-con-ia-icons <?= $page->beneficioicon1() ?>"></i>
                     <?php else: ?>
                       <i class="fa fa-5x <?= $page->beneficioicon1() ?>"></i>
                     <?php endif; ?>
                   <?php endif ?>
-                </br>
                 <p><?= $page->beneficiotxt1() ?></p>
               </div>
 
               <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $page->beneficioscant()->int()  ?> iconoTexto <?= str_replace(",","",$page->beneficioclass2()) ?>">
                 <?php if ($page->beneficioicon2()->isNotEmpty()): ?>
                   <?php if(strpos($page->beneficioicon2(),'icono-arg-') === false) : ?>
-                    <i class="fa fa-5x fa-con-ia <?= $page->beneficioicon2() ?>"></i>
+                    <i class="fa fa-5x fa-con-ia-icons <?= $page->beneficioicon2() ?>"></i>
                   <?php else: ?>
                     <i class="fa fa-5x <?= $page->beneficioicon2() ?>"></i>
                   <?php endif; ?>
                 <?php endif ?>
-              </br>
               <p><?= $page->beneficiotxt2() ?></p>
             </div>
 
             <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $page->beneficioscant()->int()  ?> iconoTexto <?= str_replace(",","",$page->beneficioclass3()) ?>">
               <?php if ($page->beneficioicon3()->isNotEmpty()): ?>
                 <?php if(strpos($page->beneficioicon3(),'icono-arg-') === false) : ?>
-                  <i class="fa fa-5x fa-con-ia <?= $page->beneficioicon3() ?>"></i>
+                  <i class="fa fa-5x fa-con-ia-icons <?= $page->beneficioicon3() ?>"></i>
                 <?php else: ?>
                   <i class="fa fa-5x <?= $page->beneficioicon3() ?>"></i>
                 <?php endif; ?>
               <?php endif ?>
-            </br>
             <p><?= $page->beneficiotxt3() ?></p>
           </div>
 
           <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $page->beneficioscant()->int()  ?> iconoTexto <?= str_replace(",","",$page->beneficioclass4()) ?>">
             <?php if ($page->beneficioicon4()->isNotEmpty()): ?>
               <?php if(strpos($page->beneficioicon4(),'icono-arg-') === false) : ?>
-                <i class="fa fa-5x fa-con-ia <?= $page->beneficioicon4() ?>"></i>
+                <i class="fa fa-5x fa-con-ia-icons <?= $page->beneficioicon4() ?>"></i>
               <?php else: ?>
                 <i class="fa fa-5x <?= $page->beneficioicon4() ?>"></i>
               <?php endif; ?>
             <?php endif ?>
-          </br>
           <p><?= $page->beneficiotxt4() ?></p>
         </div>
-      </div>
-
-    </div>
   </div>
 </div>
 </section>
@@ -145,7 +138,7 @@
               </div>
 
             <?php elseif ($section->intendedTemplate()=='section-panel'): ?>
-              <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+              <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
               <?= $section->texthtml() ?>
               <div class="row panels-row">
                 <?php foreach($section->children() as $panel): ?>
@@ -164,7 +157,7 @@
               </div>
 
             <?php elseif ($section->intendedTemplate()=='section-panel-foto'): ?>
-              <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+              <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
               <?= $section->texthtml() ?>
               <div class="row panels-row">
                 <?php foreach($section->children() as $panelFoto): ?>
@@ -198,7 +191,7 @@
                           <img src="<?= $panelIcono->urlicono() ?>" alt="" ></img>
                         <?php elseif($panelIcono->fontawesome()->isNotEmpty()): ?>
                           <?php if(strpos($panelIcono->fontawesome(),'icono-arg-') === false) : ?>
-                            <i class="fa fa-2x fa-con-ia <?= $panelIcono->fontawesome() ?>"></i>
+                            <i class="fa fa-2x fa-con-ia-panels <?= $panelIcono->fontawesome() ?>"></i>
                           <?php else: ?>
                             <i class="fa fa-2x <?= $panelIcono->fontawesome() ?>"></i>
                           <?php endif; ?>
@@ -230,16 +223,16 @@
               </div>
 
             <?php elseif ($section->intendedTemplate()=='section-icono-texto'): ?>
-              <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
+              <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-center text-primary"> <?= $section->titulo() ?> </h3><?php endif; ?>
               <?= $section->texthtml() ?>
               <div class="row panels-row">
                 <?php foreach($section->children() as $iconoTexto): ?>
-                  <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> iconoTexto <?= str_replace(",","",$iconoTexto->class()) ?>">
+                  <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> iconoTexto text-center <?= str_replace(",","",$iconoTexto->class()) ?>">
                     <?php if ($iconoTexto->urlicono()->isNotEmpty()): ?>
                       <img src="<?= $iconoTexto->urlicono() ?>" alt=""></img>
                     <?php elseif($iconoTexto->fontawesome()->isNotEmpty()): ?>
                       <?php if(strpos($iconoTexto->fontawesome(),'icono-arg-') === false) : ?>
-                        <i class="fa fa-5x fa-con-ia <?= $iconoTexto->fontawesome() ?>"></i>
+                        <i class="fa fa-5x fa-con-ia-icons <?= $iconoTexto->fontawesome() ?>"></i>
                       <?php else: ?>
                         <i class="fa fa-5x <?= $iconoTexto->fontawesome() ?>"></i>
                       <?php endif; ?>
@@ -253,7 +246,7 @@
             </div>
 
           <?php elseif ($section->intendedTemplate()=='section-infografia'): ?>
-            <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+            <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
             <?= $section->texthtml() ?>
             <div class="row panels-row">
               <div class="container">
@@ -291,7 +284,7 @@
           </div>
           <div class="container-fluid">
             <div class="container">
-              <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
+              <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-center text-primary"> <?= $section->titulo() ?> </h3><?php endif; ?>
               <?= $section->texthtml() ?>
             </div>
             <div class="row">
@@ -311,7 +304,7 @@
 
         <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
 
-          <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+          <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
           <?= $section->texthtml() ?>
 
         <?php elseif ($section->intendedTemplate()=='section-texto-imagen'): ?>
@@ -325,13 +318,13 @@
                   <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="width: 100%;">
                 <?php endif ?>
               </div>
-              <div class="col-sm-8 text-left">
-                <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+              <div class="col-sm-8 text-right">
+                <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
                 <?= $section->texthtml() ?>
               </div>
             <?php elseif ($section->align()=='d'): ?>
               <div class="col-sm-8 text-left">
-                <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+                <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
                 <?= $section->texthtml() ?>
               </div>
               <div class="col-sm-4">
@@ -345,7 +338,7 @@
           </div>
 
         <?php elseif ($section->intendedTemplate()=='section-numero'): ?>
-          <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+          <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
           <?= $section->texthtml() ?>
           <div class="row numbers panels-row text-left">
             <?php foreach($section->children() as $numero): ?>
@@ -357,7 +350,7 @@
           </div>
 
         <?php elseif ($section->intendedTemplate()=='section-slider'): ?>
-          <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+          <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
           <?= $section->texthtml() ?>
         </div>
         <div class="container-fluid">
@@ -398,7 +391,7 @@
               <?php if ($section->texthtml()->isNotEmpty()): ?>
                 <div class="row video-row">
                   <div class="col-md-5  col-xs-12 video-text">
-                    <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+                    <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
                     <?= $section->texthtml() ?>
                   </div>
                   <div class="col-md-6 col-md-offset-1 col-xs-12">
@@ -421,7 +414,7 @@
                   </div>
                   <div class="col-md-6 col-md-offset-1 col-xs-12">
                     <div class="bg-modal">
-                      <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+                      <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
                       <?= $section->modaltexthtml() ?>
                     </div>
                   </div>
@@ -441,7 +434,7 @@
         <section style="background: #fff" class="m-b-3">
           <div class="container">
             <div class="text-left">
-              <h2>También te puede interesar...</h2>
+              <h3 class="text-primary">También te puede interesar...</h2>
             </div>
             <?php
             $footerTags = explode(",", $page->footer());
