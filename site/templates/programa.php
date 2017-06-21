@@ -23,7 +23,7 @@
         <div class="overlay"></div>
       </section>
 
-      <section>
+      <section class="bg-white">
         <div class="container p-t-2 p-b-2">
           <div class="row">
             <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
