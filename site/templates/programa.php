@@ -311,23 +311,24 @@
 
                         <div class="row">
                           <?php if ($section->align()=='i'): ?>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 p-l-0">
                               <?php if ($section->fileimage()->isNotEmpty()): ?>
                                 <img class="<?= $section->imgClass() ?>" src="<?= $section->fileimage()->toFile()->url() ?>" style="width: 100%;">
                               <?php else: ?>
                                 <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="width: 100%;">
                               <?php endif ?>
                             </div>
-                            <div class="col-sm-8 text-right">
+                            <div class="col-sm-8 text-right p-r-0">
                               <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
+                                <div class="col-sm-11 p-x-0 p"
                                 <?= $section->texthtml() ?>
                               </div>
                             <?php elseif ($section->align()=='d'): ?>
-                              <div class="col-sm-8 text-left">
+                              <div class="col-sm-8 text-left p-l-0">
                                 <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
                                   <?= $section->texthtml() ?>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 p-r-0">
                                   <?php if ($section->fileimage()->isNotEmpty()): ?>
                                     <img class="<?= $section->imgClass() ?>" src="<?= $section->fileimage()->toFile()->url() ?>" style="width: 100%;">
                                   <?php else: ?>
