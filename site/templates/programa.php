@@ -33,7 +33,7 @@
           </div>
         </div>
       </section>
-      <section class="bg-white">
+      <section class="bg-white p-t-0">
         <div class="container p-t-2 p-b-2">
               <div class="row panels-row">
                 <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $page->beneficioscant()->int()  ?> iconoTexto <?= str_replace(",","",$page->beneficioclass1()) ?>">
