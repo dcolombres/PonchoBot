@@ -320,9 +320,7 @@
                             </div>
                             <div class="col-sm-8 text-right p-r-0">
                               <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
-                                <div class="col-sm-11 p-x-0 p"
                                 <?= $section->texthtml() ?>
-                              </div>
                             <?php elseif ($section->align()=='d'): ?>
                               <div class="col-sm-8 text-left p-l-0">
                                 <?php if($section->titulo()->isNotEmpty() ) : ?><h3 class="text-primary"> <?= $section->titulo() ?> </h2><?php endif; ?>
