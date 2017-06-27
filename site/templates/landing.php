@@ -375,7 +375,7 @@
                   <?php
                   $footerTags = explode(",", $page->footer());
                   ?>
-                  <div class="row">
+                  <div class="row panels-row">
                     <?php for ($i=0; $i < count($footerTags) ; $i++): ?>
                       <div class="col-md-4 interesar">
                         <a href="<?php echo $site->page('footers/' . $footerTags[$i])->linkurl() ?>">
