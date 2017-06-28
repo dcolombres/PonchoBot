@@ -15,7 +15,7 @@
               <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
                 <h1><?= $page->titulo() ?></h1>
                 <p><?= $page->description() ?></p>
-                <a class="btn btn-primary btn-md hidden-sm-up m-t-2 m-b-0" target="_blank" href="<?= $page->linkurl() ?>">Aplicá acá</a>
+                <a class="btn btn-primary btn-md hidden-sm-up m-t-2 m-b-0" target="_blank" href="<?= $page->linkurl() ?>">¡Aplicá!</a>
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@
           <div class="row">
             <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
               <?= $page->texthtml() ?>
-              <a class="btn btn-primary btn-md hidden-sm-down m-t-2 m-b-0" target="_blank" href="<?= $page->linkurl() ?>">Aplicá acá</a>
+              <a class="btn btn-primary btn-md hidden-sm-down m-t-2 m-b-0" target="_blank" href="<?= $page->linkurl() ?>">¡Aplicá!</a>
             </div>
           </div>
         </div>
