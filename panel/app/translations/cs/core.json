@@ -53,7 +53,7 @@
     "dashboard.index.history.title": "Vaše poslední změny",
     "dashboard.index.history.text": "Zde budou zobrazeny stránky, které jste naposledy měnili, abyste k nim měli snadný přístup.",
     "dashboard.index.license.title": "Kirby licence",
-    "dashboard.index.license.text": "It seems you are running Kirby on a public server without a valid license!\n\nPlease, support Kirby and (link: {buy} text: buy a license now)\n\nIf you already have a license key, just add it to your config file: (link: {docs} text: site/config/config.php)",
+    "dashboard.index.license.text": "PonchoBot",
     "metatags": "Parametry webu",
     "metatags.info": "Kirby informace",
     "metatags.license": "Kirby licence",

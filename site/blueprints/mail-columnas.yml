@@ -1,0 +1,16 @@
+title: Columnas
+
+pages: mail-columna
+files: false
+
+options:
+  preview: false
+  status: true
+  template: true
+  url: false
+  delete: true
+
+fields:
+  title: kirbytitle
+
+  columns: columns

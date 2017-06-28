@@ -1,4 +1,4 @@
-Title: programa
+Title: Programa
 
 ----
 
@@ -18,7 +18,7 @@ Linkurl: google.com
 
 ----
 
-Background: 
+Background:
 
 ----
 
@@ -34,7 +34,7 @@ Beneficiotxt1: Texto beneficio 1
 
 ----
 
-Beneficioclass2: 
+Beneficioclass2:
 
 ----
 
@@ -46,7 +46,7 @@ Beneficiotxt2: Texto beneficio 2
 
 ----
 
-Beneficioclass3: 
+Beneficioclass3:
 
 ----
 
@@ -58,19 +58,19 @@ Beneficiotxt3: Texto 3
 
 ----
 
-Beneficioclass4: 
+Beneficioclass4:
 
 ----
 
-Beneficioicon4: 
+Beneficioicon4:
 
 ----
 
-Beneficiotxt4: 
+Beneficiotxt4:
 
 ----
 
-Fileimage: 
+Fileimage:
 
 ----
 

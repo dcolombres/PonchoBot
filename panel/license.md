@@ -1,4 +1,4 @@
-# Kirby License
+# PonchoBot
 
 This End User License Agreement (the "Agreement") is a binding legal agreement between you and the Bastian Allgeier GmbH (the "Author"). By installing or using the Kirby CMS (the "Software"), you agree to be bound by the terms of this Agreement. If you do not agree to the Agreement, do not download, install, or use the Software. Installation or use of the Software signifies that you have read, understood, and agreed to be bound by the Agreement.
 

@@ -1,0 +1,14 @@
+title: Columna Icono
+
+pages: false
+files: false
+
+options:
+  delete: true
+
+fields:
+  title: kirbytitle
+
+  fontawesome: fontawesome
+
+  bajada: titulo

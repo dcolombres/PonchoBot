@@ -1,0 +1,31 @@
+title: Mail
+
+pages:
+  template:
+    - mail-columnas
+
+files: false
+
+options:
+  preview: true
+  status: true
+  template: true
+  url: false
+  delete: true
+
+fields:
+  title: kirbytitle
+
+  background:
+    label: URL del background
+    type:  text
+    icon: image
+    width: 2/3
+
+  info:
+    label: <i class="fa fa-info-circle"></i> Info
+    type: info
+    text: Usar <a href="http://desarrollo.prod.gob.ar/">Img Mailing Produccion</a>
+    width: 1/3
+
+  paleta: paleta

@@ -1,0 +1,11 @@
+label: Paleta de Colores
+type: multiselect
+required: false
+search: true
+icon: angle-down
+options:
+  _ : _____Paletas_____
+  paleta: paleta1
+
+
+help: <a href="#" target="blank"> Referencias > </a>

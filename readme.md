@@ -11,10 +11,10 @@ tool for your next project.
 
 ## Buy a license
 
-You can purchase your Kirby license at
+You can purchase your PonchoBot at
 <https://getkirby.com/buy>
 
-A Kirby license is valid for a single domain. You can find
+A PonchoBot is valid for a single domain. You can find
 Kirby's license agreement here: <https://getkirby.com/license>
 
 ## The Starterkit

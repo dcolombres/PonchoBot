@@ -7,8 +7,10 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - mails/asdfasdfasdf/asdf
+  - mails/asdfasdfasdf
   - programas/programa
   - landings/casas-de-la-produccion-2/info/primero
   - landings/casas-de-la-produccion-2/si-tenes-una-pyme
-  - landings/casas-de-la-produccion-2
-  - mediakit/imagen
+firstname: ""
+lastname: ""

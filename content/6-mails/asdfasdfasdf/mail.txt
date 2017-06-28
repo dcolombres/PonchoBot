@@ -1,0 +1,33 @@
+Title: asdfasdfasdf
+
+----
+
+Titulo: Bajada Simple
+
+----
+
+Texthtml: 
+
+----
+
+Background: http://placehold.it/580x240
+
+----
+
+Info: 
+
+----
+
+Fileimage: 
+
+----
+
+Class: 
+
+----
+
+Footer: 
+
+----
+
+Paleta: 
