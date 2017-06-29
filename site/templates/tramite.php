@@ -95,12 +95,7 @@
 <span id="stop-anchor"></span>
 </main>
 
-<div id="footer" style="position: fixed; bottom: 0; width: 100%;" class="align-center text-right">
-  <button id="copy" onclick="copy(htmlCode)" class="btn bg-warning btn-primary box-shadow" ><i class="fa fa-copy"></i>&nbsp; Codigo</button>
-  <a href="<?= $site->url() ?>/panel" class="btn bg-uva btn-primary"><i class="fa fa-sign-in"></i></a>
-  <a href="<?= $site->url() ?>" class="btn bg-cielo btn-primary"><i class="fa fa-home"></i></a>
-  &nbsp;&nbsp;
-</div>
+<?php snippet('footer-buttons')?>
 
 <pre id="htmlCode" class="hidden-md-down"><?php snippet('htmlCodeTramite') ?></pre>
 <?php snippet('footerTramite') ?>
