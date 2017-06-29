@@ -15,6 +15,8 @@
   <?= css('assets/css/font-awesome.css') ?>
   <?= css('assets/css/icono-arg.css') ?>
 
+  <?= js('assets/js/listjs.js') ?>
+
 
   <meta name="robots" content="noindex">
   <meta name="googlebot" content="noindex">

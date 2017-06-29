@@ -2,7 +2,6 @@
 <?= js('assets/js/copiarCodigo.js') ?>
 <?= js('assets/js/scrollreveal.js') ?>
 <?= js('assets/js/embdmap.js') ?>
-<?= js('assets/js/listjs.js') ?>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript">
 // window.sr = ScrollReveal({
