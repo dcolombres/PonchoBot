@@ -391,5 +391,5 @@
 
 <?php snippet('footer-buttons')?>
 
-<pre id="htmlCode"><?php snippet('htmlCodeEvento') ?></pre>
+<pre id="htmlCode" class="hidden"><?php snippet('htmlCodeEvento') ?></pre>
 <?php snippet('footer') ?>

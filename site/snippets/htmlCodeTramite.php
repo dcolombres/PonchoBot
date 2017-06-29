@@ -88,6 +88,6 @@ $footerTags = explode(",", $page->footer());
 <?php endif ?>
 &lt;/div&gt;
 
-&lt;!-- code beautifully created by PonchoBot --&gt;
+&lt;!-- code beautifully crafted by PonchoBot --&gt;
 
 &lt;span id="stop-anchor"&gt;&lt;/span&gt;

@@ -97,7 +97,7 @@
 
 <?php snippet('footer-buttons')?>
 
-<pre id="htmlCode" class="hidden-md-down"><?php snippet('htmlCodeTramite') ?></pre>
+<pre id="htmlCode" class="hidden hidden-md-down"><?php snippet('htmlCodeTramite') ?></pre>
 <?php snippet('footerTramite') ?>
 
 
