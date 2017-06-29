@@ -1,8 +1,9 @@
-<?php 
+<?php
 
 $license = panel()->license();
 
-if($license->type() == 'trial' and !$license->local()) {
+if($license->type() == 'false' and !$license->local()) {
+// if($license->type() == 'trial' and !$license->local()) {
 
   return array(
     'title' => array(
