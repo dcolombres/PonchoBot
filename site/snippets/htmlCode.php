@@ -374,5 +374,6 @@
             &lt;/section&gt;
           <?php endif ?>
 
+          &lt;!-- code beautifully created by PonchoBot --&gt;
 
         &lt;/main&gt;
