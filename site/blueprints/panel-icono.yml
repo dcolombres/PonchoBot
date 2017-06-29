@@ -13,6 +13,8 @@ fields:
 
   class: class
 
+  classtxt: classtxt
+
   urlicono:
       label: URL Icono Panel
       type: text

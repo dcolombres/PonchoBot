@@ -80,7 +80,7 @@
                       <?php foreach($section->children() as $panel): ?>
                         <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                           <a <?php if ($panel->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panel->linkurl() ?>">
-                            <div class="panel-heading bg-primary <?= str_replace(",","",$panel->class()) ?>">
+                            <div class="panel-heading bg-primary <?= str_replace(",","",$panel->class()) ?> <?= $panel->classtxt() ?>">
                               <h1 class="text-left" style="font-size:175%"><?= $panel->header() ?></h1>
                             </div>
                             <div class="panel-body text-left">
@@ -100,10 +100,10 @@
                         <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                           <a <?php if ($panelFoto->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelFoto->linkurl() ?>">
                             <?php if ($panelFoto->fileimage()->isNotEmpty()): ?>
-                              <div class="panel-heading bg-primary <?= str_replace(",","",$panelFoto->class()) ?>" style="background-image: url('<?= $panelFoto->fileimage()->toFile()->url() ?>');">
+                              <div class="panel-heading bg-primary <?= str_replace(",","",$panelFoto->class()) ?> <?= $panelFoto->classtxt() ?>" style="background-image: url('<?= $panelFoto->fileimage()->toFile()->url() ?>');">
                               </div>
                             <?php else: ?>
-                              <div class="panel-heading bg-primary <?= str_replace(",","",$panelFoto->class()) ?>" style="background-image: url('<?= $panelFoto->urlimagen() ?>');">
+                              <div class="panel-heading bg-primary <?= str_replace(",","",$panelFoto->class()) ?> <?= $panelFoto->classtxt() ?>" style="background-image: url('<?= $panelFoto->urlimagen() ?>');">
                               </div>
                             <?php endif ?>
                             <div class="panel-body text-left">
@@ -122,7 +122,7 @@
                       <?php foreach($section->children() as $panelIcono): ?>
                         <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                           <a <?php if ($panelIcono->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl() ?>">
-                              <div class="panel-heading bg-primary panelIcono <?= str_replace(",","",$panelIcono->class()) ?> ">
+                              <div class="panel-heading bg-primary panelIcono <?= str_replace(",","",$panelIcono->class()) ?> <?= $panelIcono->classtxt() ?>">
                               <?php if ($panelIcono->urlicono()->isNotEmpty()): ?>
                                 <img src="<?= $panelIcono->urlicono() ?>" alt="" ></img>
                               <?php elseif($panelIcono->fontawesome()->isNotEmpty()): ?>
@@ -163,7 +163,7 @@
                     <?= $section->texthtml() ?>
                     <div class="row panels-row">
                       <?php foreach($section->children() as $iconoTexto): ?>
-                        <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> iconoTexto <?= str_replace(",","",$iconoTexto->class()) ?>">
+                        <div class="p-t-3 p-b-3 col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> iconoTexto <?= str_replace(",","",$iconoTexto->class()) ?> <?= $iconoTexto->classtxt() ?>">
                           <?php if ($iconoTexto->urlicono()->isNotEmpty()): ?>
                             <img src="<?= $iconoTexto->urlicono() ?>" alt=""></img>
                           <?php elseif($iconoTexto->fontawesome()->isNotEmpty()): ?>
@@ -278,7 +278,7 @@
                 <?= $section->texthtml() ?>
                 <div class="row numbers panels-row text-left">
                   <?php foreach($section->children() as $numero): ?>
-                    <div class="numberdiv col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> <?= str_replace(",","",$numero->class()) ?>">
+                    <div class="numberdiv col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?> <?= str_replace(",","",$numero->class()) ?> <?= $numero->classtxt() ?>">
                       <div class="h2 <?= $numero->textcolor() ?>"> <?= $numero->number() ?> <small class="<?= $numero->textcolor() ?>"> <?= $numero->small() ?></small> </div>
                       <p><?= $numero->description() ?></p>
                     </div>

@@ -13,6 +13,8 @@ fields:
 
   class: class
 
+  classtxt: classtxt
+
   bajada: titulo
 
   description: description
