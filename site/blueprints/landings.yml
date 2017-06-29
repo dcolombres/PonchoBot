@@ -13,3 +13,8 @@ options:
   template: false
   url: false
   delete: false
+
+fields:
+  title:
+    label: Titulo
+    type: text

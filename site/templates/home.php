@@ -20,18 +20,21 @@
   <section>
     <div class="container">
       <?php foreach ($site->children()->visible() as $template): ?>
-        <h2><?= $template->title()->text() ?></h2>
+        <div class="text-center">
+          <h2><?= $template->title()->text() ?></h2>
+        </div>
         <div class="row panels-row">
-          <?php foreach($template->children() as $landing): ?>
+          <?php foreach($template->children()->visible() as $landing): ?>
             <div class="col-xs-12 col-sm-6 col-md-3">
               <a class="panel panel-default" href="<?= $landing->url() ?>">
                 <div class="panel-body text-left">
-                  <h3><?= $landing->title()->text() ?></h3>
+                  <h4><?php if($landing->intendedTemplate() == 'landings'):?><i class="fa fa-folder-o fa-lg"></i><?php endif?> <?= $landing->title()->text() ?></h4>
                 </div>
               </a>
             </div>
           <?php endforeach ?>
         </div>
+        <p class="text-right"><a class="btn btn-primary text-center btn-sm" href="<?= $template->url() ?>">Ver todas</a>
       <?php endforeach?>
     </div>
   </section>
