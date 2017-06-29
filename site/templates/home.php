@@ -28,7 +28,7 @@
             <div class="col-xs-12 col-sm-6 col-md-3">
               <a class="panel panel-default" href="<?= $landing->url() ?>">
                 <div class="panel-body text-left">
-                  <h4><?php if($landing->intendedTemplate() == 'landings'):?><i class="fa fa-folder-o fa-lg"></i><?php endif?> <?= $landing->title()->text() ?></h4>
+                  <h4><?php if($landing->intendedTemplate() == 'landings'):?><i class="fa fa-folder-o fa-lg"></i> <?php endif?><?= $landing->title()->text() ?></h4>
                 </div>
               </a>
             </div>
