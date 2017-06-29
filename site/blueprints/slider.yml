@@ -5,6 +5,7 @@ files: false
 
 options:
   delete: true
+  preview: false
 
 fields:
 

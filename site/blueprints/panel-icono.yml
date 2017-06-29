@@ -6,6 +6,7 @@ files: false
 options:
   delete: true
   template: true
+  preview: false
 
 fields:
   title: kirbytitle
