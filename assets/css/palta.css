@@ -274,11 +274,6 @@ a img.aligncenter {
   height: 40px
 }
 
-.iconoTexto img, .panelIcono img {
-  height: 80px;
-  max-width: 50%
-}
-
 .wpcf7-text {
   color: #111!important
 }
