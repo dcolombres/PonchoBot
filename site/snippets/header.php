@@ -18,7 +18,6 @@
   <?= js('assets/js/listjs.js') ?>
 
 <!-- bootstrap tables -->
-<?= css('assets/css/dataTables.bootstrap.min.css') ?>
 
   <meta name="robots" content="noindex">
   <meta name="googlebot" content="noindex">
