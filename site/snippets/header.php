@@ -19,8 +19,6 @@
 
 <!-- bootstrap tables -->
 <?= css('assets/css/dataTables.bootstrap.min.css') ?>
-<?= js('assets/js/dataTables.bootstrap.min.js') ?>
-<?= js('assets/js/jquery.dataTables.min.js') ?>
 
   <meta name="robots" content="noindex">
   <meta name="googlebot" content="noindex">

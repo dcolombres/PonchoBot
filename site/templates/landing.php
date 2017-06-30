@@ -241,7 +241,14 @@
               <?php elseif ($section->intendedTemplate()=='section-texto'): ?>
 
                 <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
-                <?= $section->texthtml() ?>
+                <?php
+                  if(strpos($section->texthtml(), '<script type="text/javascript">')){
+                    $scriptFooter = substr($section->texthtml(),strpos($section->texthtml(), '<script type="text/javascript">'),(strpos($section->texthtml(), '</script>') + 9) );
+                    echo substr($section->texthtml(), 0 ,strpos($section->texthtml(), '<script type="text/javascript">')) . substr($section->texthtml(), (strpos($section->texthtml(), '</script>') + 9) ) ;
+                  }else{
+                    echo $section->texthtml();
+                  }
+                 ?>
 
               <?php elseif ($section->intendedTemplate()=='section-texto-imagen'): ?>
 
@@ -397,4 +404,5 @@
 
 
         <pre id="htmlCode" class="hidden"><?php snippet('htmlCode') ?></pre>
-        <?php snippet('footer') ?>
+        <?php snippet('footer');
+        if(isset($scriptFooter)) echo $scriptFooter;  ?>

@@ -7,10 +7,10 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
+  - landings/red-de-incubadoras/table
   - mails/asdfasdfasdf/asdf
   - mails/asdfasdfasdf
   - programas/programa
   - landings/casas-de-la-produccion-2/info/primero
-  - landings/casas-de-la-produccion-2/si-tenes-una-pyme
 firstname: ""
 lastname: ""
