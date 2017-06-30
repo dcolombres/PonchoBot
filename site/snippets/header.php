@@ -18,7 +18,7 @@
   <?= js('assets/js/listjs.js') ?>
 
 <!-- bootstrap tables -->
-<?= css('assets/css/dataTables.bootstrap.min.css') ?>
+<?= css('https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css') ?>
 
   <meta name="robots" content="noindex">
   <meta name="googlebot" content="noindex">

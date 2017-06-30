@@ -126,8 +126,8 @@
                               <?php if ($panelIcono->urlicono()->isNotEmpty()): ?>
                                 <img src="<?= $panelIcono->urlicono() ?>" alt="" ></img>
                               <?php elseif($panelIcono->fontawesome()->isNotEmpty()): ?>
-                                <?php if(strpos($panelIcono->fontawesome(),'icono-arg-') === false) : ?>
-                                  <i class="fa fa-2x fa-con-ia-panels <?= $panelIcono->fontawesome() ?>"></i>
+                                <?php if(strpos($panelIcono->fontawesome(),'icono-arg-') !== false) : ?>
+                                  <i class="fa fa-2x icono-fa <?= $panelIcono->fontawesome() ?>"></i>
                                 <?php else: ?>
                                   <i class="fa fa-2x <?= $panelIcono->fontawesome() ?>"></i>
                                 <?php endif; ?>

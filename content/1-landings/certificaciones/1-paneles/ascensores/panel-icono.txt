@@ -6,7 +6,7 @@ Class:
 
 ----
 
-Urlicono: http://img.prod.gob.ar/2017/04/elevatorw-1.png
+Urlicono: http://www.produccion.gob.ar/wp-content/uploads/2017/06/1.png
 
 ----
 
@@ -23,3 +23,15 @@ Description:
 ----
 
 Linkurl: http://www.produccion.gob.ar/ascensores
+
+----
+
+Classtxt: 
+
+----
+
+Materialicon: 
+
+----
+
+Linkopt: 0

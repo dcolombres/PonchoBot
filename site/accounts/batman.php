@@ -7,7 +7,8 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - landings/red-de-incubadoras/table
+  - >
+    landings/certificaciones/paneles/ascensores
   - mails/asdfasdfasdf/asdf
   - mails/asdfasdfasdf
   - programas/programa
