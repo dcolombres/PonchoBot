@@ -19,6 +19,7 @@ fields:
       label: URL Icono Panel
       type: text
       icon: link
+      help: 80x80 px
 
   fontawesome: fontawesome
 

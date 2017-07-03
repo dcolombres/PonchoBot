@@ -18,6 +18,10 @@
   <?= js('assets/js/listjs.js') ?>
 
 <!-- bootstrap tables -->
+<<<<<<< HEAD
+=======
+<?= css('https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css') ?>
+>>>>>>> origin/master
 
   <meta name="robots" content="noindex">
   <meta name="googlebot" content="noindex">
