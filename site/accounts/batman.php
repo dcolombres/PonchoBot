@@ -7,11 +7,10 @@ email: mail@gmail.com
 language: en
 role: admin
 history:
-  - >
-    landings/importa/importa-mercaderia-para-exportarla-con-valor-agregado
-  - landings/certificaciones/paneles/ascensores
-  - mails/asdfasdfasdf/asdf
-  - mails/asdfasdfasdf
-  - programas/programa
+  - mails/mailtest/texto
+  - mails/mailtest/columnas/agenda-ii
+  - mails/mailtest/columnas/agenda-i
+  - mails/mailtest/columnas/agenda
+  - mails/mailtest/columnas
 firstname: ""
 lastname: ""

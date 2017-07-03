@@ -9,6 +9,11 @@ options:
 fields:
   title: kirbytitle
 
-  fontawesome: fontawesome
+  icono:
+    label: URL de Icono
+    type:  text
+    icon: image
+    width: 2/3
+    help: 40x40
 
   bajada: titulo

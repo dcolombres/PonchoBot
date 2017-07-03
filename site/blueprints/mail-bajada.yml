@@ -1,6 +1,6 @@
-title: Columnas
+title: Texto
 
-pages: mail-columna
+pages: false
 files: false
 
 options:
@@ -13,6 +13,12 @@ options:
 fields:
   title: kirbytitle
 
+  bajada:
+    label: Bajada
+    type: textarea
+    icon: align-left
+    buttons: false
+
   bgcolor:
     label: Color
     type: multiselect
@@ -21,5 +27,3 @@ fields:
     icon: paint-brush
     options:
       BBDEFB : TestColor
-
-    #help: <a href="http://manual.produccion.gob.ar/referencias#colores" target="blank"> Paleta Colores > </a>
