@@ -49,29 +49,29 @@
               $tableHead = array( $section->encabezado1(), $section->encabezado2(), $section->encabezado3(), $section->encabezado4(), $section->encabezado5(), $section->encabezado6() );
               ?>
               <div class="table-responsive">
-              <table class="table <?= str_replace(",","",$section->class()) ?> <?= $section->classtxt() ?>">
-                <thead>
-                  <tr>
-                    <?php for ($i=0; $i < $section->columns()->int() ; $i++) { ?>
-                      <th><?= $tableHead[$i] ?></th>
-                      <?php } ?>
-                    </tr>
-                  </thead>
-
-                  <tbody>
-                    <?php foreach ($section->children() as $tableRow) { ?>
-                      <?php $tableRow = array ($tableRow->campo1(), $tableRow->campo2(), $tableRow->campo3(), $tableRow->campo4(),$tableRow->campo5(),$tableRow->campo6() ); ?>
-                      <tr>
-                        <?php  for ($i=0; $i < $section->columns()->int() ; $i++) { ?>
-                          <td>
-                            <?= $tableRow[$i] ?>
-                          </td>
-                          <?php } ?>
-                        </tr>
+                <table class="table <?= str_replace(",","",$section->class()) ?> <?= $section->classtxt() ?>">
+                  <thead>
+                    <tr>
+                      <?php for ($i=0; $i < $section->columns()->int() ; $i++) { ?>
+                        <th><?= $tableHead[$i] ?></th>
                         <?php } ?>
-                      </tbody>
-                    </table>
-                  </div>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <?php foreach ($section->children() as $tableRow) { ?>
+                        <?php $tableRow = array ($tableRow->campo1(), $tableRow->campo2(), $tableRow->campo3(), $tableRow->campo4(),$tableRow->campo5(),$tableRow->campo6() ); ?>
+                        <tr>
+                          <?php  for ($i=0; $i < $section->columns()->int() ; $i++) { ?>
+                            <td>
+                              <?= $tableRow[$i] ?>
+                            </td>
+                            <?php } ?>
+                          </tr>
+                          <?php } ?>
+                        </tbody>
+                      </table>
+                    </div>
 
                   <?php elseif ($section->intendedTemplate()=='section-panel'): ?>
                     <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
@@ -122,7 +122,7 @@
                       <?php foreach($section->children() as $panelIcono): ?>
                         <div class="col-xs-12 col-sm-6 col-md-<?= 12 / $section->columns()->int()  ?>">
                           <a <?php if ($panelIcono->linkurl()=="") {echo 'style="pointer-events:none;"';} ?> class="panel panel-default panel-icon panel-secondary" href="<?= $panelIcono->linkurl() ?>">
-                              <div class="panel-heading bg-primary panelIcono <?= str_replace(",","",$panelIcono->class()) ?> <?= $panelIcono->classtxt() ?>">
+                            <div class="panel-heading bg-primary panelIcono <?= str_replace(",","",$panelIcono->class()) ?> <?= $panelIcono->classtxt() ?>">
                               <?php if ($panelIcono->urlicono()->isNotEmpty()): ?>
                                 <img src="<?= $panelIcono->urlicono() ?>" alt="" ></img>
                               <?php elseif($panelIcono->fontawesome()->isNotEmpty()): ?>
@@ -220,9 +220,9 @@
                 </div>
                 <div class="container-fluid">
                   <div class="container">
-                  <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
-                  <?= $section->texthtml() ?>
-                </div>
+                    <?php if($section->titulo()->isNotEmpty() ) : ?><h2 class="text-center"> <?= $section->titulo() ?> </h2><?php endif; ?>
+                    <?= $section->texthtml() ?>
+                  </div>
                   <div class="row">
                     <div class="maps">
                       <iframe
@@ -242,13 +242,13 @@
 
                 <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
                 <?php
-                  if(strpos($section->texthtml(), '<script type="text/javascript">')){
-                    $scriptFooter = substr($section->texthtml(),strpos($section->texthtml(), '<script type="text/javascript">'),(strpos($section->texthtml(), '</script>') + 9) );
-                    echo substr($section->texthtml(), 0 ,strpos($section->texthtml(), '<script type="text/javascript">')) . substr($section->texthtml(), (strpos($section->texthtml(), '</script>') + 9) ) ;
-                  }else{
-                    echo $section->texthtml();
-                  }
-                 ?>
+                if(strpos($section->texthtml(), '<script type="text/javascript">')){
+                  $scriptFooter = substr($section->texthtml(),strpos($section->texthtml(), '<script type="text/javascript">'),(strpos($section->texthtml(), '</script>') + 9) );
+                  echo substr($section->texthtml(), 0 ,strpos($section->texthtml(), '<script type="text/javascript">')) . substr($section->texthtml(), (strpos($section->texthtml(), '</script>') + 9) ) ;
+                }else{
+                  echo $section->texthtml();
+                }
+                ?>
 
               <?php elseif ($section->intendedTemplate()=='section-texto-imagen'): ?>
 
@@ -266,16 +266,16 @@
                       <?= $section->texthtml() ?>
                     </div>
                   <?php elseif ($section->align()=='d'): ?>
-                    <div class="col-sm-8 text-left">
-                      <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
-                      <?= $section->texthtml() ?>
-                    </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-md-push-8">
                       <?php if ($section->fileimage()->isNotEmpty()): ?>
                         <img class="<?= $section->imgClass() ?>" src="<?= $section->fileimage()->toFile()->url() ?>" style="width: 100%;">
                       <?php else: ?>
                         <img class="<?= $section->imgClass() ?>" src="<?= $section->urlimagen() ?>" style="width: 100%;">
                       <?php endif ?>
+                    </div>
+                    <div class="col-sm-8 col-md-pull-4 text-left">
+                      <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+                      <?= $section->texthtml() ?>
                     </div>
                   <?php endif ?>
                 </div>
@@ -357,7 +357,7 @@
                         </div>
                         <div class="col-md-6 col-md-offset-1 col-xs-12">
                           <div class="bg-modal">
-                              <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
+                            <?php if($section->titulo()->isNotEmpty() ) : ?><h2> <?= $section->titulo() ?> </h2><?php endif; ?>
                             <?= $section->modaltexthtml() ?>
                           </div>
                         </div>

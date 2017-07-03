@@ -8,10 +8,10 @@ language: en
 role: admin
 history:
   - >
-    landings/certificaciones/paneles/ascensores
+    landings/importa/importa-mercaderia-para-exportarla-con-valor-agregado
+  - landings/certificaciones/paneles/ascensores
   - mails/asdfasdfasdf/asdf
   - mails/asdfasdfasdf
   - programas/programa
-  - landings/casas-de-la-produccion-2/info/primero
 firstname: ""
 lastname: ""

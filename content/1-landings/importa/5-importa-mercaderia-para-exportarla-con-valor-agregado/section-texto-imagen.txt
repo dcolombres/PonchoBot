@@ -32,8 +32,12 @@ Urlimagen: http://img.prod.gob.ar/2017/04/2.png
 
 ----
 
-Align: d
+Align: i
 
 ----
 
 Imgclass: img-circle
+
+----
+
+Fileimage: 
