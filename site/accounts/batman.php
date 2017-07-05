@@ -11,6 +11,5 @@ history:
   - mails/mailtest/columnas/agenda-ii
   - mails/mailtest/columnas/agenda-i
   - mails/mailtest/columnas/agenda
-  - mails/mailtest/columnas
 firstname: ""
 lastname: ""

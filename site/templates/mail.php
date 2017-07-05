@@ -26,7 +26,7 @@
 
               <!--  img -->
               <tr>
-                <td align="center" border="0" cellpadding="0" cellspacing="0" style="padding: 0px !important; border-collapse: collapse;">
+                <td align="center" border="0" cellpadding="0" cellspacing="0" style="padding: 0px; border-collapse: collapse;">
                   <img src="<?= $page->background() ?>" width="100%" border="0" height="auto" alt="Portada" style="display:block; border:none; outline:none; margin: 0px; height: auto;" />
                 </td>
               </tr>
@@ -36,14 +36,14 @@
 
                 <?php if ($section->intendedTemplate()=='mail-columnas'):?>
                   <tr bgcolor="<?= $section->bgcolor()?>">
-                    <td border="0" cellpadding="0" cellspacing="0" style="padding: 0px !important; border-collapse: collapse;">
+                    <td border="0" cellpadding="0" cellspacing="0" style="padding: 0px; border-collapse: collapse;">
                       <table width="100%" style="border-collapse: collapse; padding: 0px !important">
                         <tr>
                           <?php foreach($section->children() as $columna): ?>
                             <td align="center" width="145px" height="120px">
                               <img src="<?= $columna->icono() ?>" border="0" alt="" style="border:none; outline:none; margin: 0px; height: auto;" />
                               <p style="text-align: center !important;">
-                                <strong style="font-size:14px; color: #666666 !important; line-height: 1.4 !important; font-family: 'roboto', Helvetica, Arial, sans-serif !important;"> <?= $columna->bajada() ?> </strong>
+                                <strong style="font-size:14px; color: #666666; line-height: 1.4; font-family: 'roboto', Helvetica, Arial, sans-serif !important;"> <?= $columna->bajada() ?> </strong>
                               </p>
                             </td>
                           <?php endforeach ?>
@@ -55,23 +55,60 @@
                 <?php elseif ($section->intendedTemplate()=='mail-bajada'): ?>
                   <tr bgcolor="<?= $section->bgColor() ?>">
                     <td width="100%" height="140px">
-                      <p style="margin-left: 70px; margin-right:70px; line-height: 1.4 !important; font-family: 'roboto', Helvetica, Arial, sans-serif !important; text-align: center !important; font-size:27px; color: #ffffff !important;">
-                        <?= $section->bajada() ?>
-                      </br>
-                      <strong style="line-height: 1.4 !important; font-family: 'roboto', Helvetica, Arial, sans-serif !important; font-size:27px; color: #f7b234 !important; text-align: center !important;">BajadaEsp</strong>
-                    </p>
-                  </td>
-                </tr>
-              <?php endif; ?>
-            <?php endforeach ?>
+
+                      <!-- Bajada -->
+                      <?php if($section->estilotexto()=='si'): ?>
+                        <?php if($section->negrita() == '1'): ?>
+                          <p style="margin-bottom: 0px; margin-left: 70px; margin-right:70px; line-height: 1.4; font-family: 'roboto', Helvetica, Arial, sans-serif; text-align: center; font-size:<?= $section->tamano()?>px; color: #ffffff !important;">
+                            <strong style="line-height: 1.4; font-family: 'roboto', Helvetica, Arial, sans-serif; <?= $section->tamano()?>px; color: <?= $section->colortxt() ?>; text-align: center !important;">
+                              <?= $section->bajada() ?>
+                            </strong>
+                          </p>
+                        <?php else: ?>
+                          <p style="margin-bottom: 0px; margin-left: 70px; margin-right:70px; line-height: 1.4; font-family: 'roboto', Helvetica, Arial, sans-serif; font-size:<?= $section->tamano()?>px; color: <?= $section->colortxt() ?>; text-align: center !important;">
+                            <?= $section->bajada() ?>
+                          </p>
+                        <?php endif; ?>
+                      <?php else: ?>
+                        <p style="margin-bottom: 0px; margin-left: 70px; margin-right:70px; line-height: 1.4; font-family: 'roboto', Helvetica, Arial, sans-serif; text-align: center; font-size:<?= $section->tamano()?>px; color: #ffffff !important;">
+                          <?= $section->bajada() ?>
+                        </p>
+                      <?php endif; ?>
+
+                      <!-- Linea de texto 2 -->
+                      <?php if($section->mastexto()=='si'):?>
+                        <?php if($section->estilo2()=='si'): ?>
+                          <?php if($section->negrita2() == '1'): ?>
+                            <p style="margin-top: 0px; margin-left: 70px; margin-right:70px; line-height: 1.4; font-family: 'roboto', Helvetica, Arial, sans-serif; text-align: center; font-size:<?= $section->tamano2()?>px; color: #ffffff !important;">
+                              <strong style="line-height: 1.4; font-family: 'roboto', Helvetica, Arial, sans-serif; <?= $section->tamano2()?>px; color: <?= $section->colortxt2() ?>; text-align: center !important;">
+                                <?= $section->linea2() ?>
+                              </strong>
+                            </p>
+                          <?php else: ?>
+                            <p style="margin-top: 0px; margin-left: 70px; margin-right:70px; line-height: 1.4; font-family: 'roboto', Helvetica, Arial, sans-serif; font-size:<?= $section->tamano2()?>px; color: <?= $section->colortxt2() ?>; text-align: center !important;">
+                              <?= $section->linea2() ?>
+                            </p>
+                          <?php endif; ?>
+                        <?php else: ?>
+                          <p style="margin-top: 0px; margin-left: 70px; margin-right:70px; line-height: 1.4; font-family: 'roboto', Helvetica, Arial, sans-serif; text-align: center; font-size:<?= $section->tamano2()?>px; color: #ffffff !important;">
+                            <?= $section->linea2() ?>
+                          </p>
+                        <?php endif; ?>
+                      <?php endif; ?>
+
+                    </br>
+                    </td>
+                  </tr>
+                <?php endif; ?>
+              <?php endforeach ?>
 
 
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 
 </html>

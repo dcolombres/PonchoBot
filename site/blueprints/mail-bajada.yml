@@ -1,4 +1,4 @@
-title: Texto
+title: Bajada
 
 pages: false
 files: false
@@ -13,17 +13,117 @@ options:
 fields:
   title: kirbytitle
 
-  bajada:
-    label: Bajada
-    type: textarea
-    icon: align-left
-    buttons: false
-
   bgcolor:
-    label: Color
+    label: Color Fondo
     type: multiselect
     required: false
     search: true
     icon: paint-brush
     options:
       BBDEFB : TestColor
+
+  bajada:
+    label: Bajada
+    type: textarea
+    icon: align-left
+    buttons: false
+    width: 4/5
+
+  tamano:
+    label: Tamaño de fuente
+    type: number
+    placeholder:
+    help: Tamaño en px
+    width: 1/5
+    icon: text-height
+
+  estilotexto:
+    label: Modificadores de Texto?
+    type: fieldtoggle
+    width: 1/3
+    options:
+      si: "Si"
+      no: "No"
+    show:
+      si: colortxt negrita
+    hide:
+      no: colortxt negrita
+
+  white:
+    width: 1/5
+    type: info
+
+  colortxt:
+    label: Color de Texto
+    type: text
+    help: Hexadecimal sin '#'
+    validate:
+      match: "/[0-9A-Fa-f]{6}/"
+    width: 1/5
+
+  negrita:
+    label: Negrita
+    type: checkbox
+    text: Negrita
+    width: 1/5
+
+  white1:
+    type: info
+
+  mastexto:
+    label: Agregar linea de texto?
+    type: fieldtoggle
+    width: 1/3
+    options:
+      no: "No"
+      si: "Si"
+    show:
+      si: linea2 estilo2 tamano2
+    hide:
+      no: linea2 estilo2 colortxt2 negrita2 tamano2
+
+  linea2:
+    label: Texto
+    type: textarea
+    icon: align-left
+    buttons: false
+    width: 4/5
+
+  tamano2:
+    label: Tamaño de fuente
+    type: number
+    placeholder:
+    help: Tamaño en px
+    width: 1/5
+    icon: text-height
+
+  estilo2:
+    label: Modificadores de Texto?
+    type: fieldtoggle
+    width: 1/3
+    options:
+      no: "No"
+      si: "Si"
+    show:
+      si: colortxt2 negrita2
+    hide:
+      no: colortxt2 negrita2
+
+  white2:
+    width: 1/5
+    type: info
+    text:
+
+  colortxt2:
+    label: Color de Texto
+    type: text
+    help: Hexadecimal sin '#'
+    validate:
+      match: "/[0-9A-Fa-f]{6}/"
+    width: 1/5
+
+  negrita2:
+    label: Negrita
+    type: checkbox
+    text: Negrita
+    width: 1/5
