@@ -13,7 +13,11 @@ options:
 fields:
   title: kirbytitle
 
-  identificador: id
+  imgexample:
+    type: info
+    label: Sección de Texto con Imágen
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/texto-img.jpg">
 
   class: class
 
@@ -53,3 +57,5 @@ fields:
     label: Class de la imagen
     type: text
     width: 3/5
+
+  identificador: id

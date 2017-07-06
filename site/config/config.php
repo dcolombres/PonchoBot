@@ -17,6 +17,14 @@ for more information: http://getkirby.com/license
 
 c::set('license', 'put your license key here');
 c::set('debug',true);
+c::set('panel.widgets', array(
+  'logo' => true,
+  'pages'    => true,
+  'botones' => true,
+  'site'     => false,
+  'account'  => false,
+  'history'  => false
+));
 /*
 
 ---------------------------------------

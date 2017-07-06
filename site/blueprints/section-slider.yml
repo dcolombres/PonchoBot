@@ -11,8 +11,13 @@ options:
   delete: true
 
 fields:
+  title: kirbytitle
 
-  identificador: id
+  imgexample:
+    type: info
+    label: Slider de fotos
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/slider.jpg">
 
   titulo: titulo
 
@@ -28,3 +33,5 @@ fields:
       max: 6
       - alphanum
     default: 3
+
+  identificador: id
