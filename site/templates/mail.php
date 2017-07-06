@@ -97,18 +97,21 @@
                       <?php endif; ?>
 
                     </br>
-                    </td>
-                  </tr>
-                <?php endif; ?>
-              <?php endforeach ?>
+                  </td>
+                </tr>
 
+              <?php elseif ($section->intendedTemplate()=='mail-boton'): ?>
+                <p><?= strtoupper($section->texto()) ?></p>
+              <?php endif; ?>
 
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+          <?php endforeach ?>
+
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</tbody>
+</table>
 </body>
 
 </html>

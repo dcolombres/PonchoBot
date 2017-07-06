@@ -1,0 +1,36 @@
+title: Boton
+
+pages: false
+files: false
+
+options:
+  preview: false
+  status: true
+  template: true
+  url: false
+  delete: true
+
+fields:
+  title: kirbytitle
+
+  texto:
+    label: Texto Botón
+    type: text
+    icon: align-left
+    width: 4/5
+
+  color:
+    label: Color Fondo
+    type: multiselect
+    required: false
+    search: true
+    icon: paint-brush
+    options:
+      BBDEFB : TestColor
+    width: 3/5
+
+  borde:
+    label: &nbsp;
+    type: checkbox
+    text: Sólo Borde
+    width: 2/5

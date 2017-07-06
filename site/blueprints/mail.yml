@@ -4,6 +4,7 @@ pages:
   template:
     - mail-columnas
     - mail-bajada
+    - mail-boton
 
 files: false
 
