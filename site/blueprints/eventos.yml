@@ -8,5 +8,5 @@ options:
   preview: false
   status: true
   template: false
-  url: false
+  url: true
   delete: false

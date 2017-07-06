@@ -25,7 +25,7 @@ options:
   preview: true
   status: true
   template: true
-  url: false
+  url: true
   delete: true
 
 fields:

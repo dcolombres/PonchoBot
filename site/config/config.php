@@ -22,8 +22,8 @@ c::set('panel.widgets', array(
   'pages'    => true,
   'botones' => true,
   'site'     => false,
-  'account'  => false,
-  'history'  => false
+  'history'  => true,
+  'account'  => true
 ));
 /*
 

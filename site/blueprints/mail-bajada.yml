@@ -7,7 +7,7 @@ options:
   preview: false
   status: true
   template: true
-  url: false
+  url: true
   delete: true
 
 fields:
