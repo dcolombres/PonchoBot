@@ -100,18 +100,63 @@
                   </td>
                 </tr>
 
+                <!-- boton  -->
               <?php elseif ($section->intendedTemplate()=='mail-boton'): ?>
-                <p><?= strtoupper($section->texto()) ?></p>
-              <?php endif; ?>
 
-          <?php endforeach ?>
+                <tr border="0" cellpadding="0" cellspacing="0" style="width:100%; min-width:100%;">
+                  <td style="padding: 40px 30px 40px 30px; margin:0;" bgcolor="#fff">
+                    <table border="0" cellpadding="0" cellspacing="0" style="width:100%; min-width:100%;">
+                      <tbody align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="text-align: center;">
+                        <tr align="center" border="0" cellspacing="0" cellpadding="0">
+                          <td>
+                            <table>
+                              <tr>
+                                <td align="center">
 
-        </tbody>
-      </table>
-    </td>
-  </tr>
-</tbody>
-</table>
+                                  <?php if($section->borde() == '0'): ?>
+                                  <a href="#" target="_blank" style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif;text-decoration: none; text-transform: uppercase; border-radius: 12px; padding: 10px 25px; display: inline-block; overflow: hidden; background-color: #<?= $section->color() ?>">
+                                    <strong style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; text-transform: uppercase;"><?= strtoupper($section->texto()) ?><strong>
+                                  </a>
+                                  <?php else: ?>
+                                  <a href="#" target="_blank" style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif;text-decoration: none; text-transform: uppercase; border-radius: 12px; padding: 10px 25px; display: inline-block; overflow: hidden; border: 2px solid #<?= $section->color() ?>">
+                                    <strong style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif; color: #<?= $section->color() ?>; text-decoration: none; text-transform: uppercase;"><?= strtoupper($section->texto()) ?><strong>
+                                  </a>
+                                  <?php endif; ?>
+
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- /boton  -->
+
+                <?php elseif ($section->intendedTemplate()=='mail-linea'): ?>
+                  <!-- lineaCeleste -->
+                  <tr bgcolor="#<?= $section->color() ?>" style="width:100%">
+                    <td align="center" style="line-height: <?= $section->altura()?>px;">
+                      </br>
+                    </td>
+                  </tr>
+                  <!-- /lineaCeleste -->
+                <?php endif; ?>
+
+              <?php endforeach ?>
+
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 
 </html>
+
+<?php snippet('footer-buttons')?>
+
+
+<pre id="htmlCode" class="hidden"><?php snippet('htmlMail') ?></pre>

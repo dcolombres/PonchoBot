@@ -5,6 +5,7 @@ pages:
     - mail-columnas
     - mail-bajada
     - mail-boton
+    - mail-linea
 
 files: false
 

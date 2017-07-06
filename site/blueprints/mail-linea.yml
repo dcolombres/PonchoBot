@@ -1,4 +1,4 @@
-title: Boton
+title: Linea
 
 pages: false
 files: false
@@ -13,12 +13,6 @@ options:
 fields:
   title: kirbytitle
 
-  texto:
-    label: Texto Botón
-    type: text
-    icon: align-left
-    width: 4/5
-
   color:
     label: Color Fondo
     type: multiselect
@@ -29,8 +23,10 @@ fields:
       2196F3 : TestColor
     width: 3/5
 
-  borde:
-    label: &nbsp;
-    type: checkbox
-    text: Sólo Borde
+  altura:
+    label: Altura
+    type: number
     width: 2/5
+    help: en px
+    placeholder:
+    required: true
