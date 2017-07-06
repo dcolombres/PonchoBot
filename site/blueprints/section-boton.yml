@@ -12,8 +12,11 @@ options:
 
 fields:
   title: kirbytitle
-  
-  identificador: id
+
+  imgexample:
+    type: info
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/buttons.jpg">
 
   class: class
 
@@ -22,3 +25,5 @@ fields:
   texthtml: texthtml
 
   columns: columns
+
+  identificador: id

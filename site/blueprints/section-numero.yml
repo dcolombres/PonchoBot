@@ -13,10 +13,16 @@ options:
 fields:
   title: kirbytitle
 
-  identificador: id
+  imgexample:
+    type: info
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/numbers.jpg">
+
 
   class: class
 
   titulo: titulo
 
   columns: columns
+
+  identificador: id

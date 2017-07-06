@@ -15,7 +15,6 @@ fields:
 
   imgexample:
     type: info
-    label: Sección de Texto
     text: >
       <img src="http://ponchobot.produccion.gob.ar/misc/texto.jpg">
 

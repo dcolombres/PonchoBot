@@ -13,13 +13,19 @@ options:
 fields:
   title: kirbytitle
 
-  identificador: id
+  imgexample:
+    type: info
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/buttons.jpg">
+
 
   class: class
 
   classtxt: classtxt
 
   titulo: titulo
+
+  identificador: id
 
   columns:
     label: Cantidad de columnas
@@ -30,7 +36,6 @@ fields:
       - alphanum
     default: 5
     placeholder: 1 - 6
-
 
   encabezado1:
     label: Encabezado 1

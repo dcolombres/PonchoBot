@@ -9,4 +9,10 @@ options:
   preview: false
 
 fields:
-  title: kirbytitle
+  # title: kirbytitle
+
+  imgexample:
+    type: info
+    label: Footers
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/footer.jpg">

@@ -31,6 +31,12 @@ options:
 fields:
   title: kirbytitle
 
+  imgexample:
+    type: info
+    label: Jumbotron
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/jumbotron.jpg">
+
   titulo: titulo
 
   texthtml: texthtml

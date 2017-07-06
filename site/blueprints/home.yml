@@ -3,7 +3,7 @@ title: Home
 pages: false
 
 fields:
-  title: kirbytitle
+  # title: kirbytitle
 
   intro:
     label: Intro

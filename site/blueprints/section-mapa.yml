@@ -13,7 +13,11 @@ options:
 fields:
   title: kirbytitle
 
-  identificador: id
+  imgexample:
+    type: info
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/map.jpg">
+
 
   class: class
 
@@ -25,3 +29,5 @@ fields:
     label: Map Key
     type: text
     width: 1/3
+
+  identificador: id

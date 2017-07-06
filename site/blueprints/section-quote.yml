@@ -15,7 +15,6 @@ fields:
 
   imgexample:
     type: info
-    label: Quote
     text: >
       <img src="http://ponchobot.produccion.gob.ar/misc/quote.jpg">
 
