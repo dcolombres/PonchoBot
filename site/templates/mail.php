@@ -1,7 +1,12 @@
 <html>
 
 <head>
-
+  <?= css('assets/css/bootstrap.min.css') ?>
+  <?= css('assets/css/poncho.css') ?>
+  <?= css('assets/css/palta.css') ?>
+  <?= css('assets/css/font-awesome.css') ?>
+  <meta name="robots" content="noindex">
+  <meta name="googlebot" content="noindex">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -152,11 +157,17 @@
       </tr>
     </tbody>
   </table>
+
+<?php snippet('footer-buttons')?>
+
+<?= js('assets/js/jquery.min.js') ?>
+<?= js('assets/js/copiarCodigo.js') ?>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
 
-<?php snippet('footer-buttons')?>
+
 
 
 <pre id="htmlCode" class="hidden"><?php snippet('htmlMail') ?></pre>
