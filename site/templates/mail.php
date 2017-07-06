@@ -119,30 +119,30 @@
                                 <td align="center">
 
                                   <?php if($section->borde() == '0'): ?>
-                                  <a href="#" target="_blank" style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif;text-decoration: none; text-transform: uppercase; border-radius: 12px; padding: 10px 25px; display: inline-block; overflow: hidden; background-color: #<?= $section->color() ?>">
-                                    <strong style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; text-transform: uppercase;"><?= strtoupper($section->texto()) ?><strong>
-                                  </a>
-                                  <?php else: ?>
-                                  <a href="#" target="_blank" style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif;text-decoration: none; text-transform: uppercase; border-radius: 12px; padding: 10px 25px; display: inline-block; overflow: hidden; border: 2px solid #<?= $section->color() ?>">
-                                    <strong style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif; color: #<?= $section->color() ?>; text-decoration: none; text-transform: uppercase;"><?= strtoupper($section->texto()) ?><strong>
-                                  </a>
-                                  <?php endif; ?>
+                                    <a href="#" target="_blank" style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif;text-decoration: none; text-transform: uppercase; border-radius: 12px; padding: 10px 25px; display: inline-block; overflow: hidden; background-color: #<?= $section->color() ?>">
+                                      <strong style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; text-transform: uppercase;"><?= strtoupper($section->texto()) ?><strong>
+                                      </a>
+                                    <?php else: ?>
+                                      <a href="#" target="_blank" style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif;text-decoration: none; text-transform: uppercase; border-radius: 12px; padding: 10px 25px; display: inline-block; overflow: hidden; border: 2px solid #<?= $section->color() ?>">
+                                        <strong style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif; color: #<?= $section->color() ?>; text-decoration: none; text-transform: uppercase;"><?= strtoupper($section->texto()) ?><strong>
+                                        </a>
+                                      <?php endif; ?>
 
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </td>
-                  </tr>
-                  <!-- /boton  -->
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- /boton  -->
 
-                <?php elseif ($section->intendedTemplate()=='mail-linea'): ?>
-                  <!-- lineaCeleste -->
-                  <tr bgcolor="#<?= $section->color() ?>" style="width:100%">
-                    <td align="center" style="line-height: <?= $section->altura()?>px;">
+                  <?php elseif ($section->intendedTemplate()=='mail-linea'): ?>
+                    <!-- lineaCeleste -->
+                    <tr bgcolor="#<?= $section->color() ?>" style="width:100%">
+                      <td align="center" style="line-height: <?= $section->altura()?>px;">
                       </br>
                     </td>
                   </tr>
@@ -158,16 +158,12 @@
     </tbody>
   </table>
 
-<?php snippet('footer-buttons')?>
+  <?php snippet('footer-buttons')?>
 
-<?= js('assets/js/jquery.min.js') ?>
-<?= js('assets/js/copiarCodigo.js') ?>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <?= js('assets/js/jquery.min.js') ?>
+  <?= js('assets/js/copiarCodigo.js') ?>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <pre id="htmlCode" class="hidden m-t-4"><?php snippet('htmlMail') ?></pre>
+
 </body>
-
 </html>
-
-
-
-
-<pre id="htmlCode" class="hidden"><?php snippet('htmlMail') ?></pre>
