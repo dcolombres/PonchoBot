@@ -13,7 +13,11 @@ options:
 fields:
   title: kirbytitle
 
-  identificador: id
+  imgexample:
+    type: info
+    label: Panel con ícono
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/panel-icono.jpg">
 
   class: class
 
@@ -22,3 +26,5 @@ fields:
   texthtml: texthtml
 
   columns: columns
+
+  identificador: id

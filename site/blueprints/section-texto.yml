@@ -13,10 +13,16 @@ options:
 fields:
   title: kirbytitle
 
-  identificador: id
+  imgexample:
+    type: info
+    label: Sección de Texto
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/texto.jpg">
 
   class: class
 
   titulo: titulo
 
   texthtml: texthtml
+
+  identificador: id

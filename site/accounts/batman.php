@@ -6,10 +6,6 @@ password: >
 email: mail@gmail.com
 language: en
 role: admin
-history:
-  - mails/mailtest/texto
-  - mails/mailtest/columnas/agenda-ii
-  - mails/mailtest/columnas/agenda-i
-  - mails/mailtest/columnas/agenda
+history: [ ]
 firstname: ""
 lastname: ""

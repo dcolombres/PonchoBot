@@ -13,7 +13,12 @@ options:
 fields:
   title: kirbytitle
 
-  identificador: id
+  imgexample:
+    type: info
+    label: Quote
+    text: >
+      <img src="http://ponchobot.produccion.gob.ar/misc/quote.jpg">
+
 
   class: class
 
@@ -26,3 +31,5 @@ fields:
     label: Autor de la Cita
     type:  text
     icon: user-circle-o
+
+  identificador: id
