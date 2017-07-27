@@ -21,6 +21,7 @@ options:
   bg-white: bg-white
   bg-celeste: bg-celeste
   bg-gris: bg-gris
+  alert-contacto: alert-contacto
   __ : _____Color Texto_____
   text-primary: text-primary
   text-secondary: text-secondary

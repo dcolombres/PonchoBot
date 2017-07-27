@@ -252,7 +252,7 @@
 
               <?php elseif ($section->intendedTemplate()=='section-texto-imagen'): ?>
 
-                <div class="row">
+                <div class="row aligner">
                   <?php if ($section->align()=='i'): ?>
                     <div class="col-sm-4">
                       <?php if ($section->fileimage()->isNotEmpty()): ?>
