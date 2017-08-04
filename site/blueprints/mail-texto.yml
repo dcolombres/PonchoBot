@@ -1,4 +1,4 @@
-title: Bajada
+title: Texto
 
 pages: false
 files: false
@@ -15,15 +15,12 @@ fields:
 
   bgcolor:
     label: Color Fondo
-    type: multiselect
-    required: false
-    search: true
+    type: text
     icon: paint-brush
-    options:
-      BBDEFB : TestColor
+    help: Hexadecimal sin '#'
 
-  bajada:
-    label: Bajada
+  linea1:
+    label: Texto
     type: textarea
     icon: align-left
     buttons: false

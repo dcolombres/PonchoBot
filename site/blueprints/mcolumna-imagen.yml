@@ -1,0 +1,24 @@
+title: Columna Imagen
+
+pages: false
+files: false
+
+options:
+  delete: true
+
+fields:
+  title: kirbytitle
+
+  imagen:
+    label: URL de Imagen
+    type:  text
+    icon: image
+    width: 2/3
+    help: 40x40
+
+  ancho:
+    label: Ancho de columna
+    type: number
+    icon: width
+    width: 1/3
+    help: en px

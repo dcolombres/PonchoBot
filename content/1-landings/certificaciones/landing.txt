@@ -23,3 +23,7 @@ Texthtml: <p>Certificá tus productos, sus embalajes, etiquetas o envoltorios pa
 ----
 
 Class: 
+
+----
+
+Fileimage: 

@@ -19,3 +19,7 @@ Class: bg-info
 ----
 
 Footer: 
+
+----
+
+Fileimage: 

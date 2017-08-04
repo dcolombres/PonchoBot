@@ -1,0 +1,74 @@
+title: Columna Texto
+
+pages: false
+files: false
+
+options:
+  delete: true
+
+fields:
+  title: kirbytitle
+
+  ancho:
+    label: Ancho de columna
+    type: number
+    icon: width
+    width: 1/3
+    help: en px
+
+  alineacion:
+    label: Alineacion Texto
+    type: text
+    width: 2/3
+    validate:
+      in:
+        - i
+        - d
+        - c
+    help: Izquierda-> i &nbsp; Derecha-> d &nbsp; Centrado -> c
+    default: i
+
+  linea1:
+    label: Texto
+    type: textarea
+    icon: align-left
+    buttons: false
+    width: 4/5
+
+  tamano:
+    label: Tamaño de fuente
+    type: number
+    placeholder:
+    help: Tamaño en px
+    width: 1/5
+    icon: text-height
+
+  estilotexto:
+    label: Modificadores de Texto?
+    type: fieldtoggle
+    width: 1/3
+    options:
+      si: "Si"
+      no: "No"
+    show:
+      si: colortxt negrita
+    hide:
+      no: colortxt negrita
+
+  white:
+    width: 1/5
+    type: info
+
+  colortxt:
+    label: Color de Texto
+    type: text
+    help: Hexadecimal sin '#'
+    validate:
+      match: "/[0-9A-Fa-f]{6}/"
+    width: 1/5
+
+  negrita:
+    label: Negrita
+    type: checkbox
+    text: Negrita
+    width: 1/5

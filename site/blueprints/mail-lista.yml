@@ -1,10 +1,8 @@
-title: Columnas
+title: Lista
 
 pages:
   template:
-    - mcolumna-icono-texto
-    - mcolumna-imagen
-    - mcolumna-texto
+    - mlista-item
 
 files: false
 
@@ -23,7 +21,7 @@ fields:
     type: text
     icon: paint-brush
 
-  alto:
-    label: Alto de fila
-    type: number
-    help: en px
+  coloritem:
+    label: Color de items
+    type: text
+    icon: paint-brush

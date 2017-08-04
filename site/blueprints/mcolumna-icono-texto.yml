@@ -1,4 +1,4 @@
-title: Columna Icono
+title: Columna Icono-Texto
 
 pages: false
 files: false
@@ -13,7 +13,6 @@ fields:
     label: URL de Icono
     type:  text
     icon: image
-    width: 2/3
     help: 40x40
 
   bajada: titulo

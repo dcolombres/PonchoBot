@@ -1,0 +1,31 @@
+title: Imagen
+
+pages: false
+files: false
+
+options:
+  preview: false
+  status: true
+  template: true
+  url: true
+  delete: true
+
+fields:
+  title: kirbytitle
+
+  bgcolor:
+    label: Color Fondo
+    type: text
+    icon: paint-brush
+
+  imagen:
+    label: URL de Imagen Principal
+    type:  text
+    icon: image
+    width: 2/3
+
+  info:
+    label: <i class="fa fa-info-circle"></i> Info
+    type: info
+    text: Usar <a href="http://desarrollo.prod.gob.ar/">Img Mailing Produccion</a>
+    width: 1/3

@@ -20,13 +20,9 @@ fields:
     width: 4/5
 
   color:
-    label: Color Fondo
-    type: multiselect
-    required: false
-    search: true
+    label: Color de fondo
+    type: text
     icon: paint-brush
-    options:
-      2196F3 : TestColor
     width: 3/5
 
   borde:
