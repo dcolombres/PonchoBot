@@ -174,7 +174,7 @@
                         <td>
                           <table>
                             <tr>
-                              <td align="center">
+                              <td align="center" style="border-radius: 25px;" bgcolor="#ffffff">
 
                                 <?php if($section->borde() == '0'): ?>
                                   <a href="#" target="_blank" style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif;text-decoration: none; text-transform: uppercase; border-radius: 12px; padding: 10px 25px; display: inline-block; overflow: hidden; background-color: #<?= $section->color() ?>">

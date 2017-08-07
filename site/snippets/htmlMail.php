@@ -169,7 +169,7 @@
                       &lt;td&gt;
                         &lt;table&gt;
                           &lt;tr&gt;
-                            &lt;td align="center"&gt;
+                            &lt;td align="center" style="border-radius: 25px;" bgcolor="#ffffff"&gt;
 
                               <?php if($section->borde() == '0'): ?>
                                 &lt;a href="#" target="_blank" style="font-size: 20px; font-family: 'roboto-bold', Helvetica, Arial, sans-serif;text-decoration: none; text-transform: uppercase; border-radius: 12px; padding: 10px 25px; display: inline-block; overflow: hidden; background-color: #<?= $section->color() ?>"&gt;
